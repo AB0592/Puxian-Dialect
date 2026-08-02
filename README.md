@@ -78,7 +78,7 @@ Putian-Dialect/
 │   ├── scrape_hinghwa.py# hinghwa.cn 词典抓取
 │   └── templates/       # 语音采集网页端
 └── data/
-    ├── hinghwa/         # 莆仙话词典 JSON（61,290 条词条，音频不随仓库分发）
+    └── hinghwa/         # 莆仙话词典 JSON + 发音音频（61,290 条词条，1,289 个 MP3）
     └── voice_collection/ # 语音采集任务配置
 ```
 
@@ -93,7 +93,7 @@ Putian-Dialect/
 ## 数据说明
 
 - 词典数据来自 [hinghwa.cn](https://hinghwa.cn)（api.pxm.edialect.top），词条 61,290 条
-- 发音音频（576+ 个 MP3）约 17M，不随仓库分发；需要时运行 `scrape_hinghwa.py` 抓取或本地放置到 `data/hinghwa/audio/`
+- 发音音频 1,289 个 MP3（约 17M）已随仓库分发，覆盖莆田/仙游多地区口音
 - ASR 现状：DashScope paraformer-realtime-v2 支持粤/闽/吴/客家，**暂不支持莆仙话**；莆仙话训练当前以听读对照为主
 
 ## License

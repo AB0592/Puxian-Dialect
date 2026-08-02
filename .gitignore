@@ -34,9 +34,6 @@ ios/Pods/
 ios/.symlinks/
 macos/Pods/
 
-# ===== 大文件数据（词典音频 17M，按需 Git LFS 或本地放置）=====
-data/hinghwa/audio/
-
 # ===== 系统 =====
 .DS_Store
 Thumbs.db
