@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>莆仙话语音库采集</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #e0e0e0;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+.container { max-width: 480px; margin: 0 auto; padding: 20px; }
+.header { text-align: center; padding: 20px 0 10px; }
+.header h1 { font-size: 22px; background: linear-gradient(90deg, #f7971e, #ffd200); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.header p { font-size: 12px; color: #888; margin-top: 4px; }
+
+/* Card */
+.card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 20px;
+  margin: 12px 0;
+}
+
+/* Form */
+.form-group { margin-bottom: 14px; }
+.form-group label { display: block; font-size: 13px; color: #aaa; margin-bottom: 4px; }
+.form-group input, .form-group select {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.form-group input:focus { border-color: #ffd200; }
+.btn {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  background: linear-gradient(90deg, #f7971e, #ffd200);
+  color: #1a1a2e;
+}
+.btn:active { opacity: 0.8; }
+.btn-secondary { background: rgba(255,255,255,0.08); color: #e0e0e0; }
+.btn-danger { background: linear-gradient(90deg, #e74c3c, #c0392b); color: #fff; }
+.btn-small { padding: 10px 16px; font-size: 14px; width: auto; }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* Recording */
+.recording-area { text-align: center; padding: 10px 0; }
+.big-char {
+  font-size: 72px; font-weight: 700; color: #fff;
+  padding: 25px 0 5px;
+  letter-spacing: 4px;
+  line-height: 1.2;
+}
+.small-char { font-size: 36px; }
+.pinyin-text { font-size: 16px; color: #ffd200; margin-bottom: 8px; }
+.cat-badge {
+  display: inline-block;
+  background: rgba(255,210,0,0.12);
+  color: #ffd200;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin: 5px 0;
+}
+.meaning-text { font-size: 14px; color: #aaa; margin: 8px 0; }
+
+.record-btn {
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgba(255,210,0,0.3);
+  background: rgba(255,210,0,0.08);
+  color: #ffd200;
+  font-size: 38px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin: 16px auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.record-btn:active { transform: scale(0.92); }
+.record-btn.recording {
+  border-color: #ff4444;
+  background: rgba(255,68,68,0.15);
+  color: #ff4444;
+  animation: pulse 1.2s infinite;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(255,68,68,0.4); }
+  70% { box-shadow: 0 0 0 24px rgba(255,68,68,0); }
+  100% { box-shadow: 0 0 0 0 rgba(255,68,68,0); }
+}
+.record-label { font-size: 13px; color: #aaa; }
+
+/* Progress bar */
+.progress-bar {
+  background: rgba(255,255,255,0.06);
+  border-radius: 20px;
+  height: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #f7971e, #ffd200);
+  border-radius: 20px;
+  transition: width 0.4s ease;
+}
+.progress-text { font-size: 13px; color: #aaa; text-align: center; }
+
+/* Status messages */
+.status-ok { color: #2ecc71; font-weight: 600; }
+.status-warn { color: #f39c12; }
+.status-err { color: #e74c3c; }
+.info-text { font-size: 13px; color: #888; line-height: 1.6; text-align: center; margin: 12px 0; }
+
+/* Tabs */
+.tabs { display: flex; margin: 12px 0; gap: 6px; }
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.04);
+  color: #888;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.tab.active { background: rgba(255,210,0,0.1); color: #ffd200; border-color: rgba(255,210,0,0.2); }
+
+/* Stats grid */
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.stat-card {
+  background: rgba(255,255,255,0.04);
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+}
+.stat-card .num { font-size: 28px; font-weight: 700; color: #ffd200; }
+.stat-card .label { font-size: 12px; color: #888; margin-top: 2px; }
+
+/* Nav bar */
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+.nav-bar .btn { flex: 1; max-width: 140px; }
+
+/* Page states */
+.page { display: none; }
+.page.active { display: block; }
+
+/* Overlay recording state */
+.recording-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.85);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 100;
+}
+.recording-overlay.show { display: flex; }
+.recording-overlay .wave-icon { font-size: 48px; margin-bottom: 16px; }
+.recording-overlay .status-text { font-size: 18px; color: #fff; }
+
+/* Success animation */
+.success-check {
+  width: 60px; height: 60px;
+  border-radius: 50%;
+  background: #2ecc71;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: #fff;
+  margin: 0 auto 12px;
+  animation: pop-in 0.3s ease;
+}
+@keyframes pop-in {
+  0% { transform: scale(0); }
+  70% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>莆仙话语音库采集</h1>
+    <p>8人协作 · 录制莆仙话发音</p>
+  </div>
+
+  <!-- ====== 注册/登录页 ====== -->
+  <div id="page-auth" class="page active">
+    <div class="card">
+      <div style="text-align:center;margin-bottom:16px">
+        <div style="font-size:48px;margin-bottom:8px">🎤</div>
+        <h2 style="font-size:18px;color:#fff;font-weight:600">欢迎加入录制</h2>
+        <p style="font-size:13px;color:#888;margin-top:4px">
+          请先注册或登录，开始录制你的语音包
+        </p>
+      </div>
+
+      <div class="tabs" id="auth-tabs">
+        <div class="tab active" onclick="switchAuth('login')">登录</div>
+        <div class="tab" onclick="switchAuth('register')">注册</div>
+      </div>
+
+      <!-- Login form -->
+      <div id="form-login">
+        <div class="form-group">
+          <label>用户名</label>
+          <input type="text" id="login-name" placeholder="请输入用户名" autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label>密码</label>
+          <input type="password" id="login-pass" placeholder="输入密码" autocomplete="current-password">
+        </div>
+        <button class="btn" onclick="doLogin()">登录</button>
+        <div id="login-msg" class="info-text" style="margin-top:8px"></div>
+      </div>
+
+      <!-- Register form -->
+      <div id="form-register" style="display:none">
+        <div class="form-group">
+          <label>你的名字（怎么称呼你）</label>
+          <input type="text" id="reg-name" placeholder="例如：阿豪" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label>真实姓名（可填可不填）</label>
+          <input type="text" id="reg-realname" placeholder="选填" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label>密码（至少4位）</label>
+          <input type="password" id="reg-pass" placeholder="设置密码" autocomplete="new-password">
+        </div>
+        <div class="form-group">
+          <label>身份（选填）</label>
+          <select id="reg-role">
+            <option value="">选择你的身份</option>
+            <option value="祖辈(女)">阿嬷 — 祖辈</option>
+            <option value="祖辈(男)">阿公 — 祖辈</option>
+            <option value="父辈(男)">阿爸/阿叔/阿舅 — 父辈</option>
+            <option value="母辈(女)">阿母/阿姑/阿婶 — 母辈</option>
+            <option value="孙辈(男童)">男孙辈 — 孩子</option>
+            <option value="孙辈(女童)">女孙辈 — 孩子</option>
+            <option value="其他">其他</option>
+          </select>
+        </div>
+        <button class="btn" onclick="doRegister()">注册</button>
+        <div id="reg-msg" class="info-text" style="margin-top:8px"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== 录制主页 ====== -->
+  <div id="page-record" class="page">
+    <div class="card" style="margin-bottom:8px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <span id="user-badge" style="font-size:14px;color:#ffd200;font-weight:600"></span>
+          <span id="role-badge" style="font-size:12px;color:#888;margin-left:6px"></span>
+        </div>
+        <button class="btn-small btn-secondary" onclick="doLogout()">退出</button>
+      </div>
+      <div class="progress-bar" style="margin-top:10px">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+      <div class="progress-text">
+        <span id="progress-done">0</span> / <span id="progress-total">0</span>
+        (<span id="progress-pct">0</span>%)
+      </div>
+    </div>
+
+    <!-- Recording area -->
+    <div class="card recording-area">
+      <div class="cat-badge" id="item-type">字</div>
+      <div class="progress-text" style="margin-bottom:8px">
+        第 <span id="item-index">1</span> 条
+      </div>
+      <div class="big-char" id="item-text">一</div>
+      <div class="pinyin-text" id="item-pinyin"></div>
+      <div class="meaning-text" id="item-meaning"></div>
+
+      <div style="margin:16px 0">
+        <button class="record-btn" id="record-btn" onclick="toggleRecord()">🎤</button>
+      </div>
+      <div class="record-label" id="record-label">点击麦克风开始录音</div>
+
+      <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:8px">
+        <button class="btn-small btn-secondary" onclick="submitTake(2)" id="btn-repeat">重录</button>
+        <button class="btn-small btn-secondary" onclick="skipItem()">跳过</button>
+        <button class="btn-small btn-secondary" onclick="goBack()" id="btn-back" style="display:none">返回上一条</button>
+      </div>
+    </div>
+
+    <!-- Status messages -->
+    <div id="status-area"></div>
+  </div>
+
+  <!-- ====== 进度页 ====== -->
+  <div id="page-stats" class="page">
+    <div class="card">
+      <h3 style="font-size:16px;color:#fff;margin-bottom:12px;text-align:center">采集总进度</h3>
+      <div class="stats-grid" id="stats-grid"></div>
+    </div>
+    <div style="text-align:center;margin-top:12px">
+      <button class="btn" onclick="showPage('page-record');loadNextItem()" style="max-width:240px;margin:0 auto;display:inline-block">
+        继续录制
+      </button>
+    </div>
+  </div>
+
+  <!-- ====== 全屏录音遮罩 ====== -->
+  <div class="recording-overlay" id="recording-overlay">
+    <div class="wave-icon">🎤</div>
+    <div class="status-text" id="rec-status">录音中...</div>
+    <div style="margin-top:24px">
+      <button class="btn-small btn-danger" onclick="stopRecording()">点击停止</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ====== State ======
+const API = window.location.origin;
+let currentUser = null;
+let taskItems = [];
+let currentIndex = 0;
+let mediaRecorder = null;
+let audioChunks = [];
+let isRecording = false;
+let currentTake = 1;
+
+// ====== Auth ======
+function switchAuth(mode) {
+  document.querySelectorAll('#auth-tabs .tab').forEach(t => t.classList.remove('active'));
+  if (mode === 'login') {
+    document.querySelector('#auth-tabs .tab:first-child').classList.add('active');
+    document.getElementById('form-login').style.display = 'block';
+    document.getElementById('form-register').style.display = 'none';
+  } else {
+    document.querySelector('#auth-tabs .tab:last-child').classList.add('active');
+    document.getElementById('form-login').style.display = 'none';
+    document.getElementById('form-register').style.display = 'block';
+  }
+}
+
+async function doLogin() {
+  const name = document.getElementById('login-name').value.trim();
+  const password = document.getElementById('login-pass').value;
+  const msg = document.getElementById('login-msg');
+
+  if (!name || !password) { msg.textContent = '请输入用户名和密码'; msg.className = 'info-text status-err'; return; }
+
+  try {
+    const res = await fetch(API + '/api/collect/login', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({name, password})
+    });
+    const data = await res.json();
+    if (data.ok) {
+      currentUser = data.user;
+      msg.textContent = '登录成功！';
+      msg.className = 'info-text status-ok';
+      initSession();
+    } else {
+      msg.textContent = data.detail || '登录失败';
+      msg.className = 'info-text status-err';
+    }
+  } catch(e) {
+    msg.textContent = '网络错误，请检查连接';
+    msg.className = 'info-text status-err';
+  }
+}
+
+async function doRegister() {
+  const name = document.getElementById('reg-name').value.trim();
+  const real_name = document.getElementById('reg-realname').value.trim();
+  const password = document.getElementById('reg-pass').value;
+  const role = document.getElementById('reg-role').value;
+  const msg = document.getElementById('reg-msg');
+
+  if (!name || !password) { msg.textContent = '请输入用户名和密码'; msg.className = 'info-text status-err'; return; }
+  if (password.length < 4) { msg.textContent = '密码至少4位'; msg.className = 'info-text status-err'; return; }
+
+  try {
+    const res = await fetch(API + '/api/collect/register', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({name, real_name, password, role})
+    });
+    const data = await res.json();
+    if (data.ok) {
+      currentUser = data.user;
+      msg.textContent = '注册成功！欢迎 ' + name;
+      msg.className = 'info-text status-ok';
+      initSession();
+    } else {
+      msg.textContent = data.detail || '注册失败';
+      msg.className = 'info-text status-err';
+    }
+  } catch(e) {
+    msg.textContent = '网络错误，请检查连接';
+    msg.className = 'info-text status-err';
+  }
+}
+
+function doLogout() {
+  currentUser = null;
+  taskItems = [];
+  currentIndex = 0;
+  document.getElementById('login-name').value = '';
+  document.getElementById('login-pass').value = '';
+  document.getElementById('login-msg').textContent = '';
+  document.getElementById('reg-msg').textContent = '';
+  showPage('page-auth');
+}
+
+// ====== Session ======
+async function initSession() {
+  document.getElementById('user-badge').textContent = currentUser.real_name || currentUser.name;
+  document.getElementById('role-badge').textContent = currentUser.role || '';
+
+  showPage('page-record');
+  await loadTasks();
+  await loadProgress();
+  loadNextItem();
+}
+
+async function loadTasks() {
+  try {
+    const res = await fetch(API + '/api/collect/tasks/' + currentUser.speaker_id);
+    const data = await res.json();
+    if (data.items) {
+      taskItems = data.items;
+      document.getElementById('progress-total').textContent = data.total_items;
+    }
+  } catch(e) {
+    console.error('Load tasks error:', e);
+  }
+}
+
+async function loadProgress() {
+  try {
+    const res = await fetch(API + '/api/collect/progress/' + currentUser.speaker_id);
+    const data = await res.json();
+    updateProgressUI(data.done || 0, data.total || taskItems.length);
+  } catch(e) {
+    console.error('Load progress error:', e);
+  }
+}
+
+function updateProgressUI(done, total) {
+  const pct = total > 0 ? Math.round(done / total * 100) : 0;
+  document.getElementById('progress-done').textContent = done;
+  document.getElementById('progress-total').textContent = total;
+  document.getElementById('progress-pct').textContent = pct;
+  document.getElementById('progress-fill').style.width = pct + '%';
+}
+
+function loadNextItem() {
+  if (taskItems.length === 0) {
+    showStatus('暂无任务数据，请刷新页面', 'warn');
+    return;
+  }
+  const item = taskItems[currentIndex];
+  if (!item) {
+    currentIndex = 0;
+    showStatus('全部录完！太棒了！', 'ok');
+    return;
+  }
+
+  document.getElementById('item-text').textContent = item.text;
+  document.getElementById('item-index').textContent = (currentIndex + 1);
+
+  const typeLabels = {char: '字', word: '词', sentence: '句'};
+  document.getElementById('item-type').textContent = typeLabels[item.type] || item.type;
+
+  if (item.pinyin) {
+    document.getElementById('item-pinyin').textContent = item.pinyin;
+  } else {
+    document.getElementById('item-pinyin').textContent = '';
+  }
+
+  if (item.definition) {
+    document.getElementById('item-meaning').textContent = '释义: ' + item.definition;
+  } else {
+    document.getElementById('item-meaning').textContent = '';
+  }
+
+  // Big char vs smaller text
+  const big = document.getElementById('item-text');
+  if (item.text.length > 2) {
+    big.className = 'big-char small-char';
+  } else {
+    big.className = 'big-char';
+  }
+
+  currentTake = 1;
+  document.getElementById('btn-back').style.display = currentIndex > 0 ? 'inline-block' : 'none';
+  document.getElementById('btn-repeat').style.display = 'inline-block';
+  document.getElementById('record-label').textContent = '点击麦克风开始录音';
+  document.getElementById('status-area').innerHTML = '';
+}
+
+function goBack() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    loadNextItem();
+  }
+}
+
+function skipItem() {
+  currentIndex++;
+  loadNextItem();
+}
+
+// ====== Recording ======
+async function toggleRecord() {
+  if (isRecording) {
+    stopRecording();
+    return;
+  }
+
+  // Request microphone
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+
+    // Show overlay
+    document.getElementById('recording-overlay').classList.add('show');
+    document.getElementById('rec-status').textContent = '录音中... 请朗读屏幕上的字词';
+
+    audioChunks = [];
+    const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+      ? 'audio/webm;codecs=opus' : 'audio/webm';
+
+    mediaRecorder = new MediaRecorder(stream, { mimeType });
+    mediaRecorder.ondataavailable = e => { if (e.data.size > 0) audioChunks.push(e.data); };
+
+    mediaRecorder.onstop = async () => {
+      // Stop all tracks
+      stream.getTracks().forEach(t => t.stop());
+
+      document.getElementById('recording-overlay').classList.remove('show');
+
+      const blob = new Blob(audioChunks, { type: mimeType });
+      if (blob.size < 1000) {
+        showStatus('录音太短，请重录', 'err');
+        return;
+      }
+
+      await uploadAudio(blob);
+      audioChunks = [];
+    };
+
+    mediaRecorder.start();
+    isRecording = true;
+  } catch(e) {
+    document.getElementById('recording-overlay').classList.remove('show');
+    showStatus('无法访问麦克风：' + e.message, 'err');
+  }
+}
+
+function stopRecording() {
+  if (mediaRecorder && mediaRecorder.state === 'recording') {
+    mediaRecorder.stop();
+    isRecording = false;
+  }
+}
+
+async function uploadAudio(blob) {
+  const item = taskItems[currentIndex];
+  if (!item) return;
+
+  const formData = new FormData();
+  formData.append('audio', blob, 'recording_' + currentTake + '.webm');
+  formData.append('speaker_id', currentUser.speaker_id);
+  formData.append('item_index', String(currentIndex));
+  formData.append('text', item.text);
+  formData.append('item_type', item.type);
+  formData.append('take', String(currentTake));
+
+  try {
+    const res = await fetch(API + '/api/collect/upload', { method: 'POST', body: formData });
+    const data = await res.json();
+    if (data.ok) {
+      showStatus('已保存：' + item.text + ' (第' + currentTake + '遍)', 'ok');
+      await loadProgress();
+
+      // Auto advance after brief delay
+      setTimeout(() => {
+        if (currentTake < 3) {
+          // Record again (3 takes per item)
+          currentTake++;
+          document.getElementById('record-label').textContent =
+            '第' + currentTake + '遍 — 点击麦克风再录一遍';
+        } else {
+          // Move to next item
+          currentIndex++;
+          loadNextItem();
+        }
+      }, 1200);
+    } else {
+      showStatus('上传失败：' + (data.detail || '未知错误'), 'err');
+    }
+  } catch(e) {
+    showStatus('上传错误：' + e.message, 'err');
+  }
+}
+
+async function submitTake(takeNum) {
+  // Re-record current item with specified take number
+  document.getElementById('record-label').textContent = '点击麦克风重录（第' + takeNum + '遍）';
+  await toggleRecord();
+}
+
+// ====== UI ======
+function showPage(pageId) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById(pageId).classList.add('active');
+}
+
+function showStatus(msg, type) {
+  const area = document.getElementById('status-area');
+  const cls = type === 'ok' ? 'status-ok' : type === 'err' ? 'status-err' : 'status-warn';
+  area.innerHTML = '<div class="card" style="padding:10px;text-align:center"><span class="' + cls + '">' +
+    msg + '</span></div>';
+  setTimeout(() => {
+    if (area.innerHTML.includes(msg)) area.innerHTML = '';
+  }, 3000);
+}
+
+// ====== Load stats on stats page ======
+async function loadStatsPage() {
+  try {
+    const res = await fetch(API + '/api/collect/stats');
+    const data = await res.json();
+    const grid = document.getElementById('stats-grid');
+    grid.innerHTML = '';
+
+    if (data.speakers) {
+      Object.entries(data.speakers).forEach(([pid, info]) => {
+        const card = document.createElement('div');
+        card.className = 'stat-card';
+        card.innerHTML = '<div class="num">' + info.done + '</div>' +
+          '<div class="label">' + info.name + '</div>';
+        grid.appendChild(card);
+      });
+    }
+  } catch(e) {
+    document.getElementById('stats-grid').innerHTML = '<div class="info-text">加载失败</div>';
+  }
+}
+
+// ====== Init ======
+// Check localStorage for saved session
+window.onload = function() {
+  // Check if there's already a registered user
+  const saved = localStorage.getItem('collect_user');
+  if (saved) {
+    try {
+      const u = JSON.parse(saved);
+      // Try auto-login
+      currentUser = u;
+      document.getElementById('user-badge').textContent = u.real_name || u.name;
+      initSession();
+    } catch(e) {
+      localStorage.removeItem('collect_user');
+    }
+  }
+};
+
+// Save user to localStorage after auth
+const origLogin = doLogin;
+doLogin = async function() {
+  await origLogin();
+  if (currentUser) {
+    localStorage.setItem('collect_user', JSON.stringify(currentUser));
+  }
+};
+
+const origRegister = doRegister;
+doRegister = async function() {
+  await origRegister();
+  if (currentUser) {
+    localStorage.setItem('collect_user', JSON.stringify(currentUser));
+  }
+};
+
+doLogout = function() {
+  currentUser = null;
+  taskItems = [];
+  localStorage.removeItem('collect_user');
+  document.getElementById('login-name').value = '';
+  document.getElementById('login-pass').value = '';
+  document.getElementById('login-msg').textContent = '';
+  document.getElementById('reg-msg').textContent = '';
+  showPage('page-auth');
+};
+
+// Expose for inline onclick
+window.showPage = showPage;
+window.switchAuth = switchAuth;
+window.doLogin = doLogin;
+window.doRegister = doRegister;
+window.doLogout = doLogout;
+window.toggleRecord = toggleRecord;
+window.stopRecording = stopRecording;
+window.skipItem = skipItem;
+window.goBack = goBack;
+window.submitTake = submitTake;
+window.loadStatsPage = loadStatsPage;
+</script>
+</body>
+</html>

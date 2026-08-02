@@ -1,0 +1,6535 @@
+{
+  "version": "1.0",
+  "chars": [
+    {
+      "word": "了",
+      "pinyin": "liao3",
+      "ipa": "liau453",
+      "definition": "①完毕；结束：我食头前～（我先吃完）|～未曾？～咯（完了没有？完了。）|△杨仲如，蜀个来，蜀个～（喻花费没有计划，一有就全部花光）②用在某些动词后，表示动作完成",
+      "has_audio": false
+    },
+    {
+      "word": "在",
+      "pinyin": "zai5",
+      "ipa": "tsai21",
+      "definition": "介词，表示听任：卜阿甚生做～伊（要什么做由他）|～汝卜去底落（要去那里由你）。",
+      "has_audio": false
+    },
+    {
+      "word": "大",
+      "pinyin": "dua5",
+      "ipa": "tua21",
+      "definition": "①相当于普通话“大”。②副词，很；非常：天时～热|无～好|～欢喜。",
+      "has_audio": true
+    },
+    {
+      "word": "上",
+      "pinyin": "ciu2",
+      "ipa": "tshiu13",
+      "definition": "汲：用盘桶～水。",
+      "has_audio": false
+    },
+    {
+      "word": "出",
+      "pinyin": "coh6",
+      "ipa": "tshɔʔ1",
+      "definition": "量词。①相当于“次”。②用于一段时间：有蜀～（有一阵子）。③。一个独立的剧目或节目。",
+      "has_audio": true
+    },
+    {
+      "word": "会",
+      "pinyin": "e5",
+      "ipa": "e21",
+      "definition": "①明白；懂得；通晓：我～日语。②表示有能力做某事：呆囝～行咯|伊～开车。|△做田侬侬～，收成无平穧（种田人人会，收成不一样。农业收成与个人掌握的技术和环境条件等",
+      "has_audio": false
+    },
+    {
+      "word": "可",
+      "pinyin": "kor3",
+      "ipa": "khɒ453",
+      "definition": "合算：我物乇厄好，甲伊换无～（我东西好，与她换不合算）|毫厘～（一点点便宜都要占）。",
+      "has_audio": false
+    },
+    {
+      "word": "个",
+      "pinyin": "ge2",
+      "ipa": "ke13",
+      "definition": "量词。用于钱，相当于“元”。‖“个”，训读字。",
+      "has_audio": true
+    },
+    {
+      "word": "子",
+      "pinyin": "zi3",
+      "ipa": "tsi453",
+      "definition": "量词。用于棋子、珠子。",
+      "has_audio": true
+    },
+    {
+      "word": "行",
+      "pinyin": "ng2",
+      "ipa": "ŋ13",
+      "definition": "辈分，排行：顶～侬（上一辈的人）|做蜀～（同辈）。",
+      "has_audio": false
+    },
+    {
+      "word": "成",
+      "pinyin": "sia2",
+      "ipa": "ɬia13",
+      "definition": "①获得预期的结果,达到目的：亲情做有～无。②做好，做完：许牵厄事体办～未曾。",
+      "has_audio": true
+    },
+    {
+      "word": "过",
+      "pinyin": "o4",
+      "ipa": "ko42",
+      "definition": "传染。",
+      "has_audio": false
+    },
+    {
+      "word": "下",
+      "pinyin": "gia5",
+      "ipa": "kia21",
+      "definition": "①低，与“悬”相对：者里地势并(比）山顶～。②在一般标准或平均程度之下：水平～。",
+      "has_audio": false
+    },
+    {
+      "word": "着",
+      "pinyin": "diao2",
+      "ipa": "tiau13",
+      "definition": "①燃烧：火起～咯|电光～咯。②应该；必须：我～合伊讲清楚|汝～早早来。③接触，挨上；到：手伸会～（手伸得到）。④对；正确：汝讲～（你说得对）。⑤当动词补语，表示",
+      "has_audio": false
+    },
+    {
+      "word": "生",
+      "pinyin": "seng1",
+      "ipa": "ɬɛŋ21 ŋyɒ453",
+      "definition": "戏班中的小生角色。",
+      "has_audio": false
+    },
+    {
+      "word": "就",
+      "pinyin": "ziu5",
+      "ipa": "tsiu21",
+      "definition": "介词，相当于普通话“由”、“从”、“任”：～六月份起鼓下昼时三点上班。|～车路行厄近（由公路走近些）。|卜食甚么～汝讲（要吃什么任你说）。",
+      "has_audio": true
+    },
+    {
+      "word": "还",
+      "pinyin": "huang2",
+      "ipa": "huaŋ13",
+      "definition": "副词，稍微：即久雨落～厄细少少（刚才雨下得稍微小了一点点）。",
+      "has_audio": false
+    },
+    {
+      "word": "把",
+      "pinyin": "bor3",
+      "ipa": "pɒ453",
+      "definition": "量词。用于成捆成束的：两～白菜|蜀～米|买蜀～香。",
+      "has_audio": false
+    },
+    {
+      "word": "起",
+      "pinyin": "ki3",
+      "ipa": "khi453",
+      "definition": "①离开原来的位置：～傤（把货物从船上搬运到岸上）。②发生；产生；引起变化：～狂（发狂）|～风。③盖：～校舍|～别墅。④涨（价）：水果～价。⑤发动：～侬去厮拍（动",
+      "has_audio": false
+    },
+    {
+      "word": "工",
+      "pinyin": "gang1",
+      "ipa": "kaŋ533",
+      "definition": "量词。相当于“天”，一般用于白天。",
+      "has_audio": true
+    },
+    {
+      "word": "正",
+      "pinyin": "zia4",
+      "ipa": "tsia42",
+      "definition": "副词，①才：讲清楚咯～会行厄。②倒：汝偌客气，我～无自在|头前无栽树～厄好，光线足。",
+      "has_audio": true
+    },
+    {
+      "word": "后",
+      "pinyin": "hiao5",
+      "ipa": "hiau21",
+      "definition": "向后仰靠：～椅囝厄。",
+      "has_audio": false
+    },
+    {
+      "word": "面",
+      "pinyin": "ming5",
+      "ipa": "miŋ21",
+      "definition": "线面。‖又叫【索面】在第169页。○另在第130页【面】miŋ42。",
+      "has_audio": false
+    },
+    {
+      "word": "头",
+      "pinyin": "tao2",
+      "ipa": "thau13",
+      "definition": "量词。用于多数飞禽走兽：蜀～牛（蠓、象、鸡、鸟、蚁婆、狼狗、猪）。",
+      "has_audio": false
+    },
+    {
+      "word": "身",
+      "pinyin": "zing1",
+      "ipa": "tsiŋ533",
+      "definition": "量词。用于布娃娃、蚕、神像（包括人物木雕）：蜀～侬囝|蜀～菩萨。",
+      "has_audio": false
+    },
+    {
+      "word": "长",
+      "pinyin": "dung2",
+      "ipa": "tuŋ13",
+      "definition": "剩余：复（还）～两个|△有～会强无额（有余比不足好）。",
+      "has_audio": true
+    },
+    {
+      "word": "目",
+      "pinyin": "mah7",
+      "ipa": "maʔ4",
+      "definition": "量词。用于甘蔗等的节：蜀～蔗。",
+      "has_audio": false
+    },
+    {
+      "word": "鼻",
+      "pinyin": "pi4",
+      "ipa": "phi42",
+      "definition": "鼻涕。",
+      "has_audio": false
+    },
+    {
+      "word": "皮",
+      "pinyin": "puai2",
+      "ipa": "phuai13",
+      "definition": "皮肤。",
+      "has_audio": false
+    },
+    {
+      "word": "肉",
+      "pinyin": "noeh7",
+      "ipa": "nœʔ4",
+      "definition": "专指猪肉。",
+      "has_audio": true
+    },
+    {
+      "word": "字",
+      "pinyin": "zi5",
+      "ipa": "tsi21",
+      "definition": "量词。五分钟时间：点钟行三～咯。",
+      "has_audio": true
+    },
+    {
+      "word": "册",
+      "pinyin": "ca5",
+      "ipa": "tsha21",
+      "definition": "书本。",
+      "has_audio": true
+    },
+    {
+      "word": "落",
+      "pinyin": "lo2",
+      "ipa": "lo13",
+      "definition": "同【撒】在第154页。",
+      "has_audio": false
+    },
+    {
+      "word": "方",
+      "pinyin": "horng1",
+      "ipa": "hɒŋ533",
+      "definition": "成正方形的，成四角：者块石头有～无。",
+      "has_audio": false
+    },
+    {
+      "word": "床",
+      "pinyin": "cung2",
+      "ipa": "tshuŋ13",
+      "definition": "桌子。",
+      "has_audio": false
+    },
+    {
+      "word": "铺",
+      "pinyin": "pou4",
+      "ipa": "phɔu42",
+      "definition": "量词。十华里为一铺：五～远厄路。○另见【铺】[phɔu533]在第150页。",
+      "has_audio": false
+    },
+    {
+      "word": "席",
+      "pinyin": "ciao2",
+      "ipa": "tshiau13",
+      "definition": "草席。",
+      "has_audio": false
+    },
+    {
+      "word": "帐",
+      "pinyin": "diao4",
+      "ipa": "tiau42",
+      "definition": "衬里。",
+      "has_audio": false
+    },
+    {
+      "word": "隔",
+      "pinyin": "ga5 ga5",
+      "ipa": "ka21",
+      "definition": "不合群：者个侬～～。",
+      "has_audio": false
+    },
+    {
+      "word": "环",
+      "pinyin": "koeng2",
+      "ipa": "khœŋ13",
+      "definition": "①缠绕：～电线。②盘旋：者山路那～阿～。③兜：～蜀大～正会到体育场。④量词，用于次数。",
+      "has_audio": true
+    },
+    {
+      "word": "扣",
+      "pinyin": "kiao4",
+      "ipa": "khiau42",
+      "definition": "算：～数（算账）。",
+      "has_audio": false
+    },
+    {
+      "word": "笼",
+      "pinyin": "lorng2",
+      "ipa": "lɒŋ13",
+      "definition": "插；塞：伊将蜀箍柴～入灶里（他把一段木头插进灶膛）。",
+      "has_audio": false
+    },
+    {
+      "word": "叉",
+      "pinyin": "cor1",
+      "ipa": "tshɒ533",
+      "definition": "①乱翻腾；折腾操劳：大～。②任务繁重而忙碌奔波：老公外向去做工，伊单个人者厝～死（干得半死）。",
+      "has_audio": false
+    },
+    {
+      "word": "铲",
+      "pinyin": "tyo3",
+      "ipa": "thyɒ453",
+      "definition": "铲锄：～草丕（铲草皮）。",
+      "has_audio": false
+    },
+    {
+      "word": "灶",
+      "pinyin": "zao4",
+      "ipa": "tsau42",
+      "definition": "柴火灶；灶。",
+      "has_audio": true
+    },
+    {
+      "word": "弄",
+      "pinyin": "lang5",
+      "ipa": "laŋ21",
+      "definition": "变戏法：物乇乞～无去（东西被变没有了）。",
+      "has_audio": false
+    },
+    {
+      "word": "镇",
+      "pinyin": "ding4",
+      "ipa": "tiŋ42",
+      "definition": "占：到棚兜去～蜀个地方留暝昏看戏（到戏台前占一个位置，留着晚上看戏）。",
+      "has_audio": false
+    },
+    {
+      "word": "泉",
+      "pinyin": "syo3",
+      "ipa": "ɬyɒ13",
+      "definition": "从地下流出的水源。",
+      "has_audio": false
+    },
+    {
+      "word": "沟",
+      "pinyin": "gao1",
+      "ipa": "kau533",
+      "definition": "沟渠，平原上人工开凿的水道，用于引陂（水利工程）水灌溉农田。是陂的配套工程：～面（河面）|大～（较深且水面较宽的河沟）。",
+      "has_audio": false
+    },
+    {
+      "word": "坑",
+      "pinyin": "ka1",
+      "ipa": "kha533",
+      "definition": "同【山坑】在第171页。",
+      "has_audio": false
+    },
+    {
+      "word": "岭",
+      "pinyin": "nia3",
+      "ipa": "nia453",
+      "definition": "坡：爬～（上坡）|放～（交通工具下坡）。",
+      "has_audio": true
+    },
+    {
+      "word": "石",
+      "pinyin": "dor4",
+      "ipa": "tɒ42",
+      "definition": "①量词。百斤重的重量：△会挑石，勿会挑秤（喻能做得重活，却做不了轻活）。",
+      "has_audio": true
+    },
+    {
+      "word": "鼓",
+      "pinyin": "gou3",
+      "ipa": "kɔu453",
+      "definition": "刮：草笠乞大风～行。",
+      "has_audio": false
+    },
+    {
+      "word": "八",
+      "pinyin": "be5",
+      "ipa": "pe21",
+      "definition": "副词，曾经：我～看见这种蝴蝶|老王～合我讲伊厝家庭厄事体。",
+      "has_audio": false
+    },
+    {
+      "word": "㪠",
+      "pinyin": "ke4",
+      "ipa": "khe42",
+      "definition": "盖：～杯盖。",
+      "has_audio": true
+    },
+    {
+      "word": "㬟",
+      "pinyin": "beng2",
+      "ipa": "pɛŋ13",
+      "definition": "“未曾”的合音：天～暗|我～合伊讲（告诉她）|食饭～？～（吃饭了没有？还没有）。",
+      "has_audio": true
+    },
+    {
+      "word": "㾪",
+      "pinyin": "seng3",
+      "ipa": "ɬɛŋ453",
+      "definition": "瘦，与“肥”相对：六月天侬变～（夏天人瘦了）|△番薯肥芋～）（吃地瓜营养高，容易长胖，吃芋头不易消化，人多消瘦）。",
+      "has_audio": true
+    },
+    {
+      "word": "两",
+      "pinyin": "nung5",
+      "ipa": "nuŋ21",
+      "definition": "二。",
+      "has_audio": true
+    },
+    {
+      "word": "伊",
+      "pinyin": "i1",
+      "ipa": "i533",
+      "definition": "他；她。",
+      "has_audio": true
+    },
+    {
+      "word": "倒",
+      "pinyin": "do4",
+      "ipa": "to42",
+      "definition": "反而。也称倒头：我是好心合伊讲，伊～冲狂。",
+      "has_audio": true
+    },
+    {
+      "word": "决",
+      "pinyin": "goeh6",
+      "ipa": "kœʔ1",
+      "definition": "①插住：～针（别针）|用～针～胸坎前（别在胸前）。②憋气：～蜀气（憋一口气）",
+      "has_audio": true
+    },
+    {
+      "word": "凊",
+      "pinyin": "cing4",
+      "ipa": "tshiŋ42",
+      "definition": "凉；冰冷：～水|～冰冰。",
+      "has_audio": true
+    },
+    {
+      "word": "勼",
+      "pinyin": "giu1",
+      "ipa": "kiu533",
+      "definition": "缩：大蛇～瓮（洞）里。",
+      "has_audio": true
+    },
+    {
+      "word": "厄",
+      "pinyin": "eh6",
+      "ipa": "ɛʔ1",
+      "definition": "助动词，无实际意义，强调其后动作的方式：伊将我～拍（他把我打了）|糜～食（吃饭）|我～行去上班。",
+      "has_audio": true
+    },
+    {
+      "word": "厅",
+      "pinyin": "tia1",
+      "ipa": "thia533",
+      "definition": "厅堂。宅第中，用以会客、宴请的地方。",
+      "has_audio": true
+    },
+    {
+      "word": "含",
+      "pinyin": "hang2",
+      "ipa": "haŋ21",
+      "definition": "①包括在内：～汝四个侬|～母～囝（连本带利）。②在处置句里引进受事，相当于普通话“把”：～牛都牵行|伊～我厄骂。",
+      "has_audio": true
+    },
+    {
+      "word": "吼",
+      "pinyin": "hao3",
+      "ipa": "hau453",
+      "definition": "哭：呆囝～是卜食奶（婴孩哭是要吃奶）|伊乞惊～爬起（他吓得哭起来）。",
+      "has_audio": true
+    },
+    {
+      "word": "味",
+      "pinyin": "mai5",
+      "ipa": "mai21",
+      "definition": "辨别滋味：～味道|猪肚汤大好食，汝～蜀下。",
+      "has_audio": true
+    },
+    {
+      "word": "啮",
+      "pinyin": "ke4",
+      "ipa": "khe42",
+      "definition": "啃：～骨。",
+      "has_audio": true
+    },
+    {
+      "word": "喝",
+      "pinyin": "hua5",
+      "ipa": "hua21",
+      "definition": "①大声叫：大声～。②叫（人）：我去侬～几个来帮忙。",
+      "has_audio": true
+    },
+    {
+      "word": "土",
+      "pinyin": "tou3",
+      "ipa": "tɔu453",
+      "definition": "①凸，与“塌（凹）相对：～塌不平。②傻。",
+      "has_audio": true
+    },
+    {
+      "word": "坩",
+      "pinyin": "kor1",
+      "ipa": "khɒ533",
+      "definition": "盛饭的陶钵。‖又叫【坩物】见下方。",
+      "has_audio": true
+    },
+    {
+      "word": "塌",
+      "pinyin": "tah6",
+      "ipa": "thaʔ1",
+      "definition": "①凹，与”土（凸）相对：地下～蜀窠（地面凹成一个坑）②亏本：生理做无趁，复乞～几千（生意没赚钱，还亏了几千元）。③（店铺）倒闭：～店。",
+      "has_audio": true
+    },
+    {
+      "word": "塕",
+      "pinyin": "orng1",
+      "ipa": "ɒŋ533",
+      "definition": "①（尘土）飞扬：楼顶装修土粉～到楼下。②洒：～肥粉（洒化肥，施肥）|地下～六六粉。",
+      "has_audio": true
+    },
+    {
+      "word": "宽",
+      "pinyin": "kua1",
+      "ipa": "khua533",
+      "definition": "慢，与“紧”相对：者架车行～（这辆车开得慢）|～～行（慢走）。",
+      "has_audio": true
+    },
+    {
+      "word": "忖",
+      "pinyin": "cong4",
+      "ipa": "tshɔŋ42",
+      "definition": "①不好，与“好”相对：天时～|～的物乇。",
+      "has_audio": true
+    },
+    {
+      "word": "忡",
+      "pinyin": "coeng1",
+      "ipa": "tshœŋ533",
+      "definition": "讨厌：我看伊～（我讨厌他）。",
+      "has_audio": true
+    },
+    {
+      "word": "快",
+      "pinyin": "ke4",
+      "ipa": "khe42",
+      "definition": "容易；很快：蜀到寒天天就～暗（一到冬天天很快就黑了）|货无好，～坏|蜀个贪后生，蜀个贪～死（揶揄老夫少妻）。",
+      "has_audio": true
+    },
+    {
+      "word": "怨",
+      "pinyin": "oeng4",
+      "ipa": "œŋ42",
+      "definition": "埋怨；抱怨：我勿会趁钱，乞伊～。",
+      "has_audio": true
+    },
+    {
+      "word": "悬",
+      "pinyin": "ge2",
+      "ipa": "ke13",
+      "definition": "①高，与“下”或“矮”相对：现时厝起连天～|△无着～厄，有着矮厄（欺软怕硬）。②高度：壶公山有七百几米～。③在一般标准或平均程度之上：伊水平并我会～（他水平比我",
+      "has_audio": true
+    },
+    {
+      "word": "戈",
+      "pinyin": "kor1",
+      "ipa": "khɒ533",
+      "definition": "量词。用于成双物体中的一个：蜀～鞋|蜀～箸。",
+      "has_audio": true
+    },
+    {
+      "word": "扎",
+      "pinyin": "zor5",
+      "ipa": "tsɒ21",
+      "definition": "束紧（裤子）：～裤。",
+      "has_audio": true
+    },
+    {
+      "word": "承",
+      "pinyin": "sing2",
+      "ipa": "ɬiŋ13",
+      "definition": "在下面接受：厝顶漏，面盆捧一个去～|△大雨～无水（喻期望太高，往往得不到好处）。",
+      "has_audio": true
+    },
+    {
+      "word": "押",
+      "pinyin": "or5",
+      "ipa": "ɒ21",
+      "definition": "强制：～行（赶走）|～伊去做，无伊逐日都是许搭聊（叫他去干，要不然他天天都在玩）|△羊肉～侬生食（喻强加于人）。",
+      "has_audio": true
+    },
+    {
+      "word": "拄",
+      "pinyin": "du3",
+      "ipa": "tu453",
+      "definition": "①顶，支住：树卜倒落尾（快要倒了），用杉木去～|门～。②顶撞：我蜀讲，伊笃卜～。|③碰（到）：伊偷做贼，乞我～着（他偷东西被我碰到了）|～着～伓着（碰运气）。",
+      "has_audio": true
+    },
+    {
+      "word": "拈",
+      "pinyin": "ning1",
+      "ipa": "niŋ533",
+      "definition": "用手指撮拿：～饭配食。",
+      "has_audio": true
+    },
+    {
+      "word": "拼",
+      "pinyin": "bia4",
+      "ipa": "pia42",
+      "definition": "①比拼：齐～看甚侬厄赢（拼一拼看谁会赢）|者回伊敢合大个厄齐～|②争取；努力：～头名。△头搵屎～（喻拼命去做）。",
+      "has_audio": true
+    },
+    {
+      "word": "拾",
+      "pinyin": "kah6",
+      "ipa": "khaʔ1",
+      "definition": "拾：～猪屎|△天顶落金银，亦着早起去～（早起的鸟儿有虫吃）。‖“拾”是训读字。",
+      "has_audio": true
+    },
+    {
+      "word": "挃",
+      "pinyin": "di2",
+      "ipa": "ti13",
+      "definition": "要：我卜～许个（我要那个）|汝卜～伓～（你要不要）。",
+      "has_audio": true
+    },
+    {
+      "word": "挟",
+      "pinyin": "ge5",
+      "ipa": "ke21",
+      "definition": "夹：手乞门～|用箸～。",
+      "has_audio": true
+    },
+    {
+      "word": "捘",
+      "pinyin": "cong5",
+      "ipa": "tshɔŋ21",
+      "definition": "拧：两个侬齐将被～甲焦（两个人一起把被子拧干）。",
+      "has_audio": true
+    },
+    {
+      "word": "探",
+      "pinyin": "tang4",
+      "ipa": "thaŋ42",
+      "definition": "①汲取：～酱油。②透：写厄字乞～许爿去。",
+      "has_audio": true
+    },
+    {
+      "word": "掿",
+      "pinyin": "nah7",
+      "ipa": "naʔ4",
+      "definition": "抓，握：钱那～手里伓肯放|手厄～蜀枝刀。",
+      "has_audio": true
+    },
+    {
+      "word": "提",
+      "pinyin": "te2",
+      "ipa": "the13",
+      "definition": "拿：我～三个|△手里无～刀，心肝里闲□□（喻没有做亏心事，心里坦然）。",
+      "has_audio": true
+    },
+    {
+      "word": "摏",
+      "pinyin": "zoeng1",
+      "ipa": "tsœŋ533",
+      "definition": "撞击；捣：两侬齐厮～着|用墙槌～涂墙。",
+      "has_audio": true
+    },
+    {
+      "word": "摒",
+      "pinyin": "bia4",
+      "ipa": "pia42",
+      "definition": "倒掉：好好糜～去饲猪，可惜落尾（好好的饭倒了喂猪，可惜了）。",
+      "has_audio": true
+    },
+    {
+      "word": "摝",
+      "pinyin": "lorh7",
+      "ipa": "lɒʔ4",
+      "definition": "振摇：～签筒。",
+      "has_audio": true
+    },
+    {
+      "word": "擘",
+      "pinyin": "ba5",
+      "ipa": "pa21",
+      "definition": "①剥；掰；撕裂：～地生（剥花生）|～裂喉空（扯大喉咙）。②（眼睛）睁：目珠～开。",
+      "has_audio": true
+    },
+    {
+      "word": "昼",
+      "pinyin": "dao4",
+      "ipa": "tau42",
+      "definition": "①正午。②午饭。",
+      "has_audio": true
+    },
+    {
+      "word": "暝",
+      "pinyin": "ma2",
+      "ipa": "ma13",
+      "definition": "①晚上。②晚饭。△猫子无～，狗无昼（晚上不喂猫，可让它去捕鼠;白天不喂狗，让它四处觅食。也比喻三餐无着落的人）。",
+      "has_audio": true
+    },
+    {
+      "word": "曝",
+      "pinyin": "porh7",
+      "ipa": "phɒʔ4",
+      "definition": "晒：大日头～被|△芒种雨，日～路（芒种节气下雨，预兆接下去没有雨）。",
+      "has_audio": true
+    },
+    {
+      "word": "权",
+      "pinyin": "goeng2",
+      "ipa": "kœŋ13",
+      "definition": "将就；权且：空调复未曾买，电扇且～蜀下。",
+      "has_audio": true
+    },
+    {
+      "word": "枝",
+      "pinyin": "gi1",
+      "ipa": "ki533",
+      "definition": "量词。用于钥匙。",
+      "has_audio": true
+    },
+    {
+      "word": "歇",
+      "pinyin": "hoe5",
+      "ipa": "hø21",
+      "definition": "①休息：到树下去～蜀下。②停止：戏～。③睡：～昼。",
+      "has_audio": true
+    },
+    {
+      "word": "毒",
+      "pinyin": "tao4",
+      "ipa": "thau42",
+      "definition": "毒杀：～食虫（驱蛔虫）。",
+      "has_audio": true
+    },
+    {
+      "word": "沃",
+      "pinyin": "orh6",
+      "ipa": "ɒʔ1",
+      "definition": "①淋：～雨|△雨～元宵灯，日曝清明田（元宵节下雨，预兆清明前后多晴少雨）②浇灌：～菜|～肥。",
+      "has_audio": true
+    },
+    {
+      "word": "洘",
+      "pinyin": "ko3",
+      "ipa": "kho453",
+      "definition": "含水份少；稠，与“漖”相对：糜煮～～。",
+      "has_audio": true
+    },
+    {
+      "word": "浔",
+      "pinyin": "cing2",
+      "ipa": "tshiŋ13",
+      "definition": "堤岸：沟～。",
+      "has_audio": true
+    },
+    {
+      "word": "涂",
+      "pinyin": "tou2",
+      "ipa": "thɔu13",
+      "definition": "泥土：田～|～粉。‖本字是“塗”。",
+      "has_audio": true
+    },
+    {
+      "word": "滚",
+      "pinyin": "gong3",
+      "ipa": "kɔŋ453",
+      "definition": "①烫；热，与“凊”相对：糜复～，等一下食（饭还很烫，等下吃）|～水。",
+      "has_audio": true
+    },
+    {
+      "word": "滥",
+      "pinyin": "lang5",
+      "ipa": "laŋ21",
+      "definition": "灌溉：开渠道水～田。",
+      "has_audio": true
+    },
+    {
+      "word": "炮",
+      "pinyin": "pao4",
+      "ipa": "phau42",
+      "definition": "特指鞭炮。",
+      "has_audio": true
+    },
+    {
+      "word": "热",
+      "pinyin": "zeh7",
+      "ipa": "tsɛʔ4",
+      "definition": "上火。",
+      "has_audio": true
+    },
+    {
+      "word": "牛",
+      "pinyin": "gu2",
+      "ipa": "ku13",
+      "definition": "黄牛。△～乞使会无角（喻非常不爱惜地乱用工具，什么工具都会被用坏）。",
+      "has_audio": true
+    },
+    {
+      "word": "理",
+      "pinyin": "li3",
+      "ipa": "li453",
+      "definition": "管：～闲事|汝厄事体我无～。",
+      "has_audio": true
+    },
+    {
+      "word": "瓯",
+      "pinyin": "ao1",
+      "ipa": "au533",
+      "definition": "小碗，‖也叫【瓯囝】见下方。",
+      "has_audio": true
+    },
+    {
+      "word": "痹",
+      "pinyin": "bi4",
+      "ipa": "pi42",
+      "definition": "肢体发麻：坐久咯脚～阿～。",
+      "has_audio": true
+    },
+    {
+      "word": "碍",
+      "pinyin": "ngai5",
+      "ipa": "ŋai21",
+      "definition": "①讨厌：看伊～～。②忌讳：看到死侬我心肝里那～～。",
+      "has_audio": true
+    },
+    {
+      "word": "秤",
+      "pinyin": "cing4",
+      "ipa": "tshiŋ42",
+      "definition": "量词。十斤重的重量。也称斗。",
+      "has_audio": true
+    },
+    {
+      "word": "窠",
+      "pinyin": "ko1",
+      "ipa": "kho533",
+      "definition": "①小坑：地下蜀～（地上有个坑）。②量词。用于坑。",
+      "has_audio": true
+    },
+    {
+      "word": "篮",
+      "pinyin": "nor2",
+      "ipa": "nɒ13",
+      "definition": "小竹篮。",
+      "has_audio": true
+    },
+    {
+      "word": "精",
+      "pinyin": "zing1",
+      "ipa": "tsiŋ533",
+      "definition": "①聪明；机灵；精明：伊连天～，甚么都知|△买阿无卖阿～（卖方太刁，买方经常上当）。②精通。△蜀途～，趁有金；途途精，做了献（扔）（样样通不如一样精）。",
+      "has_audio": true
+    },
+    {
+      "word": "糟",
+      "pinyin": "zao1",
+      "ipa": "tsau533",
+      "definition": "酒糟。△水做酒卖，复嫌无～（喻人心不足）。",
+      "has_audio": true
+    },
+    {
+      "word": "紧",
+      "pinyin": "ging3",
+      "ipa": "kiŋ453",
+      "definition": "①快，与“宽”相对：阿～行（快走）|△宽装担，～行路（喻花时间做好准备，不会耽误工作的进度）。②快慢的程度：者种车会行若夥～？",
+      "has_audio": true
+    },
+    {
+      "word": "综",
+      "pinyin": "zang1",
+      "ipa": "tsaŋ533",
+      "definition": "借（钱）：钱且～少少乞我做本（钱借一点点当本钱）。",
+      "has_audio": true
+    },
+    {
+      "word": "羁",
+      "pinyin": "ge1",
+      "ipa": "ke533",
+      "definition": "系；绑；拴：牛～树头厄（牛拴在树头上）|用线～。",
+      "has_audio": true
+    },
+    {
+      "word": "者",
+      "pinyin": "zia3",
+      "ipa": "tsia453",
+      "definition": "①这；这里。②表示动作的持续：伊辈～看册|我～做作业。",
+      "has_audio": true
+    },
+    {
+      "word": "聘",
+      "pinyin": "ping4",
+      "ipa": "phiŋ42",
+      "definition": "量词。相当于“样、种”：带几～礼物。",
+      "has_audio": true
+    },
+    {
+      "word": "肥",
+      "pinyin": "bui2",
+      "ipa": "pui13",
+      "definition": "①胖，兼指人和动物。与“㾪”相对：者头猪合饲大～（这头猪养得很肥）|阿～（胖子。谑称）②肥料：土～|泼～（施肥）。③肥效：牛屎无～。",
+      "has_audio": true
+    },
+    {
+      "word": "胡",
+      "pinyin": "hou2",
+      "ipa": "hɔu13",
+      "definition": "二胡。",
+      "has_audio": true
+    },
+    {
+      "word": "芳",
+      "pinyin": "pang1",
+      "ipa": "phaŋ533",
+      "definition": "香，与“臭”相对：味素～～|△香菇折本（亏本）布袋～（喻徒有虚名）。",
+      "has_audio": true
+    },
+    {
+      "word": "苦",
+      "pinyin": "kou3",
+      "ipa": "khɔu453",
+      "definition": "①为某种事所苦：～无钱通买套房。②悼念：伊逐工～囝，乞～阿目珠都青盲落尾（她天天追怀儿子，直到到眼睛都瞎了）。",
+      "has_audio": true
+    },
+    {
+      "word": "蓊",
+      "pinyin": "ang5",
+      "ipa": "aŋ21",
+      "definition": "茂盛：树～～。",
+      "has_audio": true
+    },
+    {
+      "word": "蜂",
+      "pinyin": "pang1",
+      "ipa": "phaŋ533",
+      "definition": "蜜蜂。△送头乞～螯（喻自找苦吃）。",
+      "has_audio": true
+    },
+    {
+      "word": "蜜",
+      "pinyin": "bih7",
+      "ipa": "piʔ4",
+      "definition": "用糖水腌渍：～青黄（糖渍杨梅）。",
+      "has_audio": true
+    },
+    {
+      "word": "蟳",
+      "pinyin": "sing2",
+      "ipa": "ɬiŋ13",
+      "definition": "青蟹。‖也叫【蟳囝】。",
+      "has_audio": true
+    },
+    {
+      "word": "补",
+      "pinyin": "bou3",
+      "ipa": "pɔu453",
+      "definition": "滋补：团鱼食～（鳖是滋补的）。",
+      "has_audio": true
+    },
+    {
+      "word": "褪",
+      "pinyin": "toe4",
+      "ipa": "thø42",
+      "definition": "脱：～衫（脱衣服）|～帽。",
+      "has_audio": true
+    },
+    {
+      "word": "襱",
+      "pinyin": "lang1",
+      "ipa": "laŋ533",
+      "definition": "松，不紧：电影院里向（里面）～～，无甚么侬|者条裤穿～～。",
+      "has_audio": true
+    },
+    {
+      "word": "覆",
+      "pinyin": "pah6",
+      "ipa": "phaʔ1",
+      "definition": "①趴：～许睏（趴着睡）。②底朝上翻过来：～碗（把洗好的碗翻过来放）|～鼎（把铁锅翻过来放。比喻覆灭）。",
+      "has_audio": true
+    },
+    {
+      "word": "触",
+      "pinyin": "tah6",
+      "ipa": "thaʔ1",
+      "definition": "①侵犯：我无～汝，汝卜骂我。②招惹：无侬敢～伊。",
+      "has_audio": true
+    },
+    {
+      "word": "诤",
+      "pinyin": "za4",
+      "ipa": "tsa42",
+      "definition": "争辩：两侬～来～去，都讲介（自己）是有道理厄。",
+      "has_audio": true
+    },
+    {
+      "word": "走",
+      "pinyin": "zao3",
+      "ipa": "tsau453",
+      "definition": "①跑：雨到咯，厄紧～（下雨了，快跑）|～行（跑走）。②逃走：偷～|蜀尾鱼钓着乞～厄。③为某种事务而奔走：～业务。④物体离开了应该在的位置：纸乞风鼓～咯。④改变或",
+      "has_audio": true
+    },
+    {
+      "word": "跍",
+      "pinyin": "ku2",
+      "ipa": "khu13",
+      "definition": "①蹲：～地下食糜（蹲在地上吃饭）。②坠下：墙基脚乞水浸～落尾。",
+      "has_audio": true
+    },
+    {
+      "word": "蹑",
+      "pinyin": "noeh6",
+      "ipa": "nœʔ1",
+      "definition": "吓一跳：我乞～蜀下。|△山里野猫，伸头～脰（形容偷窥视的动作形态）。",
+      "has_audio": true
+    },
+    {
+      "word": "车",
+      "pinyin": "cia1",
+      "ipa": "tshia533",
+      "definition": "①用缝纫机缝：～衫（缝衣服）|～鞋。②滚动：～车丸（做有馅汤圆）。",
+      "has_audio": true
+    },
+    {
+      "word": "迎",
+      "pinyin": "ngia2",
+      "ipa": "ŋia13",
+      "definition": "①双手搬：～石头。②抬起：～起脚（踮起脚）。③扛：～面末袋|～杉。",
+      "has_audio": true
+    },
+    {
+      "word": "重",
+      "pinyin": "doeng2",
+      "ipa": "tœŋ13",
+      "definition": "量词。相当于层：隔蜀～纸。",
+      "has_audio": true
+    },
+    {
+      "word": "野",
+      "pinyin": "ia3",
+      "ipa": "ia453",
+      "definition": "①好动；贪玩：者呆囝连天～。②玩：蜀日～都无歇。",
+      "has_audio": true
+    },
+    {
+      "word": "钮",
+      "pinyin": "diu3",
+      "ipa": "tiu453",
+      "definition": "钮扣。",
+      "has_audio": true
+    },
+    {
+      "word": "铡",
+      "pinyin": "zah7",
+      "ipa": "tsaʔ4",
+      "definition": "剁：～肉做水饺。",
+      "has_audio": true
+    },
+    {
+      "word": "铳",
+      "pinyin": "coeng5",
+      "ipa": "tshœŋ21",
+      "definition": "土枪。",
+      "has_audio": true
+    },
+    {
+      "word": "锲",
+      "pinyin": "ge5",
+      "ipa": "ke21",
+      "definition": "割草刀。△日头落山～囝利（到快要收工了才拼命干）。",
+      "has_audio": true
+    },
+    {
+      "word": "顶",
+      "pinyin": "deng3",
+      "ipa": "tɛŋ453",
+      "definition": "①上。②量词。用于帽子、磨等：头戴蜀～帽|蜀～磨。",
+      "has_audio": true
+    },
+    {
+      "word": "顾",
+      "pinyin": "gou4",
+      "ipa": "kɔu42",
+      "definition": "①照顾：～家|△行蜀铺（十里），无～厝（喻出门在外，家中之事照顾不来）②顾及：～后|△庐鼠～后日（喻懂得为将来做打算）|好天～落雨。③顾惜：△趁钱有数，身势着～",
+      "has_audio": true
+    },
+    {
+      "word": "领",
+      "pinyin": "nia3",
+      "ipa": "nia453",
+      "definition": "量词。用于草席、被子、棉絮或蓑衣等：蜀～被|蜀～棕蓑。",
+      "has_audio": true
+    },
+    {
+      "word": "饮",
+      "pinyin": "ang3",
+      "ipa": "aŋ453",
+      "definition": "稀饭的汤汁。",
+      "has_audio": true
+    },
+    {
+      "word": "鬃",
+      "pinyin": "zang1",
+      "ipa": "tsaŋ533",
+      "definition": "量词。用于头发：蜀～头发。",
+      "has_audio": true
+    },
+    {
+      "word": "魟",
+      "pinyin": "hang1",
+      "ipa": "haŋ533",
+      "definition": "一种海产，体形和鲎相似，软骨无鳞，胸鳍发达，尾呈鞭状，有毒刺。△～搭鲎（喻混淆有本质区别的事物）。",
+      "has_audio": true
+    },
+    {
+      "word": "鳗",
+      "pinyin": "mua2",
+      "ipa": "mua13",
+      "definition": "鳗鱼。",
+      "has_audio": true
+    },
+    {
+      "word": "麻",
+      "pinyin": "mua2",
+      "ipa": "mua13",
+      "definition": "黄麻。",
+      "has_audio": true
+    },
+    {
+      "word": "黍",
+      "pinyin": "soe3",
+      "ipa": "ɬø453",
+      "definition": "①[莆] 旧称玉米②[仙] 高粱。",
+      "has_audio": true
+    },
+    {
+      "word": "齐",
+      "pinyin": "ze2",
+      "ipa": "tse13",
+      "definition": "①带：～孙囝。②副词，一起：我辈两个～就小学读到高中|两个侬～去教室自修。",
+      "has_audio": true
+    },
+    {
+      "word": "𥭘",
+      "pinyin": "tai1",
+      "ipa": "thai533",
+      "definition": "筛子。",
+      "has_audio": true
+    },
+    {
+      "word": "□",
+      "pinyin": "zo5",
+      "ipa": "tso21",
+      "definition": "堵住（田地进出水的缺口）：缺嘴～蜀下水勿会流出外（水沟口堵一下水不会流出去）。",
+      "has_audio": false
+    },
+    {
+      "word": "㑚",
+      "pinyin": "na3",
+      "ipa": "na453",
+      "definition": "咱。",
+      "has_audio": false
+    },
+    {
+      "word": "㓠",
+      "pinyin": "de3",
+      "ipa": "te453",
+      "definition": "砍：～蔗|～树。",
+      "has_audio": false
+    },
+    {
+      "word": "㔃",
+      "pinyin": "se2",
+      "ipa": "ɬe13",
+      "definition": "切：～菜|～肉。",
+      "has_audio": false
+    },
+    {
+      "word": "㖹",
+      "pinyin": "bong2",
+      "ipa": "pɔŋ13",
+      "definition": "①吹：～火|②吹气演奏：～笛|～吹拉（吹唢呐）。",
+      "has_audio": false
+    },
+    {
+      "word": "㜲",
+      "pinyin": "ia1",
+      "ipa": "ia13",
+      "definition": "撒娇：张那～～。",
+      "has_audio": false
+    },
+    {
+      "word": "㢊",
+      "pinyin": "ua3",
+      "ipa": "ua453",
+      "definition": "①靠：手～我肩头厄。②物体凭着别的东西的支持立着：楼梯～墙边|死猫吊树，死虎～壁③",
+      "has_audio": false
+    },
+    {
+      "word": "㩻",
+      "pinyin": "ki1",
+      "ipa": "khi21",
+      "definition": "不正；歪；倾斜：船～蜀爿（船倾向一边）|头～～。",
+      "has_audio": false
+    },
+    {
+      "word": "㴷",
+      "pinyin": "dang2",
+      "ipa": "taŋ13",
+      "definition": "湿，与“焦（干）”相对：雨沃蜀身都～落尾。△地～出星，雨落袂晴（地上被雨淋得很湿的时候，天上可以看到星星，则还会下雨）",
+      "has_audio": false
+    },
+    {
+      "word": "䉔",
+      "pinyin": "cyong1",
+      "ipa": "tshyɒ533",
+      "definition": "小竹刺。",
+      "has_audio": false
+    },
+    {
+      "word": "䍚",
+      "pinyin": "lang4",
+      "ipa": "laŋ42",
+      "definition": "①稀疏，与“密”相对：头发～|棚下侬那～。",
+      "has_audio": false
+    },
+    {
+      "word": "䖳",
+      "pinyin": "tor4",
+      "ipa": "thɒ43",
+      "definition": "水母，海蜇。",
+      "has_audio": false
+    },
+    {
+      "word": "䘷",
+      "pinyin": "bi5",
+      "ipa": "pi21",
+      "definition": "挽；卷起：～裤脚|～脚～手（挽起袖子要去干某事）。",
+      "has_audio": false
+    },
+    {
+      "word": "䟉",
+      "pinyin": "corh7",
+      "ipa": "tshɒʔ4",
+      "definition": "颠：三十六～（莆仙闹新房节目之一）。",
+      "has_audio": false
+    },
+    {
+      "word": "䩩",
+      "pinyin": "uai3",
+      "ipa": "uai453",
+      "definition": "①用来装所称货物的器具。②包装产品所需的包装用品的重量。",
+      "has_audio": false
+    },
+    {
+      "word": "䭁",
+      "pinyin": "zia3",
+      "ipa": "tsia453",
+      "definition": "①（味道）不浓；不咸，与“咸”或“浓”相对：味素～。酒～。②（颜色）浅；淡：者块布色气厄～。",
+      "has_audio": false
+    },
+    {
+      "word": "与",
+      "pinyin": "tou5",
+      "ipa": "thɔu21",
+      "definition": "还给：三千钱～乞伊。",
+      "has_audio": false
+    },
+    {
+      "word": "世",
+      "pinyin": "syo4",
+      "ipa": "ɬyɒ42",
+      "definition": "接续：～落尾做甚么（接下去干什么）|蜀架～蜀架。",
+      "has_audio": false
+    },
+    {
+      "word": "丝",
+      "pinyin": "si1",
+      "ipa": "ɬi533",
+      "definition": "量词。用于头发：蜀～头发丝。",
+      "has_audio": false
+    },
+    {
+      "word": "丰",
+      "pinyin": "porng1",
+      "ipa": "phɒŋ533",
+      "definition": "多；丰富。与“竭”相对：粮食大～|～甲水一样。",
+      "has_audio": false
+    },
+    {
+      "word": "丸",
+      "pinyin": "uai2",
+      "ipa": "uai13",
+      "definition": "①缠绕：～羊毛线。②揉：伊把许张纸～蜀丸（揉成一团）□（扔）字纸篮里内。③量词。用于团状的物体：蜀～线|蜀～铁线丝。",
+      "has_audio": false
+    },
+    {
+      "word": "主",
+      "pinyin": "zou3",
+      "ipa": "tsɔu453",
+      "definition": "量词。相当于“家”：者～有五个侬。",
+      "has_audio": false
+    },
+    {
+      "word": "举",
+      "pinyin": "gyoh7",
+      "ipa": "kyɒʔ4",
+      "definition": "举；撑：手厄～蜀枝刀|手～悬（举起手来）。",
+      "has_audio": false
+    },
+    {
+      "word": "乃",
+      "pinyin": "ne3",
+      "ipa": "ne453",
+      "definition": "①叹词，应答：～，我在者。②为什么：伊～卜拍我。",
+      "has_audio": false
+    },
+    {
+      "word": "乞",
+      "pinyin": "koh6",
+      "ipa": "khɔʔ1",
+      "definition": "①向人讨要：～钱|～食。②给：饼提蜀个～伊食。③收养：伊～蜀个囝饲（他收养了一个孩子）。④介词，在被动句中引进施事：～狗咬|～车撞着|～伊骂。",
+      "has_audio": false
+    },
+    {
+      "word": "亦",
+      "pinyin": "iah6",
+      "ipa": "aʔ1",
+      "definition": "副词，也：我～卜去|四川～有枇杷|汝～着去看蜀下。",
+      "has_audio": false
+    },
+    {
+      "word": "介",
+      "pinyin": "ga4",
+      "ipa": "ka42",
+      "definition": "“家己”的合音：～厄册伓肯借别侬。",
+      "has_audio": false
+    },
+    {
+      "word": "企",
+      "pinyin": "kyo4",
+      "ipa": "khyɒ42",
+      "definition": "竖：～白旗|头～～（抬头有所期望的样子）。",
+      "has_audio": false
+    },
+    {
+      "word": "伏",
+      "pinyin": "①bu5",
+      "ipa": "pu21",
+      "definition": "孵：～蛋。②量词。用于禽类一窝孵出来的雏儿：几～鸡囝。",
+      "has_audio": false
+    },
+    {
+      "word": "伐",
+      "pinyin": "hyoh7",
+      "ipa": "hyɒʔ4",
+      "definition": "量词。用于步长：三～长。",
+      "has_audio": false
+    },
+    {
+      "word": "伓",
+      "pinyin": "ng5",
+      "ipa": "ŋ21",
+      "definition": "副词，相当于普通话“不”：～肯|～使讲（不用说）|～好食|～值|～快活。‖也有写作“毋”。",
+      "has_audio": false
+    },
+    {
+      "word": "伞",
+      "pinyin": "sua3",
+      "ipa": "ɬua453",
+      "definition": "雨伞。",
+      "has_audio": false
+    },
+    {
+      "word": "伤",
+      "pinyin": "siao1",
+      "ipa": "ɬiau533",
+      "definition": "副词，表示程度过分：光线～暗|～无汤|色气～乌（颜色太黑）。",
+      "has_audio": false
+    },
+    {
+      "word": "伫",
+      "pinyin": "dyo5",
+      "ipa": "tyɒ21",
+      "definition": "活着；在：伊阿叔九十几岁，复～。",
+      "has_audio": false
+    },
+    {
+      "word": "位",
+      "pinyin": "ua5",
+      "ipa": "ui21",
+      "definition": "量词。用于地点、位置、座位等：几～地方|占几～位置。",
+      "has_audio": false
+    },
+    {
+      "word": "佮",
+      "pinyin": "gor5",
+      "ipa": "kɒʔ1",
+      "definition": "搭配：买米～薯干。",
+      "has_audio": false
+    },
+    {
+      "word": "俐",
+      "pinyin": "lia5",
+      "ipa": "lia21",
+      "definition": "①（言语、动作）灵活敏捷：伊爬树大～。②清楚：兄弟囝家产着分到～。",
+      "has_audio": false
+    },
+    {
+      "word": "倩",
+      "pinyin": "cia4",
+      "ipa": "tshia42",
+      "definition": "雇：～工（雇工）|△用钱买炮～侬放（自己花了代价反而让他人享受）。",
+      "has_audio": false
+    },
+    {
+      "word": "偌",
+      "pinyin": "zyo2",
+      "ipa": "tsyɒ13",
+      "definition": "这么：汝食～紧（你吃得这么快）|有～大头（个头有这么大）。",
+      "has_audio": false
+    },
+    {
+      "word": "傩",
+      "pinyin": "nor2",
+      "ipa": "nɒ13",
+      "definition": "刚刚：～卜起鼓做（刚刚要开始做）。‖“傩”近音字。",
+      "has_audio": false
+    },
+    {
+      "word": "僜",
+      "pinyin": "deng1",
+      "ipa": "tɛŋ533",
+      "definition": "走路不稳跌跌撞撞：行～阿～。",
+      "has_audio": false
+    },
+    {
+      "word": "僭",
+      "pinyin": "ciang4",
+      "ipa": "tshiaŋ42",
+      "definition": "加塞：伊无排队，～头前去。",
+      "has_audio": false
+    },
+    {
+      "word": "先",
+      "pinyin": "seng1",
+      "ipa": "ɬɛŋ533",
+      "definition": "①占便宜：讲～讲可（占便宜）②欺负：～侬（欺负人）|大房～细房（旧时大家族欺负人丁少的小家族）。",
+      "has_audio": false
+    },
+    {
+      "word": "光",
+      "pinyin": "gung1",
+      "ipa": "kuŋ533",
+      "definition": "①亮，与“暗”相对：电光大～（电灯很亮）|无～无暗（不论白天或黑夜）。②天～咯。",
+      "has_audio": false
+    },
+    {
+      "word": "兜",
+      "pinyin": "dao1",
+      "ipa": "tau533",
+      "definition": "①环绕；围绕：～蜀大圈。②延续。△暗雨～暝（入夜时下的雨，会延续大半个晚上）。③承担：△豆炒逐个食，鼎坏蜀侬～（喻有福大家享，有难一人当）。④量词。单棵的植物。",
+      "has_audio": false
+    },
+    {
+      "word": "共",
+      "pinyin": "gang5",
+      "ipa": "kaŋ21",
+      "definition": "①和；跟：我～汝无冤带无仇。②又：冬至月中央，无雪～无霜。",
+      "has_audio": false
+    },
+    {
+      "word": "冇",
+      "pinyin": "por4",
+      "ipa": "phɒ42",
+      "definition": "①稀散，不紧密：～柴（软木）|～粟（秕谷）|△讲话起～母（喻吹牛）②手松，不计较钱财；随便：伊使钱连天～。",
+      "has_audio": false
+    },
+    {
+      "word": "再",
+      "pinyin": "zai4",
+      "ipa": "ai42",
+      "definition": "又：伊～来咯。",
+      "has_audio": false
+    },
+    {
+      "word": "军",
+      "pinyin": "gong1",
+      "ipa": "kɔŋ533",
+      "definition": "象棋下法之一。将(将军)。",
+      "has_audio": false
+    },
+    {
+      "word": "准",
+      "pinyin": "zong3",
+      "ipa": "tsɔŋ453",
+      "definition": "权当：△跋倒～拾艺（喻从失败中吸取经验教训）。",
+      "has_audio": false
+    },
+    {
+      "word": "凭",
+      "pinyin": "bia2",
+      "ipa": "pia13",
+      "definition": "①描：～字。②点（火）：～火。",
+      "has_audio": false
+    },
+    {
+      "word": "凿",
+      "pinyin": "cah7",
+      "ipa": "tshaʔ4",
+      "definition": "（拳）打：～腹肚|乞伊～几下。",
+      "has_audio": false
+    },
+    {
+      "word": "刣",
+      "pinyin": "tai2",
+      "ipa": "thai13",
+      "definition": "杀；宰杀：～侬（杀人）|～鸡|△死猪～无血（喻榨不出什么油水）。",
+      "has_audio": false
+    },
+    {
+      "word": "利",
+      "pinyin": "lai5",
+      "ipa": "lai21",
+      "definition": "锋利，与“钝”相对：刀～。|△粗鱼～肚（表面看起来很粗陋，可是肚子里却是锋利）",
+      "has_audio": false
+    },
+    {
+      "word": "别",
+      "pinyin": "beh6",
+      "ipa": "pɛʔ1",
+      "definition": "认识：我伓～者个侬（我不认得这个人）|～字（识字）|△有钱有侬～，无钱臭木虱（指认钱不认人的势利世态）。",
+      "has_audio": false
+    },
+    {
+      "word": "刺",
+      "pinyin": "cia5",
+      "ipa": "tshia21",
+      "definition": "①用尖锐物插入：用刀～侬。②手工针织（毛衣）：～毛衫（织毛衣）。③宰：今旦买墨鱼干，乞～去。",
+      "has_audio": false
+    },
+    {
+      "word": "副",
+      "pinyin": "hu4",
+      "ipa": "hu42",
+      "definition": "量词。①用于成双物体。也称双：蜀～箸。②用于衣服，相当“套”：蜀～衫裤。",
+      "has_audio": false
+    },
+    {
+      "word": "勇",
+      "pinyin": "oeng3",
+      "ipa": "œŋ453",
+      "definition": "强壮。",
+      "has_audio": false
+    },
+    {
+      "word": "勘",
+      "pinyin": "kang4",
+      "ipa": "khaŋ42",
+      "definition": "问：我伓知晓，汝去～伊（我不懂，你去问他）|△食番薯厄侬伓通去～米价（喻寒酸的人不要去问高档货）。",
+      "has_audio": false
+    },
+    {
+      "word": "化",
+      "pinyin": "hua4",
+      "ipa": "hua42",
+      "definition": "烧化冥钱。",
+      "has_audio": false
+    },
+    {
+      "word": "卓",
+      "pinyin": "dorh6",
+      "ipa": "tɒʔ1",
+      "definition": "竖立，使直立：将箠～住|～伊鼻空头会带勿会（喻某物不是他的）。",
+      "has_audio": false
+    },
+    {
+      "word": "卜",
+      "pinyin": "boh6",
+      "ipa": "pɔʔ1",
+      "definition": "①希望得到，想获得，常和“挃”组成“卜挃”：我～这个。②相当于普通话“将（要）”、“快（要）”：车～来咯|天～暗咯。③与“那”连用，组成“那卜”，表示“要是”：",
+      "has_audio": false
+    },
+    {
+      "word": "印",
+      "pinyin": "ing4",
+      "ipa": "iŋ42",
+      "definition": "印章。",
+      "has_audio": false
+    },
+    {
+      "word": "压",
+      "pinyin": "da5",
+      "ipa": "ta21",
+      "definition": "压：用石头～|乞～袂喘气。‖“压”，训读字。",
+      "has_audio": false
+    },
+    {
+      "word": "厝",
+      "pinyin": "cou4",
+      "ipa": "tshɔu42",
+      "definition": "①房屋。②量词。相当于“家”。",
+      "has_audio": false
+    },
+    {
+      "word": "厫",
+      "pinyin": "go2",
+      "ipa": "ko13",
+      "definition": "谷仓。",
+      "has_audio": false
+    },
+    {
+      "word": "厮",
+      "pinyin": "so1",
+      "ipa": "ɬo533",
+      "definition": "互相：～央|叫～骂|两个侬齐～拍。",
+      "has_audio": false
+    },
+    {
+      "word": "反",
+      "pinyin": "be3",
+      "ipa": "pe453",
+      "definition": "翻：被曝蜀歇囝着～过再曝（被子晒一会儿就要翻过去再晒。）|～来～去睏袂落眠。",
+      "has_audio": false
+    },
+    {
+      "word": "只",
+      "pinyin": "zia5",
+      "ipa": "tsia21",
+      "definition": "量词。用于桌椅：蜀～椅囝。",
+      "has_audio": false
+    },
+    {
+      "word": "合",
+      "pinyin": "horh7",
+      "ipa": "hɒʔ4",
+      "definition": "紧：门关～。",
+      "has_audio": false
+    },
+    {
+      "word": "同",
+      "pinyin": "dang2",
+      "ipa": "taŋ13",
+      "definition": "向着；偏袒：伊做坏事，汝偷～|△阿姑惜孙～姑姓（姑姑偏袒疼爱侄儿、侄女）。",
+      "has_audio": false
+    },
+    {
+      "word": "吓",
+      "pinyin": "hia3",
+      "ipa": "hia453",
+      "definition": "吓唬：我乞～一下都眩落尾（我被大声骂一下都懵了）|△大奶～细囝（喻以势压人）。",
+      "has_audio": false
+    },
+    {
+      "word": "告",
+      "pinyin": "go4",
+      "ipa": "ko42",
+      "definition": "告状：去～。",
+      "has_audio": false
+    },
+    {
+      "word": "呻",
+      "pinyin": "ceng1",
+      "ipa": "tshɛŋ533",
+      "definition": "呻吟：伊手痛透暝昏～无歇（他手痛整个晚上一直呻吟）|△阿舅拍阿甥，敢吼伓敢～。",
+      "has_audio": false
+    },
+    {
+      "word": "呼",
+      "pinyin": "kou1",
+      "ipa": "khɔu533",
+      "definition": "呼唤（动物）：～鸡|△做狗乞侬～（喻甘愿受人使唤）。○另见【呼】[hɔu533]在第94页.",
+      "has_audio": false
+    },
+    {
+      "word": "哄",
+      "pinyin": "horng5",
+      "ipa": "hɒŋ21",
+      "definition": "谣传：街上～讲卜地震。",
+      "has_audio": false
+    },
+    {
+      "word": "哝",
+      "pinyin": "norng2",
+      "ipa": "nɒŋ13",
+      "definition": "应该：～做好事，伓通做坏事。‖“那当”的合音。“哝”近音字。",
+      "has_audio": false
+    },
+    {
+      "word": "哽",
+      "pinyin": "ga3",
+      "ipa": "ka453",
+      "definition": "卡住‘噎：乞番薯～|乞鱼骨～。",
+      "has_audio": false
+    },
+    {
+      "word": "啐",
+      "pinyin": "tui4",
+      "ipa": "thui42",
+      "definition": "从口中吐出来：味素无好，厄紧～出外（味道不好，赶紧吐出来）|△蜀嘴澜留动喉，伓通～狗头（指不值得与对方理论）。",
+      "has_audio": false
+    },
+    {
+      "word": "啜",
+      "pinyin": "cuai5",
+      "ipa": "tshuai21",
+      "definition": "小口喝：～蜀嘴酒。",
+      "has_audio": false
+    },
+    {
+      "word": "喷",
+      "pinyin": "pong4",
+      "ipa": "phɔŋ42",
+      "definition": "溅：水～蜀身。",
+      "has_audio": false
+    },
+    {
+      "word": "嗍",
+      "pinyin": "su5",
+      "ipa": "ɬu21",
+      "definition": "吮吸；叮：△鲫母缠脚厄无，胡蜞～血厄有（喻没有带来好处，却是来索取的）。",
+      "has_audio": false
+    },
+    {
+      "word": "嗛",
+      "pinyin": "gor2",
+      "ipa": "kɒ13",
+      "definition": "叼：狗～骨头|嘴厄～蜀枝薰枝。",
+      "has_audio": false
+    },
+    {
+      "word": "嘴",
+      "pinyin": "cui4",
+      "ipa": "tshui42",
+      "definition": "①口；嘴巴。②量词。相当于“口”：蜀～糜。‖“嘴”，训读字。本字为“喙”。",
+      "has_audio": false
+    },
+    {
+      "word": "嘻",
+      "pinyin": "hi2",
+      "ipa": "hi13",
+      "definition": "笑：乞侬～|伊今旦有甚么好事，那～阿～|嘴～～。",
+      "has_audio": false
+    },
+    {
+      "word": "囝",
+      "pinyin": "gyo3",
+      "ipa": "kyɒ453",
+      "definition": "①儿子。②加在名词词素后，表示小：鸡～（小鸡）|店～③加在名词词素后作为后缀：娘～（蚕）|新妇～（童养媳）。④加在名词词素后，无词汇意义：钳～（钳）|椅～（椅子",
+      "has_audio": false
+    },
+    {
+      "word": "回",
+      "pinyin": "huai2",
+      "ipa": "huai13",
+      "definition": "①恢复：树乞日头曝卜死落尾，复未曾～。②回礼：△送菜～猪脚（喻回礼厚重）。",
+      "has_audio": false
+    },
+    {
+      "word": "囥",
+      "pinyin": "kung4",
+      "ipa": "khuŋ42",
+      "definition": "藏；放：物乇～底落无看见（东西藏在什么地方看不到）|册～床顶（书放在桌子上）|△家富～两犁，家败讨两妻（勤劳致富，思淫败家）。",
+      "has_audio": false
+    },
+    {
+      "word": "园",
+      "pinyin": "huai2",
+      "ipa": "huai13",
+      "definition": "①旱地。园头园角掘松，顶做蜀工（边边角角的活儿，还是挺多的）。‖也叫【园地】见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "圈",
+      "pinyin": "koeng1",
+      "ipa": "khœŋ533",
+      "definition": "①画圈：在地下～蜀～。②零。③除名：将伊名乞～落尾。",
+      "has_audio": false
+    },
+    {
+      "word": "圣",
+      "pinyin": "sia4",
+      "ipa": "ɬia42",
+      "definition": "灵验：九鲤湖仙梦大有～。",
+      "has_audio": false
+    },
+    {
+      "word": "场",
+      "pinyin": "dyong2",
+      "ipa": "tyɒŋ13",
+      "definition": "量词。全本戏。",
+      "has_audio": false
+    },
+    {
+      "word": "坊",
+      "pinyin": "hng1",
+      "ipa": "hŋ533",
+      "definition": "牌坊。",
+      "has_audio": false
+    },
+    {
+      "word": "坎",
+      "pinyin": "kang3",
+      "ipa": "khaŋ453",
+      "definition": "量词。①用于店面：三～拖（一个店铺由三个连续店面组成）。②用于茅坑。",
+      "has_audio": false
+    },
+    {
+      "word": "坠",
+      "pinyin": "tui5",
+      "ipa": "thui21",
+      "definition": "①往下沉：芒果生伤多树葩都～落尾（芒果生得太多，树枝都被压沉下去了）。②拖累：老妈无工作，亦去～伊。",
+      "has_audio": false
+    },
+    {
+      "word": "坵",
+      "pinyin": "ku1",
+      "ipa": "khu533",
+      "definition": "量词。用于田地：蜀～田。",
+      "has_audio": false
+    },
+    {
+      "word": "垞",
+      "pinyin": "ta2",
+      "ipa": "tha13",
+      "definition": "果园。",
+      "has_audio": false
+    },
+    {
+      "word": "埔",
+      "pinyin": "bou1",
+      "ipa": "pɔu533",
+      "definition": "台地：飞船～（涵江地名，那里有大片台地）。",
+      "has_audio": false
+    },
+    {
+      "word": "埭",
+      "pinyin": "dui5",
+      "ipa": "tui21",
+      "definition": "海边滩涂上所筑的土堤。多用于地名：埭里。",
+      "has_audio": false
+    },
+    {
+      "word": "埾",
+      "pinyin": "sou5",
+      "ipa": "ɬɔu21",
+      "definition": "垫：～尿布|鞋底～。",
+      "has_audio": false
+    },
+    {
+      "word": "墘",
+      "pinyin": "ging2",
+      "ipa": "kiŋ13",
+      "definition": "边沿。",
+      "has_audio": false
+    },
+    {
+      "word": "墟",
+      "pinyin": "hy1",
+      "ipa": "hy533",
+      "definition": "旧指市场。",
+      "has_audio": false
+    },
+    {
+      "word": "复",
+      "pinyin": "horh7",
+      "ipa": "hɒʔ4",
+      "definition": "副词，①还：糜～未曾熟|我～有两百个（块）钱。②表示对某件事物，没想到如此，还真如此：伊～真经有两下囝（他还真的有两下子）",
+      "has_audio": false
+    },
+    {
+      "word": "央",
+      "pinyin": "yong1",
+      "ipa": "yɒŋ533",
+      "definition": "帮忙：我～侬写信|我乞侬～去割粙（我帮别人割稻）。",
+      "has_audio": false
+    },
+    {
+      "word": "奇",
+      "pinyin": "kyo1",
+      "ipa": "khyɒ55",
+      "definition": "单数。",
+      "has_audio": false
+    },
+    {
+      "word": "奶",
+      "pinyin": "neng1",
+      "ipa": "nɛŋ533",
+      "definition": "①乳房。或称□奶鼓。②乳汁：食～。",
+      "has_audio": false
+    },
+    {
+      "word": "嫌",
+      "pinyin": "hiang2",
+      "ipa": "hiaŋ13",
+      "definition": "①厌恶，不满意：无～（满意）。②埋怨：△勿会撑船～溪阔（喻自己没本领做不来，却把原因推给别人或客观条件）。",
+      "has_audio": false
+    },
+    {
+      "word": "孙",
+      "pinyin": "song1",
+      "ipa": "ɬɔŋ533",
+      "definition": "①孙子或孙女。②（姑姑的）侄儿或侄女：阿姑惜～同姑姓（姑姑疼惜侄儿，向着娘家）。",
+      "has_audio": false
+    },
+    {
+      "word": "孱",
+      "pinyin": "soe3",
+      "ipa": "ɬø453",
+      "definition": "累：我踏车大～|功夫头重，侬～（活儿重，人累）。",
+      "has_audio": false
+    },
+    {
+      "word": "定",
+      "pinyin": "dia5",
+      "ipa": "tia21",
+      "definition": "①安静不动；稳当：车歇复未曾～，伓通开门。②没有声响：～息息都无侬做声。③镇定：△酒醉三分～（醉酒的人虽然昏昏沉沉，但并不是全都不知道）。",
+      "has_audio": false
+    },
+    {
+      "word": "实",
+      "pinyin": "seh7",
+      "ipa": "ɬɛʔ4",
+      "definition": "紧实：旅行袋里物乇（东西）装～～。",
+      "has_audio": false
+    },
+    {
+      "word": "容",
+      "pinyin": "oeng2",
+      "ipa": "œŋ13",
+      "definition": "宠：～呆囝（宠纵小孩）|△～狗爬灶，～猪犁灶，～囝不孝（喻对孩子的一味宠爱，只会带来不好的后果）。",
+      "has_audio": false
+    },
+    {
+      "word": "密",
+      "pinyin": "beh7",
+      "ipa": "pɛʔ4",
+      "definition": "①隐蔽：事体乞遮瞒大～。②空隙小：侬众挤～～。",
+      "has_audio": false
+    },
+    {
+      "word": "寒",
+      "pinyin": "gua2",
+      "ipa": "kua13",
+      "definition": "冷，与“热”相对：天时～|～天。",
+      "has_audio": false
+    },
+    {
+      "word": "寻",
+      "pinyin": "cing2",
+      "ipa": "tshiŋ13",
+      "definition": "①介词，相当于普通话“从”：～许爿行（从那边走）|～车站到体育中心有三路车。",
+      "has_audio": false
+    },
+    {
+      "word": "将",
+      "pinyin": "zyong1",
+      "ipa": "tsyɒŋ533",
+      "definition": "把：～衣裳放橱里|～地下填到平。",
+      "has_audio": false
+    },
+    {
+      "word": "尥",
+      "pinyin": "liu4",
+      "ipa": "liu42",
+      "definition": "用力蹬；挣扎：水鸡～阿～。",
+      "has_audio": false
+    },
+    {
+      "word": "尽",
+      "pinyin": "zing5",
+      "ipa": "tsiŋ21",
+      "definition": "①全部用出：～力草做。②副词，很：～欢喜|天时～热。",
+      "has_audio": false
+    },
+    {
+      "word": "尾",
+      "pinyin": "buai3",
+      "ipa": "puai453",
+      "definition": "①尾巴。②量词。长条形动物：蜀～大蛇|蜀～鱼。",
+      "has_audio": false
+    },
+    {
+      "word": "局",
+      "pinyin": "goeh6",
+      "ipa": "kœʔ1",
+      "definition": "逼：伊逐工来～钱。",
+      "has_audio": false
+    },
+    {
+      "word": "层",
+      "pinyin": "zeng2",
+      "ipa": "tsɛŋ13",
+      "definition": "量词。用于层叠之类的东西：蜀～眠床|蜀～册橱|蜀～磨。",
+      "has_audio": false
+    },
+    {
+      "word": "屈",
+      "pinyin": "koh7",
+      "ipa": "khɔʔ4",
+      "definition": "短：者件衫穿～～（这件衣服穿起来很短的）。",
+      "has_audio": false
+    },
+    {
+      "word": "岫",
+      "pinyin": "siu4",
+      "ipa": "ɬiu42",
+      "definition": "量词。相当于“窝”：蜀～鸟囝。",
+      "has_audio": false
+    },
+    {
+      "word": "帕",
+      "pinyin": "por4",
+      "ipa": "phɒ42",
+      "definition": "罩：～头|电视无看用布乞～厄（电视没有看，用布罩住）。○另见【帕】phɒ42。",
+      "has_audio": false
+    },
+    {
+      "word": "幅",
+      "pinyin": "bah6",
+      "ipa": "paʔ1",
+      "definition": "量词。用于布匹。",
+      "has_audio": false
+    },
+    {
+      "word": "平",
+      "pinyin": "ba2",
+      "ipa": "pa13",
+      "definition": "①表面没有高低凹凸，像静止的水面一样:地势①。②口音合于当地的：者个侬讲话～。",
+      "has_audio": false
+    },
+    {
+      "word": "并",
+      "pinyin": "pia5",
+      "ipa": "phia21",
+      "definition": "①比较：两个侬～看许侬厄悬（两个人比比看谁个子高）。②比画：用手～我看。③介词，用于比较性状和程度的差别：我工资～汝厄少|汝呆～我厄大个|我过厄桥～汝行厄路厄多",
+      "has_audio": false
+    },
+    {
+      "word": "幼",
+      "pinyin": "iu4",
+      "ipa": "iu42",
+      "definition": "①嫩：者菜食～～|呆囝肌骨复～。②某些食物烹调时间短，容易咀嚼：猪肝炒连天～。",
+      "has_audio": false
+    },
+    {
+      "word": "应",
+      "pinyin": "ia4",
+      "ipa": "ia42",
+      "definition": "试：我～看会使得勿会（我试试看能不能用）。",
+      "has_audio": false
+    },
+    {
+      "word": "底",
+      "pinyin": "de3",
+      "ipa": "te453",
+      "definition": "哪：～蜀个侬（哪个人）|～时（什么时候）。",
+      "has_audio": false
+    },
+    {
+      "word": "座",
+      "pinyin": "zo5",
+      "ipa": "tso21",
+      "definition": "量词。房屋的进数：者厝是双～厄。",
+      "has_audio": false
+    },
+    {
+      "word": "廪",
+      "pinyin": "ling3",
+      "ipa": "liŋ453",
+      "definition": "贮藏谷子的木柜。",
+      "has_audio": false
+    },
+    {
+      "word": "张",
+      "pinyin": "dung1",
+      "ipa": "tuŋ533",
+      "definition": "守候以捕捉：用庐鼠笼～庐鼠。",
+      "has_audio": false
+    },
+    {
+      "word": "往",
+      "pinyin": "orng3",
+      "ipa": "ɒŋ453",
+      "definition": "①事情多，不得空，跟“闲”相对：我无空，实在～。②急迫不停地、加紧做：汝最近～甚么？",
+      "has_audio": false
+    },
+    {
+      "word": "徙",
+      "pinyin": "syo3",
+      "ipa": "ɬyɒ453",
+      "definition": "移动：者铺卜～到底落去（这床铺要移到哪里去）？|日头～到树顶尾。",
+      "has_audio": false
+    },
+    {
+      "word": "徛",
+      "pinyin": "kyo5",
+      "ipa": "khyɒ21",
+      "definition": "站立：～后向（站在后面）|～座（站票）。",
+      "has_audio": false
+    },
+    {
+      "word": "必",
+      "pinyin": "biah6",
+      "ipa": "piaʔ1",
+      "definition": "裂开：地下～蜀缝|△脚闲嘴～裂（相当于“不劳动者不得食”）。",
+      "has_audio": false
+    },
+    {
+      "word": "忍",
+      "pinyin": "nong3",
+      "ipa": "nɔŋ453",
+      "definition": "①担心：爬许悬，看了乞～（爬那么高，看了真担心）。②匀出：～蜀碗乞伊食。",
+      "has_audio": false
+    },
+    {
+      "word": "念",
+      "pinyin": "niang5",
+      "ipa": "niaŋ21",
+      "definition": "①背诵：者首诗～乞我听。②念叨：嘴里～说旧底的事体（过去的事）。③惦记：～伊往日过有央我做事体。",
+      "has_audio": false
+    },
+    {
+      "word": "怂",
+      "pinyin": "corng5",
+      "ipa": "tshɒŋ21",
+      "definition": "怂恿：日日～我去买股票|△～侬蜀句古井深（指怂恿人的话引起的后果就像古井那么深）。",
+      "has_audio": false
+    },
+    {
+      "word": "恶",
+      "pinyin": "o4",
+      "ipa": "o42",
+      "definition": "不易：艰苦日子～过。",
+      "has_audio": false
+    },
+    {
+      "word": "惊",
+      "pinyin": "gia1",
+      "ipa": "kia533",
+      "definition": "①怕：六月～大风|△～阿～，～南兄（喻越不希望发生的事往往越可能会发生）。②表示担心：～伊食无饱，舀加两瓢糜乞伊。",
+      "has_audio": false
+    },
+    {
+      "word": "惜",
+      "pinyin": "siao5",
+      "ipa": "ɬiau21",
+      "definition": "疼爱；疼惜：娘妳～囝。",
+      "has_audio": false
+    },
+    {
+      "word": "惨",
+      "pinyin": "cang3",
+      "ipa": "tshaŋ453",
+      "definition": "①贫穷，与“财主（富有）”相对：伊家庭～。",
+      "has_audio": false
+    },
+    {
+      "word": "惬",
+      "pinyin": "kiah6",
+      "ipa": "khiaʔ1",
+      "definition": "乖：阿毜大～（小孩子很乖）。",
+      "has_audio": false
+    },
+    {
+      "word": "慢",
+      "pinyin": "me5",
+      "ipa": "me21",
+      "definition": "态度冷淡，没有礼貌；傲慢：伊者个侬～～。",
+      "has_audio": false
+    },
+    {
+      "word": "慭",
+      "pinyin": "ngiang5",
+      "ipa": "ŋiaŋ21",
+      "definition": "瘾：鸦片～|过～。",
+      "has_audio": false
+    },
+    {
+      "word": "截",
+      "pinyin": "ze5",
+      "ipa": "tse21",
+      "definition": "量词。相当“段”：雨是逐～逐～来厄。",
+      "has_audio": false
+    },
+    {
+      "word": "扞",
+      "pinyin": "gua5",
+      "ipa": "kua21",
+      "definition": "垂手提：～水桶。",
+      "has_audio": false
+    },
+    {
+      "word": "扶",
+      "pinyin": "pou2",
+      "ipa": "phɔu13",
+      "definition": "①用双手托住往上推：～石头。②巴结：伊专门～头家。",
+      "has_audio": false
+    },
+    {
+      "word": "批",
+      "pinyin": "pe2",
+      "ipa": "pe13",
+      "definition": "用张开的手掌猛力挥打。",
+      "has_audio": false
+    },
+    {
+      "word": "折",
+      "pinyin": "ze2",
+      "ipa": "tse13",
+      "definition": "量词。全场戏中的一节。",
+      "has_audio": false
+    },
+    {
+      "word": "护",
+      "pinyin": "hou5",
+      "ipa": "hɔu21",
+      "definition": "①袒护：伊那～介厄侬（他只袒护自己一方的人）。②迁就：伓使合伊蜀样，～～几日伊卜行咯（不要跟他一样见识，维持几天要走了）。",
+      "has_audio": false
+    },
+    {
+      "word": "抱",
+      "pinyin": "po5",
+      "ipa": "pho21",
+      "definition": "量词。用于成团成丛的东西：蜀～云|蜀～刺（荆棘）。",
+      "has_audio": false
+    },
+    {
+      "word": "抴",
+      "pinyin": "cyo4",
+      "ipa": "tshyɒ42",
+      "definition": "引；带；领：～几个侬去（带几个人去）我伓知迹，汝～路（我不识路，你带路）。",
+      "has_audio": false
+    },
+    {
+      "word": "拃",
+      "pinyin": "diah7",
+      "ipa": "tiaʔ4",
+      "definition": "量词。大拇指和食指之间的距离：两～阔。",
+      "has_audio": false
+    },
+    {
+      "word": "担",
+      "pinyin": "dor1",
+      "ipa": "tɒ533",
+      "definition": "挑：～柴|～水沃菜（挑水浇菜）。",
+      "has_audio": false
+    },
+    {
+      "word": "拉",
+      "pinyin": "lor2",
+      "ipa": "lɒ13",
+      "definition": "拉肚子。",
+      "has_audio": false
+    },
+    {
+      "word": "拌",
+      "pinyin": "bua5",
+      "ipa": "pua21",
+      "definition": "掸；抖落：～塕尘（掸灰尘）。",
+      "has_audio": false
+    },
+    {
+      "word": "拍",
+      "pinyin": "pa5",
+      "ipa": "pha21",
+      "definition": "①打；殴打；攻打：～侬（打人）|厮～（打架）|美国～伊拉克。②代替一些具体意义的动词：～发票|～针|～厮告（打官司）|～包|～断|～伓见（不见了）③介词，从；朝",
+      "has_audio": false
+    },
+    {
+      "word": "拖",
+      "pinyin": "tua1",
+      "ipa": "thua533",
+      "definition": "量词。用于连串的人或动植物：蜀～侬|蜀～葡萄。",
+      "has_audio": false
+    },
+    {
+      "word": "拟",
+      "pinyin": "gi2",
+      "ipa": "ki13",
+      "definition": "扎；剌：用刀～乞死。",
+      "has_audio": false
+    },
+    {
+      "word": "拨",
+      "pinyin": "bua5",
+      "ipa": "pua21",
+      "definition": "①拨：用力～一下笃走。②调动：～到山区工作。",
+      "has_audio": false
+    },
+    {
+      "word": "拭",
+      "pinyin": "cih6",
+      "ipa": "tshi21",
+      "definition": "擦：～尻川（擦屁股）。",
+      "has_audio": false
+    },
+    {
+      "word": "挠",
+      "pinyin": "ngiao1",
+      "ipa": "ŋiau533",
+      "definition": "用手指轻轻摸皮肤使觉得痒：伊乞～阿笑都袂止。",
+      "has_audio": false
+    },
+    {
+      "word": "挢",
+      "pinyin": "kiao2",
+      "ipa": "khiau13",
+      "definition": "（木板等）平直的面变形：者板～落尾，袂使得。",
+      "has_audio": false
+    },
+    {
+      "word": "挦",
+      "pinyin": "cyo3",
+      "ipa": "tshyɒ13",
+      "definition": "①拔：～芒（拔毛）|△老虎须亦敢去～（喻胆子非常大）。②用力摘：龙眼未曾熟，乞呆囝偷～去食。",
+      "has_audio": false
+    },
+    {
+      "word": "挨",
+      "pinyin": "e1",
+      "ipa": "e533",
+      "definition": "推：～门|～磨。",
+      "has_audio": false
+    },
+    {
+      "word": "挰",
+      "pinyin": "da2",
+      "ipa": "ta13",
+      "definition": "①遮挡；顶：火灯乞风吹卜灭，着用纸板来～|汝行边，伓使～我头前。",
+      "has_audio": false
+    },
+    {
+      "word": "捞",
+      "pinyin": "hou2",
+      "ipa": "hɔu13",
+      "definition": "捞：～沟涂（捞河泥）|～索面。",
+      "has_audio": false
+    },
+    {
+      "word": "捧",
+      "pinyin": "pang3",
+      "ipa": "phaŋ453",
+      "definition": "量词。用双手捧着细小颗粒状物体的数量：蜀～米|蜀～沙。",
+      "has_audio": false
+    },
+    {
+      "word": "捼",
+      "pinyin": "duai2",
+      "ipa": "tuai13",
+      "definition": "双手搓洗：～衫。",
+      "has_audio": false
+    },
+    {
+      "word": "掐",
+      "pinyin": "kiah7",
+      "ipa": "khiaʔ4",
+      "definition": "一种稻谷脱粒用具。两根木棍一头用绳子连起来，双手抓住另一头，用绳子掐住稻子头部，再用棍子夹紧，举起并将稻穗砸在摔稻椅（一种脱粒用的农具）上，以脱粒。‖参看【摔粙",
+      "has_audio": false
+    },
+    {
+      "word": "掘",
+      "pinyin": "goh7",
+      "ipa": "kɔʔ4",
+      "definition": "挖掘：～涂|△锄头～～，阿弥陀佛（喻专心耕田，不管闲事，以求过一个清闲的生活）。",
+      "has_audio": false
+    },
+    {
+      "word": "掜",
+      "pinyin": "nge2",
+      "ipa": "ŋe13",
+      "definition": "闹别扭，摩擦：绕你甚生讲，他偏偏卜甲你～蜀下。",
+      "has_audio": false
+    },
+    {
+      "word": "掩",
+      "pinyin": "ing1",
+      "ipa": "iŋ533",
+      "definition": "以手掩遮:～目珠（用手遮住眼睛）|手细卜～大尻川（喻做超过自己能力的事）。",
+      "has_audio": false
+    },
+    {
+      "word": "插",
+      "pinyin": "cor5",
+      "ipa": "tshɒ21",
+      "definition": "搀扶：～病侬行路。",
+      "has_audio": false
+    },
+    {
+      "word": "揽",
+      "pinyin": "lang3",
+      "ipa": "laŋ453",
+      "definition": "搂；抱：将呆囝～身边|两个侬齐厮～（两个人搂抱在一起）。",
+      "has_audio": false
+    },
+    {
+      "word": "搅",
+      "pinyin": "gor3",
+      "ipa": "kɒ453",
+      "definition": "①搅拌：水～到浓（把水搅浑）。②扰乱：都是伊蜀个侬～厄整个单位齐勿会和（都是他一个人无端生事，使得整个单位不和）。",
+      "has_audio": false
+    },
+    {
+      "word": "搝",
+      "pinyin": "kiu3",
+      "ipa": "khiu453",
+      "definition": "揪；拉：～索（拉绳子）|～拔河|△钝刀利手，袂落笃～（手的作用比工具更重要，即使砍不断，还可以用手把它扯断）。",
+      "has_audio": false
+    },
+    {
+      "word": "搡",
+      "pinyin": "sung5",
+      "ipa": "ɬuŋ21",
+      "definition": "猛推：～甲倒。",
+      "has_audio": false
+    },
+    {
+      "word": "搦",
+      "pinyin": "diah7",
+      "ipa": "tiaʔ4",
+      "definition": "①抓，捉：蜀个贼囝乞侬～着（一个小偷被人捉住）|△食卜食，虱母伓肯～（喻要吃不愿做）②介词，相当于“把”，在被动句中引进受事：伊～我碗拍破落尾（他把我的碗打破了",
+      "has_audio": false
+    },
+    {
+      "word": "搵",
+      "pinyin": "ong4",
+      "ipa": "ɔŋ42",
+      "definition": "蘸：～墨水|青干（虾米）～酱油。",
+      "has_audio": false
+    },
+    {
+      "word": "摆",
+      "pinyin": "bai3",
+      "ipa": "pai453",
+      "definition": "量词。相当于“次”。",
+      "has_audio": false
+    },
+    {
+      "word": "摔",
+      "pinyin": "sah6",
+      "ipa": "ɬaʔ1",
+      "definition": "①跌倒：伊乞～地下。②摔打：～稻。",
+      "has_audio": false
+    },
+    {
+      "word": "摖",
+      "pinyin": "loe4",
+      "ipa": "lø42",
+      "definition": "用力擦：～铁鉎|油桶用布～到净。",
+      "has_audio": false
+    },
+    {
+      "word": "撒",
+      "pinyin": "sah6",
+      "ipa": "ɬaʔ1",
+      "definition": "下：菜～鼎里。‖也叫【落】。",
+      "has_audio": false
+    },
+    {
+      "word": "撨",
+      "pinyin": "ciao2",
+      "ipa": "tshiau13",
+      "definition": "移动：～桌子|～蜀向（转一个方向）。",
+      "has_audio": false
+    },
+    {
+      "word": "攎",
+      "pinyin": "lou2",
+      "ipa": "lɔu13",
+      "definition": "拔：～豆|树乞大风～爬起。",
+      "has_audio": false
+    },
+    {
+      "word": "散",
+      "pinyin": "sua4",
+      "ipa": "ɬua42",
+      "definition": "分开；由聚集而分离：桶箍～落尾。",
+      "has_audio": false
+    },
+    {
+      "word": "敨",
+      "pinyin": "tao3",
+      "ipa": "thau453",
+      "definition": "解开：包厄物乇～开乞透透气。",
+      "has_audio": false
+    },
+    {
+      "word": "斟",
+      "pinyin": "cing1",
+      "ipa": "tshiŋ533",
+      "definition": "吻：～嘴。",
+      "has_audio": false
+    },
+    {
+      "word": "斠",
+      "pinyin": "gao4",
+      "ipa": "kau42",
+      "definition": "提斗。",
+      "has_audio": false
+    },
+    {
+      "word": "旋",
+      "pinyin": "soe5",
+      "ipa": "ɬø21",
+      "definition": "头发里的旋儿。",
+      "has_audio": false
+    },
+    {
+      "word": "无",
+      "pinyin": "bo2",
+      "ipa": "po13",
+      "definition": "副词，没；不：～时间|我～去|花～红。",
+      "has_audio": false
+    },
+    {
+      "word": "易",
+      "pinyin": "yo5",
+      "ipa": "yɒ21",
+      "definition": "换：～衫（换衣服）|旧电视～新。",
+      "has_audio": false
+    },
+    {
+      "word": "昧",
+      "pinyin": "buai5",
+      "ipa": "puai21",
+      "definition": "①天刚亮。②早饭。",
+      "has_audio": false
+    },
+    {
+      "word": "显",
+      "pinyin": "heng3",
+      "ipa": "hɛŋ453",
+      "definition": "显赫的样子；灵验：△菩萨～，行宫边（喻惹不起躲得起）。",
+      "has_audio": false
+    },
+    {
+      "word": "晏",
+      "pinyin": "ua4",
+      "ipa": "ua42",
+      "definition": "迟；晚。与“早”相对：天时～|我去伤～，会议起鼓咯。",
+      "has_audio": false
+    },
+    {
+      "word": "晴",
+      "pinyin": "sa2",
+      "ipa": "ɬa13",
+      "definition": "雨停。△雨兜暝，落袂～（入夜时下的雨，会下大半个晚上）。",
+      "has_audio": false
+    },
+    {
+      "word": "暴",
+      "pinyin": "bu4",
+      "ipa": "pu42",
+      "definition": "突然发迹：伊者几年生～爬起。",
+      "has_audio": false
+    },
+    {
+      "word": "曳",
+      "pinyin": "yo5",
+      "ipa": "yɒ21",
+      "definition": "撒：米～蜀地下|～种（播种）。",
+      "has_audio": false
+    },
+    {
+      "word": "未",
+      "pinyin": "buai5",
+      "ipa": "puai21",
+      "definition": "副词，①用在动词形容词前，表示“尚未”：伊去上班～到厝|我复～合伊讲|桃复～熟。②用于句末，表示对未发生行为的疑问：食～（吃了没有）|了～（好了吗）。",
+      "has_audio": false
+    },
+    {
+      "word": "条",
+      "pinyin": "diao2",
+      "ipa": "tiau13",
+      "definition": "量词。用于条形石块。",
+      "has_audio": false
+    },
+    {
+      "word": "果",
+      "pinyin": "gor3",
+      "ipa": "kɒ453",
+      "definition": "量词。用于硬币，也称片：蜀～钱果。",
+      "has_audio": false
+    },
+    {
+      "word": "枪",
+      "pinyin": "ciao1",
+      "ipa": "tshiau533",
+      "definition": "刺击用的长矛。",
+      "has_audio": false
+    },
+    {
+      "word": "枵",
+      "pinyin": "iao1",
+      "ipa": "iau533",
+      "definition": "肚子空，与“饱”相对：腹肚～。",
+      "has_audio": false
+    },
+    {
+      "word": "架",
+      "pinyin": "gor4",
+      "ipa": "kɒ42",
+      "definition": "量词。用于由器件搭构而成的物件：蜀～电脑|蜀～车|蜀～飞机|蜀～船。",
+      "has_audio": false
+    },
+    {
+      "word": "柎",
+      "pinyin": "bou2",
+      "ipa": "pɔu13",
+      "definition": "量词。①用于花。。②用于灯火，相当于“盏”：蜀～电光。",
+      "has_audio": false
+    },
+    {
+      "word": "柴",
+      "pinyin": "cor2",
+      "ipa": "tshɒ13",
+      "definition": "木头。",
+      "has_audio": false
+    },
+    {
+      "word": "栗",
+      "pinyin": "lih7",
+      "ipa": "liʔ4",
+      "definition": "板栗。",
+      "has_audio": false
+    },
+    {
+      "word": "栱",
+      "pinyin": "korng5",
+      "ipa": "khɒŋ21",
+      "definition": "①乌桕。",
+      "has_audio": false
+    },
+    {
+      "word": "核",
+      "pinyin": "hoh7",
+      "ipa": "hɔʔ4",
+      "definition": "量词。用于颗粒状各物：蜀～星|蜀～种子蜀～地生核（花生仁）。",
+      "has_audio": false
+    },
+    {
+      "word": "根",
+      "pinyin": "gyng1",
+      "ipa": "kyn533",
+      "definition": "倔强：者侬大～。",
+      "has_audio": false
+    },
+    {
+      "word": "桸",
+      "pinyin": "hyo1",
+      "ipa": "hyɒ533",
+      "definition": "带手柄的小鱼网。",
+      "has_audio": false
+    },
+    {
+      "word": "梗",
+      "pinyin": "ga3",
+      "ipa": "ka453",
+      "definition": "量词。相当于“枝”：蜀～草杆|蜀～索囝。",
+      "has_audio": false
+    },
+    {
+      "word": "棉",
+      "pinyin": "ming2",
+      "ipa": "miŋ13",
+      "definition": "棉胎。",
+      "has_audio": false
+    },
+    {
+      "word": "棚",
+      "pinyin": "ba2",
+      "ipa": "pa13",
+      "definition": "①用竹木绳子编成的简单支架，供某些瓜豆类攀藤生长：菜瓜～。②戏台：戏～。③量词，用于戏，相当于普通话“场”。",
+      "has_audio": false
+    },
+    {
+      "word": "椹",
+      "pinyin": "diang1",
+      "ipa": "tiaŋ533",
+      "definition": "硬物垫感：胛脊乞石头囝～。",
+      "has_audio": false
+    },
+    {
+      "word": "椿",
+      "pinyin": "tong1",
+      "ipa": "thɔŋ533",
+      "definition": "罗汉松。",
+      "has_audio": false
+    },
+    {
+      "word": "横",
+      "pinyin": "ua2",
+      "ipa": "ua13",
+      "definition": "拦；阻拦：蜀架车～头前|汝～许，伓通放伊行（拦住他，不要放他走）。",
+      "has_audio": false
+    },
+    {
+      "word": "橂",
+      "pinyin": "de5",
+      "ipa": "te21",
+      "definition": "硬实；坚固，与“冇”的①义相对：铺袋装～～|～柴。",
+      "has_audio": false
+    },
+    {
+      "word": "橱",
+      "pinyin": "diu2",
+      "ipa": "tiu13",
+      "definition": "橱柜。",
+      "has_audio": false
+    },
+    {
+      "word": "殄",
+      "pinyin": "tiang3",
+      "ipa": "thiaŋ453",
+      "definition": "程度深：煮无～。",
+      "has_audio": false
+    },
+    {
+      "word": "殆",
+      "pinyin": "dai2",
+      "ipa": "tai13",
+      "definition": "“第一”的合音。△～惨无钱，～伤无眠（穷得一文钱都没有是最可怕的，而睡眠不足，对身体的伤害也是最大的）。",
+      "has_audio": false
+    },
+    {
+      "word": "毣",
+      "pinyin": "mah6",
+      "ipa": "maʔ1",
+      "definition": "沾：涂沙～蜀手|裤～油漆。",
+      "has_audio": false
+    },
+    {
+      "word": "汝",
+      "pinyin": "dy3",
+      "ipa": "ty453",
+      "definition": "你。",
+      "has_audio": false
+    },
+    {
+      "word": "污",
+      "pinyin": "ou4",
+      "ipa": "ɔu42",
+      "definition": "秽气：月内房间大～。",
+      "has_audio": false
+    },
+    {
+      "word": "沓",
+      "pinyin": "tor2",
+      "ipa": "thɒ13",
+      "definition": "摞；垒：～椅囝|～红柑塔。",
+      "has_audio": false
+    },
+    {
+      "word": "沕",
+      "pinyin": "bi5",
+      "ipa": "pi21",
+      "definition": "潜（水）：～水里无看见。",
+      "has_audio": false
+    },
+    {
+      "word": "泅",
+      "pinyin": "siu2",
+      "ipa": "ɬiu13",
+      "definition": "游：～过沟（游过小河）。",
+      "has_audio": false
+    },
+    {
+      "word": "泛",
+      "pinyin": "por4",
+      "ipa": "phɒ42",
+      "definition": "①不认真：做事那～～。②手松。",
+      "has_audio": false
+    },
+    {
+      "word": "泡",
+      "pinyin": "pao1",
+      "ipa": "phau533",
+      "definition": "浮肿：伊蜀个面那～～。",
+      "has_audio": false
+    },
+    {
+      "word": "泱",
+      "pinyin": "iao1",
+      "ipa": "iau533",
+      "definition": "粘糊状：地下～～。",
+      "has_audio": false
+    },
+    {
+      "word": "泼",
+      "pinyin": "pua5",
+      "ipa": "phua21",
+      "definition": "量词。用于雨，相当于“阵”：蜀～雨。",
+      "has_audio": false
+    },
+    {
+      "word": "洋",
+      "pinyin": "iao2",
+      "ipa": "iau13",
+      "definition": "同【平洋】在第8页。",
+      "has_audio": false
+    },
+    {
+      "word": "浓",
+      "pinyin": "noeng2",
+      "ipa": "nœŋ13",
+      "definition": "浑浊，与“清”相对：酒～～。",
+      "has_audio": false
+    },
+    {
+      "word": "润",
+      "pinyin": "nong5",
+      "ipa": "nɔŋ21",
+      "definition": "湿润：天时～～（湿润的天气）。",
+      "has_audio": false
+    },
+    {
+      "word": "涨",
+      "pinyin": "diao4",
+      "ipa": "tiau42",
+      "definition": "张紧；饱涨：鞋乞～必落尾（鞋撑裂了）|腹肚～。",
+      "has_audio": false
+    },
+    {
+      "word": "湫",
+      "pinyin": "ciu5",
+      "ipa": "tshiu21",
+      "definition": "量词。用于屎、尿等：蜀～尿。",
+      "has_audio": false
+    },
+    {
+      "word": "湬",
+      "pinyin": "ciu5",
+      "ipa": "tshiu21",
+      "definition": "从：～今旦起鼓。",
+      "has_audio": false
+    },
+    {
+      "word": "溜",
+      "pinyin": "liu1",
+      "ipa": "liu533",
+      "definition": "滑：地下～～。",
+      "has_audio": false
+    },
+    {
+      "word": "滇",
+      "pinyin": "ding5",
+      "ipa": "tiŋ21",
+      "definition": "满：蜀碗糜～～|△粪池焦（干），粪缸滇（喻损公肥私）。",
+      "has_audio": false
+    },
+    {
+      "word": "滋",
+      "pinyin": "zo2",
+      "ipa": "tso13",
+      "definition": "虫蚁等围着叮咬：胡蝇～蜀头死猫子。",
+      "has_audio": false
+    },
+    {
+      "word": "满",
+      "pinyin": "mua3",
+      "ipa": "mua453",
+      "definition": "量词。相当于“次”。",
+      "has_audio": false
+    },
+    {
+      "word": "漀",
+      "pinyin": "king2",
+      "ipa": "khiŋ13",
+      "definition": "浇铸：～水泥|△铜延平，铁邵武，铣～莆田城（指兴化府城钢铁城墙，坚固难破）。",
+      "has_audio": false
+    },
+    {
+      "word": "漆",
+      "pinyin": "ceh6",
+      "ipa": "tshɛʔ1",
+      "definition": "删除掉：将伊厄名～伓挃落尾（把他的名字删掉）。",
+      "has_audio": false
+    },
+    {
+      "word": "漉",
+      "pinyin": "lorh6",
+      "ipa": "lɒʔ1",
+      "definition": "踩；涉：脚～烂田里向|水浅浅，厄～许爿去。",
+      "has_audio": false
+    },
+    {
+      "word": "漖",
+      "pinyin": "gor4",
+      "ipa": "kɒ42",
+      "definition": "含水份少；稀，与“洘”相对：糜那～～|～糜（稀饭）",
+      "has_audio": false
+    },
+    {
+      "word": "潘",
+      "pinyin": "poeng1",
+      "ipa": "phɔŋ533",
+      "definition": "泔水。",
+      "has_audio": false
+    },
+    {
+      "word": "潨",
+      "pinyin": "cang2",
+      "ipa": "tshaŋ13",
+      "definition": "用水冲击：用水龙头～。",
+      "has_audio": false
+    },
+    {
+      "word": "澄",
+      "pinyin": "ta2",
+      "ipa": "ta13",
+      "definition": "澄清：水放许乞～少停囝（水放在那儿澄清一会儿）。",
+      "has_audio": false
+    },
+    {
+      "word": "澈",
+      "pinyin": "ta5",
+      "ipa": "tha21",
+      "definition": "①清洁，干净：地下扫～～。②净光：衫褪～。",
+      "has_audio": false
+    },
+    {
+      "word": "灾",
+      "pinyin": "zoe1",
+      "ipa": "tsø533",
+      "definition": "瘟（病）：鸡～。",
+      "has_audio": false
+    },
+    {
+      "word": "炊",
+      "pinyin": "cuai1",
+      "ipa": "tshuai533",
+      "definition": "①蒸：～馒头|～碗糕。②蒸笼。",
+      "has_audio": false
+    },
+    {
+      "word": "炕",
+      "pinyin": "korng4",
+      "ipa": "khɒŋ42",
+      "definition": "不隔水炖：山东白～烰豆腐|菜头～猪脚。",
+      "has_audio": false
+    },
+    {
+      "word": "炰",
+      "pinyin": "bu2",
+      "ipa": "pu13",
+      "definition": "裹烧：～番薯。",
+      "has_audio": false
+    },
+    {
+      "word": "烊",
+      "pinyin": "iao1",
+      "ipa": "iau533",
+      "definition": "熔化：～金拍金手指。",
+      "has_audio": false
+    },
+    {
+      "word": "烘",
+      "pinyin": "hang5",
+      "ipa": "haŋ21",
+      "definition": "烤：乞日头～焦落尾（被太阳烤干了）。",
+      "has_audio": false
+    },
+    {
+      "word": "烛",
+      "pinyin": "zorh6",
+      "ipa": "tsɒʔ1",
+      "definition": "蜡烛。",
+      "has_audio": false
+    },
+    {
+      "word": "烧",
+      "pinyin": "siao1",
+      "ipa": "ɬiau533",
+      "definition": "暖和，与“寒”相对：者地方有日头会～。|羽绒服穿有～。",
+      "has_audio": false
+    },
+    {
+      "word": "烰",
+      "pinyin": "pu2",
+      "ipa": "phu13",
+      "definition": "把食物放在油锅中炸：～葱卷|～～豆。",
+      "has_audio": false
+    },
+    {
+      "word": "焅",
+      "pinyin": "ko4",
+      "ipa": "kho42",
+      "definition": "少量的水加入鱼、肉、豆渣等作物，用慢火煮成半干半湿的菜：～肉|～豆渣。",
+      "has_audio": false
+    },
+    {
+      "word": "焙",
+      "pinyin": "buai5",
+      "ipa": "puai21",
+      "definition": "特指把新鲜的龙眼放在焙具上烘烤：～龙眼干。",
+      "has_audio": false
+    },
+    {
+      "word": "焦",
+      "pinyin": "dor1",
+      "ipa": "tɒ533",
+      "definition": "干，与“㴷”相对：衫曝～咯（衣服晒干了）|嘴～（口渴）",
+      "has_audio": false
+    },
+    {
+      "word": "焯",
+      "pinyin": "toh6",
+      "ipa": "thɔʔ1",
+      "definition": "①把食物放入沸水或汤汁中烫一下就捞起来：～蕹菜|～米粉。②烫：脚乞～起泡爬起（脚被烫起泡了）。",
+      "has_audio": false
+    },
+    {
+      "word": "焰",
+      "pinyin": "iang5",
+      "ipa": "iaŋ21",
+      "definition": "（火）旺：火大～。",
+      "has_audio": false
+    },
+    {
+      "word": "煞",
+      "pinyin": "sua5",
+      "ipa": "ɬua21",
+      "definition": "停靠；栖止：蜀头鸟～脊头顶（一只鸟栖止在屋脊上）|船～港里避风|△有鸟无惊～无树（喻女人不怕嫁不出去）。",
+      "has_audio": false
+    },
+    {
+      "word": "煠",
+      "pinyin": "sor2",
+      "ipa": "ɬɒ13",
+      "definition": "用多量清水煮熟后捞起：～面|～蛋。",
+      "has_audio": false
+    },
+    {
+      "word": "熰",
+      "pinyin": "gao5",
+      "ipa": "kau21",
+      "definition": "重热（饭菜）：～糜。",
+      "has_audio": false
+    },
+    {
+      "word": "熻",
+      "pinyin": "hih6",
+      "ipa": "hiʔ1",
+      "definition": "①焖，米加少量水放在锅里，用火将其煮熟：～饭。②捂：后生囝侬感冒～～咯就好|△凉九～三（侬历九月天气还热，不宜太穿太多衣服；三月暮春天气还较凉，捂着点好）。",
+      "has_audio": false
+    },
+    {
+      "word": "燃",
+      "pinyin": "nyo2",
+      "ipa": "nyɒ13",
+      "definition": "烧（火）：～开水|～火。",
+      "has_audio": false
+    },
+    {
+      "word": "燥",
+      "pinyin": "sor4",
+      "ipa": "ɬɒ42",
+      "definition": "干燥：清明～（每年到清明前后，天气干燥）|粟放大埕乞～。",
+      "has_audio": false
+    },
+    {
+      "word": "爁",
+      "pinyin": "nor4",
+      "ipa": "nɒ42",
+      "definition": "①闪：电光～蜀下。②火燎：火蜀～就着（火一碰上就烧着）。",
+      "has_audio": false
+    },
+    {
+      "word": "爿",
+      "pinyin": "be2",
+      "ipa": "pe13",
+      "definition": "量词。边；瓣：分两～行|柚分蜀～乞我食。",
+      "has_audio": false
+    },
+    {
+      "word": "片",
+      "pinyin": "pe4",
+      "ipa": "phe42",
+      "definition": "锯出薄板。",
+      "has_audio": false
+    },
+    {
+      "word": "牚",
+      "pinyin": "ta4",
+      "ipa": "tha42",
+      "definition": "支撑：脚伤大双，鞋乞～必（裂）落尾（脚太大，鞋撑裂了）|大古厄侬～铺（大个子占的床铺位置大）。",
+      "has_audio": false
+    },
+    {
+      "word": "物",
+      "pinyin": "muai2",
+      "ipa": "muai13",
+      "definition": "同【物乇】见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "牵",
+      "pinyin": "keng1",
+      "ipa": "khɛŋ533",
+      "definition": "量词。用于事情。也称项：蜀～事体。",
+      "has_audio": false
+    },
+    {
+      "word": "狠",
+      "pinyin": "hyng3",
+      "ipa": "hyŋ453",
+      "definition": "忙：伊那～～到者咯笃行（他匆匆忙忙到这儿，马上笃走）|△～狗食无屎（喻做事太性急的人难出成绩）。",
+      "has_audio": false
+    },
+    {
+      "word": "猫",
+      "pinyin": "niao1",
+      "ipa": "niau533",
+      "definition": "猫。",
+      "has_audio": false
+    },
+    {
+      "word": "猱",
+      "pinyin": "nao1",
+      "ipa": "nau533",
+      "definition": "皱：老侬咯，面都～落尾（人老了，脸皮都皱了）|△侬不知自～（人缺少自知之明）。",
+      "has_audio": false
+    },
+    {
+      "word": "现",
+      "pinyin": "heng5",
+      "ipa": "hɛŋ21",
+      "definition": "副词，马上：我～去|～讲～到。",
+      "has_audio": false
+    },
+    {
+      "word": "琴",
+      "pinyin": "ging2",
+      "ipa": "kiŋ13",
+      "definition": "八角琴。",
+      "has_audio": false
+    },
+    {
+      "word": "瓢",
+      "pinyin": "piao2",
+      "ipa": "phiau13",
+      "definition": "勺子。",
+      "has_audio": false
+    },
+    {
+      "word": "瓮",
+      "pinyin": "orng4",
+      "ipa": "ɒŋ42",
+      "definition": "小洞。",
+      "has_audio": false
+    },
+    {
+      "word": "甑",
+      "pinyin": "geng1",
+      "ipa": "kɛŋ533",
+      "definition": "桶形的小陶缸。",
+      "has_audio": false
+    },
+    {
+      "word": "甩",
+      "pinyin": "suai3",
+      "ipa": "ɬuai453",
+      "definition": "抽打：用箠～。",
+      "has_audio": false
+    },
+    {
+      "word": "由",
+      "pinyin": "iu2",
+      "ipa": "iu13",
+      "definition": "介词，从：～今旦起鼓|～者爿行|～大学到博士毕业。",
+      "has_audio": false
+    },
+    {
+      "word": "畏",
+      "pinyin": "ui4",
+      "ipa": "ui42",
+      "definition": "忌怕：～热|△蜀摆乞蛇咬，十年～草索（比喻遭过一次挫折以后就变得胆小怕事）。",
+      "has_audio": false
+    },
+    {
+      "word": "疕",
+      "pinyin": "pi3",
+      "ipa": "phi453",
+      "definition": "痂。",
+      "has_audio": false
+    },
+    {
+      "word": "瘪",
+      "pinyin": "be5",
+      "ipa": "pe21",
+      "definition": "扁状：嘴～～",
+      "has_audio": false
+    },
+    {
+      "word": "盎",
+      "pinyin": "ang4",
+      "ipa": "aŋ42",
+      "definition": "陶缸：米～。",
+      "has_audio": false
+    },
+    {
+      "word": "盐",
+      "pinyin": "sing4",
+      "ipa": "ɬiŋ42",
+      "definition": "用盐腌：～菜配|～黄囝。",
+      "has_audio": false
+    },
+    {
+      "word": "直",
+      "pinyin": "dih7",
+      "ipa": "tiʔ4",
+      "definition": "刚直；耿直：伊是～的侬，头家都敢得罪。",
+      "has_audio": false
+    },
+    {
+      "word": "相",
+      "pinyin": "siao4",
+      "ipa": "ɬiau42",
+      "definition": "盯：汝那～我蜀个，别侬汝都无讲|汝将伊～到着，伓通乞走行（你把他盯紧，别让他跑了）。",
+      "has_audio": false
+    },
+    {
+      "word": "眏",
+      "pinyin": "ng4",
+      "ipa": "ŋ42",
+      "definition": "①放养牲口：～牛。②盼望：～伊病厄紧好（盼望他的病早点好）|～呆囝大个（孩子长大），大学考有入。",
+      "has_audio": false
+    },
+    {
+      "word": "眩",
+      "pinyin": "hyng2",
+      "ipa": "hyŋ13",
+      "definition": "晕：伊乞～街头|头～。",
+      "has_audio": false
+    },
+    {
+      "word": "睁",
+      "pinyin": "zing1",
+      "ipa": "tsiŋ533",
+      "definition": "眼睛张开：目珠擘～|△半目～半目□（睁一只眼闭一只眼）。",
+      "has_audio": false
+    },
+    {
+      "word": "睏",
+      "pinyin": "kong4",
+      "ipa": "khɔŋ42",
+      "definition": "睡觉：昨暝～无额，起早目珠涩涩（昨晚没有睡够，今天早上很想睡）。",
+      "has_audio": false
+    },
+    {
+      "word": "瞌",
+      "pinyin": "ke5",
+      "ipa": "khe21",
+      "definition": "闭（眼）：目珠～～|△十七十八，等月目～（农历十七、十八要看到月亮，已接近半夜时分）。",
+      "has_audio": false
+    },
+    {
+      "word": "砧",
+      "pinyin": "diang1",
+      "ipa": "tian533",
+      "definition": "切菜用的垫板。△死肉镇～（喻占着位置，不起作用）。",
+      "has_audio": false
+    },
+    {
+      "word": "破",
+      "pinyin": "pua4",
+      "ipa": "phua42",
+      "definition": "劈；剖：～柴|～腹（开膛）。",
+      "has_audio": false
+    },
+    {
+      "word": "砻",
+      "pinyin": "lang2",
+      "ipa": "laŋ13",
+      "definition": "旧时农村中用于脱壳稻谷的工具。",
+      "has_audio": false
+    },
+    {
+      "word": "硝",
+      "pinyin": "siao1",
+      "ipa": "ɬiau533",
+      "definition": "火药。或称磺。",
+      "has_audio": false
+    },
+    {
+      "word": "硫",
+      "pinyin": "liao2",
+      "ipa": "liau13",
+      "definition": "烧碱，用于洗涤。",
+      "has_audio": false
+    },
+    {
+      "word": "磅",
+      "pinyin": "borng5",
+      "ipa": "pɒŋ21",
+      "definition": "磅秤。",
+      "has_audio": false
+    },
+    {
+      "word": "磕",
+      "pinyin": "kah7",
+      "ipa": "khaʔ4",
+      "definition": "轻触；碰：手～一下笃乞电着（手碰一下笃被电了）|我蜀下都无～。",
+      "has_audio": false
+    },
+    {
+      "word": "磨",
+      "pinyin": "bo5",
+      "ipa": "po21",
+      "definition": "石磨。",
+      "has_audio": false
+    },
+    {
+      "word": "禁",
+      "pinyin": "ging4",
+      "ipa": "kiŋ42",
+      "definition": "车辆的手刹把。",
+      "has_audio": false
+    },
+    {
+      "word": "禾",
+      "pinyin": "hor2",
+      "ipa": "hɒ13",
+      "definition": "量词。扎成捆的稻、麦、秧、草等：蜀～秧。",
+      "has_audio": false
+    },
+    {
+      "word": "秫",
+      "pinyin": "soh7",
+      "ipa": "ɬɔʔ4",
+      "definition": "糯米。△做田阿伓别（不识）～，食斋阿伓别佛（喻外行）。",
+      "has_audio": false
+    },
+    {
+      "word": "空",
+      "pinyin": "kang1",
+      "ipa": "khaŋ533",
+      "definition": "量词。用于①伤口：伤两～。②小动物的窠臼或洞口：蜀～蛇瓮。③钉、钻的洞：钻三～。",
+      "has_audio": false
+    },
+    {
+      "word": "穿",
+      "pinyin": "sorng5",
+      "ipa": "ɬœŋ21",
+      "definition": "把衣服鞋袜等套在身体上：～袜|～裤|△有食是面，有～是身（吃得好显示在脸上，穿得好表现在身上）。‖“穿”是训读字。",
+      "has_audio": false
+    },
+    {
+      "word": "突",
+      "pinyin": "toh7",
+      "ipa": "thɔʔ4",
+      "definition": "降落：架乞～落尾|～价|△老虎惊～（喻怕下坡）。",
+      "has_audio": false
+    },
+    {
+      "word": "窒",
+      "pinyin": "teh6",
+      "ipa": "thɛʔ1",
+      "definition": "塞：～庐鼠瓮（塞老鼠洞）。",
+      "has_audio": false
+    },
+    {
+      "word": "窟",
+      "pinyin": "koh6",
+      "ipa": "khɔʔ21",
+      "definition": "小池塘。一般用于蓄水灌溉。",
+      "has_audio": false
+    },
+    {
+      "word": "竭",
+      "pinyin": "keh7",
+      "ipa": "khɛʔ4",
+      "definition": "少；不足。",
+      "has_audio": false
+    },
+    {
+      "word": "笃",
+      "pinyin": "dorh6",
+      "ipa": "tɒʔ1",
+      "definition": "副词，相当于普通话“就”：汝等等少停囝，伊马上～卜来咯|我早～知晓了咯|无～无，有～来蜀大帮。",
+      "has_audio": false
+    },
+    {
+      "word": "笙",
+      "pinyin": "seng1",
+      "ipa": "ɬɛŋ533",
+      "definition": "唢呐。",
+      "has_audio": false
+    },
+    {
+      "word": "箍",
+      "pinyin": "kou1",
+      "ipa": "khɔu533",
+      "definition": "量词。用于呈圆柱状物体：蜀～杉箍|蜀～蔑箍|蜀～蔗|蜀～柱珠。",
+      "has_audio": false
+    },
+    {
+      "word": "算",
+      "pinyin": "sua4",
+      "ipa": "ɬua42",
+      "definition": "想；想念：者个题目我～出外咯|日日～卜去（天天都想去）|几年无见面，伊时常暝头时～勿会睏厄|△蜀侬算不如百侬～（人多智慧广）。",
+      "has_audio": false
+    },
+    {
+      "word": "箠",
+      "pinyin": "cuai2",
+      "ipa": "tshuai13",
+      "definition": "小木（或竹）条；鞭子。也称箠囝。",
+      "has_audio": false
+    },
+    {
+      "word": "管",
+      "pinyin": "guai3",
+      "ipa": "kuai453",
+      "definition": "量词。量米的容量：蜀～米。",
+      "has_audio": false
+    },
+    {
+      "word": "箧",
+      "pinyin": "ke5",
+      "ipa": "khe21",
+      "definition": "抽屉。",
+      "has_audio": false
+    },
+    {
+      "word": "箩",
+      "pinyin": "lua2",
+      "ipa": "lua13",
+      "definition": "箩筐。",
+      "has_audio": false
+    },
+    {
+      "word": "箸",
+      "pinyin": "dy5",
+      "ipa": "ty21",
+      "definition": "筷子。△举～遮目（比喻请求别人通融、庇护）。",
+      "has_audio": false
+    },
+    {
+      "word": "篷",
+      "pinyin": "pang2",
+      "ipa": "phaŋ13",
+      "definition": "同【船篷】。",
+      "has_audio": false
+    },
+    {
+      "word": "簿",
+      "pinyin": "pou5",
+      "ipa": "phɔu21",
+      "definition": "本子。",
+      "has_audio": false
+    },
+    {
+      "word": "籱",
+      "pinyin": "kor5",
+      "ipa": "khɒ21",
+      "definition": "用竹篾编成的鱼篓，颈部小，腹大：△蜀～蜀雨笠碗（盆满钵满）。",
+      "has_audio": false
+    },
+    {
+      "word": "米",
+      "pinyin": "bi3",
+      "ipa": "pi453",
+      "definition": "大米。",
+      "has_audio": false
+    },
+    {
+      "word": "粕",
+      "pinyin": "po5",
+      "ipa": "pho21",
+      "definition": "渣。",
+      "has_audio": false
+    },
+    {
+      "word": "粙",
+      "pinyin": "diu5",
+      "ipa": "tiu21",
+      "definition": "稻子。",
+      "has_audio": false
+    },
+    {
+      "word": "粟",
+      "pinyin": "corh6",
+      "ipa": "tshɒ21",
+      "definition": "谷子。",
+      "has_audio": false
+    },
+    {
+      "word": "粢",
+      "pinyin": "ze1",
+      "ipa": "tse533",
+      "definition": "祭饭：做鬼抢无～。",
+      "has_audio": false
+    },
+    {
+      "word": "糗",
+      "pinyin": "kiu4",
+      "ipa": "khiu42",
+      "definition": "韧，与“脆”相对：牛肉煮无烂，～～。",
+      "has_audio": false
+    }
+  ],
+  "words": [
+    {
+      "word": "阿冇",
+      "pinyin": "a1 por4",
+      "ipa": "ap1 phɒ42",
+      "definition": "①做事情很随便的人。②花钱随便的人。",
+      "has_audio": false
+    },
+    {
+      "word": "阿长",
+      "pinyin": "a1 dung2",
+      "ipa": "at1 tuŋ13",
+      "definition": "长期保持关系的原配之外的异性，情人。一般指女性。",
+      "has_audio": false
+    },
+    {
+      "word": "阿公",
+      "pinyin": "ah6 gorng1",
+      "ipa": "ak1 kɒŋ533",
+      "definition": "祖父或外祖父。",
+      "has_audio": false
+    },
+    {
+      "word": "阿兄",
+      "pinyin": "a1 hia1",
+      "ipa": "a13 ia533",
+      "definition": "哥哥。",
+      "has_audio": false
+    },
+    {
+      "word": "阿妈",
+      "pinyin": "a1 ma3",
+      "ipa": "ap1 ma453",
+      "definition": "祖母。‖“妈”读上声。",
+      "has_audio": false
+    },
+    {
+      "word": "阿毜",
+      "pinyin": "a1 mi1",
+      "ipa": "ap1 mi533",
+      "definition": "对小孩的昵称。‖也叫【阿毜狮】见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "阿伯",
+      "pinyin": "a1 ba5",
+      "ipa": "ap4 pa21",
+      "definition": "父亲的哥哥。",
+      "has_audio": false
+    },
+    {
+      "word": "阿弟",
+      "pinyin": "a1 di5",
+      "ipa": "a13 li21",
+      "definition": "弟弟。",
+      "has_audio": false
+    },
+    {
+      "word": "阿妗",
+      "pinyin": "a1 ging5",
+      "ipa": "a13 iŋ21",
+      "definition": "舅母（舅舅的妻子）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿姊",
+      "pinyin": "a1 zi3",
+      "ipa": "at1 tsi453",
+      "definition": "姐姐。",
+      "has_audio": false
+    },
+    {
+      "word": "阿叔",
+      "pinyin": "a1 zoeh6",
+      "ipa": "at4 tsœʔ1",
+      "definition": "叔父（父亲的弟弟）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿舍",
+      "pinyin": "a1 sia4",
+      "ipa": "a21 lia42",
+      "definition": "同【舍人囝】在第164页。",
+      "has_audio": false
+    },
+    {
+      "word": "阿肥",
+      "pinyin": "a1 bui2",
+      "ipa": "ap1 pui13",
+      "definition": "胖子。",
+      "has_audio": false
+    },
+    {
+      "word": "阿沿",
+      "pinyin": "a1 oeng2",
+      "ipa": "a13 œŋ13",
+      "definition": "锌铁片。‖马来语ayan的音译。",
+      "has_audio": false
+    },
+    {
+      "word": "阿妹",
+      "pinyin": "a1 muai4",
+      "ipa": "ap1 muai21",
+      "definition": "妹妹。",
+      "has_audio": false
+    },
+    {
+      "word": "阿姑",
+      "pinyin": "a1 gou1",
+      "ipa": "ak1 kɔu533",
+      "definition": "姑姑（父亲的姐妹）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿姨",
+      "pinyin": "a1 i2",
+      "ipa": "a21 i13",
+      "definition": "姨姨（母亲的姐妹）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿紧",
+      "pinyin": "a1 ging3",
+      "ipa": "ak1 kiŋ453",
+      "definition": "赶紧：～去厝（快回家）|卜落雨咯，～行。",
+      "has_audio": false
+    },
+    {
+      "word": "阿倌",
+      "pinyin": "a1 gua1",
+      "ipa": "ak1 kua533",
+      "definition": "同【契弟】在第108页。",
+      "has_audio": false
+    },
+    {
+      "word": "阿婶",
+      "pinyin": "a1 sing3",
+      "ipa": "at1 ɬiŋ453",
+      "definition": "婶婶（叔叔的妻子）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿嫂",
+      "pinyin": "a1 so3",
+      "ipa": "a21 lo453",
+      "definition": "嫂嫂（哥哥的妻子）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿骚",
+      "pinyin": "a1 sao1",
+      "ipa": "at1 ɬau533",
+      "definition": "调皮；诙谐；机灵；喜欢捉弄人。与“古意”相对：△～侬办～事（调皮的人干捉弄人的事）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿舅",
+      "pinyin": "a1 gu5",
+      "ipa": "a13 u21",
+      "definition": "舅舅（母亲的兄弟）。",
+      "has_audio": false
+    },
+    {
+      "word": "阿蔽",
+      "pinyin": "a1 be4",
+      "ipa": "ap1 pe42",
+      "definition": "扑克。",
+      "has_audio": false
+    },
+    {
+      "word": "桁古",
+      "pinyin": "a2 gou3",
+      "ipa": "a21 kɔu453",
+      "definition": "檩条。",
+      "has_audio": false
+    },
+    {
+      "word": "爱挃",
+      "pinyin": "ai4 di2",
+      "ipa": "ai42 li13",
+      "definition": "喜欢：我无～者个色气（我不喜欢这种颜色）|我～食卤面。",
+      "has_audio": false
+    },
+    {
+      "word": "阿卜",
+      "pinyin": "ah6 boh6",
+      "ipa": "ap1 pɔʔ4",
+      "definition": "①还，尚：～好。②也要：～食～提（也要吃，也要拿走）。",
+      "has_audio": false
+    },
+    {
+      "word": "亦敢",
+      "pinyin": "iah6 gor3",
+      "ipa": "ak1 kɒ453",
+      "definition": "或许：～复早卜好天。",
+      "has_audio": false
+    },
+    {
+      "word": "安生",
+      "pinyin": "ang1 sa1",
+      "ipa": "an55 na533",
+      "definition": "这样：～做|汝伓通～讲。",
+      "has_audio": false
+    },
+    {
+      "word": "桉杉",
+      "pinyin": "ang1 sang1",
+      "ipa": "an21 ɬaŋ533",
+      "definition": "桉树。",
+      "has_audio": false
+    },
+    {
+      "word": "闇神",
+      "pinyin": "ang1 sing2",
+      "ipa": "an21 ɬiŋ13",
+      "definition": "痴呆；呆傻：侬有少少～（人有点儿呆傻）。",
+      "has_audio": false
+    },
+    {
+      "word": "红九",
+      "pinyin": "ang2 giu3",
+      "ipa": "aŋ21 kiu453",
+      "definition": "一种身体红色的小海鱼。",
+      "has_audio": false
+    },
+    {
+      "word": "红丸",
+      "pinyin": "ang2 uai2",
+      "ipa": "aŋ21 uai13",
+      "definition": "莆仙特色食品，节日食品。把豆腐捏碎，加上调料，做成比乒乓球略大的小圆球，外裹淀粉，放入滚开的清水中煮。浮起来后就可以捞起，表皮染上红色。",
+      "has_audio": false
+    },
+    {
+      "word": "红团",
+      "pinyin": "ang2 duang2",
+      "ipa": "an21 tuaŋ13",
+      "definition": "莆仙最有特色的节日食品、喜庆食品。糯米浸泡后磨成粉，加水搅拌后做成皮，加糖煮熟的绿豆、糯米等为馅。皮包馅后，放入木制印模印成扁圆状，约巴掌大，底下衬上艳山姜的叶",
+      "has_audio": false
+    },
+    {
+      "word": "红花",
+      "pinyin": "ang2 hua1",
+      "ipa": "aŋ21 hua533",
+      "definition": "天竺葵。",
+      "has_audio": false
+    },
+    {
+      "word": "红肚",
+      "pinyin": "ang2 dou3",
+      "ipa": "an21 tɔu453",
+      "definition": "红肚兜。本地一般用于围护婴孩的胸腹。",
+      "has_audio": false
+    },
+    {
+      "word": "涵空",
+      "pinyin": "ang2 kang1",
+      "ipa": "aŋ21 khaŋ533",
+      "definition": "①虚荣心强；喜欢炫耀：伊是好～的侬|△～侬死袂了（喜欢炫耀的人总是存在的）。",
+      "has_audio": false
+    },
+    {
+      "word": "红衫",
+      "pinyin": "ang2 sor1",
+      "ipa": "an21 nɒ533",
+      "definition": "女子穿的红色上衣。莆仙女子，逢节日喜欢穿全套大红衣服，表示喜庆、圆满、富贵。",
+      "has_audio": false
+    },
+    {
+      "word": "红封",
+      "pinyin": "ang2 horng1",
+      "ipa": "aŋ21 hɒŋ533",
+      "definition": "用红纸（袋）包着的礼金，用于送亲友表示祝贺或慰问。",
+      "has_audio": false
+    },
+    {
+      "word": "红柑",
+      "pinyin": "ang2 gor1",
+      "ipa": "aŋ21 kɒ533",
+      "definition": "柑；橘子。",
+      "has_audio": false
+    },
+    {
+      "word": "红柿",
+      "pinyin": "ang2 ki5",
+      "ipa": "aŋ21 khi21",
+      "definition": "柿子。",
+      "has_audio": false
+    },
+    {
+      "word": "红毡",
+      "pinyin": "ang2 zeng1",
+      "ipa": "an21 tsɛŋ533",
+      "definition": "毛毯。",
+      "has_audio": false
+    },
+    {
+      "word": "红烛",
+      "pinyin": "ang2 zorh6",
+      "ipa": "an42 tsɒʔ1",
+      "definition": "红蜡烛。",
+      "has_audio": false
+    },
+    {
+      "word": "红涂",
+      "pinyin": "ang2 tou2",
+      "ipa": "an21 nɔu13",
+      "definition": "红壤。",
+      "has_audio": false
+    },
+    {
+      "word": "红䖳",
+      "pinyin": "ang2 tor4",
+      "ipa": "an55 thɒ42",
+      "definition": "表皮紫红色的海蜇皮。",
+      "has_audio": false
+    },
+    {
+      "word": "红猴",
+      "pinyin": "ang2 gao2",
+      "ipa": "aŋ21 kau13",
+      "definition": "猴子。",
+      "has_audio": false
+    },
+    {
+      "word": "红膏",
+      "pinyin": "ang2 go1",
+      "ipa": "aŋ21 ko533",
+      "definition": "蛋黄；蟹黄。",
+      "has_audio": false
+    },
+    {
+      "word": "红靛",
+      "pinyin": "ang2 deng5",
+      "ipa": "an42 tɛŋ21",
+      "definition": "红药水。",
+      "has_audio": false
+    },
+    {
+      "word": "红薰",
+      "pinyin": "ang2 hong1",
+      "ipa": "aŋ21 hɔŋ533",
+      "definition": "烟丝的一个品种。色红。",
+      "has_audio": false
+    },
+    {
+      "word": "饮糜",
+      "pinyin": "ang3 muai2",
+      "ipa": "am13 muai13",
+      "definition": "稀饭；粥：起早食～。△食龙食凤，伓如蜀碗～汤（按照莆仙人的饮食习惯，还是吃稀饭可口）。",
+      "has_audio": false
+    },
+    {
+      "word": "暗下",
+      "pinyin": "ang4 or5",
+      "ipa": "aŋ42 ŋɒ21",
+      "definition": "阴着儿：使～。",
+      "has_audio": false
+    },
+    {
+      "word": "暗帕",
+      "pinyin": "ang4 por4",
+      "ipa": "am55 pɒ21",
+      "definition": "除了袋盖，其他部分都在衣服内部的口袋，如西装口袋。与“显帕”相对。",
+      "has_audio": false
+    },
+    {
+      "word": "暗定",
+      "pinyin": "ang4 dia5",
+      "ipa": "an42 nia21",
+      "definition": "黄昏。",
+      "has_audio": false
+    },
+    {
+      "word": "瓯囝",
+      "pinyin": "ao1 gyo3",
+      "ipa": "au21 yɒ453",
+      "definition": "同【瓯】见上方。",
+      "has_audio": false
+    },
+    {
+      "word": "鏖糟",
+      "pinyin": "ao2 zao1",
+      "ipa": "au21 lau533",
+      "definition": "肮脏。",
+      "has_audio": false
+    },
+    {
+      "word": "后儣",
+      "pinyin": "ao5 korng5",
+      "ipa": "au42 khɒŋ21",
+      "definition": "向后仰倒。",
+      "has_audio": false
+    },
+    {
+      "word": "后工",
+      "pinyin": "ao5 gang1",
+      "ipa": "au21 kaŋ533",
+      "definition": "改天：等～再讲。",
+      "has_audio": false
+    },
+    {
+      "word": "后山",
+      "pinyin": "ao5 sua1",
+      "ipa": "au21 lua533",
+      "definition": "后台；靠山。‖也说【后壁山】在第5页。",
+      "has_audio": false
+    },
+    {
+      "word": "后厄",
+      "pinyin": "ao5 eh6",
+      "ipa": "au21 ɛʔ1",
+      "definition": "后天",
+      "has_audio": false
+    },
+    {
+      "word": "后日",
+      "pinyin": "ao5 dih7",
+      "ipa": "au21 liʔ4",
+      "definition": "以后。",
+      "has_audio": false
+    },
+    {
+      "word": "后世",
+      "pinyin": "ao5 se4",
+      "ipa": "au55 le42",
+      "definition": "同【下世】在第5页。",
+      "has_audio": false
+    },
+    {
+      "word": "后向",
+      "pinyin": "ao5 hiao4",
+      "ipa": "au55 hiau42",
+      "definition": "后面，与“头前”①义相对。",
+      "has_audio": false
+    },
+    {
+      "word": "后角",
+      "pinyin": "ao5 gah6",
+      "ipa": "au42 kaʔ1",
+      "definition": "后面。",
+      "has_audio": false
+    },
+    {
+      "word": "后尾",
+      "pinyin": "ao5 buai3",
+      "ipa": "au55 βuai453",
+      "definition": "后来：做头我伓知向，～有听别侬讲。",
+      "has_audio": false
+    },
+    {
+      "word": "后披",
+      "pinyin": "ao5 puah7",
+      "ipa": "au21 phuaʔ4",
+      "definition": "前后坡房子的后坡。",
+      "has_audio": false
+    },
+    {
+      "word": "后房",
+      "pinyin": "ao5 bang2",
+      "ipa": "au21 βaŋ13",
+      "definition": "莆仙民居大厅后面的那一间。",
+      "has_audio": false
+    },
+    {
+      "word": "后驶",
+      "pinyin": "ao5 sai3",
+      "ipa": "au21 ɬai453",
+      "definition": "出界。‖英语outside的音译。",
+      "has_audio": false
+    },
+    {
+      "word": "后假",
+      "pinyin": "ao5 ga3",
+      "ipa": "au21 βa13",
+      "definition": "假，与“真经”相对：伊讲～话|～吼（假哭）|者牵事体是～的（这件事是假的）。",
+      "has_audio": false
+    },
+    {
+      "word": "后棚",
+      "pinyin": "ao5 ba2",
+      "ipa": "au21 βa13",
+      "definition": "戏台侧旁，乐队所在处。",
+      "has_audio": false
+    },
+    {
+      "word": "后禁",
+      "pinyin": "ao5 ging4",
+      "ipa": "au55 kiŋ42",
+      "definition": "自行车后轮刹把。",
+      "has_audio": false
+    },
+    {
+      "word": "后篙",
+      "pinyin": "ao5 go1",
+      "ipa": "au21 o533",
+      "definition": "在溪流河沟里用竹竿刺船前进时，在后面刺船的人，一般技术较高，要掌握方向。",
+      "has_audio": false
+    },
+    {
+      "word": "下工",
+      "pinyin": "or5 gang1",
+      "ipa": "ɒ21 aŋ533",
+      "definition": "明天；改天。",
+      "has_audio": false
+    },
+    {
+      "word": "下日",
+      "pinyin": "or5 dih7",
+      "ipa": "ɒ21 liʔ4",
+      "definition": "改天：今旦无工（今天没空），～来。",
+      "has_audio": false
+    },
+    {
+      "word": "下手",
+      "pinyin": "or5 ciu3",
+      "ipa": "ɒ21 tshiu453",
+      "definition": "下属，部下，接替前辈工作事业的人：培养～厄侬。|许当时我是伊～（那时候我是他的部下）。",
+      "has_audio": false
+    },
+    {
+      "word": "下月",
+      "pinyin": "or5 guai2",
+      "ipa": "ɒ21 kuai13",
+      "definition": "下个月。‖也叫【过月】在第78页。",
+      "has_audio": false
+    },
+    {
+      "word": "下爿",
+      "pinyin": "or5 be2",
+      "ipa": "ɒ21 me13",
+      "definition": "下头，与“顶爿”相对。下手。",
+      "has_audio": false
+    },
+    {
+      "word": "下世",
+      "pinyin": "or5 se4",
+      "ipa": "ɒ55 le42",
+      "definition": "来生。‖也叫【后世】在第4页。",
+      "has_audio": false
+    },
+    {
+      "word": "下头",
+      "pinyin": "or5 tao2",
+      "ipa": "ɒ21 lau13",
+      "definition": "下面。与“顶头”相对。",
+      "has_audio": false
+    },
+    {
+      "word": "下年",
+      "pinyin": "or5 ning2",
+      "ipa": "ɒ13 niŋ13",
+      "definition": "明年。",
+      "has_audio": false
+    },
+    {
+      "word": "下向",
+      "pinyin": "or5 hiao4",
+      "ipa": "ɒ55 hiau42",
+      "definition": "下面。与“顶向”相对。",
+      "has_audio": false
+    },
+    {
+      "word": "下行",
+      "pinyin": "or5 ng2",
+      "ipa": "ɒ21 ŋ13",
+      "definition": "下一辈。",
+      "has_audio": false
+    },
+    {
+      "word": "下时",
+      "pinyin": "or5 si2",
+      "ipa": "ɒ21 i13",
+      "definition": "近来：我～厄少去下乡（我近来较少下乡）。",
+      "has_audio": false
+    },
+    {
+      "word": "下间",
+      "pinyin": "or5 ge1",
+      "ipa": "ɒ55 e533",
+      "definition": "莆仙民居，多进房子，前面第一座房子门前场院两边盖的房子。一般是连续横向三间，两边门户相对。‖也叫【护厝】在第95页。",
+      "has_audio": false
+    },
+    {
+      "word": "下范",
+      "pinyin": "or5 bang5",
+      "ipa": "ɒ42 paŋ21",
+      "definition": "后一阵子。",
+      "has_audio": false
+    },
+    {
+      "word": "下季",
+      "pinyin": "or5 gui4",
+      "ipa": "ɒ55 ui42",
+      "definition": "晚季。",
+      "has_audio": false
+    },
+    {
+      "word": "下底",
+      "pinyin": "or5 de3",
+      "ipa": "ɒ21 le453",
+      "definition": "下面，与“顶头”相对。‖也叫【下底头】见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "下昼",
+      "pinyin": "or5 dao4",
+      "ipa": "ɒ55 lau42",
+      "definition": "下午。‖也叫【下昼时】见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "下座",
+      "pinyin": "or5 zo5",
+      "ipa": "ɒ42 lo21",
+      "definition": "莆仙民居，在护厝的末端、正房正前方，续盖跟正厝格局相同、朝向一样的房子。△顶座未起起～（喻同胞兄弟姐妹中，年纪小的比年纪大的早结婚）。‖参看【护厝】在第95页。",
+      "has_audio": false
+    },
+    {
+      "word": "下番",
+      "pinyin": "or5 pang1",
+      "ipa": "ɒ21 phaŋ13",
+      "definition": "后一阵子；下次。",
+      "has_audio": false
+    },
+    {
+      "word": "下颏",
+      "pinyin": "or5 hai5",
+      "ipa": "ɒ21 βai13",
+      "definition": "下巴。也称下口。",
+      "has_audio": false
+    },
+    {
+      "word": "下满",
+      "pinyin": "or5 mua3",
+      "ipa": "ɒ21 mua453",
+      "definition": "下次；等下。与“顶满”相对。",
+      "has_audio": false
+    },
+    {
+      "word": "鸭母",
+      "pinyin": "or5 bo3",
+      "ipa": "ɒ55 βo453",
+      "definition": "母鸭。",
+      "has_audio": false
+    },
+    {
+      "word": "鸭交",
+      "pinyin": "or5 gao1",
+      "ipa": "ɒ55 kau533",
+      "definition": "公鸭。",
+      "has_audio": false
+    },
+    {
+      "word": "鸭咪",
+      "pinyin": "or5 bi2",
+      "ipa": "ɒ42 pi13",
+      "definition": "鸭子。",
+      "has_audio": false
+    },
+    {
+      "word": "鸭胗",
+      "pinyin": "or5 ging5",
+      "ipa": "ɒk1 kiŋ21",
+      "definition": "鸭肫。",
+      "has_audio": false
+    },
+    {
+      "word": "哦是",
+      "pinyin": "or5 si5",
+      "ipa": "ɒ21 ɬi21",
+      "definition": "唯唯诺诺，一味附和。",
+      "has_audio": false
+    },
+    {
+      "word": "沃水",
+      "pinyin": "orh6 zui3",
+      "ipa": "ɒt4 tsui453",
+      "definition": "浇水。",
+      "has_audio": false
+    },
+    {
+      "word": "沃花",
+      "pinyin": "orh6 hua1",
+      "ipa": "ɒʔ4 hua533",
+      "definition": "浇花。",
+      "has_audio": false
+    },
+    {
+      "word": "沃肥",
+      "pinyin": "orh6 bui2",
+      "ipa": "ɒp4 pui13",
+      "definition": "施肥‖也叫在第152页【泼肥】",
+      "has_audio": false
+    },
+    {
+      "word": "沃菜",
+      "pinyin": "orh6 cai4",
+      "ipa": "ɒt4 tshai42",
+      "definition": "浇菜。",
+      "has_audio": false
+    },
+    {
+      "word": "恶物",
+      "pinyin": "orh6 muai2",
+      "ipa": "ɒp4 muai13",
+      "definition": "癌之类的不治之症。",
+      "has_audio": false
+    },
+    {
+      "word": "恶少",
+      "pinyin": "orh7 siao4",
+      "ipa": "ɒʔ4 ɬiau42",
+      "definition": "恶霸。",
+      "has_audio": false
+    },
+    {
+      "word": "塕尘",
+      "pinyin": "orng1 dong2",
+      "ipa": "ɒn21 nɒŋ13",
+      "definition": "灰尘。",
+      "has_audio": false
+    },
+    {
+      "word": "王爿",
+      "pinyin": "orng2 be2",
+      "ipa": "ɒm21 me13",
+      "definition": "汉字偏旁，王字旁“𤣩”。",
+      "has_audio": false
+    },
+    {
+      "word": "王爷",
+      "pinyin": "orng2 ia2",
+      "ipa": "ɒŋ21 ŋia13",
+      "definition": "喻横行霸道的人。",
+      "has_audio": false
+    },
+    {
+      "word": "王番",
+      "pinyin": "orng2 huang1",
+      "ipa": "ɒŋ21 ŋuaŋ533",
+      "definition": "银元。‖又叫【大番】在第60页。",
+      "has_audio": false
+    },
+    {
+      "word": "往过",
+      "pinyin": "orng3 go4",
+      "ipa": "ɒŋ21 ŋo42",
+      "definition": "以前；过去：我～有到许个地方。‖又叫【往日过】见上方。",
+      "has_audio": false
+    },
+    {
+      "word": "往时",
+      "pinyin": "orng3 si2",
+      "ipa": "ɒn13 ni13",
+      "definition": "同见下方【往常时】。",
+      "has_audio": false
+    },
+    {
+      "word": "往转",
+      "pinyin": "orng3 duai3",
+      "ipa": "ɒn21 nuai453",
+      "definition": "回来：厄紧～（快回来）。",
+      "has_audio": false
+    },
+    {
+      "word": "蕹菜",
+      "pinyin": "orng4 cai4",
+      "ipa": "ɒn55 nai42",
+      "definition": "空心菜。",
+      "has_audio": false
+    },
+    {
+      "word": "旺梨",
+      "pinyin": "orng5 lai2",
+      "ipa": "ɒn21 nai13",
+      "definition": "菠萝。△蜀果买～，三果倩侬刣（一个钱买菠萝，三个钱雇人削皮。菠萝表面坑坑洼洼，很难削）。",
+      "has_audio": false
+    },
+    {
+      "word": "平平",
+      "pinyin": "ba2 ba2",
+      "ipa": "pa13 a42",
+      "definition": "①一样：两件衫～长|两个人～岁。②说话不带腔调：话讲～。",
+      "has_audio": false
+    },
+    {
+      "word": "平扯",
+      "pinyin": "ba2 ce3",
+      "ipa": "pa21 tshe453",
+      "definition": "扯平：今旦钱还了咯，现时齐厮～咯。",
+      "has_audio": false
+    },
+    {
+      "word": "平直",
+      "pinyin": "ba2 dih7",
+      "ipa": "pa21 tiʔ4",
+      "definition": "清楚；公正合理：话讲到～（把话说清楚）|～的事体。",
+      "has_audio": false
+    },
+    {
+      "word": "平洋",
+      "pinyin": "ba2 iao2",
+      "ipa": "pa21 iau13",
+      "definition": "小块平原。‖又叫【洋】在第102页。",
+      "has_audio": false
+    },
+    {
+      "word": "平煞",
+      "pinyin": "ba2 sah6",
+      "ipa": "pa42 ɬaʔ1",
+      "definition": "平息，罢休：伊那无乞我赔礼道歉，我笃伓肯～。",
+      "has_audio": false
+    },
+    {
+      "word": "白仁",
+      "pinyin": "ba2 zing2",
+      "ipa": "pa21 liŋ13",
+      "definition": "眼球的玻璃体部分。",
+      "has_audio": false
+    },
+    {
+      "word": "白公",
+      "pinyin": "ba2 gorng1",
+      "ipa": "pa21 kɒŋ533",
+      "definition": "同【丁心公】在第50页。",
+      "has_audio": false
+    },
+    {
+      "word": "白肉",
+      "pinyin": "ba2 noeh7",
+      "ipa": "pa21 nœʔ4",
+      "definition": "肥肉。",
+      "has_audio": false
+    },
+    {
+      "word": "白豆",
+      "pinyin": "ba2 dao5",
+      "ipa": "pa42 lau21",
+      "definition": "眉豆。",
+      "has_audio": false
+    },
+    {
+      "word": "白肥",
+      "pinyin": "ba2 bui2",
+      "ipa": "pa21 ui13",
+      "definition": "又白又胖：者呆囝白～大好看。",
+      "has_audio": false
+    },
+    {
+      "word": "白虹",
+      "pinyin": "ba2 korng2",
+      "ipa": "pa42 khɒŋ21",
+      "definition": "日月周围的白色晕圈。△青虹～，曝死老蚌（日月周围出现白色或青色的晕圈，预兆天大旱）。",
+      "has_audio": false
+    },
+    {
+      "word": "白瓷",
+      "pinyin": "ba2 hui2",
+      "ipa": "pa21 hui13",
+      "definition": "瓷器。",
+      "has_audio": false
+    },
+    {
+      "word": "白涂",
+      "pinyin": "ba2 tou2",
+      "ipa": "pa21 lɔu13",
+      "definition": "白土，火山灰的变质岩。",
+      "has_audio": false
+    },
+    {
+      "word": "白馃",
+      "pinyin": "ba2 guai3",
+      "ipa": "pa21 uai453",
+      "definition": "莆仙特色食品。优质冬米蒸熟后，用石臼捣，压成块，或用印模印成饼状。由于常用作礼品，上面沾上食用红。",
+      "has_audio": false
+    },
+    {
+      "word": "白䖳",
+      "pinyin": "ba2 tor4",
+      "ipa": "pa55 thɒ42",
+      "definition": "表皮白色的海蜇皮。",
+      "has_audio": false
+    },
+    {
+      "word": "白膏",
+      "pinyin": "ba2 go1",
+      "ipa": "pa21 ko533",
+      "definition": "蛋白。",
+      "has_audio": false
+    },
+    {
+      "word": "白鲞",
+      "pinyin": "ba2 siao3",
+      "ipa": "pa21 ɬiau453",
+      "definition": "将捕捞到的海产品直接晒干的淡干品。",
+      "has_audio": false
+    },
+    {
+      "word": "麦须",
+      "pinyin": "ba2 ciu1",
+      "ipa": "pa21 tshiu533",
+      "definition": "麦芒。△～共日头对硬（大麦灌浆期需要晴朗天气）。",
+      "has_audio": false
+    },
+    {
+      "word": "麦粗",
+      "pinyin": "ba2 cou1",
+      "ipa": "pa21 tshɔu533",
+      "definition": "大麦片。",
+      "has_audio": false
+    },
+    {
+      "word": "麦锋",
+      "pinyin": "ba2 horng1",
+      "ipa": "pa21 hɒ533",
+      "definition": "包着麦粒的白色皮屑。",
+      "has_audio": false
+    },
+    {
+      "word": "麦煎",
+      "pinyin": "ba2 zeng1",
+      "ipa": "pa21 tsɛŋ533",
+      "definition": "大麦磨成粉，加糖水泡匀后煎成的块状食品。",
+      "has_audio": false
+    },
+    {
+      "word": "麦稿",
+      "pinyin": "ba2 go3",
+      "ipa": "pak4 ko453",
+      "definition": "麦秸。",
+      "has_audio": false
+    },
+    {
+      "word": "麦螺",
+      "pinyin": "ba2 loe2",
+      "ipa": "pa21 lø13",
+      "definition": "织纹螺。",
+      "has_audio": false
+    },
+    {
+      "word": "爬起",
+      "pinyin": "ba2 ki3",
+      "ipa": "pa21 i453",
+      "definition": "①起床；起来：抱～|天光咯，～。②相当于普通话“起来”，用在动词后，表示动作的开始并且继续、完成或达到目的、表示估计等：天时节节南风～（天气渐渐暖和起来）|体育",
+      "has_audio": false
+    },
+    {
+      "word": "棚下",
+      "pinyin": "ba2 or5",
+      "ipa": "pa42 ɒ21",
+      "definition": "台下。△大～讨无姆（旧时莆仙风俗，家中一般不许年轻闺女到戏台下看戏。要想在看戏的人群中找老婆，根本是找不到的。喻找错地方）。",
+      "has_audio": false
+    },
+    {
+      "word": "棚后",
+      "pinyin": "ba2 ao5",
+      "ipa": "pa42 au21",
+      "definition": "台后。",
+      "has_audio": false
+    },
+    {
+      "word": "棚顶",
+      "pinyin": "ba2 deng3",
+      "ipa": "pa21 lɛŋ453",
+      "definition": "舞台上。",
+      "has_audio": false
+    },
+    {
+      "word": "棚前",
+      "pinyin": "ba2 se2",
+      "ipa": "pa21 le13",
+      "definition": "台前。",
+      "has_audio": false
+    },
+    {
+      "word": "棚兜",
+      "pinyin": "ba2 dao1",
+      "ipa": "pa21 lau533",
+      "definition": "戏台附近。",
+      "has_audio": false
+    },
+    {
+      "word": "百几",
+      "pinyin": "ba5 gui3",
+      "ipa": "pa55 kui453",
+      "definition": "一百多。类似的有千几，万几等。",
+      "has_audio": false
+    },
+    {
+      "word": "百日",
+      "pinyin": "ba5 dih7",
+      "ipa": "pa55 liʔ4",
+      "definition": "满孝。",
+      "has_audio": false
+    },
+    {
+      "word": "百六",
+      "pinyin": "ba5 lah7",
+      "ipa": "pa55 laʔ4",
+      "definition": "一百六十。类似的有百三，百五，百九、千七、万九等。",
+      "has_audio": false
+    },
+    {
+      "word": "百岁",
+      "pinyin": "ba5 huai4",
+      "ipa": "pa55 uai42",
+      "definition": "指老人去世。",
+      "has_audio": false
+    },
+    {
+      "word": "伯公",
+      "pinyin": "ba5 gorng1",
+      "ipa": "pa55 ɒŋ533",
+      "definition": "祖父的哥哥。",
+      "has_audio": false
+    },
+    {
+      "word": "病囝",
+      "pinyin": "ba5 gyo3",
+      "ipa": "pa21 yɒ453",
+      "definition": "女子怀孕。",
+      "has_audio": false
+    },
+    {
+      "word": "排骨",
+      "pinyin": "bai2 goh6",
+      "ipa": "pai42 kɔʔ1",
+      "definition": "猪的肋骨。",
+      "has_audio": false
+    },
+    {
+      "word": "拜一",
+      "pinyin": "bai4 ih6",
+      "ipa": "pai42 iʔ1",
+      "definition": "星期一。星期二到星期六的说法以此类推。",
+      "has_audio": false
+    },
+    {
+      "word": "拜几",
+      "pinyin": "bai4 gui3",
+      "ipa": "pai55 kui453",
+      "definition": "星期几。",
+      "has_audio": false
+    },
+    {
+      "word": "拜佛",
+      "pinyin": "bai4 hoh7",
+      "ipa": "pai55 ɔʔ4",
+      "definition": "拜菩萨：烧香～。",
+      "has_audio": false
+    },
+    {
+      "word": "拜拜",
+      "pinyin": "bai4 bai4",
+      "ipa": "pai55 pai42",
+      "definition": "祭拜。",
+      "has_audio": false
+    },
+    {
+      "word": "八乐",
+      "pinyin": "bah6 gah7",
+      "ipa": "pak4 kaʔ4",
+      "definition": "本地演奏音乐。由十几岁的男童或女童组成，称“男八乐”或“女八乐”，人数5至9人不等。也有中老年的八乐队。其中掌鼓板1人，掌大小锣和大小钹各1人，他们兼合唱。除了",
+      "has_audio": false
+    },
+    {
+      "word": "北向",
+      "pinyin": "bah6 hiao4",
+      "ipa": "pak4 hiau42",
+      "definition": "北边。‖也叫【北向爿】。",
+      "has_audio": false
+    },
+    {
+      "word": "北军",
+      "pinyin": "bah6 gong1",
+      "ipa": "pak4 kɔŋ533",
+      "definition": "1916-1918年南北方军队混战，人们称北洋军阀的部队为北军：侬生合～一样（指男子个子高大）。",
+      "has_audio": false
+    },
+    {
+      "word": "北洋",
+      "pinyin": "bah6 iao2",
+      "ipa": "paʔ4 iau13",
+      "definition": "木兰陂以东木兰溪以北的平原。",
+      "has_audio": false
+    },
+    {
+      "word": "白粉",
+      "pinyin": "bah6 hong3",
+      "ipa": "pak1 hɔŋ453",
+      "definition": "粉笔。",
+      "has_audio": false
+    },
+    {
+      "word": "腹肚",
+      "pinyin": "bah6 dou3",
+      "ipa": "pat4 tɔu453",
+      "definition": "肚子。△～通东海（喻饭量大）。",
+      "has_audio": false
+    },
+    {
+      "word": "腹脐",
+      "pinyin": "bah6 zai3",
+      "ipa": "pat4 tsai13",
+      "definition": "肚脐。",
+      "has_audio": false
+    },
+    {
+      "word": "墨膏",
+      "pinyin": "bah6 go1",
+      "ipa": "pak1 ko533",
+      "definition": "浓墨汁。",
+      "has_audio": false
+    },
+    {
+      "word": "覕找",
+      "pinyin": "bah7 cuai4",
+      "ipa": "pat4 tshuai42",
+      "definition": "捉迷藏。",
+      "has_audio": false
+    },
+    {
+      "word": "覕涂",
+      "pinyin": "bah7 tou2",
+      "ipa": "pat1 thɔu13",
+      "definition": "喻隐藏。",
+      "has_audio": false
+    },
+    {
+      "word": "墨线",
+      "pinyin": "bah7 syo4",
+      "ipa": "pat4 ɬyɒ42",
+      "definition": "木工在木料上用墨斗线弹出的直线。",
+      "has_audio": false
+    },
+    {
+      "word": "帮贴",
+      "pinyin": "bang1 tiah6",
+      "ipa": "pan13 thiaʔ1",
+      "definition": "补助：加厄工资留～伙食。",
+      "has_audio": false
+    },
+    {
+      "word": "帮厨",
+      "pinyin": "bang1 cy2",
+      "ipa": "pan21 tshy13",
+      "definition": "厨师的助手，负责分各道菜肴。",
+      "has_audio": false
+    },
+    {
+      "word": "房砖",
+      "pinyin": "bang2 zuai1",
+      "ipa": "pan13 nuai533",
+      "definition": "房间内铺地的六角形薄片砖。△行三间～（喻见识短）。",
+      "has_audio": false
+    },
+    {
+      "word": "板条",
+      "pinyin": "bang3 diao2",
+      "ipa": "ban13 niau13",
+      "definition": "长条状的木板。",
+      "has_audio": false
+    },
+    {
+      "word": "板油",
+      "pinyin": "bang3 iu2",
+      "ipa": "paŋ13 ŋiu13",
+      "definition": "猪腹部的油。",
+      "has_audio": false
+    },
+    {
+      "word": "板架",
+      "pinyin": "bang3 gor4",
+      "ipa": "paŋ21 ŋɒ42",
+      "definition": "旧式木床铺内侧平放的固定木板，用于放东西。",
+      "has_audio": false
+    },
+    {
+      "word": "板堵",
+      "pinyin": "bang3 dou3",
+      "ipa": "pan21 nɔu453",
+      "definition": "木板的隔墙。",
+      "has_audio": false
+    },
+    {
+      "word": "板锄",
+      "pinyin": "bang3 ty2",
+      "ipa": "pan13 ny13",
+      "definition": "一种锄头，刀身比普通锄头狭长，适合于刨山地。",
+      "has_audio": false
+    },
+    {
+      "word": "板障",
+      "pinyin": "bang3 ziao4",
+      "ipa": "pan21 niau42",
+      "definition": "阻挠，从中作梗：伊旧年评先进，乞侬～无落尾。",
+      "has_audio": false
+    },
+    {
+      "word": "放工",
+      "pinyin": "bang4 gang1",
+      "ipa": "paŋ55 ŋaŋ533",
+      "definition": "特地抽出时间：我今旦～合汝齐去看。",
+      "has_audio": false
+    },
+    {
+      "word": "放囝",
+      "pinyin": "bang4 gyo3",
+      "ipa": "paŋ55 ŋyɒ453",
+      "definition": "鱼虾等产卵：春天鱼卜～咯。",
+      "has_audio": false
+    },
+    {
+      "word": "放汤",
+      "pinyin": "bang4 tung1",
+      "ipa": "pan55 thuŋ533",
+      "definition": "同【放嫽】义③见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "放帖",
+      "pinyin": "bang4 te5",
+      "ipa": "pan42 the21",
+      "definition": "办喜事时分送给亲戚朋友的请帖。",
+      "has_audio": false
+    },
+    {
+      "word": "放定",
+      "pinyin": "bang4 dia5",
+      "ipa": "pan42 tia21",
+      "definition": "莆仙婚俗，定亲。",
+      "has_audio": false
+    },
+    {
+      "word": "放空",
+      "pinyin": "bang4 kang1",
+      "ipa": "paŋ55 khaŋ533",
+      "definition": "空着：有内容厄填，无厄～许（有内容的就填，没有的就空着）|逐（每一）题都做出外，无～。",
+      "has_audio": false
+    },
+    {
+      "word": "放炮",
+      "pinyin": "bang4 pao4",
+      "ipa": "pam55 mau42",
+      "definition": "放鞭炮。",
+      "has_audio": false
+    },
+    {
+      "word": "放昼",
+      "pinyin": "bang4 dao4",
+      "ipa": "pan55 nau42",
+      "definition": "中午放学。",
+      "has_audio": false
+    },
+    {
+      "word": "放档",
+      "pinyin": "bang4 dorng1",
+      "ipa": "pan55 tɒŋ533",
+      "definition": "惊蛰前后，用竹筒放水捕鱼的方法。",
+      "has_audio": false
+    },
+    {
+      "word": "放铳",
+      "pinyin": "bang4 coeng5",
+      "ipa": "pan42 tshœŋ21",
+      "definition": "开枪。",
+      "has_audio": false
+    },
+    {
+      "word": "放暝",
+      "pinyin": "bang4 ma2",
+      "ipa": "pam42 ma13",
+      "definition": "下午放学。",
+      "has_audio": false
+    },
+    {
+      "word": "放嫽",
+      "pinyin": "bang4 liao4",
+      "ipa": "pan21 niau42",
+      "definition": "①捉弄；取笑：我蜀句话讲错，乞伊～。②玩弄：～水|△手无缚，好～（小孩子喜欢乱动东西）③从中作梗：我者环（这次）无名，完全是乞伊～。‖③义也叫【放嫽汤】见下方，",
+      "has_audio": false
+    },
+    {
+      "word": "办牵",
+      "pinyin": "bang5 keng1",
+      "ipa": "paŋ21 khɛŋ533",
+      "definition": "处理：事体～了未（事情办好了没有）。",
+      "has_audio": false
+    },
+    {
+      "word": "办食",
+      "pinyin": "bang5 sia7",
+      "ipa": "pan21 niaʔ4",
+      "definition": "供应伙食：者个鞋厂有～。",
+      "has_audio": false
+    },
+    {
+      "word": "办盘",
+      "pinyin": "bang5 bua2",
+      "ipa": "pam21 pua13",
+      "definition": "嫁出的女儿为娘家喜庆备办的礼盘。",
+      "has_audio": false
+    },
+    {
+      "word": "扁食",
+      "pinyin": "bang5 sih7",
+      "ipa": "pan21 ɬiʔ4",
+      "definition": "馄饨。",
+      "has_audio": false
+    },
+    {
+      "word": "包包",
+      "pinyin": "bao1 bao1",
+      "ipa": "pau55 pau533",
+      "definition": "包儿；手提包。",
+      "has_audio": false
+    },
+    {
+      "word": "包砖",
+      "pinyin": "bao1 zuai1",
+      "ipa": "pau21 luai533",
+      "definition": "用砖头从下往上砌，将房子外墙包起来，以抵御暴风雨。",
+      "has_audio": false
+    },
+    {
+      "word": "貌相",
+      "pinyin": "bao5 syong4",
+      "ipa": "pau55 ɬyɒŋ42",
+      "definition": "相貌。一般指男子，特指好看英俊的相貌：～好|有～。",
+      "has_audio": false
+    },
+    {
+      "word": "扒马",
+      "pinyin": "bor2 ma3",
+      "ipa": "pam55 ma453",
+      "definition": "扒手。",
+      "has_audio": false
+    },
+    {
+      "word": "扒饴",
+      "pinyin": "bor2 ki2",
+      "ipa": "pɒ21 khi13",
+      "definition": "勤俭做家。",
+      "has_audio": false
+    },
+    {
+      "word": "扒胎",
+      "pinyin": "bor2 tai1",
+      "ipa": "pɒ21 thai533",
+      "definition": "同【拍胎】在第145页。",
+      "has_audio": false
+    },
+    {
+      "word": "扒鼎",
+      "pinyin": "bor2 dia3",
+      "ipa": "pɒ21 lia453",
+      "definition": "扒去锅身上的烟灰。△～十八手（喻看似简单的工作，也不简单）。",
+      "has_audio": false
+    },
+    {
+      "word": "马耳",
+      "pinyin": "bor3 hi2",
+      "ipa": "pɒ13 hi21",
+      "definition": "莆田特色小吃。面粉经发酵后，加白糖、芝麻，油炸而成。外形像马的耳朵。",
+      "has_audio": false
+    },
+    {
+      "word": "马蛋",
+      "pinyin": "bor3 noe5",
+      "ipa": "pɒ13 nø21",
+      "definition": "莆仙特色食品。糯米浆滤水后，拌白糖揉制成皮，包甜豆沙馅，沾上白芝麻，油炸而成的球状（直径约④厘米）食品。",
+      "has_audio": false
+    },
+    {
+      "word": "码面",
+      "pinyin": "bor3 ming4",
+      "ipa": "pɒ13 miŋ43",
+      "definition": "房屋前面大门两边的墙。",
+      "has_audio": false
+    },
+    {
+      "word": "保险",
+      "pinyin": "bor3 hiang3",
+      "ipa": "pɒ21 hiaŋ453",
+      "definition": "关机。",
+      "has_audio": false
+    },
+    {
+      "word": "木□",
+      "pinyin": "borh7 lorng",
+      "ipa": "pɒ21 lɒŋ13",
+      "definition": "一种水稻脱粒农具。用于在水田中打稻，木制，圆筒状。",
+      "has_audio": false
+    },
+    {
+      "word": "木爿",
+      "pinyin": "borh7 be2",
+      "ipa": "pɒʔ1 pe13",
+      "definition": "汉字偏旁，木字旁“朩”。",
+      "has_audio": false
+    },
+    {
+      "word": "木虱",
+      "pinyin": "borh7 seh6",
+      "ipa": "pat4 ɬɛʔ1",
+      "definition": "臭虫。△有钱有侬别，无钱臭～（金钱万能）。",
+      "has_audio": false
+    },
+    {
+      "word": "博庄",
+      "pinyin": "borh7 zorng1",
+      "ipa": "pɒt2 tsɒŋ533",
+      "definition": "赌博。",
+      "has_audio": false
+    },
+    {
+      "word": "磅锤",
+      "pinyin": "borng5 tui2",
+      "ipa": "pɒn21 thui13",
+      "definition": "磅秤的秤砣。",
+      "has_audio": false
+    },
+    {
+      "word": "袂紧",
+      "pinyin": "be5 ging3",
+      "ipa": "pe21 iŋ453",
+      "definition": "不要紧。“袂要紧”的合音。",
+      "has_audio": false
+    },
+    {
+      "word": "簰篙",
+      "pinyin": "be2 go1",
+      "ipa": "pe21 ko533",
+      "definition": "刺水使竹筏前进的竹杆。",
+      "has_audio": false
+    },
+    {
+      "word": "反肚",
+      "pinyin": "be3 dou3",
+      "ipa": "pe21 lɔu453",
+      "definition": "（鱼）腹部朝天。",
+      "has_audio": false
+    },
+    {
+      "word": "袂苦",
+      "pinyin": "be5 kou3",
+      "ipa": "pe21 khɔu453",
+      "definition": "巴不得：～得伊厄紧行（巴不得他马上走）。",
+      "has_audio": false
+    },
+    {
+      "word": "袂赴",
+      "pinyin": "be5 hu4",
+      "ipa": "pe55 hu42",
+      "definition": "来不及：现时去～。",
+      "has_audio": false
+    },
+    {
+      "word": "袂晓",
+      "pinyin": "be5 hiao3",
+      "ipa": "pe21 iau453",
+      "definition": "不会：食偌大个复～煮食|者个题目我～做。",
+      "has_audio": false
+    },
+    {
+      "word": "瘪嘴",
+      "pinyin": "be5 cui4",
+      "ipa": "pe55 lui42",
+      "definition": "嘴部扁扁的。",
+      "has_audio": false
+    },
+    {
+      "word": "勿会",
+      "pinyin": "bei5",
+      "ipa": "pe21",
+      "definition": "副词，不会：～使厄（使不得）|我～合伊讲。",
+      "has_audio": false
+    },
+    {
+      "word": "百灵",
+      "pinyin": "beh6 leng2",
+      "ipa": "pɛt4 leŋ13",
+      "definition": "闲扯。",
+      "has_audio": false
+    },
+    {
+      "word": "别日",
+      "pinyin": "beh6 dih7",
+      "ipa": "pɛt1 tiʔ4",
+      "definition": "改天。",
+      "has_audio": false
+    },
+    {
+      "word": "别古",
+      "pinyin": "beh6 gou3",
+      "ipa": "pɛk4 kɔu453",
+      "definition": "知道别人所不知道的事物，特别是古代的事情。",
+      "has_audio": false
+    },
+    {
+      "word": "别向",
+      "pinyin": "beh6 hiao4",
+      "ipa": "pɛk4 hiau42",
+      "definition": "别的方向，其它方向。也称别置：车开～去。",
+      "has_audio": false
+    },
+    {
+      "word": "别字",
+      "pinyin": "beh6 zi5",
+      "ipa": "pɛt4 tsi21",
+      "definition": "识字。",
+      "has_audio": false
+    },
+    {
+      "word": "别位",
+      "pinyin": "beh6 ui5",
+      "ipa": "pɛʔ4 ui21",
+      "definition": "别的地方：者个地方无，到～去看有无。",
+      "has_audio": false
+    },
+    {
+      "word": "别物",
+      "pinyin": "beh6 muai2",
+      "ipa": "pɛp1 muai13",
+      "definition": "别的东西：也无～通食（没有别的东西可吃）。",
+      "has_audio": false
+    },
+    {
+      "word": "别迹",
+      "pinyin": "beh6 zia5",
+      "ipa": "pɛt4 tsia21",
+      "definition": "别的地方：目珠看～。",
+      "has_audio": false
+    },
+    {
+      "word": "别途",
+      "pinyin": "beh6 dou2",
+      "ipa": "pɛt4 tɔu13",
+      "definition": "其它地方；其它途径：由～行。",
+      "has_audio": false
+    },
+    {
+      "word": "别数",
+      "pinyin": "beh6 sou4",
+      "ipa": "pɛt4 ɬiau42",
+      "definition": "一心一意照顾家庭，不乱花钱。",
+      "has_audio": false
+    },
+    {
+      "word": "默声",
+      "pinyin": "beh7 zia1",
+      "ipa": "pɔt1 tsia533",
+      "definition": "别作声：～，阿紧睏（快睡）。",
+      "has_audio": false
+    },
+    {
+      "word": "贫惮",
+      "pinyin": "beng2 dia4",
+      "ipa": "pɛn13 nia42",
+      "definition": "①不：我～去！②不肯：伊～我亦无办法。",
+      "has_audio": false
+    },
+    {
+      "word": "瓶揢",
+      "pinyin": "beng2 ga2",
+      "ipa": "pɛŋ21 kaʔ4",
+      "definition": "起子。开瓶盖的工具。",
+      "has_audio": false
+    },
+    {
+      "word": "瓶窒",
+      "pinyin": "beng2 teh6",
+      "ipa": "pɛn42 thɛʔ1",
+      "definition": "瓶塞子。",
+      "has_audio": false
+    },
+    {
+      "word": "变相",
+      "pinyin": "beng4 syong4",
+      "ipa": "pɛn55 ɬyɒŋ42",
+      "definition": "性格脾气跟原来的不同或变了样：日日都好好，今旦～。",
+      "has_audio": false
+    },
+    {
+      "word": "便便",
+      "pinyin": "beng5 beng5",
+      "ipa": "pɛm13 pɛŋ21",
+      "definition": "现成的：我者一枝笔～，乞汝使。",
+      "has_audio": false
+    },
+    {
+      "word": "本然",
+      "pinyin": "boeng3 zeng2",
+      "ipa": "pɔn13 nɛŋ13",
+      "definition": "本来：我～亦卜去，后尾无工无去。",
+      "has_audio": false
+    },
+    {
+      "word": "脾草",
+      "pinyin": "bi2 cao3",
+      "ipa": "pi21 tshau453",
+      "definition": "脾气：～好。",
+      "has_audio": false
+    },
+    {
+      "word": "脾凊",
+      "pinyin": "bi2 cing4",
+      "ipa": "pi13 tshiŋ42",
+      "definition": "同见上方【脾肚倒】。",
+      "has_audio": false
+    },
+    {
+      "word": "篾帘",
+      "pinyin": "bi2 liang2",
+      "ipa": "pi21 liaŋ13",
+      "definition": "竹篾制的挂帘。",
+      "has_audio": false
+    },
+    {
+      "word": "篾席",
+      "pinyin": "bi2 ciao2",
+      "ipa": "pi21 liau13",
+      "definition": "竹篾编织而成的睡席。",
+      "has_audio": false
+    },
+    {
+      "word": "篾筅",
+      "pinyin": "bi2 ce3",
+      "ipa": "pi21 tshe453",
+      "definition": "刷锅的工具，用竹子做成。",
+      "has_audio": false
+    },
+    {
+      "word": "篾𥭘",
+      "pinyin": "bi2 tai1",
+      "ipa": "pi21 lai533",
+      "definition": "竹篾编成的筛子。",
+      "has_audio": false
+    },
+    {
+      "word": "米爿",
+      "pinyin": "bi3 be2",
+      "ipa": "pi13 βe13",
+      "definition": "汉字偏旁，米字旁儿“米”。",
+      "has_audio": false
+    },
+    {
+      "word": "米轧",
+      "pinyin": "bi3 gah6",
+      "ipa": "pi13 kaʔ1",
+      "definition": "碾米机；碾米作坊。",
+      "has_audio": false
+    },
+    {
+      "word": "米兰",
+      "pinyin": "bi3 lang2",
+      "ipa": "pi13 laŋ13",
+      "definition": "珠兰。",
+      "has_audio": false
+    },
+    {
+      "word": "米虫",
+      "pinyin": "bi3 tang2",
+      "ipa": "pi13 laŋ13",
+      "definition": "米象。",
+      "has_audio": false
+    },
+    {
+      "word": "米证",
+      "pinyin": "bi3 zing4",
+      "ipa": "pi13 tsiŋ42",
+      "definition": "同【米簿】见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "米罗",
+      "pinyin": "bi3 lo2",
+      "ipa": "pi13 lo13",
+      "definition": "一种米筛子。",
+      "has_audio": false
+    },
+    {
+      "word": "米盎",
+      "pinyin": "bi3 ang4",
+      "ipa": "pi21 aŋ42",
+      "definition": "贮藏米的陶缸。△纸封做～（形容非常贫穷，吃了上顿没有下顿）。",
+      "has_audio": false
+    },
+    {
+      "word": "米票",
+      "pinyin": "bi3 piao4",
+      "ipa": "pi21 iau42",
+      "definition": "票证时代用于买米的票证。‖也叫【小额】在第165页。",
+      "has_audio": false
+    },
+    {
+      "word": "米粞",
+      "pinyin": "bi3 ce4",
+      "ipa": "pi13 le42",
+      "definition": "糯米碾成的粉，用于做汤圆、糕饼等。",
+      "has_audio": false
+    },
+    {
+      "word": "米碓",
+      "pinyin": "bi3 dui4",
+      "ipa": "pi21 lui42",
+      "definition": "木石做成的捣米器具。",
+      "has_audio": false
+    },
+    {
+      "word": "米碎",
+      "pinyin": "bi3 cui4",
+      "ipa": "pi13 lui42",
+      "definition": "碎米。",
+      "has_audio": false
+    },
+    {
+      "word": "米𥭘",
+      "pinyin": "bi3 tai1",
+      "ipa": "pi21 lai533",
+      "definition": "米筛子。",
+      "has_audio": false
+    },
+    {
+      "word": "米管",
+      "pinyin": "bi3 guai3",
+      "ipa": "pi21 uai453",
+      "definition": "家庭量米用的小竹筒或小铁筒。",
+      "has_audio": false
+    },
+    {
+      "word": "米糊",
+      "pinyin": "bi3 gou2",
+      "ipa": "pi21 kɔu13",
+      "definition": "米磨成粉后加水，放在锅中炖成糊后用来喂婴儿。",
+      "has_audio": false
+    },
+    {
+      "word": "米簿",
+      "pinyin": "bi3 pou5",
+      "ipa": "pi13 ɔu21",
+      "definition": "票证时代用于购买粮油的本子。‖也叫【米证】在第165页。",
+      "has_audio": false
+    },
+    {
+      "word": "米糷",
+      "pinyin": "bi3 lang5",
+      "ipa": "pi13 laŋ21",
+      "definition": "莆仙风味小吃。粳米糯米按二比一的比例混合磨成浆，做成珍珠状小颗粒，加糖煮熟，带汤吃。",
+      "has_audio": false
+    },
+    {
+      "word": "味素",
+      "pinyin": "bi5 sou4",
+      "ipa": "pi55 lɔu42",
+      "definition": "味道。",
+      "has_audio": false
+    },
+    {
+      "word": "凭火",
+      "pinyin": "bia2 huai3",
+      "ipa": "pia21 uai453",
+      "definition": "点火：天暗咯，汝去～。",
+      "has_audio": false
+    },
+    {
+      "word": "拼死",
+      "pinyin": "bia4 si3",
+      "ipa": "pia55 ɬi453",
+      "definition": "拼命：我卜合伊齐大～。",
+      "has_audio": false
+    },
+    {
+      "word": "壁边",
+      "pinyin": "bia5 bing1",
+      "ipa": "pia55 iŋ533",
+      "definition": "墙边；旁边。",
+      "has_audio": false
+    },
+    {
+      "word": "壁角",
+      "pinyin": "bia5 gah6",
+      "ipa": "pia42 kaʔ1",
+      "definition": "角落：扫帚放～。",
+      "has_audio": false
+    },
+    {
+      "word": "壁涂",
+      "pinyin": "bia5 tou2",
+      "ipa": "pia42 lɔu13",
+      "definition": "同【墙涂】在第35页。",
+      "has_audio": false
+    },
+    {
+      "word": "壁堵",
+      "pinyin": "bia5 dou3",
+      "ipa": "pia55 lɔu453",
+      "definition": "墙壁。",
+      "has_audio": false
+    },
+    {
+      "word": "壁櫭",
+      "pinyin": "bia5 ki4",
+      "ipa": "pia55 khiʔ4",
+      "definition": "钉在墙壁上备挂物件的木钉。△敲～（喻嫁出的女儿尽量把娘家的东西全拿走）。",
+      "has_audio": false
+    },
+    {
+      "word": "必裂",
+      "pinyin": "biah6 le2",
+      "ipa": "piat4 le13",
+      "definition": "裂开成缝：水泥～蜀缝（水泥裂开一个缝）。",
+      "has_audio": false
+    },
+    {
+      "word": "袂载",
+      "pinyin": "be5 zai4",
+      "ipa": "pe55 tsai42",
+      "definition": "受不了，经不起：～来安生乞伊气（受不了这样被他气）。",
+      "has_audio": false
+    },
+    {
+      "word": "袂趁",
+      "pinyin": "be5 teng4",
+      "ipa": "pe55 lɛŋ42",
+      "definition": "无盈利：者生理～。",
+      "has_audio": false
+    },
+    {
+      "word": "袂销",
+      "pinyin": "be5 siao1",
+      "ipa": "pe21 liau533",
+      "definition": "商品卖不出去：西瓜～。",
+      "has_audio": false
+    },
+    {
+      "word": "谋反",
+      "pinyin": "biao2 huang3",
+      "ipa": "piau21 uaŋ453",
+      "definition": "①造反；捣乱：一下课笃～到天都拆落尾|倭贼～（明朝末期日寇骚扰莆田沿海）。",
+      "has_audio": false
+    },
+    {
+      "word": "表帕",
+      "pinyin": "biao3 por4",
+      "ipa": "piau21 phɒ42",
+      "definition": "裤腰中的暗袋。",
+      "has_audio": false
+    },
+    {
+      "word": "表德",
+      "pinyin": "biao3 deh6",
+      "ipa": "piau13 lɛʔ1",
+      "definition": "男子结婚时，按排行，号于表字，写在匾额上，挂在厅堂墙上。",
+      "has_audio": false
+    },
+    {
+      "word": "密机",
+      "pinyin": "bih7 gi1",
+      "ipa": "pik1 ki533",
+      "definition": "机密：两个侬讲话密～，那惊乞侬听去。",
+      "has_audio": false
+    },
+    {
+      "word": "蜜枣",
+      "pinyin": "bih7 zo3",
+      "ipa": "pit1 tso453",
+      "definition": "把大青枣周身割一圈，放入锅中用白糖煮，晒干即成。",
+      "has_audio": false
+    },
+    {
+      "word": "凭凭",
+      "pinyin": "bing2 bing2",
+      "ipa": "pim13 piŋ13",
+      "definition": "严格按照：～者个尺寸去做|△～崇圣宫（喻严格照先前已有的做法去做）。",
+      "has_audio": false
+    },
+    {
+      "word": "变面",
+      "pinyin": "bing4 ming4",
+      "ipa": "pin55 miŋ42",
+      "definition": "对人态度突然变坏；变脸：齐讲好好，伊介卜甲～爬起（说着好好的，他却翻脸了）。",
+      "has_audio": false
+    },
+    {
+      "word": "病壳",
+      "pinyin": "bing5 kah6",
+      "ipa": "piŋ42 khaʔ1",
+      "definition": "汉字偏旁，病字旁儿“疒”。",
+      "has_audio": false
+    },
+    {
+      "word": "无工",
+      "pinyin": "bo2 gang1",
+      "ipa": "po21 kaŋ533",
+      "definition": "没空：我卜去上班，～。‖也叫【无闲】在第20页。",
+      "has_audio": false
+    },
+    {
+      "word": "无气",
+      "pinyin": "bo2 kui4",
+      "ipa": "po55 khui42",
+      "definition": "断气。",
+      "has_audio": false
+    },
+    {
+      "word": "无皮",
+      "pinyin": "bo2 puai2",
+      "ipa": "po21 phuai453",
+      "definition": "无耻：～厄侬。",
+      "has_audio": false
+    },
+    {
+      "word": "无成",
+      "pinyin": "bo2 sia2",
+      "ipa": "po21 ɬia13",
+      "definition": "无耻，卑鄙：～厄侬。",
+      "has_audio": false
+    },
+    {
+      "word": "无名",
+      "pinyin": "bo2 mia2",
+      "ipa": "po21 mia13",
+      "definition": "没列入名次。",
+      "has_audio": false
+    },
+    {
+      "word": "无并",
+      "pinyin": "bo2 pia5",
+      "ipa": "po42 phia21",
+      "definition": "没得比，比不上：我甲伊～。",
+      "has_audio": false
+    },
+    {
+      "word": "无闲",
+      "pinyin": "bo2 e2",
+      "ipa": "po21 e13",
+      "definition": "同【无工】在第7页。",
+      "has_audio": false
+    },
+    {
+      "word": "无担",
+      "pinyin": "bo2 dor4",
+      "ipa": "po55 lɒ42",
+      "definition": "①不当一回事：别侬厄事体伊那无～。②不负责任：食～。",
+      "has_audio": false
+    },
+    {
+      "word": "无味",
+      "pinyin": "bo2 bi5",
+      "ipa": "po42 pi21",
+      "definition": "没趣；讨不到便宜。",
+      "has_audio": false
+    },
+    {
+      "word": "无果",
+      "pinyin": "bo2 gor3",
+      "ipa": "po55 ɒ453",
+      "definition": "货币贬值：钱罔来罔～落尾。",
+      "has_audio": false
+    },
+    {
+      "word": "无物",
+      "pinyin": "bo2 muai2",
+      "ipa": "po21 muai13",
+      "definition": "①实质性的东西少，同“有物”相对：三斤那只兮？连天～（三斤才这么一点点？太少了）。②损耗：虾肉曝～落尾。",
+      "has_audio": false
+    },
+    {
+      "word": "无和",
+      "pinyin": "bo2 hor2",
+      "ipa": "po21 hɒ13",
+      "definition": "合不来：伊两侬总是～。",
+      "has_audio": false
+    },
+    {
+      "word": "无货",
+      "pinyin": "bo2 ho4",
+      "ipa": "po55 ho42",
+      "definition": "①没货。②嘴快：者个侬～，有甚么都讲净净。",
+      "has_audio": false
+    },
+    {
+      "word": "无命",
+      "pinyin": "bo2 mia5",
+      "ipa": "po42 mia21",
+      "definition": "死；没命。",
+      "has_audio": false
+    },
+    {
+      "word": "无饲",
+      "pinyin": "bo2 ci4",
+      "ipa": "po55 tshi42",
+      "definition": "夭折。",
+      "has_audio": false
+    },
+    {
+      "word": "无话",
+      "pinyin": "bo2 ua5",
+      "ipa": "po42 ua21",
+      "definition": "没有矛盾摩擦，和睦相处：伯叔婶齐大好，～。",
+      "has_audio": false
+    },
+    {
+      "word": "无拼",
+      "pinyin": "bo2 bia4",
+      "ipa": "po55 pia42",
+      "definition": "没有希望：头五名里～。",
+      "has_audio": false
+    },
+    {
+      "word": "无面",
+      "pinyin": "bo2 ming4",
+      "ipa": "po55 miŋ42",
+      "definition": "失去体面：伊乞逐个骂，大～。",
+      "has_audio": false
+    },
+    {
+      "word": "无胆",
+      "pinyin": "bo2 dor3",
+      "ipa": "po21 tɒ453",
+      "definition": "胆子小。",
+      "has_audio": false
+    },
+    {
+      "word": "无闻",
+      "pinyin": "bo2 mong2",
+      "ipa": "po21 mɔŋ13",
+      "definition": "无聊：无事体做，大～。",
+      "has_audio": false
+    },
+    {
+      "word": "无眠",
+      "pinyin": "bo2 ming2",
+      "ipa": "po21 miŋ13",
+      "definition": "睡不着。△一暝～，九暝补袂过。",
+      "has_audio": false
+    },
+    {
+      "word": "无理",
+      "pinyin": "bo2 li3",
+      "ipa": "po21 li453",
+      "definition": "不管：伊厄事体我～。",
+      "has_audio": false
+    },
+    {
+      "word": "无惊",
+      "pinyin": "bo2 gia1",
+      "ipa": "po21 kia55",
+      "definition": "不怕：～死|△～七月半厄鬼，那惊七月半厄水（中元节前后因为天文大潮，如果碰上台风暴雨，导致水灾，破坏性很大，是很可怕的）。",
+      "has_audio": false
+    },
+    {
+      "word": "无趁",
+      "pinyin": "bo2 teng4",
+      "ipa": "po55 lɛŋ42",
+      "definition": "没有赚钱。",
+      "has_audio": false
+    },
+    {
+      "word": "无嫌",
+      "pinyin": "bo2 hiang2",
+      "ipa": "po21 hiaŋ13",
+      "definition": "没有什么好埋怨、挑剔的：莆田荔枝，～。",
+      "has_audio": false
+    },
+    {
+      "word": "无谱",
+      "pinyin": "bo2 pou3",
+      "ipa": "po21 phɔu453",
+      "definition": "离谱：讲话～。",
+      "has_audio": false
+    },
+    {
+      "word": "无影",
+      "pinyin": "bo2 ia3",
+      "ipa": "po21 ia453",
+      "definition": "①没这一回事；不是真的：～，无许种厄事体|△嘴讲请，心～（有口无心）②没有效果：药食～。",
+      "has_audio": false
+    },
+    {
+      "word": "无额",
+      "pinyin": "bo2 geh7",
+      "ipa": "po21 kɛʔ4",
+      "definition": "不够；短少：复～三斤。",
+      "has_audio": false
+    },
+    {
+      "word": "婆姐",
+      "pinyin": "bo2 zia3",
+      "ipa": "po21 lia453",
+      "definition": "同【婆姐妈】。",
+      "has_audio": false
+    },
+    {
+      "word": "保庇",
+      "pinyin": "bo3 bi4",
+      "ipa": "pɔu21 i42",
+      "definition": "保佑。",
+      "has_audio": false
+    },
+    {
+      "word": "报生",
+      "pinyin": "bo4 sa1",
+      "ipa": "po55 la533",
+      "definition": "莆仙旧时民俗，孩子出生的当天，其父亲会马上到妻子的娘家去报生。",
+      "has_audio": false
+    },
+    {
+      "word": "磨手",
+      "pinyin": "bo5 ciu3",
+      "ipa": "po21 tshiu453",
+      "definition": "嵌在石磨上扇旁边的有孔木块，用于放入磨把的前端铁芯。",
+      "has_audio": false
+    },
+    {
+      "word": "磨芯",
+      "pinyin": "bo5 sing1",
+      "ipa": "po21 liŋ533",
+      "definition": "磨脐子，石磨下扇中央用于固定上扇的铁轴，以防止上扇在转动时掉下来。",
+      "has_audio": false
+    },
+    {
+      "word": "磨扇",
+      "pinyin": "bo5 sing4",
+      "ipa": "po55 liŋ42",
+      "definition": "石磨的上下扇。",
+      "has_audio": false
+    },
+    {
+      "word": "磨榫",
+      "pinyin": "bo5 song3",
+      "ipa": "po21 lɔŋ453",
+      "definition": "嵌在石磨上扇中央洞中的木楔，用于放入下盘磨脐子中，防止上扇转动时脱落。",
+      "has_audio": false
+    },
+    {
+      "word": "卜乃",
+      "pinyin": "boh6 ne3",
+      "ipa": "pɔt1 nɛ453",
+      "definition": "①叹词，应答.②要干什么；想干什么：汝～。",
+      "has_audio": false
+    },
+    {
+      "word": "卜生",
+      "pinyin": "boh6 sa1",
+      "ipa": "pɔt4 ɬa533",
+      "definition": "临产。",
+      "has_audio": false
+    },
+    {
+      "word": "不涝",
+      "pinyin": "boh6 lor5",
+      "ipa": "pɔt4 lɒ21",
+      "definition": "不够：物乇买偌少，～食一顿。",
+      "has_audio": false
+    },
+    {
+      "word": "不吉",
+      "pinyin": "boh6 gih6",
+      "ipa": "pɔk4 ki21",
+      "definition": "倒霉：汝无听嘴（听话），卜乞汝～。",
+      "has_audio": false
+    },
+    {
+      "word": "不事",
+      "pinyin": "boh6 so5",
+      "ipa": "pɔt4 ɬo21",
+      "definition": "没有本事；不成器：者孩子大～，甚么亦做不成。",
+      "has_audio": false
+    },
+    {
+      "word": "粪斗",
+      "pinyin": "bong4 dao3",
+      "ipa": "pɔn55 nau453",
+      "definition": "畚斗。",
+      "has_audio": false
+    },
+    {
+      "word": "粪扫",
+      "pinyin": "bong4 so4",
+      "ipa": "pɔn55 no42",
+      "definition": "垃圾。",
+      "has_audio": false
+    },
+    {
+      "word": "粪池",
+      "pinyin": "bong4 di2",
+      "ipa": "pɔŋ42 ŋi13",
+      "definition": "茅坑；露天厕所，亦为贮藏粪便肥料的地方。△新粪池好拉屎（喻喜欢使用新事物）。‖也叫【粪池兜】见下方。",
+      "has_audio": false
+    },
+    {
+      "word": "粪箕",
+      "pinyin": "bong4 gi1",
+      "ipa": "pɔŋ55 ŋi533",
+      "definition": "手脶纹的一种。",
+      "has_audio": false
+    },
+    {
+      "word": "粪篮",
+      "pinyin": "bong4 nor2",
+      "ipa": "pɔn42 nɒ13",
+      "definition": "收运动物粪便的竹篮筐，铲状，有提手。‖又叫【狗屎篮】在第69页，【猪屎篮】在第62页。",
+      "has_audio": false
+    },
+    {
+      "word": "补伞",
+      "pinyin": "bou3 sua3",
+      "ipa": "pɔu21 ɬua453",
+      "definition": "补雨伞。",
+      "has_audio": false
+    },
+    {
+      "word": "补衫",
+      "pinyin": "bou3 sor1",
+      "ipa": "pɔu21 ɬɒ533",
+      "definition": "补衣裳。",
+      "has_audio": false
+    },
+    {
+      "word": "斧头",
+      "pinyin": "bou3 tao2",
+      "ipa": "pɔu13 lau13",
+      "definition": "沟渠里的一种贝类，形状像斧头，‖也叫【沟蚬】在第68页。",
+      "has_audio": false
+    },
+    {
+      "word": "布田",
+      "pinyin": "bou4 ceng2",
+      "ipa": "pɔu42 lɛŋ13",
+      "definition": "①插秧。②莆田十月十五祭祀孤魂仪式之一。祭拜之后，由小孩子拿已点燃的香，插在门前空地上，插成纵横方阵，像插秧一样。",
+      "has_audio": false
+    },
+    {
+      "word": "布伞",
+      "pinyin": "bou4 sua3",
+      "ipa": "pɔu55 lua453",
+      "definition": "质地是布的雨伞。",
+      "has_audio": false
+    },
+    {
+      "word": "布拖",
+      "pinyin": "bou4 tua1",
+      "ipa": "pɔu55 thua533",
+      "definition": "拖把。",
+      "has_audio": false
+    },
+    {
+      "word": "布钮",
+      "pinyin": "bou4 diu3",
+      "ipa": "pɔu55 tiu453",
+      "definition": "用小布条团成的钮扣。",
+      "has_audio": false
+    },
+    {
+      "word": "布联",
+      "pinyin": "bou4 leng2",
+      "ipa": "pɔu42 lɛŋ13",
+      "definition": "贺幛。用一整块布作为贺礼之一，送给结婚之家，婚家将它挂在厅堂两边的墙壁上。",
+      "has_audio": false
+    },
+    {
+      "word": "布散",
+      "pinyin": "bou4 sang4",
+      "ipa": "pɔu55 laŋ42",
+      "definition": "布防：军队都～到逐位去。",
+      "has_audio": false
+    },
+    {
+      "word": "布碎",
+      "pinyin": "bou4 cui4",
+      "ipa": "pɔu55 tshui42",
+      "definition": "裁剪剩下的零碎布块。",
+      "has_audio": false
+    },
+    {
+      "word": "布蔸",
+      "pinyin": "bou5 dao1",
+      "ipa": "pɔu55 lau533",
+      "definition": "水田中已经插好的秧苗。",
+      "has_audio": false
+    },
+    {
+      "word": "雾雾",
+      "pinyin": "bu5 bu5",
+      "ipa": "pu13 pu21",
+      "definition": "模糊不清的样子。",
+      "has_audio": false
+    },
+    {
+      "word": "搬簿",
+      "pinyin": "bua1 pou5",
+      "ipa": "pua13 phɔu21",
+      "definition": "编剧。",
+      "has_audio": false
+    },
+    {
+      "word": "卜卦",
+      "pinyin": "bua2 gua4",
+      "ipa": "pua55 kua42",
+      "definition": "打卦。",
+      "has_audio": false
+    },
+    {
+      "word": "盘厄",
+      "pinyin": "bua2 eh6",
+      "ipa": "pua21 ɛʔ4",
+      "definition": "谢谢你。",
+      "has_audio": false
+    },
+    {
+      "word": "盘桶",
+      "pinyin": "bua2 tang3",
+      "ipa": "pua21 laŋ453",
+      "definition": "从井中打水的吊桶。",
+      "has_audio": false
+    },
+    {
+      "word": "跋杯",
+      "pinyin": "bua2 buai1",
+      "ipa": "pua21 puai533",
+      "definition": "用杯珓占卜。",
+      "has_audio": false
+    },
+    {
+      "word": "跋钱",
+      "pinyin": "bua2 zing2",
+      "ipa": "pua21 liŋ13",
+      "definition": "赌博。或称跋缴。△～阿怨壁（喻把自己失败的原因推给别人）。",
+      "has_audio": false
+    },
+    {
+      "word": "跋倒",
+      "pinyin": "bua2 do3",
+      "ipa": "pua21 lo453",
+      "definition": "跌倒；摔倒：宽宽行，伓通～。‖也叫【拍着跋】在第146页。",
+      "has_audio": false
+    },
+    {
+      "word": "磨水",
+      "pinyin": "bua2 zui3",
+      "ipa": "pua21 lui453",
+      "definition": "漂洗：衣裳用胰皂洗了咯，复着～一下。",
+      "has_audio": false
+    },
+    {
+      "word": "半工",
+      "pinyin": "bua4 gorng1",
+      "ipa": "pua55 aŋ533",
+      "definition": "半天。",
+      "has_audio": false
+    },
+    {
+      "word": "半爿",
+      "pinyin": "bua4 be2",
+      "ipa": "pua42 pe13",
+      "definition": "半边，半块：～月饼乞汝食。",
+      "has_audio": false
+    },
+    {
+      "word": "半番",
+      "pinyin": "bua4 huang1",
+      "ipa": "pua55 uaŋ533",
+      "definition": "莆田黑鸭为母本与白番鸭杂交所生产的肉用鸭。",
+      "has_audio": false
+    },
+    {
+      "word": "半楼",
+      "pinyin": "bua4 lao2",
+      "ipa": "pua42 lau13",
+      "definition": "阁楼。",
+      "has_audio": false
+    },
+    {
+      "word": "飞丝",
+      "pinyin": "buai1 si1",
+      "ipa": "puai13 li533",
+      "definition": "在空中飘飞的一种蜘蛛丝。",
+      "has_audio": false
+    },
+    {
+      "word": "飞船",
+      "pinyin": "buai1 song2",
+      "ipa": "puai21 lɔŋ13",
+      "definition": "旧时指飞机。",
+      "has_audio": false
+    },
+    {
+      "word": "风丝",
+      "pinyin": "buai1 si1",
+      "ipa": "puai21 ɬi533",
+      "definition": "微风。",
+      "has_audio": false
+    },
+    {
+      "word": "风尾",
+      "pinyin": "buai1 buai3",
+      "ipa": "puai21 βuai453",
+      "definition": "①风向的下处。②大风减弱之后的弱风。",
+      "has_audio": false
+    },
+    {
+      "word": "风透",
+      "pinyin": "buai1 tao4",
+      "ipa": "puai55 thau42",
+      "definition": "风大。",
+      "has_audio": false
+    },
+    {
+      "word": "风鼓",
+      "pinyin": "buai1 gou3",
+      "ipa": "puai42 kɔu453",
+      "definition": "用于扬谷的手摇鼓谷机。",
+      "has_audio": false
+    },
+    {
+      "word": "风煞",
+      "pinyin": "buai1 sa2",
+      "ipa": "puai55 ɬa13",
+      "definition": "风停。",
+      "has_audio": false
+    },
+    {
+      "word": "风颱",
+      "pinyin": "buai1 tai1",
+      "ipa": "puai21 lai533",
+      "definition": "台风。也称大风。△六月～生九子（农历六月份若有台风，那么这一年其后还会接连有几个台风，犹如一母生九子之多）|△八月～无回头（农历八月的台风过境后，不会紧接着再刮",
+      "has_audio": false
+    },
+    {
+      "word": "枫担",
+      "pinyin": "buai1 dor1",
+      "ipa": "puai21 lɒ533",
+      "definition": "木扁担。",
+      "has_audio": false
+    },
+    {
+      "word": "袜箍",
+      "pinyin": "buai2 kou1",
+      "ipa": "puai21 khɔu533",
+      "definition": "短袜。袜身长度直到脚踝，穿着时包裹整个脚踝。",
+      "has_audio": false
+    },
+    {
+      "word": "梅花",
+      "pinyin": "buai2 hua1",
+      "ipa": "puai21 ua533",
+      "definition": "中音唢呐。又称梅花吹、二梅。",
+      "has_audio": false
+    },
+    {
+      "word": "梅酱",
+      "pinyin": "buai2 ziao4",
+      "ipa": "puai55 liau42",
+      "definition": "用杨梅加工成的甜酱。",
+      "has_audio": false
+    },
+    {
+      "word": "煤证",
+      "pinyin": "buai2 zing4",
+      "ipa": "puai55 tsiŋ42",
+      "definition": "蜂窝煤限量供应时代，用于买蜂窝煤的本子。",
+      "has_audio": false
+    },
+    {
+      "word": "煤碎",
+      "pinyin": "buai2 cui4",
+      "ipa": "puai55 tshui42",
+      "definition": "煤渣。",
+      "has_audio": false
+    },
+    {
+      "word": "尾口",
+      "pinyin": "buai3 kao3",
+      "ipa": "puai21 khau453",
+      "definition": "用于食用的猪肛门。",
+      "has_audio": false
+    },
+    {
+      "word": "尾嫩",
+      "pinyin": "buai3 neng4",
+      "ipa": "puai21 nɛŋ42",
+      "definition": "最小的儿子。",
+      "has_audio": false
+    },
+    {
+      "word": "尾牙",
+      "pinyin": "buai3 gor2",
+      "ipa": "puai13 ɒ13",
+      "definition": "一年里最后一次的牙祭，在农历十二月十六。在莆仙，头牙（二月初二）和尾牙比较隆重，家家户户都做。‖参看【头牙】在第176页。",
+      "has_audio": false
+    },
+    {
+      "word": "尾日",
+      "pinyin": "buai3 dih7",
+      "ipa": "puai21 liʔ4",
+      "definition": "临终，生命的最后一天。",
+      "has_audio": false
+    },
+    {
+      "word": "尾囝",
+      "pinyin": "buai3 gyo3",
+      "ipa": "puai21 yɒ453",
+      "definition": "最小的儿子。△～尾金珠，蜀醒蜀过摸（谓对最小的孩子疼爱得就像珍珠宝贝一样）。",
+      "has_audio": false
+    },
+    {
+      "word": "尾名",
+      "pinyin": "buai3 mia2",
+      "ipa": "puai13 mia13",
+      "definition": "最后一名。",
+      "has_audio": false
+    },
+    {
+      "word": "尾梨",
+      "pinyin": "buai3 li2",
+      "ipa": "puai13 li13",
+      "definition": "荸荠。",
+      "has_audio": false
+    },
+    {
+      "word": "尾翼",
+      "pinyin": "buai3 sih7",
+      "ipa": "puai21 ɬiʔ4",
+      "definition": "同【檐翼】在第101页。",
+      "has_audio": false
+    },
+    {
+      "word": "背凉",
+      "pinyin": "buai4 niao2",
+      "ipa": "puai42 niau13",
+      "definition": "纳凉；乘凉。△大树下好～（喻有所依托，事情就好办）。",
+      "has_audio": false
+    },
+    {
+      "word": "背寒",
+      "pinyin": "buai4 gua2",
+      "ipa": "puai42 ua13",
+      "definition": "疟疾。",
+      "has_audio": false
+    },
+    {
+      "word": "未曾",
+      "pinyin": "buai5 zeng1",
+      "ipa": "puai21 lɛŋ13",
+      "definition": "副词，①用在动词前，表示“尚未”：天复～光（天还没有亮）|车～开行。②用于句末，表示对未发生动作行为的疑问：上课～|做了～？",
+      "has_audio": false
+    },
+    {
+      "word": "饭匙",
+      "pinyin": "buai5 si2",
+      "ipa": "puai21 li13",
+      "definition": "像汤匙状的一种饭勺，用于舀干饭。△大条杉刣～（喻大材小用）。",
+      "has_audio": false
+    },
+    {
+      "word": "焙灶",
+      "pinyin": "buai5 zao4",
+      "ipa": "puai55 lau42",
+      "definition": "特指烘烤龙眼干的炉灶。",
+      "has_audio": false
+    },
+    {
+      "word": "焙箅",
+      "pinyin": "buai5 bing5",
+      "ipa": "puai42 piŋ21",
+      "definition": "焙灶上放置龙眼干的竹箅子。",
+      "has_audio": false
+    },
+    {
+      "word": "盘缠",
+      "pinyin": "buang2 ding2",
+      "ipa": "puan21 niŋ13",
+      "definition": "旅费。",
+      "has_audio": false
+    },
+    {
+      "word": "半遂",
+      "pinyin": "buang4 sui5",
+      "ipa": "puan42 ɬui21",
+      "definition": "半身瘫痪。",
+      "has_audio": false
+    },
+    {
+      "word": "肥白",
+      "pinyin": "bui2 ba2",
+      "ipa": "pui21 a13",
+      "definition": "丰腴而白皙。",
+      "has_audio": false
+    },
+    {
+      "word": "肥嫩",
+      "pinyin": "bui2 noe5",
+      "ipa": "pui42 nø21",
+      "definition": "胖嘟嘟。",
+      "has_audio": false
+    },
+    {
+      "word": "肥粉",
+      "pinyin": "bui2 hong3",
+      "ipa": "pui21 ɔŋ453",
+      "definition": "化肥。",
+      "has_audio": false
+    },
+    {
+      "word": "沸水",
+      "pinyin": "bui4 zui3",
+      "ipa": "pui55 lui453",
+      "definition": "开水。",
+      "has_audio": false
+    },
+    {
+      "word": "疿粉",
+      "pinyin": "bui4 hong3",
+      "ipa": "pui55 ɔŋ453",
+      "definition": "痱子粉。",
+      "has_audio": false
+    },
+    {
+      "word": "生元",
+      "pinyin": "ca1 ngoeng2",
+      "ipa": "tsha21 ŋœŋ13",
+      "definition": "要焙制为龙眼干的新鲜龙眼。",
+      "has_audio": false
+    },
+    {
+      "word": "生面",
+      "pinyin": "ca1 ming4",
+      "ipa": "tsha13 miŋ42",
+      "definition": "面貌生疏：者个侬生～。",
+      "has_audio": false
+    },
+    {
+      "word": "青盲",
+      "pinyin": "ca1 ma2",
+      "ipa": "tsha21 ma13",
+      "definition": "瞎子。",
+      "has_audio": false
+    },
+    {
+      "word": "青面",
+      "pinyin": "ca1 ming4",
+      "ipa": "tsha21 miŋ42",
+      "definition": "脸色发青。",
+      "has_audio": false
+    },
+    {
+      "word": "星光",
+      "pinyin": "ca1 gung1",
+      "ipa": "tsha21 ŋ533",
+      "definition": "还有点儿亮：路面那～，伓使手电。",
+      "has_audio": false
+    },
+    {
+      "word": "差险",
+      "pinyin": "ca1 hiang3",
+      "ipa": "tsa21 hiaŋ13",
+      "definition": "副词，差点儿：～摔落尾。",
+      "has_audio": false
+    },
+    {
+      "word": "清带",
+      "pinyin": "ca1 dua4",
+      "ipa": "tsha21 lua42",
+      "definition": "同见下方【鮮带】。",
+      "has_audio": false
+    },
+    {
+      "word": "腥臊",
+      "pinyin": "ca1 co1",
+      "ipa": "tsha21 lo533",
+      "definition": "腥：～味。",
+      "has_audio": false
+    },
+    {
+      "word": "鲜带",
+      "pinyin": "ca1 dua4",
+      "ipa": "tsha13 lua42",
+      "definition": "鲜带鱼，没有盐腌的带鱼。‖也叫【清带】见上方。",
+      "has_audio": false
+    },
+    {
+      "word": "查数",
+      "pinyin": "ca2 siao4",
+      "ipa": "tsa55 liau42",
+      "definition": "查账。",
+      "has_audio": false
+    },
+    {
+      "word": "册包",
+      "pinyin": "ca5 bao1",
+      "ipa": "tsha55 au533",
+      "definition": "书包。",
+      "has_audio": false
+    },
+    {
+      "word": "册夹",
+      "pinyin": "ca5 ge5",
+      "ipa": "tsha42 ke21",
+      "definition": "书夹子。",
+      "has_audio": false
+    },
+    {
+      "word": "册店",
+      "pinyin": "ca5 de4",
+      "ipa": "tsha55 le42",
+      "definition": "书店。",
+      "has_audio": false
+    },
+    {
+      "word": "册面",
+      "pinyin": "ca5 ming4",
+      "ipa": "tsha55 miŋ42",
+      "definition": "封面。",
+      "has_audio": false
+    },
+    {
+      "word": "册盒",
+      "pinyin": "ca5 orh7",
+      "ipa": "tsha55 hɒʔ4",
+      "definition": "书包，旧时是可背的小木箱。",
+      "has_audio": false
+    },
+    {
+      "word": "踩马",
+      "pinyin": "caibor3",
+      "ipa": "tshai42 pɒ453",
+      "definition": "象棋下法之一。蹬马。",
+      "has_audio": false
+    },
+    {
+      "word": "彩亭",
+      "pinyin": "cai3 deng2",
+      "ipa": "tshai13 lɛŋ13",
+      "definition": "莆仙丧葬习俗，用三架竹舆扎成的架子分别悬挂死者遗像、放神位和挂挽联。",
+      "has_audio": false
+    },
+    {
+      "word": "菜甲",
+      "pinyin": "cai4 gah6",
+      "ipa": "tsai42 kɒ21",
+      "definition": "碎菜叶、杆茎。",
+      "has_audio": false
+    },
+    {
+      "word": "菜瓜",
+      "pinyin": "cai4 gua1",
+      "ipa": "tshai55 ua533",
+      "definition": "丝瓜。",
+      "has_audio": false
+    },
+    {
+      "word": "菜头",
+      "pinyin": "cai4 tao2",
+      "ipa": "tshai42 lau13",
+      "definition": "白萝卜。",
+      "has_audio": false
+    },
+    {
+      "word": "菜批",
+      "pinyin": "cai4 pe1",
+      "ipa": "tshai55 pe533",
+      "definition": "菜帮子。",
+      "has_audio": false
+    },
+    {
+      "word": "菜花",
+      "pinyin": "cai4 hua1",
+      "ipa": "tshai55 hua533",
+      "definition": "花菜。",
+      "has_audio": false
+    },
+    {
+      "word": "菜物",
+      "pinyin": "cai4 muai2",
+      "ipa": "tshai55 muai13",
+      "definition": "蔬菜。",
+      "has_audio": false
+    },
+    {
+      "word": "菜籽",
+      "pinyin": "cai4 zi3",
+      "ipa": "tshai55 li453",
+      "definition": "蔬菜种子。",
+      "has_audio": false
+    },
+    {
+      "word": "菜栽",
+      "pinyin": "cai4 zai1",
+      "ipa": "tshai55 lai533",
+      "definition": "菜苗。",
+      "has_audio": false
+    },
+    {
+      "word": "菜腌",
+      "pinyin": "cai4 iang1",
+      "ipa": "tshai55 iaŋ533",
+      "definition": "盐腌蔬菜。",
+      "has_audio": false
+    }
+  ],
+  "sentences": [
+    {
+      "word": "汝好",
+      "pinyin": "ly3 hor3",
+      "ipa": "",
+      "definition": "你好"
+    },
+    {
+      "word": "食盲未",
+      "pinyin": "sih6 mang5 mui5",
+      "ipa": "",
+      "definition": "吃饭了吗"
+    },
+    {
+      "word": "困盲",
+      "pinyin": "kong5 mang5",
+      "ipa": "",
+      "definition": "睡觉"
+    },
+    {
+      "word": "去底位",
+      "pinyin": "ky5 dai3 wei4",
+      "ipa": "",
+      "definition": "去哪里"
+    },
+    {
+      "word": "几钱",
+      "pinyin": "gui3 jing5",
+      "ipa": "",
+      "definition": "多少钱"
+    },
+    {
+      "word": "好势",
+      "pinyin": "ho3 se5",
+      "ipa": "",
+      "definition": "好了/可以了"
+    },
+    {
+      "word": "多谢",
+      "pinyin": "duo1 sia5",
+      "ipa": "",
+      "definition": "谢谢"
+    },
+    {
+      "word": "无客气",
+      "pinyin": "bo3 keh5 ki5",
+      "ipa": "",
+      "definition": "不客气"
+    },
+    {
+      "word": "失礼",
+      "pinyin": "sih6 le3",
+      "ipa": "",
+      "definition": "对不起/失礼了"
+    },
+    {
+      "word": "是毋是",
+      "pinyin": "si6 m5 si6",
+      "ipa": "",
+      "definition": "是不是"
+    },
+    {
+      "word": "有毋有",
+      "pinyin": "u3 m5 u3",
+      "ipa": "",
+      "definition": "有没有"
+    },
+    {
+      "word": "做甚物",
+      "pinyin": "zoh5 sim6 mue5",
+      "ipa": "",
+      "definition": "干什么"
+    },
+    {
+      "word": "底时",
+      "pinyin": "dai3 si6",
+      "ipa": "",
+      "definition": "什么时候"
+    },
+    {
+      "word": "日安",
+      "pinyin": "dih6 ang1",
+      "ipa": "",
+      "definition": "你好/日安"
+    },
+    {
+      "word": "好毋好",
+      "pinyin": "ho3 m5 ho3",
+      "ipa": "",
+      "definition": "好不好"
+    },
+    {
+      "word": "我罩汝",
+      "pinyin": "gua3 zio5 ly3",
+      "ipa": "",
+      "definition": "我喜欢你"
+    },
+    {
+      "word": "食盲",
+      "pinyin": "sih6 mang5",
+      "ipa": "",
+      "definition": "吃饭"
+    },
+    {
+      "word": "好喫",
+      "pinyin": "ho3 kih6",
+      "ipa": "",
+      "definition": "好吃"
+    },
+    {
+      "word": "好睇",
+      "pinyin": "ho3 tai3",
+      "ipa": "",
+      "definition": "好看"
+    },
+    {
+      "word": "大聲",
+      "pinyin": "dua5 siah1",
+      "ipa": "",
+      "definition": "大声"
+    },
+    {
+      "word": "暗安",
+      "pinyin": "am5 ang1",
+      "ipa": "",
+      "definition": "晚安"
+    },
+    {
+      "word": "頭先",
+      "pinyin": "tau5 seng1",
+      "ipa": "",
+      "definition": "刚才"
+    },
+    {
+      "word": "今旦",
+      "pinyin": "ging1 duah5",
+      "ipa": "",
+      "definition": "今天"
+    },
+    {
+      "word": "明日",
+      "pinyin": "ming5 dih6",
+      "ipa": "",
+      "definition": "明天"
+    },
+    {
+      "word": "昨日",
+      "pinyin": "zoh6 dih6",
+      "ipa": "",
+      "definition": "昨天"
+    },
+    {
+      "word": "儂",
+      "pinyin": "nang5",
+      "ipa": "",
+      "definition": "人"
+    },
+    {
+      "word": "厝",
+      "pinyin": "cou5",
+      "ipa": "",
+      "definition": "家/房子"
+    },
+    {
+      "word": "轉厝",
+      "pinyin": "dng5 cou5",
+      "ipa": "",
+      "definition": "回家"
+    },
+    {
+      "word": "看戲",
+      "pinyin": "kua3 hi5",
+      "ipa": "",
+      "definition": "看戏"
+    },
+    {
+      "word": "聽曲",
+      "pinyin": "tia1 keh6",
+      "ipa": "",
+      "definition": "听曲"
+    },
+    {
+      "word": "真好",
+      "pinyin": "jing1 ho3",
+      "ipa": "",
+      "definition": "很好"
+    },
+    {
+      "word": "真𠢕",
+      "pinyin": "jing1 gao5",
+      "ipa": "",
+      "definition": "很厉害"
+    },
+    {
+      "word": "辛苦",
+      "pinyin": "sing1 ko3",
+      "ipa": "",
+      "definition": "辛苦"
+    },
+    {
+      "word": "加油",
+      "pinyin": "ga1 yiu5",
+      "ipa": "",
+      "definition": "加油"
+    },
+    {
+      "word": "等下",
+      "pinyin": "dang3 ha4",
+      "ipa": "",
+      "definition": "等一下"
+    },
+    {
+      "word": "行路",
+      "pinyin": "gia5 lou4",
+      "ipa": "",
+      "definition": "走路"
+    },
+    {
+      "word": "坐車",
+      "pinyin": "so4 cia1",
+      "ipa": "",
+      "definition": "坐车"
+    }
+  ],
+  "total_chars": 500,
+  "total_words": 400,
+  "total_sentences": 37,
+  "grand_total": 937
+}

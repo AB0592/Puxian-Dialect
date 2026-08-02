@@ -1,0 +1,44 @@
+# ===== 环境与密钥（绝不上传）=====
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+secrets/
+
+# ===== 用户数据（隐私）=====
+user_data/
+data/voice_collection/recordings/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# ===== Flutter/Dart =====
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.iml
+.idea/
+ios/Pods/
+ios/.symlinks/
+macos/Pods/
+
+# ===== 大文件数据（词典音频 17M，按需 Git LFS 或本地放置）=====
+data/hinghwa/audio/
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
+*.log
+nohup.out

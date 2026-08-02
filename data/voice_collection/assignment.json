@@ -1,0 +1,135 @@
+{
+  "version": "1.0",
+  "people": {
+    "speaker_01": {
+      "name": "阿豪",
+      "role": "孙辈(男童)",
+      "color": "#FF6B6B"
+    },
+    "speaker_02": {
+      "name": "阿嬷",
+      "role": "祖辈(女)",
+      "color": "#FFB347"
+    },
+    "speaker_03": {
+      "name": "阿爸",
+      "role": "父辈(男)",
+      "color": "#4ECDC4"
+    },
+    "speaker_04": {
+      "name": "阿母",
+      "role": "母辈(女)",
+      "color": "#45B7D1"
+    },
+    "speaker_05": {
+      "name": "阿叔",
+      "role": "父辈(男2)",
+      "color": "#96CEB4"
+    },
+    "speaker_06": {
+      "name": "阿姑",
+      "role": "母辈(女2)",
+      "color": "#D4A5A5"
+    },
+    "speaker_07": {
+      "name": "阿舅",
+      "role": "父辈(男3)",
+      "color": "#9B59B6"
+    },
+    "speaker_08": {
+      "name": "阿婶",
+      "role": "母辈(女3)",
+      "color": "#E67E22"
+    }
+  },
+  "tasks": {
+    "speaker_01": {
+      "profile": {
+        "name": "阿豪",
+        "role": "孙辈(男童)",
+        "color": "#FF6B6B"
+      },
+      "char_count": 187,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 324
+    },
+    "speaker_02": {
+      "profile": {
+        "name": "阿嬷",
+        "role": "祖辈(女)",
+        "color": "#FFB347"
+      },
+      "char_count": 188,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 325
+    },
+    "speaker_03": {
+      "profile": {
+        "name": "阿爸",
+        "role": "父辈(男)",
+        "color": "#4ECDC4"
+      },
+      "char_count": 189,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 326
+    },
+    "speaker_04": {
+      "profile": {
+        "name": "阿母",
+        "role": "母辈(女)",
+        "color": "#45B7D1"
+      },
+      "char_count": 189,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 326
+    },
+    "speaker_05": {
+      "profile": {
+        "name": "阿叔",
+        "role": "父辈(男2)",
+        "color": "#96CEB4"
+      },
+      "char_count": 188,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 325
+    },
+    "speaker_06": {
+      "profile": {
+        "name": "阿姑",
+        "role": "母辈(女2)",
+        "color": "#D4A5A5"
+      },
+      "char_count": 187,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 324
+    },
+    "speaker_07": {
+      "profile": {
+        "name": "阿舅",
+        "role": "父辈(男3)",
+        "color": "#9B59B6"
+      },
+      "char_count": 186,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 323
+    },
+    "speaker_08": {
+      "profile": {
+        "name": "阿婶",
+        "role": "母辈(女3)",
+        "color": "#E67E22"
+      },
+      "char_count": 186,
+      "word_count": 100,
+      "sentence_count": 37,
+      "total_items": 323
+    }
+  }
+}

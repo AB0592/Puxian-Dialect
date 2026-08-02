@@ -1,0 +1,20 @@
+# Cloudflare DNS 设置指南
+# 在 https://dash.cloudflare.com 打开 puxianhua.app → DNS → Records
+
+# 添加以下两条记录：
+
+# 1. 根域名
+Type:   A
+Name:   @            (或留空，代表 puxianhua.app)
+IPv4:   100.101.76.95  (Mac Mini 的 Tailscale IP)
+Proxy:  ✅ 开启 (橙色云朵)   ← 这个让 Cloudflare 提供 HTTPS
+
+# 2. www 子域名
+Type:   A
+Name:   www
+IPv4:   100.101.76.95
+Proxy:  ✅ 开启
+
+# 3. SSL/TLS 设置
+# 左侧菜单 → SSL/TLS → Overview
+# 选择 "Full" 模式（不是 Full strict）
