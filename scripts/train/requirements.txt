@@ -1,0 +1,8 @@
+# Whisper LoRA 微调依赖
+torch>=2.0.0
+transformers>=4.36.0
+peft>=0.7.0
+librosa>=0.10.0
+numpy>=1.24.0
+datasets>=2.14.0
+accelerate>=0.24.0
