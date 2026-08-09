@@ -1,0 +1,58 @@
+{
+  "version": "v1",
+  "description": "莆仙地区口音识别纠错规则库。ASR 识别普通话时，莆仙口音用户容易产生的系统性误识别，在此做规则修正。",
+  "accents": {
+    "putian": {
+      "description": "莆田口音",
+      "corrections": [
+        {"pattern": "春操", "replacement": "春草", "reason": "莆田口音平翘舌不分"},
+        {"pattern": "村草", "replacement": "春草", "reason": "c/ch 混淆"},
+        {"pattern": "春草闯唐", "replacement": "春草闯堂", "reason": "tang/tang 混淆"},
+        {"pattern": "春草闯汤", "replacement": "春草闯堂", "reason": "tang/tang 混淆"},
+        {"pattern": "春草窗堂", "replacement": "春草闯堂", "reason": "chuang/chuang 混淆"},
+        {"pattern": "状员", "replacement": "状元", "reason": "yuan/yen 混淆"},
+        {"pattern": "壮员", "replacement": "状元", "reason": "zhuang/zhuang 混淆"},
+        {"pattern": "状圆", "replacement": "状元", "reason": "yuan/yen 混淆"},
+        {"pattern": "江梅飞", "replacement": "江梅妃", "reason": "fei/fei 混淆"},
+        {"pattern": "江美飞", "replacement": "江梅妃", "reason": "mei/mei 混淆"},
+        {"pattern": "新品类", "replacement": "新亭泪", "reason": "xing/xin 混淆"},
+        {"pattern": "新品泪", "replacement": "新亭泪", "reason": "ting/pin 混淆"},
+        {"pattern": "新平泪", "replacement": "新亭泪", "reason": "ting/ping 混淆"},
+        {"pattern": "新听泪", "replacement": "新亭泪", "reason": "ting/ting 混淆"},
+        {"pattern": "新停泪", "replacement": "新亭泪", "reason": "ting/ting 混淆"},
+        {"pattern": "新庭泪", "replacement": "新亭泪", "reason": "ting/ting 混淆"},
+        {"pattern": "秋风词", "replacement": "秋风辞", "reason": "ci/ci 混淆"},
+        {"pattern": "祝影台", "replacement": "祝英台", "reason": "ying/ying 混淆"},
+        {"pattern": "凉祝", "replacement": "梁祝", "reason": "liang/liang 混淆"},
+        {"pattern": "绿蒙正", "replacement": "吕蒙正", "reason": "lv/lv 混淆"},
+        {"pattern": "蛇雕", "replacement": "射雕", "reason": "she/she 混淆"},
+        {"pattern": "红搂", "replacement": "红楼", "reason": "lou/lou 混淆"},
+        {"pattern": "三锅", "replacement": "三国", "reason": "guo/guo 混淆"},
+        {"pattern": "谁湖", "replacement": "水浒", "reason": "shui/shui 混淆"},
+        {"pattern": "西有", "replacement": "西游", "reason": "you/you 混淆"},
+        {"pattern": "东访红", "replacement": "东方红", "reason": "fang/fang 混淆"}
+      ]
+    },
+    "xianyou": {
+      "description": "仙游口音",
+      "corrections": [
+        {"pattern": "春操", "replacement": "春草", "reason": "仙游口音平翘舌不分"},
+        {"pattern": "村草", "replacement": "春草", "reason": "c/ch 混淆"},
+        {"pattern": "状员", "replacement": "状元", "reason": "仙游口音 yuan/yen 混淆更明显"},
+        {"pattern": "壮员", "replacement": "状元", "reason": "zhuang/zhuang 混淆"},
+        {"pattern": "江梅飞", "replacement": "江梅妃", "reason": "fei/fei 混淆"},
+        {"pattern": "绿蒙正", "replacement": "吕蒙正", "reason": "仙游口音 lv/lu 混淆"},
+        {"pattern": "新亭类", "replacement": "新亭泪", "reason": "lei/lei 混淆"},
+        {"pattern": "新亭累", "replacement": "新亭泪", "reason": "lei/lei 混淆"}
+      ]
+    },
+    "mandarin": {
+      "description": "标准普通话",
+      "corrections": []
+    },
+    "auto": {
+      "description": "自动检测（不做口音修正）",
+      "corrections": []
+    }
+  }
+}
