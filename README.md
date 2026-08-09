@@ -1,100 +1,163 @@
 # 莆仙话（莆田方言）语音训练系统
 
-基于个人口音引擎的莆田方言训练系统。核心理念：**中文为共同文字，各人可有独立的口语发音体系**。系统通过录音训练记住每个用户的发音特征，并能模拟用户的语音风格。
+基于 Whisper 微调和三层匹配策略的莆田方言节目名语音识别系统。让阿嬷用莆仙话说出节目名，系统自动识别并播放。
 
 ## 功能
 
-- **四级训练素材** — 字 → 词 → 句 → 文章，对齐中国语保工程标准（1000 字 / 1200 词 / 50 句）
-- **多用户档案** — 每用户独立 profile + 个人发音覆盖层（overlay）
-- **方言语系模板** — 内置莆仙话（29K 条 HinghuaFactory 词典），可扩展粤语 / 闽南语 / 自定义语系
-- **朗读模式** — 显示中文 → 录音 → ASR 识别 → 确认保存
-- **自由对话** — 随意讲莆仙话 → 识别 / 翻译 → 学习
-- **词库浏览** — 搜索、浏览、删除已录词条（词典 61,290 条）
-- **声纹注册** — 可选，用于多用户区分
-- **语音库采集** — 8 角色交叉录制网页端（阿豪 / 阿嬷 / 阿爸 / 阿母 / 阿叔 / 阿姑 / 阿舅 / 阿婶）
+- **语音点播** - 用莆仙话说节目名，自动识别并播放
+- **ASR 识别** - 支持本地微调模型和 DashScope 云端识别
+- **三层匹配** - 文字映射 + 拼音模糊 + 音频 DTW 对比
+- **录音训练** - 录制莆仙话语料，微调 Whisper 模型
+- **数据集管理** - 录音标注、数据集导出、多格式训练数据
+- **口音适配** - 莆仙方言发音规则纠正（c/ch、z/zh、f/h 等）
+- **多用户支持** - 每用户独立录音和数据隔离
+- **手机访问** - 同 WiFi 下手机浏览器直接使用
 
 ## 架构
 
 ```
-Flutter Web 前端 (puxian_app/)
+阿嬷的频道前端 (ama-channel/, 端口 8080)
     │  HTTP
     ▼
 FastAPI 后端 (scripts/api_server.py, 端口 8520)
-    ├── dialect_map.py      # 方言映射库 (dialect_map.json)
+    ├── api_v1.py           # ASR v1 API 路由
+    ├── asr/
+    │   ├── service.py      # ASR 服务层（三层匹配编排）
+    │   ├── providers.py    # 识别引擎（Local Whisper / DashScope / Mock）
+    │   ├── normalize.py    # 拼音模糊匹配 + 误识别纠正
+    │   ├── audio_matcher.py# DTW 音频匹配（39维 HTK 特征）
+    │   ├── accent_adapter.py # 口音适配层
+    │   ├── schemas.py      # Pydantic 数据模型
+    │   ├── recording_store.py # 录音存储管理
+    │   ├── dataset_store.py   # 训练数据集管理
+    │   └── program_vocab.json # 节目名词表 + 误识别映射
+    ├── local_model_manager.py # 本地模型管理
     ├── dialect_asr.py      # ASR 识别（多层降级链）
-    ├── dialect_tts.py      # TTS 合成
-    ├── user_manager.py     # 用户档案 + 口音覆盖层
+    ├── dialect_map.py      # 方言映射库
+    ├── user_manager.py     # 用户档案
     ├── auth.py             # JWT 认证
-    └── putian_trainer.py   # Streamlit 调参台 (端口 8501)
+    └── train/              # 模型微调
+        ├── finetune_whisper.py  # Whisper LoRA 微调
+        ├── run_training.py      # 训练入口
+        └── requirements.txt     # 训练依赖
 ```
 
 ## 快速开始
 
-### 后端
+### 1. 安装依赖
 
 ```bash
 cd scripts
 python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt   # fastapi uvicorn pydantic 等
-
-# 启动 API 服务（手机同 WiFi 访问 http://<IP>:8520）
-python3 api_server.py
-
-# 启动 Streamlit 训练台
-python3 -m streamlit run putian_trainer.py --server.port 8501
+pip install -r requirements.txt
 ```
 
-### 前端（Flutter Web）
+### 2. 配置 API Key（可选，用于 DashScope 识别）
 
 ```bash
-cd puxian_app
-flutter pub get
-
-# 本地调试
-flutter run -d macos
-# 或 Web 构建
-flutter build web
+cp asr_config.example.env asr_config.env
+# 编辑 asr_config.env，填入 DashScope API Key
 ```
 
-## 项目结构
+### 3. 启动服务
 
+```bash
+# 启动 API 服务（端口 8520，手机同 WiFi 可访问）
+python3 api_server.py
 ```
-Putian-Dialect/
-├── puxian_app/          # Flutter Web 前端
-│   └── lib/
-│       ├── main.dart
-│       ├── models/      # 数据模型
-│       ├── screens/     # 登录/注册/朗读/自由对话/词库
-│       ├── services/    # API 客户端、录音、TTS
-│       └── widgets/     # 通用组件
-├── scripts/             # Python 后端
-│   ├── api_server.py    # FastAPI 主服务 (8520)
-│   ├── putian_trainer.py# Streamlit 训练台 (8501)
-│   ├── dialect_asr*.py  # ASR 方案（DashScope/GLM/降级链）
-│   ├── dialect_tts*.py  # TTS 方案
-│   ├── dialect_map.py   # 方言映射库
-│   ├── user_manager.py  # 用户档案
-│   ├── auth.py          # JWT 认证
-│   ├── scrape_hinghwa.py# hinghwa.cn 词典抓取
-│   └── templates/       # 语音采集网页端
-└── data/
-    └── hinghwa/         # 莆仙话词典 JSON + 发音音频（61,290 条词条，1,289 个 MP3）
-    └── voice_collection/ # 语音采集任务配置
+
+### 4. 启动前端
+
+前端代码在单独的仓库：[ama-channel-demo](https://github.com/AB0592/ama-channel-demo)
+
+```bash
+cd ama-channel
+python3 -m http.server 8080
 ```
+
+### 5. 手机访问
+
+手机连上和电脑同一个 WiFi，浏览器打开：
+- 点播页面：`http://<电脑IP>:8080/index.html`
+- 录音页面：`http://<电脑IP>:8080/record.html`
+
+## 三层匹配策略
+
+系统对 ASR 识别结果采用三层匹配，逐步降级：
+
+| 层级 | 方法 | 说明 |
+|------|------|------|
+| 第一层 | 文字映射 | `program_vocab.json` 中 `common_misrecognition` 精确映射（如"乾杯"→"江梅妃"） |
+| 第二层 | 拼音模糊 | 莆仙方言声母合并规则（c→ch, z→zh, s→sh, d→t, b→p, g→k, f→h, n→l），65%声母 + 35%韵母 |
+| 第三层 | DTW 音频对比 | 39维 HTK 特征（13 MFCC + 13 delta + 13 delta-delta），CMVN 归一化，Sakoe-Chiba 约束 |
+
+匹配流程：ASR 文字 → 误识别映射 → 子串/编辑距离 → 拼音模糊 → DTW 音频匹配
+
+## 模型训练
+
+### 安装训练依赖
+
+```bash
+cd scripts
+pip install -r train/requirements.txt
+```
+
+### 使用录音训练
+
+1. 在 `record.html` 页面录制莆仙话节目名
+2. 录够 3 条以上后点击"开始训练模型"
+3. 或手动运行训练脚本：
+
+```bash
+python3 train/run_training.py --dataset_id ds-xxxx --activate
+```
+
+训练使用 Whisper LoRA 微调（r=16, alpha=32），支持 MPS 加速。训练时需设置离线模式：
+
+```bash
+export TRANSFORMERS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export HF_DATASETS_OFFLINE=1
+```
+
+## API 端点
+
+| 方法 | 路径 | 说明 |
+|------|------|------|
+| POST | `/api/v1/asr/transcribe` | 语音识别（上传音频） |
+| GET | `/api/v1/asr/capabilities` | 查看支持的引擎和配置 |
+| GET | `/api/v1/recordings` | 获取录音列表 |
+| DELETE | `/api/v1/recordings/{id}` | 删除录音 |
+| POST | `/api/v1/recordings/{id}/label` | 标注录音节目名 |
+| GET | `/api/v1/datasets` | 列出数据集 |
+| POST | `/api/v1/datasets` | 创建数据集 |
+| POST | `/api/v1/datasets/{id}/samples` | 添加训练样本 |
+| POST | `/api/v1/datasets/{id}/export` | 导出训练数据 |
+| POST | `/api/v1/model/finetune/train` | 启动模型训练 |
+| GET | `/api/v1/model/finetune/train/status` | 查询训练状态 |
+| GET | `/api/v1/model/local/models` | 列出本地模型 |
+| POST | `/api/v1/model/local/activate` | 激活模型 |
+
+完整 API 文档见 `scripts/ASR_V1_API.md`，启动服务后访问 `http://localhost:8520/docs` 查看交互式文档。
 
 ## 配置
 
-所有 API 密钥通过环境变量或 `~/.hermes/profiles/dialect-bot/.env` 提供（不入库）：
-
-- `DASHSCOPE_API_KEY` — 阿里云 DashScope（ASR/TTS 主方案）
-- `DEEPSEEK_API_KEY` — DeepSeek（GLM 备选方案）
-- `KIMI_API_KEY` — Kimi（备选）
+| 配置 | 位置 | 说明 |
+|------|------|------|
+| DashScope API Key | `scripts/asr_config.env` | 阿里云语音识别（不入库） |
+| ASR 引擎选择 | API 请求 `provider` 参数 | `local`（本地模型）或 `thirdparty`（DashScope） |
+| 前端超时 | `index.html` | 30 秒 |
+| 训练模式 | 环境变量 | 离线模式，使用缓存模型 |
 
 ## 数据说明
 
-- 词典数据来自 [hinghwa.cn](https://hinghwa.cn)（api.pxm.edialect.top），词条 61,290 条
-- 发音音频 1,289 个 MP3（约 17M）已随仓库分发，覆盖莆田/仙游多地区口音
-- ASR 现状：DashScope paraformer-realtime-v2 支持粤/闽/吴/客家，**暂不支持莆仙话**；莆仙话训练当前以听读对照为主
+- 词典数据来自 [hinghwa.cn](https://hinghwa.cn)，词条 61,290 条
+- 发音音频 1,289 个 MP3，覆盖莆田/仙游多地区口音
+- 用户录音存储在 `user_data/` 目录（不入库，隐私保护）
+
+## 相关项目
+
+- 前端网页：[ama-channel-demo](https://github.com/AB0592/ama-channel-demo) - 阿嬷的频道
 
 ## License
 
