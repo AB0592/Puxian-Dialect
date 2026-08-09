@@ -1147,50 +1147,80 @@ def _find_cloudflared() -> str | None:
 
 
 def _run_tunnel_thread(port: int):
-    """在后台线程中运行 cloudflared tunnel。"""
+    """在后台线程中运行隧道（优先 cloudflared，备选 SSH localhost.run）。"""
     global _tunnel_process, _tunnel_status
 
     binary = _find_cloudflared()
-    if not binary:
-        _tunnel_status["error"] = "cloudflared 未安装。请运行: curl -sL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-darwin-arm64.tgz | tar xz -C /usr/local/bin/"
-        _tunnel_status["running"] = False
-        return
 
+    if binary:
+        # 方案 1: cloudflared
+        try:
+            _tunnel_process = subprocess.Popen(
+                [binary, "tunnel", "--url", f"http://localhost:{port}", "--no-autoupdate"],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                text=True,
+            )
+
+            url_pattern = _re.compile(r'https://[a-z0-9-]+\.trycloudflare\.com')
+            import time
+            deadline = time.time() + 30
+
+            while _tunnel_process.poll() is None and time.time() < deadline:
+                line = _tunnel_process.stdout.readline()
+                if not line:
+                    time.sleep(0.5)
+                    continue
+                match = url_pattern.search(line)
+                if match:
+                    _tunnel_status["url"] = match.group(0)
+                    _tunnel_status["running"] = True
+                    _tunnel_status["error"] = None
+                    return
+
+            if _tunnel_process.poll() is not None:
+                _tunnel_status["error"] = "cloudflared 进程已退出"
+            else:
+                _tunnel_status["error"] = "30 秒内未获取到公网 URL"
+            _tunnel_status["running"] = False
+            return
+
+        except Exception as e:
+            _tunnel_status["error"] = f"cloudflared 失败: {e}"
+
+    # 方案 2: SSH 隧道 (localhost.run) - 无需安装任何东西
     try:
+        import time
         _tunnel_process = subprocess.Popen(
-            [binary, "tunnel", "--url", f"http://localhost:{port}", "--no-autoupdate"],
+            ["ssh", "-o", "StrictHostKeyChecking=no", "-o", "ConnectTimeout=10",
+             "-R", f"80:localhost:{port}", "nokey@localhost.run"],
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
         )
 
-        # 读取输出，解析公网 URL
-        url_pattern = _re.compile(r'https://[a-z0-9-]+\.trycloudflare\.com')
-        import time
-        deadline = time.time() + 30  # 最多等 30 秒
+        url_pattern = _re.compile(r'https://[a-z0-9-]+\.[a-z]+\.[a-z]+')
+        deadline = time.time() + 30
 
         while _tunnel_process.poll() is None and time.time() < deadline:
             line = _tunnel_process.stdout.readline()
             if not line:
                 time.sleep(0.5)
                 continue
+            # localhost.run 输出格式: "xxxx.lhr.life tunneled with tls termination, https://xxxx.lhr.life"
             match = url_pattern.search(line)
-            if match:
+            if match and 'tunneled' in line:
                 _tunnel_status["url"] = match.group(0)
                 _tunnel_status["running"] = True
                 _tunnel_status["error"] = None
                 return
 
-        # 超时或进程退出
         if _tunnel_process.poll() is not None:
-            _tunnel_status["error"] = "cloudflared 进程已退出"
+            _tunnel_status["error"] = "SSH 隧道进程已退出"
         else:
             _tunnel_status["error"] = "30 秒内未获取到公网 URL"
         _tunnel_status["running"] = False
 
-    except FileNotFoundError:
-        _tunnel_status["error"] = "cloudflared 未安装"
-        _tunnel_status["running"] = False
     except Exception as e:
         _tunnel_status["error"] = str(e)
         _tunnel_status["running"] = False
@@ -1198,13 +1228,14 @@ def _run_tunnel_thread(port: int):
 
 @router.post("/tunnel/start")
 async def tunnel_start(data: dict):
-    """启动 Cloudflare Tunnel，创建公网访问链接。"""
+    """启动公网隧道（cloudflared 或 SSH localhost.run），创建公网访问链接。"""
     global _tunnel_status
 
     if _tunnel_status["running"]:
         return {"url": _tunnel_status["url"], "message": "Tunnel 已在运行"}
 
-    port = data.get("port", 8080)
+    # 默认使用反向代理端口 9090（合并前端 8080 和 API 8520）
+    port = data.get("port", 9090)
 
     _tunnel_status = {"running": False, "url": None, "error": None}
 
@@ -1215,9 +1246,9 @@ async def tunnel_start(data: dict):
     )
     thread.start()
 
-    # 等待最多 15 秒获取 URL
+    # 等待最多 20 秒获取 URL（SSH 隧道需要更长时间）
     import time
-    deadline = time.time() + 15
+    deadline = time.time() + 20
     while time.time() < deadline:
         if _tunnel_status["url"]:
             return {"url": _tunnel_status["url"]}
