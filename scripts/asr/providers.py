@@ -321,17 +321,16 @@ class LocalPuxianASRProvider(ASRProvider):
     本地莆仙话 ASR Provider — Phase 6 实现。
 
     使用本地 SenseVoice / Whisper 模型做语音识别。
-    优先使用 SenseVoice（方言识别更准），回退到 Whisper。
 
     引擎选择逻辑：
-      1. 如果有微调过的莆仙话模型 → 使用微调模型
-      2. 如果有 SenseVoice 基础模型 → 使用 SenseVoice
+      1. 莆仙话场景：Whisper 不支持方言，返回空文本让前端降级
+      2. 其他语言：如果有 SenseVoice 基础模型 → 使用 SenseVoice
       3. 如果有 Whisper → 使用 Whisper
       4. 都没有 → 抛出 ASRError(PROVIDER_ERROR)
 
     依赖：
-      - funasr + SenseVoiceSmall 模型（推荐）
-      - 或 openai-whisper（回退）
+      - funasr + SenseVoiceSmall 模型（其他方言）
+      - 或 openai-whisper（普通话回退）
     """
 
     PROVIDER_NAME = "local"
@@ -380,12 +379,16 @@ class LocalPuxianASRProvider(ASRProvider):
             )
 
         # 检查是否有可用的本地模型
-        if not SENSEVOICE_AVAILABLE and not WHISPER_AVAILABLE:
-            raise ASRError(
-                "PROVIDER_ERROR",
-                "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）或 openai-whisper",
-                retryable=False,
-            )
+        # 莆仙话场景：Whisper 不支持方言，dialect_asr 会返回空文本让前端降级
+        # 其他场景需要 SenseVoice 或 Whisper
+        is_puxian = lang_for_asr in ("putian", "cpx")
+        if not is_puxian:
+            if not SENSEVOICE_AVAILABLE and not WHISPER_AVAILABLE:
+                raise ASRError(
+                    "PROVIDER_ERROR",
+                    "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）或 openai-whisper",
+                    retryable=False,
+                )
 
         try:
             result = recognize(audio_path, lang_for_asr)
@@ -410,7 +413,7 @@ class LocalPuxianASRProvider(ASRProvider):
                     f"本地 ASR 识别失败: {error}",
                     retryable=True,
                 )
-            # 静音/噪音 → 返回空文本
+            # 静音/噪音/莆仙话 → 返回空文本，confidence=0 确保前端降级
             return {
                 "text": "",
                 "confidence": 0.0,
@@ -421,7 +424,7 @@ class LocalPuxianASRProvider(ASRProvider):
             }
 
         # 6. 识别成功
-        # SenseVoice 通常更准确，给较高置信度
+        # SenseVoice 置信度较高，Whisper 次之
         if engine == "sensevoice":
             confidence = 0.88
         elif engine == "whisper":

@@ -4,6 +4,12 @@
 
 SenseVoice 对莆仙话等方言识别更准。模型文件已下载到本地缓存，
 不再走 funasr AutoModel 自动下载（网络不稳定）。
+
+Whisper 支持两种加载方式：
+  1. openai-whisper 包（原版 Whisper）
+  2. transformers 库（HuggingFace 格式模型）
+
+注意：莆仙话场景下 Whisper 不支持方言识别，返回空文本让前端降级。
 """
 import os
 import json
@@ -11,12 +17,22 @@ import time
 from pathlib import Path
 from typing import Optional
 
-# Whisper
+# Whisper (openai-whisper 包)
 try:
     import whisper
-    WHISPER_AVAILABLE = True
+    WHISPER_OPENAI_AVAILABLE = True
 except ImportError:
-    WHISPER_AVAILABLE = False
+    WHISPER_OPENAI_AVAILABLE = False
+
+# Transformers（用于加载 Whisper 模型）
+try:
+    from transformers import WhisperForConditionalGeneration, WhisperProcessor
+    TRANSFORMERS_AVAILABLE = True
+except ImportError:
+    TRANSFORMERS_AVAILABLE = False
+
+# 综合判断 Whisper 是否可用
+WHISPER_AVAILABLE = WHISPER_OPENAI_AVAILABLE or TRANSFORMERS_AVAILABLE
 
 # SenseVoice 底层库
 try:
@@ -142,37 +158,129 @@ def _clean_sensevoice(text: str) -> str:
 
 
 # ============================================================
-# Whisper（回退）
+# Whisper（回退）— 支持 openai-whisper 和 transformers 两种方式
 # ============================================================
 
 WHISPER_MODEL_SIZE = "small"
 
 
 def _get_whisper():
+    """加载 Whisper 模型（优先 openai-whisper，回退 transformers）。"""
     global _whisper_model
-    if _whisper_model is None:
-        if not WHISPER_AVAILABLE:
-            return None
-        print(f"🔄 加载 Whisper {WHISPER_MODEL_SIZE} 模型...")
-        _whisper_model = whisper.load_model(WHISPER_MODEL_SIZE)
-        print("✅ Whisper 加载完成")
+    if _whisper_model is not None:
+        return _whisper_model
+
+    # 方式 1: openai-whisper 包
+    if WHISPER_OPENAI_AVAILABLE:
+        print(f"🔄 加载 Whisper {WHISPER_MODEL_SIZE} 模型 (openai-whisper)...")
+        try:
+            _whisper_model = {"type": "openai", "model": whisper.load_model(WHISPER_MODEL_SIZE)}
+            print("✅ Whisper 加载完成 (openai-whisper)")
+            return _whisper_model
+        except Exception as e:
+            print(f"⚠ openai-whisper 加载失败: {e}")
+
+    # 方式 2: transformers
+    if TRANSFORMERS_AVAILABLE:
+        return _get_whisper_transformers()
+
+    return None
+
+
+def _get_whisper_transformers():
+    """使用 transformers 加载 Whisper 基础模型。"""
+    global _whisper_model
+
+    import torch
+
+    model_name = f"openai/whisper-{WHISPER_MODEL_SIZE}"
+    print(f"🔄 加载 Whisper 模型 (transformers): {model_name}")
+
+    try:
+        start = time.time()
+        device = "mps" if torch.backends.mps.is_available() else "cpu"
+
+        model = WhisperForConditionalGeneration.from_pretrained(model_name)
+        processor = WhisperProcessor.from_pretrained(model_name)
+
+        model.to(device)
+        model.eval()
+
+        _whisper_model = {"type": "transformers", "model": model, "processor": processor, "device": device}
+        elapsed = time.time() - start
+        print(f"✅ Whisper 加载完成 ({elapsed:.1f}秒, device={device})", flush=True)
+    except Exception as e:
+        print(f"⚠ Whisper (transformers) 加载失败: {e}", flush=True)
+        return None
+
     return _whisper_model
 
 
 def _whisper_recognize(audio_path: str, lang_hint: str) -> dict:
-    model = _get_whisper()
-    if model is None:
+    model_info = _get_whisper()
+    if model_info is None:
         return {"text": "", "lang": "unknown", "engine": "whisper", "error": "Whisper 未安装"}
 
     lang_map = {"zh": "zh", "yue": "zh", "nan": "zh", "cpx": "zh",
                 "wuu": "zh", "hak": "zh"}
     whisper_lang = lang_map.get(lang_hint, "zh")
 
+    # 分派到对应的识别函数
+    if model_info["type"] == "openai":
+        return _whisper_recognize_openai(model_info["model"], audio_path, whisper_lang)
+    else:
+        return _whisper_recognize_transformers(model_info, audio_path, whisper_lang)
+
+
+def _whisper_recognize_openai(model, audio_path: str, whisper_lang: str) -> dict:
+    """使用 openai-whisper 包识别。"""
     result = model.transcribe(audio_path, language=whisper_lang,
                               task="transcribe", fp16=False)
     text = result.get("text", "").strip()
     detected = result.get("language", whisper_lang)
     return {"text": text, "lang": detected, "engine": "whisper"}
+
+
+def _whisper_recognize_transformers(model_info: dict, audio_path: str, whisper_lang: str) -> dict:
+    """使用 transformers 库识别。"""
+    import librosa
+    import torch
+
+    model = model_info["model"]
+    processor = model_info["processor"]
+    device = model_info["device"]
+
+    try:
+        # 加载音频（16kHz 单声道）
+        audio, sr = librosa.load(audio_path, sr=16000)
+
+        # 转换为 mel 特征
+        input_features = processor(audio, sampling_rate=16000, return_tensors="pt").input_features
+        input_features = input_features.to(device)
+
+        # 强制语言和任务
+        forced_decoder_ids = processor.get_decoder_prompt_ids(language=whisper_lang, task="transcribe")
+
+        with torch.no_grad():
+            # 使用 input_features= 关键字传参
+            try:
+                predicted_ids = model.generate(
+                    input_features=input_features,
+                    forced_decoder_ids=forced_decoder_ids,
+                    max_new_tokens=440,
+                )
+            except TypeError:
+                predicted_ids = model.generate(
+                    inputs=input_features,
+                    forced_decoder_ids=forced_decoder_ids,
+                    max_new_tokens=440,
+                )
+
+        text = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0].strip()
+        return {"text": text, "lang": whisper_lang, "engine": "whisper"}
+    except Exception as e:
+        print(f"⚠ Whisper (transformers) 推理失败: {e}")
+        return {"text": "", "lang": whisper_lang, "engine": "whisper", "error": str(e)}
 
 
 # ============================================================
@@ -186,6 +294,12 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
     lang_hint = LANG_TAGS.get(lang, "auto")
     print(f"🎤 识别音频: {os.path.basename(audio_path)}  方言: {lang}")
 
+    # 0. 莆仙话：Whisper 不支持方言识别，返回空文本让前端降级
+    is_puxian = lang in ("putian", "cpx") or lang_hint == "cpx"
+    if is_puxian:
+        print(f"  → 莆仙话场景: 跳过本地模型（不支持方言），返回空文本让前端降级")
+        return {"text": "", "lang": "unknown", "engine": "none"}
+
     # 1. 优先 SenseVoice（方言更准）
     if _sensevoice_model_path() is not None:
         result = _sensevoice_recognize(audio_path, lang_hint)
@@ -193,7 +307,7 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
             print(f"  → SenseVoice: {result['text']}")
             return result
 
-    # 2. 回退 Whisper
+    # 2. Whisper 回退（普通话及其他语言）
     print("  → 使用 Whisper")
     result = _whisper_recognize(audio_path, lang_hint)
     print(f"  → Whisper: {result['text']}")
