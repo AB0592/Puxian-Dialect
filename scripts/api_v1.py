@@ -1111,3 +1111,139 @@ async def start_training(data: dict):
 async def training_status():
     """查询训练状态。"""
     return _training_status
+
+
+# ============================================================
+# Cloudflare Tunnel - 公网访问
+# ============================================================
+
+import subprocess
+import re as _re
+import shutil as _shutil
+
+_tunnel_process = None
+_tunnel_status = {
+    "running": False,
+    "url": None,
+    "error": None,
+}
+
+
+def _find_cloudflared() -> str | None:
+    """查找 cloudflared 可执行文件路径。"""
+    # 1. PATH 中查找
+    path = _shutil.which("cloudflared")
+    if path:
+        return path
+    # 2. 常见安装路径
+    for candidate in [
+        "/usr/local/bin/cloudflared",
+        "/opt/homebrew/bin/cloudflared",
+        _shutil.expanduser("~/bin/cloudflared"),
+    ]:
+        if Path(candidate).exists():
+            return candidate
+    return None
+
+
+def _run_tunnel_thread(port: int):
+    """在后台线程中运行 cloudflared tunnel。"""
+    global _tunnel_process, _tunnel_status
+
+    binary = _find_cloudflared()
+    if not binary:
+        _tunnel_status["error"] = "cloudflared 未安装。请运行: curl -sL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-darwin-arm64.tgz | tar xz -C /usr/local/bin/"
+        _tunnel_status["running"] = False
+        return
+
+    try:
+        _tunnel_process = subprocess.Popen(
+            [binary, "tunnel", "--url", f"http://localhost:{port}", "--no-autoupdate"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+        )
+
+        # 读取输出，解析公网 URL
+        url_pattern = _re.compile(r'https://[a-z0-9-]+\.trycloudflare\.com')
+        import time
+        deadline = time.time() + 30  # 最多等 30 秒
+
+        while _tunnel_process.poll() is None and time.time() < deadline:
+            line = _tunnel_process.stdout.readline()
+            if not line:
+                time.sleep(0.5)
+                continue
+            match = url_pattern.search(line)
+            if match:
+                _tunnel_status["url"] = match.group(0)
+                _tunnel_status["running"] = True
+                _tunnel_status["error"] = None
+                return
+
+        # 超时或进程退出
+        if _tunnel_process.poll() is not None:
+            _tunnel_status["error"] = "cloudflared 进程已退出"
+        else:
+            _tunnel_status["error"] = "30 秒内未获取到公网 URL"
+        _tunnel_status["running"] = False
+
+    except FileNotFoundError:
+        _tunnel_status["error"] = "cloudflared 未安装"
+        _tunnel_status["running"] = False
+    except Exception as e:
+        _tunnel_status["error"] = str(e)
+        _tunnel_status["running"] = False
+
+
+@router.post("/tunnel/start")
+async def tunnel_start(data: dict):
+    """启动 Cloudflare Tunnel，创建公网访问链接。"""
+    global _tunnel_status
+
+    if _tunnel_status["running"]:
+        return {"url": _tunnel_status["url"], "message": "Tunnel 已在运行"}
+
+    port = data.get("port", 8080)
+
+    _tunnel_status = {"running": False, "url": None, "error": None}
+
+    thread = threading.Thread(
+        target=_run_tunnel_thread,
+        args=(port,),
+        daemon=True,
+    )
+    thread.start()
+
+    # 等待最多 15 秒获取 URL
+    import time
+    deadline = time.time() + 15
+    while time.time() < deadline:
+        if _tunnel_status["url"]:
+            return {"url": _tunnel_status["url"]}
+        if _tunnel_status["error"]:
+            raise HTTPException(500, _tunnel_status["error"])
+        time.sleep(0.5)
+
+    if _tunnel_status["url"]:
+        return {"url": _tunnel_status["url"]}
+    raise HTTPException(500, "启动超时，请确认 cloudflared 已安装")
+
+
+@router.get("/tunnel/status")
+async def tunnel_status():
+    """查询 Tunnel 状态。"""
+    return _tunnel_status
+
+
+@router.post("/tunnel/stop")
+async def tunnel_stop():
+    """停止 Tunnel。"""
+    global _tunnel_process, _tunnel_status
+
+    if _tunnel_process:
+        _tunnel_process.terminate()
+        _tunnel_process = None
+
+    _tunnel_status = {"running": False, "url": None, "error": None}
+    return {"ok": True, "message": "Tunnel 已停止"}
