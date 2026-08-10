@@ -385,14 +385,16 @@ def _find_lora_adapter() -> Optional[str]:
     """查找自训练 LoRA 适配器路径。
 
     搜索顺序：
-      1. training_data/finetune_workspace/lora_output/
-      2. training_data/lora_output/
-      3. 环境变量 LORA_ADAPTER_PATH
-      4. training_data/local_model_config.json 中的 custom_model_path
+      1. training_data/lora_output_v2/  （v2: r=32, 早停优化）
+      2. training_data/finetune_workspace/lora_output/
+      3. training_data/lora_output/    （v1: r=16, 原始训练）
+      4. 环境变量 LORA_ADAPTER_PATH
+      5. training_data/local_model_config.json 中的 custom_model_path
     """
     # 候选路径
     project_root = Path(__file__).parent.parent
     candidates = [
+        project_root / "training_data" / "lora_output_v2",
         project_root / "training_data" / "finetune_workspace" / "lora_output",
         project_root / "training_data" / "lora_output",
     ]
@@ -542,6 +544,38 @@ def _finetuned_whisper_recognize(audio_path: str) -> dict:
         return None
 
 
+def _is_lora_output_quality(text: str) -> bool:
+    """检查 LoRA 输出质量是否可接受。
+
+    过滤以下低质量输出：
+    - 空文本或过短（< 2 字符）
+    - 重复字符（同一字符连续出现 3 次以上，如 "旋旋旋旋..."）
+    - 中英文混杂（如 "几乎已 cut"）
+    - 纯英文/数字（莆仙话识别应输出中文）
+    """
+    if not text or len(text.strip()) < 2:
+        return False
+
+    text = text.strip()
+
+    # 检查重复字符（同一字符连续 3 次以上）
+    for i in range(len(text) - 2):
+        if text[i] == text[i + 1] == text[i + 2]:
+            return False
+
+    # 检查中英文混杂
+    has_chinese = any('\u4e00' <= c <= '\u9fff' for c in text)
+    has_latin = any(c.isalpha() and ord(c) < 128 for c in text)
+    if has_chinese and has_latin:
+        return False
+
+    # 纯英文/数字（无中文字符）
+    if not has_chinese:
+        return False
+
+    return True
+
+
 # ============================================================
 # 统一入口
 # ============================================================
@@ -553,18 +587,27 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
     lang_hint = LANG_TAGS.get(lang, "auto")
     print(f"🎤 识别音频: {os.path.basename(audio_path)}  方言: {lang}")
 
-    # ── 莆仙话：SenseVoice 锁定（LoRA 质量不达标，暂不接入）──
+    # ── 莆仙话：LoRA 优先 → SenseVoice 回退 → 空文本降级 ──
     if lang == 'putian':
-        # LoRA 自训练模型 eval loss 3.2+，输出重复循环，暂不使用
-        # 直接走 SenseVoice 原始模型
+        # 1. 优先使用自训练 Whisper LoRA 模型
+        lora_result = _finetuned_whisper_recognize(audio_path)
+        if lora_result and lora_result["text"] and _is_lora_output_quality(lora_result["text"]):
+            print(f"  → LoRA: {lora_result['text']}")
+            return lora_result
+        elif lora_result and lora_result["text"]:
+            print(f"  → LoRA 输出质量不佳（重复/混杂），回退 SenseVoice: {lora_result['text']}")
+        else:
+            print("  → LoRA 不可用或无输出，回退 SenseVoice")
+
+        # 2. 回退 SenseVoice 原始模型
         if _sensevoice_model_path() is not None:
             result = _sensevoice_recognize(audio_path, lang_hint)
             if result and result["text"]:
                 print(f"  → SenseVoice: {result['text']}")
                 return result
 
-        # SenseVoice 失败，返回空文本供前端降级
-        print("  → 莆仙话 SenseVoice 未识别到内容，返回空文本")
+        # 3. 全部失败，返回空文本供前端降级
+        print("  → 莆仙话所有引擎未识别到内容，返回空文本")
         return {"text": "", "lang": lang_hint, "engine": "sensevoice"}
 
     # ── 其他方言：SenseVoice 优先 → Whisper 回退 ──
