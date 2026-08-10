@@ -9,7 +9,8 @@ Whisper 支持两种加载方式：
   1. openai-whisper 包（原版 Whisper）
   2. transformers 库（HuggingFace 格式模型）
 
-注意：莆仙话场景下 Whisper 不支持方言识别，返回空文本让前端降级。
+注意：莆仙话场景使用 SenseVoice 原始模型（支持 cpx 方言），
+不使用微调模型。SenseVoice 失败则返回空文本让前端降级。
 """
 import os
 import json
@@ -294,10 +295,18 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
     lang_hint = LANG_TAGS.get(lang, "auto")
     print(f"🎤 识别音频: {os.path.basename(audio_path)}  方言: {lang}")
 
-    # 0. 莆仙话：Whisper 不支持方言识别，返回空文本让前端降级
+    # 0. 莆仙话：使用 SenseVoice 原始模型（支持 cpx 方言），不使用微调模型
     is_puxian = lang in ("putian", "cpx") or lang_hint == "cpx"
     if is_puxian:
-        print(f"  → 莆仙话场景: 跳过本地模型（不支持方言），返回空文本让前端降级")
+        if _sensevoice_model_path() is not None:
+            result = _sensevoice_recognize(audio_path, "cpx")
+            if result and result["text"]:
+                print(f"  → SenseVoice (莆仙话): {result['text']}")
+                return result
+            print(f"  → SenseVoice 未识别到莆仙话，返回空文本让前端降级")
+        else:
+            print(f"  → SenseVoice 模型未找到，返回空文本让前端降级")
+        # Whisper 不支持莆仙话方言，返回空文本让前端降级到第 1 层 FC
         return {"text": "", "lang": "unknown", "engine": "none"}
 
     # 1. 优先 SenseVoice（方言更准）
