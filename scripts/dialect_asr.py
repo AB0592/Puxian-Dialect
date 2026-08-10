@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
-方言语音识别模块 — DTW 音频匹配（莆仙话优先）+ SenseVoice + Whisper 回退
+方言语音识别模块 — 五层匹配管线（莆仙话）+ SenseVoice + Whisper 回退
 
-莆仙话（putian）识别管线（化繁为简）：
-  1. DTW 音频匹配（PRIMARY）— 直接用录音对接节目名，不依赖文字识别
-     参考库来源：training_data/wavs/ + user_data 带标签录音
-  2. SenseVoice 回退 — DTW 未匹配时用通用语音识别
-  3. 空文本降级 — 全部失败时返回空文本供前端降级
+莆仙话（putian）识别管线（五层匹配，顺序锁定不可打乱）：
+  1. ASR 文字识别（SenseVoice 输出文本）
+  2. 误识别映射（program_vocab.json 的 common_misrecognition 精确映射）
+  3. 子串/编辑距离（aliases 子串包含，长度≥2；编辑距离 ≤2，手写 DP）
+  4. 拼音模糊（program_pronunciation.json 的 char_pinyin + accent_rules.json 口音规则）
+  5. DTW 音频匹配（audio_matcher.py MFCC DTW，最后一层兜底）
+  每层命中即返回节目名并终止；未命中进入下一层；全部失败返回空文本。
 
 其他方言：SenseVoice 优先 → Whisper 回退。
 """
@@ -298,29 +300,43 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
     lang_hint = LANG_TAGS.get(lang, "auto")
     print(f"🎤 识别音频: {os.path.basename(audio_path)}  方言: {lang}")
 
-    # ── 莆仙话：DTW 音频匹配优先 → SenseVoice 回退 → 空文本降级 ──
+    # ── 莆仙话：五层匹配管线（SenseVoice→误识→子串/编辑→拼音→DTW）──
     if lang == 'putian':
-        # 1. 优先使用 DTW 音频匹配（直接用录音对接节目名，不依赖文字识别）
-        try:
-            from asr.audio_matcher import match as dtw_match
-            dtw_name, dtw_score = dtw_match(audio_path)
-            if dtw_name and dtw_score > 0:
-                print(f"  → DTW 匹配: {dtw_name} (score={dtw_score:.3f})")
-                return {"text": dtw_name, "lang": lang_hint, "engine": "dtw-audio-match"}
-            else:
-                print(f"  → DTW 未匹配 (best_score={dtw_score:.3f})，回退 SenseVoice")
-        except Exception as e:
-            print(f"  → DTW 匹配异常: {e}，回退 SenseVoice")
-
-        # 2. 回退 SenseVoice 原始模型
+        # 第 1 层：SenseVoice 文字识别
+        asr_text = ""
         if _sensevoice_model_path() is not None:
             result = _sensevoice_recognize(audio_path, lang_hint)
             if result and result["text"]:
-                print(f"  → SenseVoice: {result['text']}")
-                return result
+                asr_text = result["text"]
+                print(f"  → L1 SenseVoice: {asr_text}")
+            else:
+                print("  → L1 SenseVoice 未识别到内容")
+        else:
+            print("  → L1 SenseVoice 模型未加载")
 
-        # 3. 全部失败，返回空文本供前端降级
-        print("  → 莆仙话所有引擎未识别到内容，返回空文本")
+        # 第 2-5 层：五层匹配管线
+        try:
+            from asr.five_layer_pipeline import match_layers
+            match_result = match_layers(asr_text, audio_path)
+            if match_result["program_name"]:
+                print(f"  → {match_result['layer']} 匹配: {match_result['program_name']} (score={match_result['score']:.3f})")
+                return {
+                    "text": match_result["program_name"],
+                    "lang": lang_hint,
+                    "engine": match_result["layer"],
+                    "score": match_result["score"],
+                    "asr_text": asr_text,
+                }
+            else:
+                print(f"  → 五层管线全部未匹配 (asr_text='{asr_text}')")
+        except Exception as e:
+            print(f"  → 五层管线异常: {e}")
+            # 异常时回退到 SenseVoice 原始输出
+            if asr_text:
+                return {"text": asr_text, "lang": lang_hint, "engine": "sensevoice"}
+
+        # 全部失败，返回空文本供前端降级
+        print("  → 莆仙话所有层级未匹配，返回空文本")
         return {"text": "", "lang": lang_hint, "engine": "sensevoice"}
 
     # ── 其他方言：SenseVoice 优先 → Whisper 回退 ──

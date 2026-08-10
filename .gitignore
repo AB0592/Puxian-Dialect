@@ -41,6 +41,12 @@ ios/Pods/
 ios/.symlinks/
 macos/Pods/
 
+# ===== 词典音频转换产物（MP3→WAV 临时文件）=====
+data/hinghwa/audio/*.wav
+
+# ===== 临时报告 =====
+inventory_report.txt
+
 # ===== 系统 =====
 .DS_Store
 Thumbs.db

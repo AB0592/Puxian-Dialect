@@ -27,6 +27,7 @@ from typing import Optional
 # 3 级向上到达项目根目录（scripts/asr/audio_matcher.py → scripts/asr → scripts → 项目根）
 _PROJECT_ROOT = Path(__file__).parent.parent.parent
 _USER_DATA = _PROJECT_ROOT / "user_data"
+_ASR_DIR = Path(__file__).parent
 
 # 硬编码参考音频配置：节目名 → 录音文件路径列表（相对于 user_data 目录）
 _REFERENCE_CONFIG = {
@@ -317,7 +318,7 @@ def _scan_training_wavs() -> dict[str, list[str]]:
 
 def _build_reference_library() -> dict[str, list[list[list[float]]]]:
     """
-    构建参考音频特征库。
+    构建参考音频特征库（真实录音）。
 
     来源：
       1. 动态扫描 recordings.json（有 normalized_text 的录音）
@@ -328,6 +329,7 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
     因此不再作为参考源。仅使用 user_data 中用户实际录音。
 
     所有音频按内容（MD5）去重，确保同一音频不会被重复计入。
+    每个节目名最多保留 5 条参考音频，避免样本不平衡。
     """
     global _REFERENCE_CACHE
     if _REFERENCE_CACHE is not None:
@@ -354,6 +356,10 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
             seen_hashes.add(md5)
         except Exception:
             pass
+
+        # 每个节目名最多 5 条参考音频
+        if program_name in library and len(library[program_name]) >= 5:
+            return False
 
         feat = _extract_mfcc_matrix(audio_path)
         if feat is not None:
@@ -383,10 +389,192 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
 
     for name, feats in library.items():
         print(f"  ✅ {name}: {len(feats)} 条参考音频", flush=True)
-    print(f"  📊 参考库共 {len(library)} 个节目名", flush=True)
+    print(f"  📊 真实录音参考库共 {len(library)} 个节目名", flush=True)
 
     _REFERENCE_CACHE = library
     return library
+
+
+# ============================================================
+# 词典字级发音模板（DTW 增强）
+# ============================================================
+
+_DICTIONARY_TEMPLATE_CACHE: Optional[dict[str, list[list[list[float]]]]] = None
+_HINGHWA_AUDIO_DIR = _PROJECT_ROOT / "data" / "hinghwa" / "audio"
+_HINGHWA_AUDIO_INDEX = _PROJECT_ROOT / "data" / "hinghwa" / "audio_index.json"
+_HINGHWA_WORDS = _PROJECT_ROOT / "data" / "hinghwa" / "words.json"
+_VOCAB_PATH_FOR_TEMPLATES = _ASR_DIR / "program_vocab.json"
+
+# 三地区标识（audio_index.json 中的 region 字段，不含 county 前缀）
+_REGIONS = ["城里", "城关", "游洋"]  # 莆田城里 / 仙游城关 / 仙游游洋
+
+
+def _build_char_audio_map() -> dict[str, dict[str, list[str]]]:
+    """
+    构建 字→{地区: [音频路径]} 映射。
+
+    链路：字 → words.json 查拼音 → audio_index.json 按拼音后缀匹配 → 音频路径
+
+    Returns:
+        {"江": {"莆田_城里": ["/path/to/gang1.mp3"], "仙游_城关": [...]}, ...}
+    """
+    if not _HINGHWA_AUDIO_INDEX.exists() or not _HINGHWA_WORDS.exists():
+        return {}
+
+    # 1. 从 words.json 构建 字→[拼音] 映射
+    from collections import defaultdict
+    char_pinyin = defaultdict(set)
+
+    with open(_HINGHWA_WORDS, "r", encoding="utf-8") as f:
+        words = json.load(f)
+
+    for entry in words:
+        word = entry.get("word", "")
+        pinyin = entry.get("standard_pinyin", "")
+        if not word or not pinyin:
+            continue
+        if len(word) == 1:
+            char_pinyin[word].add(pinyin)
+        else:
+            parts = pinyin.split()
+            if len(parts) == len(word):
+                for char, py in zip(word, parts):
+                    if py:
+                        char_pinyin[char].add(py)
+
+    # 2. 从 audio_index.json 构建 拼音→{地区: [音频路径]} 映射
+    pinyin_audio = defaultdict(lambda: defaultdict(list))
+
+    with open(_HINGHWA_AUDIO_INDEX, "r", encoding="utf-8") as f:
+        audio_index = json.load(f)
+
+    for entry in audio_index:
+        pinyin_field = entry.get("pinyin", "")  # 如 "城关_ang4"
+        filename = entry.get("file", "")
+
+        # 提取拼音后缀（最后一个 "_" 之后的部分）
+        if "_" in pinyin_field:
+            pinyin_suffix = pinyin_field.rsplit("_", 1)[-1]
+        else:
+            pinyin_suffix = pinyin_field
+
+        # 提取地区（pinyin_field 中 "_" 之前的部分）
+        region = pinyin_field.rsplit("_", 1)[0] if "_" in pinyin_field else ""
+
+        audio_path = _HINGHWA_AUDIO_DIR / filename
+        if audio_path.exists() and pinyin_suffix:
+            pinyin_audio[pinyin_suffix][region].append(str(audio_path))
+
+    # 3. 匹配：字→拼音→音频
+    result: dict[str, dict[str, list[str]]] = {}
+
+    for char, pinyins in char_pinyin.items():
+        for py in pinyins:
+            if py in pinyin_audio:
+                if char not in result:
+                    result[char] = {}
+                for region, paths in pinyin_audio[py].items():
+                    if region not in result[char]:
+                        result[char][region] = []
+                    result[char][region].extend(paths)
+
+    return result
+
+
+def _build_dictionary_templates() -> dict[str, list[list[list[float]]]]:
+    """
+    为无录音或录音少的节目名构建字级发音模板。
+
+    流程：节目名拆字 → 查字→音频映射 → 提取 MFCC → 按字序拼接为参考序列
+    三地区模板都要建，取最佳地区分数。
+
+    匹配优先级：真实录音参考 > 词典合成模板
+
+    Returns:
+        {program_name: [mfcc_matrix1, ...]} — 每个节目名 1-3 个合成模板（按地区）
+    """
+    global _DICTIONARY_TEMPLATE_CACHE
+    if _DICTIONARY_TEMPLATE_CACHE is not None:
+        return _DICTIONARY_TEMPLATE_CACHE
+
+    # 只为有真实录音的节目名之外的那些构建模板
+    real_library = _build_reference_library()
+    real_programs = set(real_library.keys())
+
+    # 加载节目名词表
+    if not _VOCAB_PATH_FOR_TEMPLATES.exists():
+        _DICTIONARY_TEMPLATE_CACHE = {}
+        return _DICTIONARY_TEMPLATE_CACHE
+
+    with open(_VOCAB_PATH_FOR_TEMPLATES, "r", encoding="utf-8") as f:
+        vocab = json.load(f)
+
+    all_programs = [e["canonical"] for e in vocab.get("entries", [])]
+
+    # 构建字→音频映射
+    char_audio_map = _build_char_audio_map()
+    if not char_audio_map:
+        print("  ⚠️ 词典字级音频映射为空，跳过模板构建", flush=True)
+        _DICTIONARY_TEMPLATE_CACHE = {}
+        return _DICTIONARY_TEMPLATE_CACHE
+
+    print("🔊 构建词典字级发音模板 (DTW 增强)...", flush=True)
+
+    templates: dict[str, list[list[list[float]]]] = {}
+    template_details = []
+
+    for program_name in all_programs:
+        # 跳过已有真实录音的节目名（真实录音优先）
+        if program_name in real_programs:
+            continue
+
+        chars = list(program_name)
+        # 允许部分字符覆盖（至少 50% 的字有音频即可构建模板）
+        min_coverage = max(2, len(chars) // 2)
+
+        char_audio_per_region: dict[str, list[list[list[float]]]] = {}
+
+        for region in _REGIONS:
+            char_mfccs = []
+            for char in chars:
+                if char in char_audio_map and region in char_audio_map[char]:
+                    audio_path = char_audio_map[char][region][0]
+                    mfcc = _extract_mfcc_matrix(audio_path)
+                    if mfcc is not None:
+                        char_mfccs.append(mfcc)
+
+            # 检查覆盖率是否达标
+            if len(char_mfccs) >= min_coverage:
+                # 按字序水平拼接 MFCC 矩阵（沿时间轴）
+                # 每个 char_mfcc 是 (39, n_frames_i)，拼接后 (39, sum(n_frames_i))
+                try:
+                    import numpy as np
+                    concatenated = np.hstack(char_mfccs)
+                    char_audio_per_region[region] = concatenated.tolist()
+                except Exception:
+                    # numpy 不可用时用纯 Python 拼接
+                    all_frames = []
+                    for mfcc in char_mfccs:
+                        all_frames.extend(mfcc)  # 每行是一个时间帧
+                    # 转置回 (39, total_frames) 格式
+                    if all_frames:
+                        n_dim = len(all_frames[0])
+                        concatenated = [[all_frames[frame][dim] for frame in range(len(all_frames))] for dim in range(n_dim)]
+                        char_audio_per_region[region] = concatenated
+
+        if char_audio_per_region:
+            if program_name not in templates:
+                templates[program_name] = []
+            for region, mfcc_matrix in char_audio_per_region.items():
+                templates[program_name].append(mfcc_matrix)
+            covered_regions = list(char_audio_per_region.keys())
+            template_details.append((program_name, len(covered_regions), covered_regions))
+            print(f"  📝 {program_name}: {len(covered_regions)} 地区模板, {len(chars)}字覆盖", flush=True)
+
+    print(f"  📊 词典模板共 {len(templates)} 个节目名", flush=True)
+
+    _DICTIONARY_TEMPLATE_CACHE = templates
+    return templates
 
 
 def add_reference(program_name: str, audio_path: str):
@@ -417,6 +605,8 @@ def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optiona
     """
     将输入音频与参考库中的节目名进行 DTW 匹配。
 
+    匹配优先级：真实录音参考 > 词典合成模板
+
     对每个节目名取最近参考录音的 DTW 距离（最小距离），转换为相似度。
     要求最高相似度超过阈值，且与次高相似度的差距达到 margin 要求。
 
@@ -431,8 +621,9 @@ def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optiona
         (program_name, similarity) — 匹配到的节目名和相似度分数。
         如果没有匹配，返回 (None, best_score)。
     """
-    _MARGIN = 0.01  # 最高分与次高分的差距要求（降低以适应短音频匹配）
+    _MARGIN = 0.01  # 最高分与次高分的差距要求
 
+    # 1. 真实录音匹配（优先）
     library = _build_reference_library()
 
     if not library:
@@ -450,11 +641,6 @@ def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optiona
         best_dist = float('inf')
         for ref_feat in ref_features:
             dtw_dist = _dtw_distance(input_feat, ref_feat)
-            # 跳过 inf（DTW 失败）
-            # 注意：不跳过距离为 0 的自身匹配，因为：
-            # 1. 生产环境中输入音频不在参考库中，不会出现距离为 0
-            # 2. 只有多条参考录音的节目才需要留一法；只有 1 条参考的节目
-            #    如果跳过自身就无法匹配
             if dtw_dist < best_dist:
                 best_dist = dtw_dist
 
@@ -462,32 +648,73 @@ def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optiona
             sim = _dtw_to_similarity(best_dist)
             program_results.append((program_name, best_dist, sim))
 
-    if not program_results:
-        return None, 0.0
+    if program_results:
+        # 按距离升序排序（距离越小越相似）
+        program_results.sort(key=lambda x: x[1])
 
-    # 按距离升序排序（距离越小越相似）
-    program_results.sort(key=lambda x: x[1])
+        best_match, best_dist, best_sim = program_results[0]
+        second_sim = program_results[1][2] if len(program_results) > 1 else 0.0
 
-    best_match, best_dist, best_sim = program_results[0]
-    second_sim = program_results[1][2] if len(program_results) > 1 else 0.0
+        # 检查阈值和间距
+        if best_sim >= threshold and (best_sim - second_sim) >= _MARGIN:
+            return best_match, best_sim
 
-    # 检查阈值和间距
-    if best_sim >= threshold and (best_sim - second_sim) >= _MARGIN:
-        return best_match, best_sim
+        # 如果只有一个节目名且分数较高，也返回
+        if len(program_results) == 1 and best_sim >= threshold:
+            return best_match, best_sim
 
-    # 如果只有一个节目名且分数较高，也返回
-    if len(program_results) == 1 and best_sim >= threshold:
-        return best_match, best_sim
+    # 2. 词典合成模板匹配（真实录音未命中时的兜底）
+    dict_templates = _build_dictionary_templates()
+    if dict_templates:
+        template_results: list[tuple[str, float, float]] = []
 
-    return None, best_sim
+        for program_name, ref_features in dict_templates.items():
+            best_dist = float('inf')
+            for ref_feat in ref_features:
+                dtw_dist = _dtw_distance(input_feat, ref_feat)
+                if dtw_dist < best_dist:
+                    best_dist = dtw_dist
+
+            if best_dist != float('inf'):
+                sim = _dtw_to_similarity(best_dist)
+                template_results.append((program_name, best_dist, sim))
+
+        if template_results:
+            template_results.sort(key=lambda x: x[1])
+
+            # 词典模板使用更高阈值（合成模板可靠性较低）
+            dict_threshold = max(threshold, 0.4)
+            best_match, best_dist, best_sim = template_results[0]
+            second_sim = template_results[1][2] if len(template_results) > 1 else 0.0
+
+            if best_sim >= dict_threshold and (best_sim - second_sim) >= _MARGIN:
+                return best_match, best_sim
+
+    # 返回真实录音的最高分（即使未达阈值）
+    if program_results:
+        return None, program_results[0][2]
+    return None, 0.0
 
 
 def get_status() -> dict:
     """获取音频匹配器的状态信息。"""
     library = _build_reference_library()
+    dict_templates = _build_dictionary_templates()
+
+    # 合并真实录音和模板的节目名覆盖情况
+    all_programs = {}
+    for name, feats in library.items():
+        all_programs[name] = {"real_recordings": len(feats), "dict_templates": 0}
+    for name, feats in dict_templates.items():
+        if name not in all_programs:
+            all_programs[name] = {"real_recordings": 0, "dict_templates": len(feats)}
+        else:
+            all_programs[name]["dict_templates"] = len(feats)
+
     return {
         "reference_count": sum(len(v) for v in library.values()),
-        "programs": {name: len(feats) for name, feats in library.items()},
+        "template_count": sum(len(v) for v in dict_templates.values()),
+        "programs": all_programs,
         "threshold": _MATCH_THRESHOLD,
         "method": "DTW",
         "user_data_path": str(_USER_DATA),

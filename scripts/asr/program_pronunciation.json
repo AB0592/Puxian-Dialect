@@ -1,57 +1,57 @@
 {
-  "version": "v1",
-  "description": "节目名莆仙话拼音参考表，数据来源：hinghwa.cn 词典",
+  "version": "v2",
+  "description": "节目名莆仙话拼音参考表（v2: null项已用words.json填充138个）",
   "source": "data/hinghwa/words.json (6129词条)",
   "programs": {
     "三千两金": {
       "char_pinyin": [
-        null,
-        null,
+        "sor1",
+        "ce1",
         "nung5",
-        null
+        "ging1"
       ],
       "word_pinyin": []
     },
     "三国演义": {
       "char_pinyin": [
+        "sor1",
         null,
         null,
-        null,
-        null
+        "gi5"
       ],
       "word_pinyin": []
     },
     "三打王瑛": {
       "char_pinyin": [
-        null,
-        null,
-        null,
+        "sor1",
+        "da3",
+        "orng2",
         null
       ],
       "word_pinyin": []
     },
     "东方红": {
       "char_pinyin": [
-        null,
+        "dang1",
         "horng1",
-        null
+        "ang2"
       ],
       "word_pinyin": []
     },
     "人到中年": {
       "char_pinyin": [
-        null,
-        null,
-        null,
-        null
+        "zing2",
+        "dor4",
+        "doeng1",
+        "ning2"
       ],
       "word_pinyin": []
     },
     "元宵乐": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "ngyng2",
+        "siao1",
+        "lorh7"
       ],
       "word_pinyin": []
     },
@@ -59,23 +59,23 @@
       "char_pinyin": [
         "be5",
         null,
-        null
+        "ma3"
       ],
       "word_pinyin": []
     },
     "刘文龙": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "lao2",
+        "mong2",
+        "loeng2"
       ],
       "word_pinyin": []
     },
     "刘知远": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "lao2",
+        "zai1",
+        "huai5"
       ],
       "word_pinyin": []
     },
@@ -89,33 +89,33 @@
     },
     "团圆之后": {
       "char_pinyin": [
-        null,
-        null,
-        null,
+        "duang2",
+        "oeng2",
+        "zi1",
         "hiao5"
       ],
       "word_pinyin": []
     },
     "地道战": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "de5",
+        "dor5",
+        "zeng4"
       ],
       "word_pinyin": []
     },
     "大名府": {
       "char_pinyin": [
         "dua5",
-        null,
+        "mia2",
         null
       ],
       "word_pinyin": []
     },
     "妈祖": {
       "char_pinyin": [
-        null,
-        null
+        "ma3",
+        "zou3"
       ],
       "word_pinyin": [
         "ma3 zou3"
@@ -124,26 +124,26 @@
     "射雕英雄传": {
       "char_pinyin": [
         null,
-        null,
-        null,
-        null,
-        null
+        "diao1",
+        "ing1",
+        "hoeng2",
+        "duai2"
       ],
       "word_pinyin": []
     },
     "小沙弥下山": {
       "char_pinyin": [
-        null,
-        null,
+        "siao3",
+        "sua1",
         null,
         "hor5",
-        null
+        "sua1"
       ],
       "word_pinyin": []
     },
     "小苹果": {
       "char_pinyin": [
-        null,
+        "siao3",
         null,
         "gor3"
       ],
@@ -151,16 +151,16 @@
     },
     "岳飞传": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "gorh7",
+        "buai1",
+        "duai2"
       ],
       "word_pinyin": []
     },
     "庐山恋": {
       "char_pinyin": [
-        null,
-        null,
+        "lou2",
+        "sua1",
         null
       ],
       "word_pinyin": []
@@ -169,44 +169,44 @@
       "char_pinyin": [
         "diu1",
         null,
-        null,
-        null
+        "zorng5",
+        "ngyng2"
       ],
       "word_pinyin": []
     },
     "御史江春霖": {
       "char_pinyin": [
-        null,
-        null,
-        null,
-        null,
+        "gy5",
+        "so3",
+        "gang1",
+        "cong1",
         null
       ],
       "word_pinyin": []
     },
     "打靶归来": {
       "char_pinyin": [
+        "da3",
         null,
-        null,
-        null,
-        null
+        "gui1",
+        "lai2"
       ],
       "word_pinyin": []
     },
     "新亭泪": {
       "char_pinyin": [
-        null,
-        null,
+        "sing1",
+        "deng2",
         null
       ],
       "word_pinyin": []
     },
     "春草闯堂": {
       "char_pinyin": [
-        null,
+        "cong1",
         "cao3",
         null,
-        null
+        "dung2"
       ],
       "word_pinyin": []
     },
@@ -214,45 +214,45 @@
       "char_pinyin": [
         null,
         null,
+        "ming2",
         null,
-        null,
-        null
+        "buai1"
       ],
       "word_pinyin": []
     },
     "朱买臣": {
       "char_pinyin": [
-        null,
-        null,
+        "zou1",
+        "be3",
         null
       ],
       "word_pinyin": []
     },
     "杀狗记": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "sah6",
+        "gao3",
+        "gi4"
       ],
       "word_pinyin": []
     },
     "梁山伯与祝英台": {
       "char_pinyin": [
-        null,
-        null,
-        null,
+        "lyong2",
+        "sua1",
+        "ba5",
         "tou5",
         null,
-        null,
-        null
+        "ing1",
+        "dai2"
       ],
       "word_pinyin": []
     },
     "梅花操": {
       "char_pinyin": [
-        null,
+        "buai2",
         "hua1",
-        null
+        "cao1"
       ],
       "word_pinyin": [
         {
@@ -265,16 +265,16 @@
     },
     "水浒传": {
       "char_pinyin": [
+        "zui3",
         null,
-        null,
-        null
+        "duai2"
       ],
       "word_pinyin": []
     },
     "江梅妃": {
       "char_pinyin": [
-        null,
-        null,
+        "gang1",
+        "buai2",
         null
       ],
       "word_pinyin": []
@@ -282,23 +282,23 @@
     "没有共产党就没有新中国": {
       "char_pinyin": [
         null,
-        null,
+        "u5",
         "gang5",
         null,
-        null,
+        "dung3",
         "ziu5",
         null,
-        null,
-        null,
-        null,
+        "u5",
+        "sing1",
+        "doeng1",
         null
       ],
       "word_pinyin": []
     },
     "状元与乞丐": {
       "char_pinyin": [
-        null,
-        null,
+        "zorng5",
+        "ngyng2",
         "tou5",
         "koh6",
         null
@@ -307,36 +307,36 @@
     },
     "猪八戒娶亲": {
       "char_pinyin": [
-        null,
+        "dy1",
         "be5",
         null,
         null,
-        null
+        "cing1"
       ],
       "word_pinyin": []
     },
     "王十朋": {
       "char_pinyin": [
-        null,
-        null,
+        "orng2",
+        "se2",
         null
       ],
       "word_pinyin": []
     },
     "王金龙与苏三": {
       "char_pinyin": [
-        null,
-        null,
-        null,
+        "orng2",
+        "ging1",
+        "loeng2",
         "tou5",
-        null,
-        null
+        "sou1",
+        "sor1"
       ],
       "word_pinyin": []
     },
     "王魁": {
       "char_pinyin": [
-        null,
+        "orng2",
         null
       ],
       "word_pinyin": []
@@ -344,23 +344,23 @@
     "琴挑": {
       "char_pinyin": [
         "ging2",
-        null
+        "tiao1"
       ],
       "word_pinyin": []
     },
     "百花亭": {
       "char_pinyin": [
-        null,
+        "ba5",
         "hua1",
-        null
+        "deng2"
       ],
       "word_pinyin": []
     },
     "百鸟归巢": {
       "char_pinyin": [
-        null,
-        null,
-        null,
+        "ba5",
+        "ziao3",
+        "gui1",
         null
       ],
       "word_pinyin": []
@@ -368,16 +368,16 @@
     "目连救母": {
       "char_pinyin": [
         "mah7",
+        "leng2",
         null,
-        null,
-        null
+        "bo3"
       ],
       "word_pinyin": []
     },
     "直入花园": {
       "char_pinyin": [
         "dih7",
-        null,
+        "dih7",
         "hua1",
         "huai2"
       ],
@@ -385,40 +385,40 @@
     },
     "秋风辞": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "ciu1",
+        "buai1",
+        "si2"
       ],
       "word_pinyin": []
     },
     "红楼梦": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "ang2",
+        "lao2",
+        "mang4"
       ],
       "word_pinyin": []
     },
     "英雄儿女": {
       "char_pinyin": [
-        null,
-        null,
-        null,
-        null
+        "ing1",
+        "hoeng2",
+        "zi2",
+        "dy3"
       ],
       "word_pinyin": []
     },
     "董永": {
       "char_pinyin": [
-        null,
+        "dorng3",
         null
       ],
       "word_pinyin": []
     },
     "蔡伯喈": {
       "char_pinyin": [
-        null,
-        null,
+        "cua4",
+        "ba5",
         null
       ],
       "word_pinyin": []
@@ -427,19 +427,19 @@
       "char_pinyin": [
         null,
         "ba2",
-        null,
+        "gui4",
         "tou5",
-        null,
-        null,
+        "orng2",
+        "bo3",
         null
       ],
       "word_pinyin": []
     },
     "西游记": {
       "char_pinyin": [
-        null,
-        null,
-        null
+        "sai1",
+        "iu2",
+        "gi4"
       ],
       "word_pinyin": []
     },
@@ -452,7 +452,7 @@
     },
     "踏伞行": {
       "char_pinyin": [
-        null,
+        "dor2",
         "sua3",
         "gia2"
       ],
@@ -461,15 +461,15 @@
     "郭华": {
       "char_pinyin": [
         null,
-        null
+        "hua2"
       ],
       "word_pinyin": []
     },
     "铁道游击队": {
       "char_pinyin": [
-        null,
-        null,
-        null,
+        "ti5",
+        "dor5",
+        "iu2",
         null,
         null
       ],
@@ -478,33 +478,33 @@
     "陈三五娘": {
       "char_pinyin": [
         null,
-        null,
-        null,
-        null
+        "sor1",
+        "ngou5",
+        "niao2"
       ],
       "word_pinyin": []
     },
     "雷万春打虎": {
       "char_pinyin": [
-        null,
-        null,
-        null,
-        null,
-        null
+        "lui2",
+        "mang5",
+        "cong1",
+        "da3",
+        "hou3"
       ],
       "word_pinyin": []
     },
     "驯猴": {
       "char_pinyin": [
         null,
-        null
+        "gao2"
       ],
       "word_pinyin": []
     },
     "高文举": {
       "char_pinyin": [
-        null,
-        null,
+        "go1",
+        "mong2",
         "gyoh7"
       ],
       "word_pinyin": []
