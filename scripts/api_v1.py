@@ -191,6 +191,10 @@ async def transcribe(
             detail="音频文件为空",
         )
 
+    # 莆仙话自动使用本地 ASR 引擎（原始模型，不微调）
+    if language == 'putian':
+        provider = 'local'
+
     # 2. 构造选项字典
     opts = {
         "provider": provider,

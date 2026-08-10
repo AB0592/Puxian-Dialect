@@ -320,17 +320,17 @@ class LocalPuxianASRProvider(ASRProvider):
     """
     本地莆仙话 ASR Provider — Phase 6 实现。
 
-    使用本地 SenseVoice / Whisper 模型做语音识别。
+    使用本地 SenseVoice 原始模型做语音识别（不微调）。
+    莆仙话禁用 Whisper 回退：SenseVoice 失败时返回空文本，
+    供前端降级到下一层 ASR。
 
     引擎选择逻辑：
-      1. 莆仙话场景：使用 SenseVoice 原始模型（支持 cpx 方言），不使用微调模型
-      2. 其他语言：如果有 SenseVoice 基础模型 → 使用 SenseVoice
-      3. 如果有 Whisper → 使用 Whisper
-      4. 都没有 → 抛出 ASRError(PROVIDER_ERROR)
+      1. SenseVoice 基础模型可用 → 使用 SenseVoice
+      2. SenseVoice 不可用 → 抛出 ASRError(PROVIDER_ERROR)
+      3. SenseVoice 识别失败 → 返回空文本（不回退 Whisper）
 
     依赖：
-      - funasr + SenseVoiceSmall 模型（莆仙话及其他方言）
-      - 或 openai-whisper（普通话回退）
+      - funasr + SenseVoiceSmall 模型
     """
 
     PROVIDER_NAME = "local"
@@ -370,7 +370,7 @@ class LocalPuxianASRProvider(ASRProvider):
 
         # 4. 调用 dialect_asr.recognize()
         try:
-            from dialect_asr import recognize, SENSEVOICE_AVAILABLE, WHISPER_AVAILABLE
+            from dialect_asr import recognize, SENSEVOICE_AVAILABLE
         except ImportError:
             raise ASRError(
                 "PROVIDER_ERROR",
@@ -378,21 +378,11 @@ class LocalPuxianASRProvider(ASRProvider):
                 retryable=False,
             )
 
-        # 检查是否有可用的本地模型
-        # 莆仙话场景：需要 SenseVoice（支持 cpx 方言）
-        # 其他场景：SenseVoice 或 Whisper 均可
-        is_puxian = lang_for_asr in ("putian", "cpx")
-        if is_puxian:
-            if not SENSEVOICE_AVAILABLE:
-                raise ASRError(
-                    "PROVIDER_ERROR",
-                    "莆仙话识别需要 SenseVoice（funasr），请安装",
-                    retryable=False,
-                )
-        elif not SENSEVOICE_AVAILABLE and not WHISPER_AVAILABLE:
+        # 莆仙话仅需 SenseVoice，不依赖 Whisper
+        if not SENSEVOICE_AVAILABLE:
             raise ASRError(
                 "PROVIDER_ERROR",
-                "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）或 openai-whisper",
+                "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）",
                 retryable=False,
             )
 
@@ -411,15 +401,8 @@ class LocalPuxianASRProvider(ASRProvider):
         detected_lang = result.get("lang", lang_for_asr)
         error = result.get("error", "")
 
-        # 无识别结果
+        # 无识别结果 — 返回空文本供前端降级（不抛异常）
         if not text:
-            if error:
-                raise ASRError(
-                    "PROVIDER_ERROR",
-                    f"本地 ASR 识别失败: {error}",
-                    retryable=True,
-                )
-            # 静音/噪音/SenseVoice未识别 → 返回空文本，confidence=0 确保前端降级
             return {
                 "text": "",
                 "confidence": 0.0,
@@ -430,7 +413,7 @@ class LocalPuxianASRProvider(ASRProvider):
             }
 
         # 6. 识别成功
-        # SenseVoice 置信度较高，Whisper 次之
+        # SenseVoice 通常更准确，给较高置信度
         if engine == "sensevoice":
             confidence = 0.88
         elif engine == "whisper":
