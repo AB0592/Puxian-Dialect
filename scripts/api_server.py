@@ -38,7 +38,22 @@ from user_manager import (
 # JWT 认证
 from auth import create_token, verify_token, set_password, verify_password
 
+# ASR v1 API 路由
+from api_v1 import router as v1_router
+
 app = FastAPI(title="莆仙话语音训练系统")
+
+# CORS 支持（允许前端跨域访问）
+from fastapi.middleware.cors import CORSMiddleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(v1_router)
 
 AUDIO_DIR = SCRIPTS_DIR.parent / "audio_cache"
 AUDIO_DIR.mkdir(exist_ok=True)

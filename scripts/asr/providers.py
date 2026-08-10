@@ -320,17 +320,22 @@ class LocalPuxianASRProvider(ASRProvider):
     """
     本地莆仙话 ASR Provider — Phase 6 实现。
 
-    使用本地 SenseVoice 原始模型做语音识别（不微调）。
-    莆仙话禁用 Whisper 回退：SenseVoice 失败时返回空文本，
-    供前端降级到下一层 ASR。
+    引擎优先级：
+      1. 自训练 Whisper LoRA 模型（PEFT 格式）— 优先引擎
+      2. SenseVoice 原始模型 — 回退引擎
+      3. 全部失败 → 返回空文本供前端降级
 
-    引擎选择逻辑：
-      1. SenseVoice 基础模型可用 → 使用 SenseVoice
-      2. SenseVoice 不可用 → 抛出 ASRError(PROVIDER_ERROR)
-      3. SenseVoice 识别失败 → 返回空文本（不回退 Whisper）
+    LoRA 适配器搜索路径：
+      - training_data/finetune_workspace/lora_output/
+      - training_data/lora_output/
+      - 环境变量 LORA_ADAPTER_PATH
+      - training_data/local_model_config.json 的 custom_model_path
+
+    当 LoRA 适配器不存在时，自动回退到 SenseVoice 原始模型。
 
     依赖：
-      - funasr + SenseVoiceSmall 模型
+      - peft + transformers（LoRA 加载，可选）
+      - funasr + SenseVoiceSmall 模型（回退引擎）
     """
 
     PROVIDER_NAME = "local"
@@ -369,8 +374,10 @@ class LocalPuxianASRProvider(ASRProvider):
         lang_for_asr = self._LANG_MAP.get(accent or language, "auto")
 
         # 4. 调用 dialect_asr.recognize()
+        # 莆仙话引擎：LoRA 优先，SenseVoice 回退
+        # 至少需要一个引擎可用
         try:
-            from dialect_asr import recognize, SENSEVOICE_AVAILABLE
+            from dialect_asr import recognize, SENSEVOICE_AVAILABLE, PEFT_AVAILABLE
         except ImportError:
             raise ASRError(
                 "PROVIDER_ERROR",
@@ -378,11 +385,10 @@ class LocalPuxianASRProvider(ASRProvider):
                 retryable=False,
             )
 
-        # 莆仙话仅需 SenseVoice，不依赖 Whisper
-        if not SENSEVOICE_AVAILABLE:
+        if not SENSEVOICE_AVAILABLE and not PEFT_AVAILABLE:
             raise ASRError(
                 "PROVIDER_ERROR",
-                "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）",
+                "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）或 peft+transformers（LoRA）",
                 retryable=False,
             )
 
@@ -413,8 +419,10 @@ class LocalPuxianASRProvider(ASRProvider):
             }
 
         # 6. 识别成功
-        # SenseVoice 通常更准确，给较高置信度
-        if engine == "sensevoice":
+        # 自训练模型置信度最高，SenseVoice 次之
+        if engine == "finetuned-whisper":
+            confidence = 0.92
+        elif engine == "sensevoice":
             confidence = 0.88
         elif engine == "whisper":
             confidence = 0.80

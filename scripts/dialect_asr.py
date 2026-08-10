@@ -49,8 +49,15 @@ try:
 except ImportError:
     MODELSCOPE_AVAILABLE = False
 
+# PEFT（LoRA 适配器加载）
+try:
+    from peft import PeftConfig, PeftModel
+    PEFT_AVAILABLE = True
+except ImportError:
+    PEFT_AVAILABLE = False
+
 MODEL_NAME = "iic/SenseVoiceSmall"
-MODEL_CACHE = Path("/Users/sagaai/.cache/modelscope")
+MODEL_CACHE = Path.home() / ".cache" / "modelscope"
 
 LANG_TAGS = {
     "canton":   "yue",
@@ -65,6 +72,7 @@ LANG_TAGS = {
 # 模型实例（全局缓存，只加载一次）
 _sensevoice_model = None
 _whisper_model = None
+_finetuned_model = None  # 自训练 Whisper LoRA 模型
 
 
 # ============================================================
@@ -73,12 +81,16 @@ _whisper_model = None
 
 def _sensevoice_model_path() -> Optional[Path]:
     """查找本地缓存的 SenseVoice 模型路径"""
+    # 支持 MODELSCOPE_CACHE 环境变量自定义缓存位置
+    env_cache = os.environ.get('MODELSCOPE_CACHE', '')
     candidates = [
         MODEL_CACHE / "models" / "iic" / "SenseVoiceSmall",
         MODEL_CACHE / "hub" / "models" / "iic" / "SenseVoiceSmall",
-        Path("/Users/sagaai/.hermes/profiles/dialect-bot/home/.cache")
-        / "modelscope" / "hub" / "models" / "iic" / "SenseVoiceSmall",
     ]
+    if env_cache:
+        candidates.append(
+            Path(env_cache) / "models" / "iic--SenseVoiceSmall" / "snapshots" / "master"
+        )
     for path in candidates:
         model_pt = path / "model.pt"
         if model_pt.exists() and model_pt.stat().st_size > 800_000_000:
@@ -295,6 +307,235 @@ def _whisper_recognize_transformers(model_info: dict, audio_path: str, whisper_l
 
 
 # ============================================================
+# 自训练 Whisper LoRA 模型（莆仙话优先引擎）
+# ============================================================
+
+# 保存原始 forward 方法（仅修补一次）
+_original_whisper_forward = None
+
+
+def patch_whisper_for_peft():
+    """修补 WhisperForConditionalGeneration.forward 以兼容 PEFT。
+
+    PEFT 的 PeftModelForSeq2SeqLM.forward() 使用 'input_ids' 作为参数名，
+    但 Whisper 模型使用 'input_features'。此函数将 input_ids 从 **kwargs 中
+    提取出来，作为 input_features 使用，避免参数冲突。
+
+    必须在加载 LoRA 模型前调用。
+    """
+    global _original_whisper_forward
+
+    if _original_whisper_forward is not None:
+        return  # 已修补过
+
+    if not TRANSFORMERS_AVAILABLE:
+        return
+
+    _original_whisper_forward = WhisperForConditionalGeneration.forward
+
+    def patched_forward(
+        self,
+        input_features=None,
+        attention_mask=None,
+        decoder_input_ids=None,
+        decoder_attention_mask=None,
+        encoder_outputs=None,
+        past_key_values=None,
+        decoder_inputs_embeds=None,
+        decoder_position_ids=None,
+        labels=None,
+        use_cache=None,
+        **kwargs,
+    ):
+        # PEFT 通过 input_ids 传递 Whisper 的 input_features
+        if input_features is None and "input_ids" in kwargs:
+            input_features = kwargs.pop("input_ids")
+
+        # 移除 PEFT 传递的但 Whisper 不需要的参数
+        for drop_key in ("inputs_embeds", "task_ids"):
+            kwargs.pop(drop_key, None)
+
+        return _original_whisper_forward(
+            self,
+            input_features=input_features,
+            attention_mask=attention_mask,
+            decoder_input_ids=decoder_input_ids,
+            decoder_attention_mask=decoder_attention_mask,
+            encoder_outputs=encoder_outputs,
+            past_key_values=past_key_values,
+            decoder_inputs_embeds=decoder_inputs_embeds,
+            decoder_position_ids=decoder_position_ids,
+            labels=labels,
+            use_cache=use_cache,
+            **kwargs,
+        )
+
+    WhisperForConditionalGeneration.forward = patched_forward
+    print("✅ 已修补 Whisper forward 以兼容 PEFT (input_ids → input_features)", flush=True)
+
+
+def _find_lora_adapter() -> Optional[str]:
+    """查找自训练 LoRA 适配器路径。
+
+    搜索顺序：
+      1. training_data/finetune_workspace/lora_output/
+      2. training_data/lora_output/
+      3. 环境变量 LORA_ADAPTER_PATH
+      4. training_data/local_model_config.json 中的 custom_model_path
+    """
+    # 候选路径
+    project_root = Path(__file__).parent.parent
+    candidates = [
+        project_root / "training_data" / "finetune_workspace" / "lora_output",
+        project_root / "training_data" / "lora_output",
+    ]
+
+    # 环境变量
+    env_path = os.environ.get("LORA_ADAPTER_PATH", "")
+    if env_path:
+        candidates.append(Path(env_path))
+
+    # local_model_config.json
+    config_path = project_root / "training_data" / "local_model_config.json"
+    if config_path.exists():
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                config = json.load(f)
+            custom_path = config.get("custom_model_path", "")
+            if custom_path:
+                candidates.append(Path(custom_path))
+        except (json.JSONDecodeError, IOError):
+            pass
+
+    for path in candidates:
+        adapter_config = path / "adapter_config.json"
+        adapter_model = path / "adapter_model.safetensors"
+        if adapter_config.exists() and adapter_model.exists():
+            print(f"  ✓ LoRA 适配器: {path}", flush=True)
+            return str(path)
+
+    return None
+
+
+def _get_finetuned_whisper():
+    """加载自训练 Whisper LoRA 模型。
+
+    引擎优先级：LoRA 适配器 > 无（返回 None 回退 SenseVoice）
+
+    Returns:
+        dict: {"model": PeftModel, "processor": WhisperProcessor, "device": str}
+        None: 如果 LoRA 不可用
+    """
+    global _finetuned_model
+
+    if _finetuned_model is not None:
+        return _finetuned_model
+
+    if not PEFT_AVAILABLE:
+        print("⚠ peft 未安装，无法加载 LoRA 适配器", flush=True)
+        return None
+
+    if not TRANSFORMERS_AVAILABLE:
+        print("⚠ transformers 未安装，无法加载 LoRA 适配器", flush=True)
+        return None
+
+    adapter_path = _find_lora_adapter()
+    if adapter_path is None:
+        print("ℹ 未找到 LoRA 适配器，莆仙话将使用 SenseVoice 回退", flush=True)
+        return None
+
+    print(f"🔄 加载自训练 Whisper LoRA 模型...", flush=True)
+    try:
+        import torch
+        start = time.time()
+
+        # 必须先 patch，否则 PEFT generate 会报错
+        patch_whisper_for_peft()
+
+        # 从 adapter_config.json 读取基础模型名
+        peft_config = PeftConfig.from_pretrained(adapter_path)
+        base_model_name = peft_config.base_model_name_or_path
+        print(f"  基础模型: {base_model_name}", flush=True)
+
+        # 加载基础模型
+        base = WhisperForConditionalGeneration.from_pretrained(base_model_name)
+
+        # 加载 LoRA 适配器
+        model = PeftModel.from_pretrained(base, adapter_path)
+        model.eval()
+
+        # 加载处理器
+        processor = WhisperProcessor.from_pretrained(base_model_name)
+
+        # 设备选择
+        device = "cpu"
+        try:
+            if torch.backends.mps.is_available():
+                device = "mps"
+        except (AttributeError, RuntimeError):
+            pass
+        model.to(device)
+
+        _finetuned_model = {
+            "model": model,
+            "processor": processor,
+            "device": device,
+        }
+        elapsed = time.time() - start
+        print(f"✅ 自训练 Whisper LoRA 加载完成 ({elapsed:.1f}秒, device={device})", flush=True)
+
+    except Exception as e:
+        print(f"⚠ 自训练 Whisper LoRA 加载失败: {e}", flush=True)
+        return None
+
+    return _finetuned_model
+
+
+def _finetuned_whisper_recognize(audio_path: str) -> dict:
+    """使用自训练 Whisper LoRA 模型识别音频。
+
+    Returns:
+        dict: {"text": str, "lang": "zh", "engine": "finetuned-whisper"}
+        None: 如果模型不可用
+    """
+    model_info = _get_finetuned_whisper()
+    if model_info is None:
+        return None
+
+    try:
+        import librosa
+        import torch
+
+        model = model_info["model"]
+        processor = model_info["processor"]
+        device = model_info["device"]
+
+        # 加载音频（16kHz 单声道）
+        audio, sr = librosa.load(audio_path, sr=16000)
+
+        # 转换为 mel 特征
+        input_features = processor(audio, sampling_rate=16000, return_tensors="pt").input_features
+        input_features = input_features.to(device)
+
+        # 强制语言和任务
+        forced_decoder_ids = processor.get_decoder_prompt_ids(language="zh", task="transcribe")
+
+        with torch.no_grad():
+            predicted_ids = model.generate(
+                input_features,
+                forced_decoder_ids=forced_decoder_ids,
+                max_new_tokens=440,
+            )
+
+        text = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0].strip()
+        return {"text": text, "lang": "zh", "engine": "finetuned-whisper"}
+
+    except Exception as e:
+        print(f"⚠ 自训练 Whisper LoRA 推理失败: {e}", flush=True)
+        return None
+
+
+# ============================================================
 # 统一入口
 # ============================================================
 
@@ -305,6 +546,26 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
     lang_hint = LANG_TAGS.get(lang, "auto")
     print(f"🎤 识别音频: {os.path.basename(audio_path)}  方言: {lang}")
 
+    # ── 莆仙话：自训练 LoRA 优先 → SenseVoice 回退 → 返回空 ──
+    if lang == 'putian':
+        # 1. 自训练 Whisper LoRA 模型（优先引擎）
+        ft_result = _finetuned_whisper_recognize(audio_path)
+        if ft_result and ft_result["text"]:
+            print(f"  → 自训练 LoRA: {ft_result['text']}")
+            return ft_result
+
+        # 2. SenseVoice 回退（原始模型，不微调）
+        if _sensevoice_model_path() is not None:
+            result = _sensevoice_recognize(audio_path, lang_hint)
+            if result and result["text"]:
+                print(f"  → SenseVoice: {result['text']}")
+                return result
+
+        # 3. 全部失败，返回空文本供前端降级
+        print("  → 莆仙话所有引擎未识别到内容，返回空文本")
+        return {"text": "", "lang": lang_hint, "engine": "sensevoice"}
+
+    # ── 其他方言：SenseVoice 优先 → Whisper 回退 ──
     # 1. 优先 SenseVoice（方言更准）
     if _sensevoice_model_path() is not None:
         result = _sensevoice_recognize(audio_path, lang_hint)
@@ -312,12 +573,7 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
             print(f"  → SenseVoice: {result['text']}")
             return result
 
-    # 2. 莆仙话禁用 Whisper 回退，返回空文本供前端降级
-    if lang == 'putian':
-        print("  → 莆仙话 SenseVoice 未识别到内容，禁用 Whisper，返回空文本")
-        return {"text": "", "lang": lang_hint, "engine": "sensevoice"}
-
-    # 3. 其他方言回退 Whisper（原始基础模型，不加载微调模型）
+    # 2. 其他方言回退 Whisper（原始基础模型，不加载微调模型）
     print("  → 使用 Whisper")
     result = _whisper_recognize(audio_path, lang_hint)
     print(f"  → Whisper: {result['text']}")

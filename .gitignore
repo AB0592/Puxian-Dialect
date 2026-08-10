@@ -1,6 +1,7 @@
 # ===== 环境与密钥（绝不上传）=====
 .env
 .env.*
+asr_config.env
 *.pem
 *.key
 *.p12
