@@ -1,0 +1,513 @@
+{
+  "version": "v1",
+  "description": "节目名莆仙话拼音参考表，数据来源：hinghwa.cn 词典",
+  "source": "data/hinghwa/words.json (6129词条)",
+  "programs": {
+    "三千两金": {
+      "char_pinyin": [
+        null,
+        null,
+        "nung5",
+        null
+      ],
+      "word_pinyin": []
+    },
+    "三国演义": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "三打王瑛": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "东方红": {
+      "char_pinyin": [
+        null,
+        "horng1",
+        null
+      ],
+      "word_pinyin": []
+    },
+    "人到中年": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "元宵乐": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "八骏马": {
+      "char_pinyin": [
+        "be5",
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "刘文龙": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "刘知远": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "吕蒙正": {
+      "char_pinyin": [
+        null,
+        null,
+        "zia4"
+      ],
+      "word_pinyin": []
+    },
+    "团圆之后": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        "hiao5"
+      ],
+      "word_pinyin": []
+    },
+    "地道战": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "大名府": {
+      "char_pinyin": [
+        "dua5",
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "妈祖": {
+      "char_pinyin": [
+        null,
+        null
+      ],
+      "word_pinyin": [
+        "ma3 zou3"
+      ]
+    },
+    "射雕英雄传": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "小沙弥下山": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        "hor5",
+        null
+      ],
+      "word_pinyin": []
+    },
+    "小苹果": {
+      "char_pinyin": [
+        null,
+        null,
+        "gor3"
+      ],
+      "word_pinyin": []
+    },
+    "岳飞传": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "庐山恋": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "张协状元": {
+      "char_pinyin": [
+        "diu1",
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "御史江春霖": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "打靶归来": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "新亭泪": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "春草闯堂": {
+      "char_pinyin": [
+        null,
+        "cao3",
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "最炫民族风": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "朱买臣": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "杀狗记": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "梁山伯与祝英台": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        "tou5",
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "梅花操": {
+      "char_pinyin": [
+        null,
+        "hua1",
+        null
+      ],
+      "word_pinyin": [
+        {
+          "substring": "梅花",
+          "pinyin": [
+            "buai2 hua1"
+          ]
+        }
+      ]
+    },
+    "水浒传": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "江梅妃": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "没有共产党就没有新中国": {
+      "char_pinyin": [
+        null,
+        null,
+        "gang5",
+        null,
+        null,
+        "ziu5",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "状元与乞丐": {
+      "char_pinyin": [
+        null,
+        null,
+        "tou5",
+        "koh6",
+        null
+      ],
+      "word_pinyin": []
+    },
+    "猪八戒娶亲": {
+      "char_pinyin": [
+        null,
+        "be5",
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "王十朋": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "王金龙与苏三": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        "tou5",
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "王魁": {
+      "char_pinyin": [
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "琴挑": {
+      "char_pinyin": [
+        "ging2",
+        null
+      ],
+      "word_pinyin": []
+    },
+    "百花亭": {
+      "char_pinyin": [
+        null,
+        "hua1",
+        null
+      ],
+      "word_pinyin": []
+    },
+    "百鸟归巢": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "目连救母": {
+      "char_pinyin": [
+        "mah7",
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "直入花园": {
+      "char_pinyin": [
+        "dih7",
+        null,
+        "hua1",
+        "huai2"
+      ],
+      "word_pinyin": []
+    },
+    "秋风辞": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "红楼梦": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "英雄儿女": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "董永": {
+      "char_pinyin": [
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "蔡伯喈": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "薛平贵与王宝钏": {
+      "char_pinyin": [
+        null,
+        "ba2",
+        null,
+        "tou5",
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "西游记": {
+      "char_pinyin": [
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "赵盾": {
+      "char_pinyin": [
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "踏伞行": {
+      "char_pinyin": [
+        null,
+        "sua3",
+        "gia2"
+      ],
+      "word_pinyin": []
+    },
+    "郭华": {
+      "char_pinyin": [
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "铁道游击队": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "陈三五娘": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "雷万春打虎": {
+      "char_pinyin": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "驯猴": {
+      "char_pinyin": [
+        null,
+        null
+      ],
+      "word_pinyin": []
+    },
+    "高文举": {
+      "char_pinyin": [
+        null,
+        null,
+        "gyoh7"
+      ],
+      "word_pinyin": []
+    }
+  }
+}

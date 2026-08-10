@@ -64,11 +64,12 @@ except ImportError:
 
 try:
     from transformers import (
-        WhisperProcessor,
-        WhisperForConditionalGeneration,
-        Seq2SeqTrainer,
-        Seq2SeqTrainingArguments,
-    )
+    WhisperProcessor,
+    WhisperForConditionalGeneration,
+    Seq2SeqTrainer,
+    Seq2SeqTrainingArguments,
+    EarlyStoppingCallback,
+)
 except ImportError:
     print("=" * 60)
     print("错误: 未安装 transformers")
@@ -643,10 +644,13 @@ def train(args):
         predict_with_generate=True,
         generation_max_length=225,
         report_to=[],
-        save_total_limit=3,
+        save_total_limit=1,
         remove_unused_columns=False,
         dataloader_num_workers=0,
         disable_tqdm=True,
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        greater_is_better=False,
     )
 
     eval_strat = "epoch" if eval_dataset else "no"
@@ -693,6 +697,11 @@ def train(args):
                         "on_log", "on_epoch_end", "on_train_end"]:
         setattr(progress_cb, method_name, getattr(_progress, method_name))
     trainer.add_callback(progress_cb)
+
+    # 6.6 添加早停回调（patience=3，eval_loss 连续 3 轮不降则停）
+    if eval_dataset:
+        trainer.add_callback(EarlyStoppingCallback(early_stopping_patience=3))
+        print(f"📋 早停已启用 (patience=3, metric=eval_loss)")
 
     # 7. 开始训练
     print(f"🚀 开始训练 ({args.num_epochs} 轮) ...")

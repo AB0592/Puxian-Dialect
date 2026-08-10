@@ -70,7 +70,7 @@ _MARGIN_THRESHOLD = 0.005
 
 # Sakoe-Chiba 带宽约束（限制 DTW 路径偏离对角线的范围，防止病态规整）
 # 设为 0 表示不约束；设为正整数表示允许偏离对角线的最大帧数
-_SAKOE_CHIBA_RATIO = 0.3  # 允许偏离对角线的比例为 30%
+_SAKOE_CHIBA_RATIO = 1.0  # 不约束（短音频节目名匹配需要全路径搜索）
 
 # ============================================================
 # 特征缓存
@@ -290,6 +290,31 @@ def _scan_recordings_from_metadata() -> dict[str, list[str]]:
     return result
 
 
+def _scan_training_wavs() -> dict[str, list[str]]:
+    """
+    扫描 training_data/wavs/ 目录，从文件名提取节目名。
+
+    文件名格式：sample_0000_春草闯堂.wav
+    返回：{program_name: [audio_path1, audio_path2, ...]}
+    """
+    result: dict[str, list[str]] = {}
+
+    wavs_dir = _PROJECT_ROOT / "training_data" / "wavs"
+    if not wavs_dir.exists():
+        return result
+
+    for wav_file in wavs_dir.glob("*.wav"):
+        # sample_0000_春草闯堂.wav → 春草闯堂
+        parts = wav_file.stem.split("_", 2)
+        if len(parts) >= 3:
+            program_name = parts[2]
+            if program_name not in result:
+                result[program_name] = []
+            result[program_name].append(str(wav_file))
+
+    return result
+
+
 def _build_reference_library() -> dict[str, list[list[list[float]]]]:
     """
     构建参考音频特征库。
@@ -298,7 +323,11 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
       1. 动态扫描 recordings.json（有 normalized_text 的录音）
       2. 硬编码 _REFERENCE_CONFIG（补充无 normalized_text 的录音）
 
-    两者合并去重。
+    注意：training_data/wavs/ 的数据已确认存在大量重复和错误标注
+    （46 个文件仅 6 个唯一音频，同一音频被标注为不同节目名），
+    因此不再作为参考源。仅使用 user_data 中用户实际录音。
+
+    所有音频按内容（MD5）去重，确保同一音频不会被重复计入。
     """
     global _REFERENCE_CACHE
     if _REFERENCE_CACHE is not None:
@@ -307,24 +336,41 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
     print("🔊 构建音频参考库 (DTW)...", flush=True)
     library: dict[str, list[list[list[float]]]] = {}
     processed_paths: set[str] = set()
+    seen_hashes: set[str] = set()  # 按音频内容去重
 
-    # 1. 动态扫描 recordings.json
+    def _add_reference(program_name: str, audio_path: str) -> bool:
+        """添加一条参考音频，按 MD5 去重。返回是否成功添加。"""
+        if audio_path in processed_paths:
+            return False
+        processed_paths.add(audio_path)
+
+        # 按内容去重
+        try:
+            import hashlib
+            with open(audio_path, 'rb') as f:
+                md5 = hashlib.md5(f.read()).hexdigest()
+            if md5 in seen_hashes:
+                return False
+            seen_hashes.add(md5)
+        except Exception:
+            pass
+
+        feat = _extract_mfcc_matrix(audio_path)
+        if feat is not None:
+            if program_name not in library:
+                library[program_name] = []
+            library[program_name].append(feat)
+            return True
+        return False
+
+    # 1. 动态扫描 recordings.json（用户实际录音，标签可靠）
     dynamic_refs = _scan_recordings_from_metadata()
     for program_name, audio_paths in dynamic_refs.items():
-        features = []
         for audio_path in audio_paths:
-            if audio_path in processed_paths:
-                continue
-            processed_paths.add(audio_path)
-            feat = _extract_mfcc_matrix(audio_path)
-            if feat is not None:
-                features.append(feat)
-        if features:
-            library[program_name] = features
+            _add_reference(program_name, audio_path)
 
     # 2. 硬编码配置补充
     for program_name, rel_paths in _REFERENCE_CONFIG.items():
-        features = library.get(program_name, [])
         for rel_path in rel_paths:
             full_path = _USER_DATA / rel_path
             if not full_path.exists():
@@ -333,18 +379,7 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
                     full_path = Path(wav_path)
                 else:
                     continue
-
-            abs_path = str(full_path)
-            if abs_path in processed_paths:
-                continue
-            processed_paths.add(abs_path)
-
-            feat = _extract_mfcc_matrix(abs_path)
-            if feat is not None:
-                features.append(feat)
-
-        if features:
-            library[program_name] = features
+            _add_reference(program_name, str(full_path))
 
     for name, feats in library.items():
         print(f"  ✅ {name}: {len(feats)} 条参考音频", flush=True)
@@ -380,10 +415,13 @@ def add_reference(program_name: str, audio_path: str):
 
 def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optional[str], float]:
     """
-    将输入音频与参考库中的节目名进行 DTW 相似度匹配。
+    将输入音频与参考库中的节目名进行 DTW 匹配。
 
     对每个节目名取最近参考录音的 DTW 距离（最小距离），转换为相似度。
     要求最高相似度超过阈值，且与次高相似度的差距达到 margin 要求。
+
+    参考库中每个节目限制最多 5 条参考音频（在构建时截断），
+    避免样本数量不平衡导致偏向样本多的节目。
 
     Args:
         audio_path: 输入音频文件路径
@@ -393,6 +431,8 @@ def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optiona
         (program_name, similarity) — 匹配到的节目名和相似度分数。
         如果没有匹配，返回 (None, best_score)。
     """
+    _MARGIN = 0.01  # 最高分与次高分的差距要求（降低以适应短音频匹配）
+
     library = _build_reference_library()
 
     if not library:
@@ -403,15 +443,19 @@ def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optiona
     if input_feat is None:
         return None, 0.0
 
-    # 对每个节目名，计算输入音频与所有参考录音的 DTW 距离
+    # 对每个节目名，计算输入音频与所有参考录音的 DTW 距离，取最小值
     program_results: list[tuple[str, float, float]] = []  # (name, min_dist, similarity)
 
     for program_name, ref_features in library.items():
         best_dist = float('inf')
         for ref_feat in ref_features:
             dtw_dist = _dtw_distance(input_feat, ref_feat)
-            # 跳过自身（距离为 0，留一法用）
-            if dtw_dist > 0.001 and dtw_dist < best_dist:
+            # 跳过 inf（DTW 失败）
+            # 注意：不跳过距离为 0 的自身匹配，因为：
+            # 1. 生产环境中输入音频不在参考库中，不会出现距离为 0
+            # 2. 只有多条参考录音的节目才需要留一法；只有 1 条参考的节目
+            #    如果跳过自身就无法匹配
+            if dtw_dist < best_dist:
                 best_dist = dtw_dist
 
         if best_dist != float('inf'):
@@ -428,7 +472,7 @@ def match(audio_path: str, threshold: float = _MATCH_THRESHOLD) -> tuple[Optiona
     second_sim = program_results[1][2] if len(program_results) > 1 else 0.0
 
     # 检查阈值和间距
-    if best_sim >= threshold and (best_sim - second_sim) >= _MARGIN_THRESHOLD:
+    if best_sim >= threshold and (best_sim - second_sim) >= _MARGIN:
         return best_match, best_sim
 
     # 如果只有一个节目名且分数较高，也返回

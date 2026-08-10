@@ -374,10 +374,10 @@ class LocalPuxianASRProvider(ASRProvider):
         lang_for_asr = self._LANG_MAP.get(accent or language, "auto")
 
         # 4. 调用 dialect_asr.recognize()
-        # 莆仙话引擎：LoRA 优先，SenseVoice 回退
+        # 莆仙话引擎：DTW 音频匹配优先，SenseVoice 回退
         # 至少需要一个引擎可用
         try:
-            from dialect_asr import recognize, SENSEVOICE_AVAILABLE, PEFT_AVAILABLE
+            from dialect_asr import recognize, SENSEVOICE_AVAILABLE
         except ImportError:
             raise ASRError(
                 "PROVIDER_ERROR",
@@ -385,10 +385,10 @@ class LocalPuxianASRProvider(ASRProvider):
                 retryable=False,
             )
 
-        if not SENSEVOICE_AVAILABLE and not PEFT_AVAILABLE:
+        if not SENSEVOICE_AVAILABLE:
             raise ASRError(
                 "PROVIDER_ERROR",
-                "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）或 peft+transformers（LoRA）",
+                "本地 ASR 引擎未安装。请安装 funasr（SenseVoice）",
                 retryable=False,
             )
 
