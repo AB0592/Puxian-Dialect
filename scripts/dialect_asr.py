@@ -18,6 +18,13 @@ import time
 from pathlib import Path
 from typing import Optional
 
+# ============================================================
+# 离线模式 — 防止 transformers 尝试联网下载模型
+# ============================================================
+os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+os.environ.setdefault("HF_HUB_OFFLINE", "1")
+os.environ.setdefault("HF_DATASETS_OFFLINE", "1")
+
 # Whisper (openai-whisper 包)
 try:
     import whisper
@@ -522,7 +529,7 @@ def _finetuned_whisper_recognize(audio_path: str) -> dict:
 
         with torch.no_grad():
             predicted_ids = model.generate(
-                input_features,
+                input_features=input_features,
                 forced_decoder_ids=forced_decoder_ids,
                 max_new_tokens=440,
             )
@@ -546,23 +553,18 @@ def recognize(audio_path: str, lang: str = "auto") -> dict:
     lang_hint = LANG_TAGS.get(lang, "auto")
     print(f"🎤 识别音频: {os.path.basename(audio_path)}  方言: {lang}")
 
-    # ── 莆仙话：自训练 LoRA 优先 → SenseVoice 回退 → 返回空 ──
+    # ── 莆仙话：SenseVoice 锁定（LoRA 质量不达标，暂不接入）──
     if lang == 'putian':
-        # 1. 自训练 Whisper LoRA 模型（优先引擎）
-        ft_result = _finetuned_whisper_recognize(audio_path)
-        if ft_result and ft_result["text"]:
-            print(f"  → 自训练 LoRA: {ft_result['text']}")
-            return ft_result
-
-        # 2. SenseVoice 回退（原始模型，不微调）
+        # LoRA 自训练模型 eval loss 3.2+，输出重复循环，暂不使用
+        # 直接走 SenseVoice 原始模型
         if _sensevoice_model_path() is not None:
             result = _sensevoice_recognize(audio_path, lang_hint)
             if result and result["text"]:
                 print(f"  → SenseVoice: {result['text']}")
                 return result
 
-        # 3. 全部失败，返回空文本供前端降级
-        print("  → 莆仙话所有引擎未识别到内容，返回空文本")
+        # SenseVoice 失败，返回空文本供前端降级
+        print("  → 莆仙话 SenseVoice 未识别到内容，返回空文本")
         return {"text": "", "lang": lang_hint, "engine": "sensevoice"}
 
     # ── 其他方言：SenseVoice 优先 → Whisper 回退 ──

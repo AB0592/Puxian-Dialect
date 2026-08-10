@@ -13,6 +13,12 @@ secrets/
 user_data/
 data/voice_collection/recordings/
 
+# ===== 训练产物（不上传）=====
+training_data/
+*.safetensors
+adapter_config.json
+adapter_model.safetensors
+
 # ===== Python =====
 __pycache__/
 *.pyc
