@@ -21,6 +21,48 @@
     "size": 13869
   },
   {
+    "id": "101",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "101_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "101",
+    "county": "仙游",
+    "pinyin": "游洋_ang4",
+    "file": "101_仙游_游洋_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "101",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "101_莆田_城里_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "102",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "102_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "102",
+    "county": "仙游",
+    "pinyin": "游洋_ang4",
+    "file": "102_仙游_游洋_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "102",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "102_莆田_城里_ang4.mp3",
+    "size": 13869
+  },
+  {
     "id": "10336",
     "county": "莆田",
     "pinyin": "城里_kieng2",
@@ -33,6 +75,27 @@
     "pinyin": "城里_du3",
     "file": "10398_莆田_城里_du3.mp3",
     "size": 12525
+  },
+  {
+    "id": "103",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "103_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "103",
+    "county": "仙游",
+    "pinyin": "游洋_ang4",
+    "file": "103_仙游_游洋_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "103",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "103_莆田_城里_ang4.mp3",
+    "size": 13869
   },
   {
     "id": "10413",
@@ -56,11 +119,46 @@
     "size": 8685
   },
   {
+    "id": "10470",
+    "county": "莆田",
+    "pinyin": "城里_dung2",
+    "file": "10470_莆田_城里_dung2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "10471",
+    "county": "莆田",
+    "pinyin": "城里_dung2",
+    "file": "10471_莆田_城里_dung2.mp3",
+    "size": 8685
+  },
+  {
     "id": "10479",
     "county": "莆田",
     "pinyin": "城里_nung5",
     "file": "10479_莆田_城里_nung5.mp3",
     "size": 9645
+  },
+  {
+    "id": "104",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "104_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "104",
+    "county": "仙游",
+    "pinyin": "游洋_ang4",
+    "file": "104_仙游_游洋_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "104",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "104_莆田_城里_ang4.mp3",
+    "size": 13869
   },
   {
     "id": "10516",
@@ -105,10 +203,38 @@
     "size": 16365
   },
   {
+    "id": "107",
+    "county": "仙游",
+    "pinyin": "城关_ao1",
+    "file": "107_仙游_城关_ao1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "107",
+    "county": "仙游",
+    "pinyin": "游洋_ao1",
+    "file": "107_仙游_游洋_ao1.mp3",
+    "size": 16365
+  },
+  {
     "id": "10828",
     "county": "莆田",
     "pinyin": "城里_mua2",
     "file": "10828_莆田_城里_mua2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "10829",
+    "county": "莆田",
+    "pinyin": "城里_mua2",
+    "file": "10829_莆田_城里_mua2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "10831",
+    "county": "莆田",
+    "pinyin": "城里_mua2",
+    "file": "10831_莆田_城里_mua2.mp3",
     "size": 8685
   },
   {
@@ -133,6 +259,20 @@
     "size": 10989
   },
   {
+    "id": "10929",
+    "county": "莆田",
+    "pinyin": "城里_hua5",
+    "file": "10929_莆田_城里_hua5.mp3",
+    "size": 10989
+  },
+  {
+    "id": "10931",
+    "county": "莆田",
+    "pinyin": "城里_hua5",
+    "file": "10931_莆田_城里_hua5.mp3",
+    "size": 10989
+  },
+  {
     "id": "10",
     "county": "莆田",
     "pinyin": "城里_ah6",
@@ -147,6 +287,13 @@
     "size": 10989
   },
   {
+    "id": "11515",
+    "county": "仙游",
+    "pinyin": "游洋_ah6",
+    "file": "11515_仙游_游洋_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "11524",
     "county": "仙游",
     "pinyin": "游洋_ang3",
@@ -154,10 +301,38 @@
     "size": 14829
   },
   {
+    "id": "11525",
+    "county": "仙游",
+    "pinyin": "游洋_ang4",
+    "file": "11525_仙游_游洋_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "11528",
+    "county": "仙游",
+    "pinyin": "游洋_ao1",
+    "file": "11528_仙游_游洋_ao1.mp3",
+    "size": 16365
+  },
+  {
     "id": "11537",
     "county": "仙游",
     "pinyin": "游洋_ba5",
     "file": "11537_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "11539",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "11539_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "11540",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "11540_仙游_游洋_ba5.mp3",
     "size": 9645
   },
   {
@@ -168,6 +343,13 @@
     "size": 5013
   },
   {
+    "id": "11602",
+    "county": "仙游",
+    "pinyin": "游洋_beng2",
+    "file": "11602_仙游_游洋_beng2.mp3",
+    "size": 5013
+  },
+  {
     "id": "11618",
     "county": "仙游",
     "pinyin": "游洋_bi4",
@@ -175,10 +357,24 @@
     "size": 11565
   },
   {
+    "id": "11619",
+    "county": "仙游",
+    "pinyin": "游洋_bi4",
+    "file": "11619_仙游_游洋_bi4.mp3",
+    "size": 11565
+  },
+  {
     "id": "11644",
     "county": "仙游",
     "pinyin": "游洋_bih7",
     "file": "11644_仙游_游洋_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "11645",
+    "county": "仙游",
+    "pinyin": "游洋_bih7",
+    "file": "11645_仙游_游洋_bih7.mp3",
     "size": 11565
   },
   {
@@ -231,10 +427,24 @@
     "size": 12909
   },
   {
+    "id": "11818",
+    "county": "仙游",
+    "pinyin": "游洋_cing4",
+    "file": "11818_仙游_游洋_cing4.mp3",
+    "size": 12909
+  },
+  {
     "id": "11845",
     "county": "仙游",
     "pinyin": "游洋_coeng1",
     "file": "11845_仙游_游洋_coeng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "11847",
+    "county": "仙游",
+    "pinyin": "游洋_coeng1",
+    "file": "11847_仙游_游洋_coeng1.mp3",
     "size": 11949
   },
   {
@@ -252,6 +462,13 @@
     "size": 7149
   },
   {
+    "id": "11851",
+    "county": "仙游",
+    "pinyin": "游洋_coh6",
+    "file": "11851_仙游_游洋_coh6.mp3",
+    "size": 7149
+  },
+  {
     "id": "11856",
     "county": "仙游",
     "pinyin": "游洋_cong4",
@@ -266,10 +483,31 @@
     "size": 12909
   },
   {
+    "id": "11909",
+    "county": "仙游",
+    "pinyin": "游洋_dai5",
+    "file": "11909_仙游_游洋_dai5.mp3",
+    "size": 12909
+  },
+  {
     "id": "11934",
     "county": "仙游",
     "pinyin": "游洋_dao4",
     "file": "11934_仙游_游洋_dao4.mp3",
+    "size": 12525
+  },
+  {
+    "id": "11935",
+    "county": "仙游",
+    "pinyin": "游洋_dao4",
+    "file": "11935_仙游_游洋_dao4.mp3",
+    "size": 12525
+  },
+  {
+    "id": "11936",
+    "county": "仙游",
+    "pinyin": "游洋_dao4",
+    "file": "11936_仙游_游洋_dao4.mp3",
     "size": 12525
   },
   {
@@ -285,6 +523,13 @@
     "pinyin": "游洋_di2",
     "file": "11984_仙游_游洋_di2.mp3",
     "size": 12909
+  },
+  {
+    "id": "11",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "11_莆田_城里_ah6.mp3",
+    "size": 10989
   },
   {
     "id": "12039",
@@ -315,6 +560,13 @@
     "size": 5013
   },
   {
+    "id": "12070",
+    "county": "仙游",
+    "pinyin": "游洋_dor4",
+    "file": "12070_仙游_游洋_dor4.mp3",
+    "size": 5013
+  },
+  {
     "id": "12109",
     "county": "仙游",
     "pinyin": "游洋_du3",
@@ -333,6 +585,13 @@
     "county": "仙游",
     "pinyin": "游洋_dung2",
     "file": "12135_仙游_游洋_dung2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "12136",
+    "county": "仙游",
+    "pinyin": "游洋_dung2",
+    "file": "12136_仙游_游洋_dung2.mp3",
     "size": 8685
   },
   {
@@ -357,10 +616,52 @@
     "size": 6525
   },
   {
+    "id": "12178",
+    "county": "仙游",
+    "pinyin": "游洋_gah7",
+    "file": "12178_仙游_游洋_gah7.mp3",
+    "size": 6525
+  },
+  {
+    "id": "12180",
+    "county": "仙游",
+    "pinyin": "游洋_gah7",
+    "file": "12180_仙游_游洋_gah7.mp3",
+    "size": 6525
+  },
+  {
     "id": "12196",
     "county": "仙游",
     "pinyin": "游洋_gang1",
     "file": "12196_仙游_游洋_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "12197",
+    "county": "仙游",
+    "pinyin": "游洋_gang1",
+    "file": "12197_仙游_游洋_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "12202",
+    "county": "仙游",
+    "pinyin": "游洋_gang1",
+    "file": "12202_仙游_游洋_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "12203",
+    "county": "仙游",
+    "pinyin": "游洋_gang1",
+    "file": "12203_仙游_游洋_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "12205",
+    "county": "仙游",
+    "pinyin": "游洋_gang1",
+    "file": "12205_仙游_游洋_gang1.mp3",
     "size": 10029
   },
   {
@@ -371,10 +672,24 @@
     "size": 11949
   },
   {
+    "id": "12223",
+    "county": "仙游",
+    "pinyin": "游洋_gao3",
+    "file": "12223_仙游_游洋_gao3.mp3",
+    "size": 11949
+  },
+  {
     "id": "12228",
     "county": "仙游",
     "pinyin": "游洋_ge1",
     "file": "12228_仙游_游洋_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "12229",
+    "county": "仙游",
+    "pinyin": "游洋_ge1",
+    "file": "12229_仙游_游洋_ge1.mp3",
     "size": 11949
   },
   {
@@ -396,6 +711,13 @@
     "county": "仙游",
     "pinyin": "游洋_gi1",
     "file": "12262_仙游_游洋_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "12266",
+    "county": "仙游",
+    "pinyin": "游洋_gi1",
+    "file": "12266_仙游_游洋_gi1.mp3",
     "size": 11949
   },
   {
@@ -434,6 +756,20 @@
     "size": 6741
   },
   {
+    "id": "12404",
+    "county": "仙游",
+    "pinyin": "游洋_gor5",
+    "file": "12404_仙游_游洋_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "12405",
+    "county": "仙游",
+    "pinyin": "游洋_gor5",
+    "file": "12405_仙游_游洋_gor5.mp3",
+    "size": 6741
+  },
+  {
     "id": "12443",
     "county": "仙游",
     "pinyin": "游洋_gou4",
@@ -462,6 +798,34 @@
     "size": 23469
   },
   {
+    "id": "12544",
+    "county": "仙游",
+    "pinyin": "游洋_hang2",
+    "file": "12544_仙游_游洋_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "12546",
+    "county": "仙游",
+    "pinyin": "游洋_hang2",
+    "file": "12546_仙游_游洋_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "12547",
+    "county": "仙游",
+    "pinyin": "游洋_hang2",
+    "file": "12547_仙游_游洋_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "12549",
+    "county": "仙游",
+    "pinyin": "游洋_hang2",
+    "file": "12549_仙游_游洋_hang2.mp3",
+    "size": 23469
+  },
+  {
     "id": "12562",
     "county": "仙游",
     "pinyin": "游洋_hao3",
@@ -483,6 +847,27 @@
     "size": 8685
   },
   {
+    "id": "12707",
+    "county": "仙游",
+    "pinyin": "游洋_hou2",
+    "file": "12707_仙游_游洋_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "12708",
+    "county": "仙游",
+    "pinyin": "游洋_hou2",
+    "file": "12708_仙游_游洋_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "12710",
+    "county": "仙游",
+    "pinyin": "游洋_hou2",
+    "file": "12710_仙游_游洋_hou2.mp3",
+    "size": 8685
+  },
+  {
     "id": "12737",
     "county": "仙游",
     "pinyin": "游洋_hua5",
@@ -494,6 +879,13 @@
     "county": "仙游",
     "pinyin": "游洋_i1",
     "file": "12782_仙游_游洋_i1.mp3",
+    "size": 13485
+  },
+  {
+    "id": "12784",
+    "county": "仙游",
+    "pinyin": "游洋_i1",
+    "file": "12784_仙游_游洋_i1.mp3",
     "size": 13485
   },
   {
@@ -553,6 +945,13 @@
     "size": 15405
   },
   {
+    "id": "12",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "12_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "13002",
     "county": "仙游",
     "pinyin": "游洋_lang5",
@@ -567,10 +966,31 @@
     "size": 10605
   },
   {
+    "id": "13043",
+    "county": "仙游",
+    "pinyin": "游洋_li3",
+    "file": "13043_仙游_游洋_li3.mp3",
+    "size": 10605
+  },
+  {
     "id": "13103",
     "county": "仙游",
     "pinyin": "游洋_lorh7",
     "file": "13103_仙游_游洋_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "13104",
+    "county": "仙游",
+    "pinyin": "游洋_lorh7",
+    "file": "13104_仙游_游洋_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "13108",
+    "county": "仙游",
+    "pinyin": "游洋_lorh7",
+    "file": "13108_仙游_游洋_lorh7.mp3",
     "size": 11565
   },
   {
@@ -616,6 +1036,20 @@
     "size": 14829
   },
   {
+    "id": "13339",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "13339_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "13340",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "13340_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "13341",
     "county": "仙游",
     "pinyin": "游洋_orh6",
@@ -630,6 +1064,13 @@
     "size": 11949
   },
   {
+    "id": "13345",
+    "county": "仙游",
+    "pinyin": "游洋_orng1",
+    "file": "13345_仙游_游洋_orng1.mp3",
+    "size": 11949
+  },
+  {
     "id": "13360",
     "county": "仙游",
     "pinyin": "游洋_pang1",
@@ -637,10 +1078,31 @@
     "size": 12909
   },
   {
+    "id": "13361",
+    "county": "仙游",
+    "pinyin": "游洋_pang1",
+    "file": "13361_仙游_游洋_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "13362",
+    "county": "仙游",
+    "pinyin": "游洋_pang1",
+    "file": "13362_仙游_游洋_pang1.mp3",
+    "size": 12909
+  },
+  {
     "id": "13366",
     "county": "仙游",
     "pinyin": "游洋_pao4",
     "file": "13366_仙游_游洋_pao4.mp3",
+    "size": 6093
+  },
+  {
+    "id": "13367",
+    "county": "仙游",
+    "pinyin": "游洋_pao4",
+    "file": "13367_仙游_游洋_pao4.mp3",
     "size": 6093
   },
   {
@@ -658,6 +1120,13 @@
     "size": 10989
   },
   {
+    "id": "13385",
+    "county": "仙游",
+    "pinyin": "游洋_pieo2",
+    "file": "13385_仙游_游洋_pieo2.mp3",
+    "size": 10989
+  },
+  {
     "id": "13409",
     "county": "仙游",
     "pinyin": "游洋_porh7",
@@ -672,10 +1141,52 @@
     "size": 12525
   },
   {
+    "id": "13504",
+    "county": "仙游",
+    "pinyin": "游洋_sia2",
+    "file": "13504_仙游_游洋_sia2.mp3",
+    "size": 12525
+  },
+  {
     "id": "13558",
     "county": "仙游",
     "pinyin": "游洋_sing2",
     "file": "13558_仙游_游洋_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "13559",
+    "county": "仙游",
+    "pinyin": "游洋_sing2",
+    "file": "13559_仙游_游洋_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "13560",
+    "county": "仙游",
+    "pinyin": "游洋_sing2",
+    "file": "13560_仙游_游洋_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "13564",
+    "county": "仙游",
+    "pinyin": "游洋_sing2",
+    "file": "13564_仙游_游洋_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "13567",
+    "county": "仙游",
+    "pinyin": "游洋_sing2",
+    "file": "13567_仙游_游洋_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "13568",
+    "county": "仙游",
+    "pinyin": "游洋_sing2",
+    "file": "13568_仙游_游洋_sing2.mp3",
     "size": 11949
   },
   {
@@ -721,6 +1232,13 @@
     "size": 12525
   },
   {
+    "id": "13756",
+    "county": "仙游",
+    "pinyin": "游洋_tao4",
+    "file": "13756_仙游_游洋_tao4.mp3",
+    "size": 12525
+  },
+  {
     "id": "13799",
     "county": "仙游",
     "pinyin": "游洋_toe4",
@@ -732,6 +1250,13 @@
     "county": "仙游",
     "pinyin": "游洋_tou2",
     "file": "13810_仙游_游洋_tou2.mp3",
+    "size": 13869
+  },
+  {
+    "id": "13811",
+    "county": "仙游",
+    "pinyin": "游洋_tou2",
+    "file": "13811_仙游_游洋_tou2.mp3",
     "size": 13869
   },
   {
@@ -791,10 +1316,38 @@
     "size": 10029
   },
   {
+    "id": "13952",
+    "county": "仙游",
+    "pinyin": "游洋_zi3",
+    "file": "13952_仙游_游洋_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "13957",
+    "county": "仙游",
+    "pinyin": "游洋_zi3",
+    "file": "13957_仙游_游洋_zi3.mp3",
+    "size": 10029
+  },
+  {
     "id": "13961",
     "county": "仙游",
     "pinyin": "游洋_zi5",
     "file": "13961_仙游_游洋_zi5.mp3",
+    "size": 15789
+  },
+  {
+    "id": "13962",
+    "county": "仙游",
+    "pinyin": "游洋_zi5",
+    "file": "13962_仙游_游洋_zi5.mp3",
+    "size": 15789
+  },
+  {
+    "id": "13963",
+    "county": "仙游",
+    "pinyin": "游洋_zi5",
+    "file": "13963_仙游_游洋_zi5.mp3",
     "size": 15789
   },
   {
@@ -812,10 +1365,31 @@
     "size": 11949
   },
   {
+    "id": "13",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "13_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "14001",
     "county": "仙游",
     "pinyin": "游洋_zing1",
     "file": "14001_仙游_游洋_zing1.mp3",
+    "size": 5661
+  },
+  {
+    "id": "14003",
+    "county": "仙游",
+    "pinyin": "游洋_zing1",
+    "file": "14003_仙游_游洋_zing1.mp3",
+    "size": 5661
+  },
+  {
+    "id": "14006",
+    "county": "仙游",
+    "pinyin": "游洋_zing1",
+    "file": "14006_仙游_游洋_zing1.mp3",
     "size": 5661
   },
   {
@@ -833,10 +1407,24 @@
     "size": 10605
   },
   {
+    "id": "14067",
+    "county": "仙游",
+    "pinyin": "游洋_zoeng1",
+    "file": "14067_仙游_游洋_zoeng1.mp3",
+    "size": 10605
+  },
+  {
     "id": "14068",
     "county": "仙游",
     "pinyin": "游洋_zoeng2",
     "file": "14068_仙游_游洋_zoeng2.mp3",
+    "size": 12525
+  },
+  {
+    "id": "14069",
+    "county": "仙游",
+    "pinyin": "游洋_zoeng2",
+    "file": "14069_仙游_游洋_zoeng2.mp3",
     "size": 12525
   },
   {
@@ -847,10 +1435,45 @@
     "size": 9645
   },
   {
+    "id": "14147",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "14147_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "14148",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "14148_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
     "id": "14154",
     "county": "仙游",
     "pinyin": "城关_ma2",
     "file": "14154_仙游_城关_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "14156",
+    "county": "仙游",
+    "pinyin": "城关_ma2",
+    "file": "14156_仙游_城关_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "14157",
+    "county": "仙游",
+    "pinyin": "城关_ma2",
+    "file": "14157_仙游_城关_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "14160",
+    "county": "仙游",
+    "pinyin": "城关_ma2",
+    "file": "14160_仙游_城关_ma2.mp3",
     "size": 6093
   },
   {
@@ -875,6 +1498,13 @@
     "size": 10605
   },
   {
+    "id": "14227",
+    "county": "仙游",
+    "pinyin": "城关_ga3",
+    "file": "14227_仙游_城关_ga3.mp3",
+    "size": 10605
+  },
+  {
     "id": "14280",
     "county": "仙游",
     "pinyin": "城关_mai5",
@@ -882,10 +1512,31 @@
     "size": 13485
   },
   {
+    "id": "14281",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "14281_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
     "id": "14294",
     "county": "仙游",
     "pinyin": "城关_dai5",
     "file": "14294_仙游_城关_dai5.mp3",
+    "size": 12909
+  },
+  {
+    "id": "14295",
+    "county": "仙游",
+    "pinyin": "城关_dai5",
+    "file": "14295_仙游_城关_dai5.mp3",
+    "size": 12909
+  },
+  {
+    "id": "14298",
+    "county": "仙游",
+    "pinyin": "城关_dai5",
+    "file": "14298_仙游_城关_dai5.mp3",
     "size": 12909
   },
   {
@@ -904,6 +1555,13 @@
   },
   {
     "id": "142",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "142_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "142",
     "county": "莆田",
     "pinyin": "城里_gor5",
     "file": "142_莆田_城里_gor5.mp3",
@@ -917,11 +1575,60 @@
     "size": 14829
   },
   {
+    "id": "14300",
+    "county": "仙游",
+    "pinyin": "城关_dai5",
+    "file": "14300_仙游_城关_dai5.mp3",
+    "size": 12909
+  },
+  {
     "id": "14307",
     "county": "仙游",
     "pinyin": "城关_tai1",
     "file": "14307_仙游_城关_tai1.mp3",
     "size": 13485
+  },
+  {
+    "id": "14308",
+    "county": "仙游",
+    "pinyin": "城关_tai1",
+    "file": "14308_仙游_城关_tai1.mp3",
+    "size": 13485
+  },
+  {
+    "id": "143",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "143_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "143",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "143_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "143",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "143_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "143",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "143_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "143",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "143_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "14407",
@@ -938,6 +1645,13 @@
     "size": 6093
   },
   {
+    "id": "14450",
+    "county": "仙游",
+    "pinyin": "城关_pao4",
+    "file": "14450_仙游_城关_pao4.mp3",
+    "size": 6093
+  },
+  {
     "id": "14459",
     "county": "仙游",
     "pinyin": "城关_dao4",
@@ -945,10 +1659,24 @@
     "size": 12525
   },
   {
+    "id": "14461",
+    "county": "仙游",
+    "pinyin": "城关_dao4",
+    "file": "14461_仙游_城关_dao4.mp3",
+    "size": 12525
+  },
+  {
     "id": "14468",
     "county": "仙游",
     "pinyin": "城关_tao4",
     "file": "14468_仙游_城关_tao4.mp3",
+    "size": 12525
+  },
+  {
+    "id": "14469",
+    "county": "仙游",
+    "pinyin": "城关_tao4",
+    "file": "14469_仙游_城关_tao4.mp3",
     "size": 12525
   },
   {
@@ -966,6 +1694,13 @@
     "size": 5229
   },
   {
+    "id": "14486",
+    "county": "仙游",
+    "pinyin": "城关_zao3",
+    "file": "14486_仙游_城关_zao3.mp3",
+    "size": 5229
+  },
+  {
     "id": "14488",
     "county": "仙游",
     "pinyin": "城关_zao4",
@@ -973,10 +1708,73 @@
     "size": 11565
   },
   {
+    "id": "144",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "144_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "144",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "144_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "144",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "144_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "144",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "144_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "144",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "144_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "14517",
     "county": "仙游",
     "pinyin": "城关_gao3",
     "file": "14517_仙游_城关_gao3.mp3",
+    "size": 11949
+  },
+  {
+    "id": "14518",
+    "county": "仙游",
+    "pinyin": "城关_gao3",
+    "file": "14518_仙游_城关_gao3.mp3",
+    "size": 11949
+  },
+  {
+    "id": "14519",
+    "county": "仙游",
+    "pinyin": "城关_gao3",
+    "file": "14519_仙游_城关_gao3.mp3",
+    "size": 11949
+  },
+  {
+    "id": "14520",
+    "county": "仙游",
+    "pinyin": "城关_gao3",
+    "file": "14520_仙游_城关_gao3.mp3",
+    "size": 11949
+  },
+  {
+    "id": "14521",
+    "county": "仙游",
+    "pinyin": "城关_gao3",
+    "file": "14521_仙游_城关_gao3.mp3",
     "size": 11949
   },
   {
@@ -987,10 +1785,59 @@
     "size": 10989
   },
   {
+    "id": "14555",
+    "county": "仙游",
+    "pinyin": "城关_ao1",
+    "file": "14555_仙游_城关_ao1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "145",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "145_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "145",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "145_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "145",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "145_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "145",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "145_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "145",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "145_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "14633",
     "county": "仙游",
     "pinyin": "城关_pah6",
     "file": "14633_仙游_城关_pah6.mp3",
+    "size": 12525
+  },
+  {
+    "id": "14635",
+    "county": "仙游",
+    "pinyin": "城关_pah6",
+    "file": "14635_仙游_城关_pah6.mp3",
     "size": 12525
   },
   {
@@ -1001,10 +1848,31 @@
     "size": 14445
   },
   {
+    "id": "14655",
+    "county": "仙游",
+    "pinyin": "城关_tah6",
+    "file": "14655_仙游_城关_tah6.mp3",
+    "size": 14445
+  },
+  {
+    "id": "14658",
+    "county": "仙游",
+    "pinyin": "城关_tah6",
+    "file": "14658_仙游_城关_tah6.mp3",
+    "size": 14445
+  },
+  {
     "id": "14662",
     "county": "仙游",
     "pinyin": "城关_nah7",
     "file": "14662_仙游_城关_nah7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "14663",
+    "county": "仙游",
+    "pinyin": "城关_nah7",
+    "file": "14663_仙游_城关_nah7.mp3",
     "size": 11565
   },
   {
@@ -1015,6 +1883,27 @@
     "size": 9069
   },
   {
+    "id": "14686",
+    "county": "仙游",
+    "pinyin": "城关_zah7",
+    "file": "14686_仙游_城关_zah7.mp3",
+    "size": 9069
+  },
+  {
+    "id": "14687",
+    "county": "仙游",
+    "pinyin": "城关_zah7",
+    "file": "14687_仙游_城关_zah7.mp3",
+    "size": 9069
+  },
+  {
+    "id": "14688",
+    "county": "仙游",
+    "pinyin": "城关_zah7",
+    "file": "14688_仙游_城关_zah7.mp3",
+    "size": 9069
+  },
+  {
     "id": "14692",
     "county": "仙游",
     "pinyin": "城关_cah6",
@@ -1022,10 +1911,59 @@
     "size": 10029
   },
   {
+    "id": "146",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "146_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "146",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "146_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "146",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "146_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "146",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "146_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "146",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "146_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "14711",
     "county": "仙游",
     "pinyin": "城关_gah7",
     "file": "14711_仙游_城关_gah7.mp3",
+    "size": 6525
+  },
+  {
+    "id": "14712",
+    "county": "仙游",
+    "pinyin": "城关_gah7",
+    "file": "14712_仙游_城关_gah7.mp3",
+    "size": 6525
+  },
+  {
+    "id": "14714",
+    "county": "仙游",
+    "pinyin": "城关_gah7",
+    "file": "14714_仙游_城关_gah7.mp3",
     "size": 6525
   },
   {
@@ -1043,11 +1981,88 @@
     "size": 10989
   },
   {
+    "id": "14732",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "14732_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "14734",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "14734_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "14735",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "14735_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "14736",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "14736_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "14765",
     "county": "仙游",
     "pinyin": "城关_pang1",
     "file": "14765_仙游_城关_pang1.mp3",
     "size": 12909
+  },
+  {
+    "id": "14767",
+    "county": "仙游",
+    "pinyin": "城关_pang1",
+    "file": "14767_仙游_城关_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "14769",
+    "county": "仙游",
+    "pinyin": "城关_pang1",
+    "file": "14769_仙游_城关_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "147",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "147_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "147",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "147_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "147",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "147_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "147",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "147_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "147",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "147_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "14847",
@@ -1064,6 +2079,20 @@
     "size": 11949
   },
   {
+    "id": "14887",
+    "county": "仙游",
+    "pinyin": "城关_lang5",
+    "file": "14887_仙游_城关_lang5.mp3",
+    "size": 11949
+  },
+  {
+    "id": "14888",
+    "county": "仙游",
+    "pinyin": "城关_lang5",
+    "file": "14888_仙游_城关_lang5.mp3",
+    "size": 11949
+  },
+  {
     "id": "14890",
     "county": "仙游",
     "pinyin": "城关_zang1",
@@ -1071,10 +2100,94 @@
     "size": 12909
   },
   {
+    "id": "14891",
+    "county": "仙游",
+    "pinyin": "城关_zang1",
+    "file": "14891_仙游_城关_zang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "14892",
+    "county": "仙游",
+    "pinyin": "城关_zang1",
+    "file": "14892_仙游_城关_zang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "14893",
+    "county": "仙游",
+    "pinyin": "城关_zang1",
+    "file": "14893_仙游_城关_zang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "148",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "148_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "148",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "148_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "148",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "148_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "148",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "148_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "148",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "148_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "14947",
     "county": "仙游",
     "pinyin": "城关_gang1",
     "file": "14947_仙游_城关_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "14949",
+    "county": "仙游",
+    "pinyin": "城关_gang1",
+    "file": "14949_仙游_城关_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "14954",
+    "county": "仙游",
+    "pinyin": "城关_gang1",
+    "file": "14954_仙游_城关_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "14955",
+    "county": "仙游",
+    "pinyin": "城关_gang1",
+    "file": "14955_仙游_城关_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "14958",
+    "county": "仙游",
+    "pinyin": "城关_gang1",
+    "file": "14958_仙游_城关_gang1.mp3",
     "size": 10029
   },
   {
@@ -1085,10 +2198,80 @@
     "size": 6093
   },
   {
+    "id": "14989",
+    "county": "仙游",
+    "pinyin": "城关_kang1",
+    "file": "14989_仙游_城关_kang1.mp3",
+    "size": 6093
+  },
+  {
+    "id": "14990",
+    "county": "仙游",
+    "pinyin": "城关_kang1",
+    "file": "14990_仙游_城关_kang1.mp3",
+    "size": 6093
+  },
+  {
+    "id": "149",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "149_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "149",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "149_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "149",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "149_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "149",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "149_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "149",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "149_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "14",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "14_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "15011",
     "county": "仙游",
     "pinyin": "城关_hang1",
     "file": "15011_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "15013",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "15013_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "15014",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "15014_仙游_城关_hang1.mp3",
     "size": 16365
   },
   {
@@ -1099,10 +2282,115 @@
     "size": 23469
   },
   {
+    "id": "15017",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "15017_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "15019",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "15019_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "15023",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "15023_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "15025",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "15025_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "15026",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "15026_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "15030",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "15030_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
     "id": "15062",
     "county": "仙游",
     "pinyin": "城关_ang3",
     "file": "15062_仙游_城关_ang3.mp3",
+    "size": 14829
+  },
+  {
+    "id": "15064",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "15064_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "15067",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "15067_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "15068",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "15068_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "15069",
+    "county": "仙游",
+    "pinyin": "城关_ang5",
+    "file": "15069_仙游_城关_ang5.mp3",
+    "size": 12525
+  },
+  {
+    "id": "150",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "150_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "150",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "150_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "150",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "150_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "150",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "150_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "150",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "150_莆田_城里_or5.mp3",
     "size": 14829
   },
   {
@@ -1113,10 +2401,24 @@
     "size": 10989
   },
   {
+    "id": "15120",
+    "county": "仙游",
+    "pinyin": "城关_te2",
+    "file": "15120_仙游_城关_te2.mp3",
+    "size": 10989
+  },
+  {
     "id": "15128",
     "county": "仙游",
     "pinyin": "城关_ne3",
     "file": "15128_仙游_城关_ne3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "15129",
+    "county": "仙游",
+    "pinyin": "城关_ne3",
+    "file": "15129_仙游_城关_ne3.mp3",
     "size": 10029
   },
   {
@@ -1127,10 +2429,38 @@
     "size": 11949
   },
   {
+    "id": "15153",
+    "county": "仙游",
+    "pinyin": "城关_ze2",
+    "file": "15153_仙游_城关_ze2.mp3",
+    "size": 11949
+  },
+  {
     "id": "15188",
     "county": "仙游",
     "pinyin": "城关_ge1",
     "file": "15188_仙游_城关_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "15189",
+    "county": "仙游",
+    "pinyin": "城关_ge1",
+    "file": "15189_仙游_城关_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "15192",
+    "county": "仙游",
+    "pinyin": "城关_ge1",
+    "file": "15192_仙游_城关_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "15193",
+    "county": "仙游",
+    "pinyin": "城关_ge1",
+    "file": "15193_仙游_城关_ge1.mp3",
     "size": 11949
   },
   {
@@ -1141,10 +2471,59 @@
     "size": 22509
   },
   {
+    "id": "151",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "151_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "151",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "151_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "151",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "151_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "151",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "151_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "151",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "151_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "15207",
     "county": "仙游",
     "pinyin": "城关_ge5",
     "file": "15207_仙游_城关_ge5.mp3",
+    "size": 11949
+  },
+  {
+    "id": "15211",
+    "county": "仙游",
+    "pinyin": "城关_ge5",
+    "file": "15211_仙游_城关_ge5.mp3",
+    "size": 11949
+  },
+  {
+    "id": "15212",
+    "county": "仙游",
+    "pinyin": "城关_ge5",
+    "file": "15212_仙游_城关_ge5.mp3",
     "size": 11949
   },
   {
@@ -1155,10 +2534,73 @@
     "size": 11565
   },
   {
+    "id": "15220",
+    "county": "仙游",
+    "pinyin": "城关_ke4",
+    "file": "15220_仙游_城关_ke4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "15221",
+    "county": "仙游",
+    "pinyin": "城关_ke4",
+    "file": "15221_仙游_城关_ke4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "152",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "152_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "152",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "152_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "152",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "152_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "152",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "152_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "152",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "152_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "15313",
     "county": "仙游",
     "pinyin": "城关_zeh7",
     "file": "15313_仙游_城关_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "15314",
+    "county": "仙游",
+    "pinyin": "城关_zeh7",
+    "file": "15314_仙游_城关_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "15319",
+    "county": "仙游",
+    "pinyin": "城关_zeh7",
+    "file": "15319_仙游_城关_zeh7.mp3",
     "size": 16749
   },
   {
@@ -1169,6 +2611,20 @@
     "size": 8109
   },
   {
+    "id": "15389",
+    "county": "仙游",
+    "pinyin": "城关_eh6",
+    "file": "15389_仙游_城关_eh6.mp3",
+    "size": 8109
+  },
+  {
+    "id": "15393",
+    "county": "仙游",
+    "pinyin": "城关_eh6",
+    "file": "15393_仙游_城关_eh6.mp3",
+    "size": 8109
+  },
+  {
     "id": "15398",
     "county": "仙游",
     "pinyin": "城关_beng2",
@@ -1176,11 +2632,102 @@
     "size": 5013
   },
   {
+    "id": "15399",
+    "county": "仙游",
+    "pinyin": "城关_beng2",
+    "file": "15399_仙游_城关_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "153",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "153_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "153",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "153_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "153",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "153_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "153",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "153_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "153",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "153_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "15470",
     "county": "仙游",
     "pinyin": "城关_deng3",
     "file": "15470_仙游_城关_deng3.mp3",
     "size": 10989
+  },
+  {
+    "id": "15471",
+    "county": "仙游",
+    "pinyin": "城关_deng3",
+    "file": "15471_仙游_城关_deng3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "15474",
+    "county": "仙游",
+    "pinyin": "城关_deng3",
+    "file": "15474_仙游_城关_deng3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "154",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "154_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "154",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "154_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "154",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "154_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "154",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "154_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "154",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "154_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "15583",
@@ -1195,6 +2742,48 @@
     "pinyin": "城关_geng1",
     "file": "15592_仙游_城关_geng1.mp3",
     "size": 11949
+  },
+  {
+    "id": "15595",
+    "county": "仙游",
+    "pinyin": "城关_geng1",
+    "file": "15595_仙游_城关_geng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "155",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "155_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "155",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "155_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "155",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "155_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "155",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "155_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "155",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "155_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "15676",
@@ -1218,10 +2807,52 @@
     "size": 13485
   },
   {
+    "id": "156",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "156_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "156",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "156_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "156",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "156_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "156",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "156_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "156",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "156_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "15744",
     "county": "仙游",
     "pinyin": "城关_mua2",
     "file": "15744_仙游_城关_mua2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "15745",
+    "county": "仙游",
+    "pinyin": "城关_mua2",
+    "file": "15745_仙游_城关_mua2.mp3",
     "size": 8685
   },
   {
@@ -1232,11 +2863,88 @@
     "size": 14829
   },
   {
+    "id": "157",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "157_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "157",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "157_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "157",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "157_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "157",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "157_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "157",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "157_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "15813",
     "county": "仙游",
     "pinyin": "城关_hua5",
     "file": "15813_仙游_城关_hua5.mp3",
     "size": 10989
+  },
+  {
+    "id": "15814",
+    "county": "仙游",
+    "pinyin": "城关_hua5",
+    "file": "15814_仙游_城关_hua5.mp3",
+    "size": 10989
+  },
+  {
+    "id": "158",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "158_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "158",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "158_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "158",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "158_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "158",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "158_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "158",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "158_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "15942",
@@ -1246,6 +2954,48 @@
     "size": 5661
   },
   {
+    "id": "159",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "159_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "159",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "159_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "159",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "159_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "159",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "159_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "159",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "159_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "15",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "15_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "16021",
     "county": "仙游",
     "pinyin": "城关_sui2",
@@ -1253,11 +3003,242 @@
     "size": 11949
   },
   {
+    "id": "160",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "160_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "160",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "160_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "160",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "160_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "160",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "160_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "160",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "160_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "161",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "161_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "161",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "161_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "161",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "161_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "161",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "161_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "161",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "161_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "162",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "162_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "162",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "162_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "162",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "162_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "162",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "162_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "162",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "162_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "163",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "163_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "163",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "163_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "163",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "163_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "163",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "163_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "163",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "163_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "164",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "164_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "164",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "164_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "164",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "164_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "164",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "164_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "164",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "164_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "16581",
     "county": "仙游",
     "pinyin": "城关_bi4",
     "file": "16581_仙游_城关_bi4.mp3",
     "size": 11565
+  },
+  {
+    "id": "16587",
+    "county": "仙游",
+    "pinyin": "城关_bi4",
+    "file": "16587_仙游_城关_bi4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "16588",
+    "county": "仙游",
+    "pinyin": "城关_bi4",
+    "file": "16588_仙游_城关_bi4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "16590",
+    "county": "仙游",
+    "pinyin": "城关_bi4",
+    "file": "16590_仙游_城关_bi4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "165",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "165_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "165",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "165_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "165",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "165_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "165",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "165_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "165",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "165_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "16616",
@@ -1274,6 +3255,13 @@
     "size": 12909
   },
   {
+    "id": "16625",
+    "county": "仙游",
+    "pinyin": "城关_di2",
+    "file": "16625_仙游_城关_di2.mp3",
+    "size": 12909
+  },
+  {
     "id": "16676",
     "county": "仙游",
     "pinyin": "城关_li3",
@@ -1281,10 +3269,87 @@
     "size": 10605
   },
   {
+    "id": "16677",
+    "county": "仙游",
+    "pinyin": "城关_li3",
+    "file": "16677_仙游_城关_li3.mp3",
+    "size": 10605
+  },
+  {
+    "id": "166",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "166_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "166",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "166_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "166",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "166_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "166",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "166_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "166",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "166_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "16703",
     "county": "仙游",
     "pinyin": "城关_zi3",
     "file": "16703_仙游_城关_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "16706",
+    "county": "仙游",
+    "pinyin": "城关_zi3",
+    "file": "16706_仙游_城关_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "16707",
+    "county": "仙游",
+    "pinyin": "城关_zi3",
+    "file": "16707_仙游_城关_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "16712",
+    "county": "仙游",
+    "pinyin": "城关_zi3",
+    "file": "16712_仙游_城关_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "16713",
+    "county": "仙游",
+    "pinyin": "城关_zi3",
+    "file": "16713_仙游_城关_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "16714",
+    "county": "仙游",
+    "pinyin": "城关_zi3",
+    "file": "16714_仙游_城关_zi3.mp3",
     "size": 10029
   },
   {
@@ -1295,11 +3360,88 @@
     "size": 15789
   },
   {
+    "id": "16724",
+    "county": "仙游",
+    "pinyin": "城关_zi5",
+    "file": "16724_仙游_城关_zi5.mp3",
+    "size": 15789
+  },
+  {
+    "id": "16725",
+    "county": "仙游",
+    "pinyin": "城关_zi5",
+    "file": "16725_仙游_城关_zi5.mp3",
+    "size": 15789
+  },
+  {
     "id": "16778",
     "county": "仙游",
     "pinyin": "城关_gi1",
     "file": "16778_仙游_城关_gi1.mp3",
     "size": 11949
+  },
+  {
+    "id": "16780",
+    "county": "仙游",
+    "pinyin": "城关_gi1",
+    "file": "16780_仙游_城关_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "16781",
+    "county": "仙游",
+    "pinyin": "城关_gi1",
+    "file": "16781_仙游_城关_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "16782",
+    "county": "仙游",
+    "pinyin": "城关_gi1",
+    "file": "16782_仙游_城关_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "16783",
+    "county": "仙游",
+    "pinyin": "城关_gi1",
+    "file": "16783_仙游_城关_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "167",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "167_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "167",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "167_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "167",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "167_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "167",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "167_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "167",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "167_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "16881",
@@ -1309,10 +3451,59 @@
     "size": 13485
   },
   {
+    "id": "16883",
+    "county": "仙游",
+    "pinyin": "城关_i1",
+    "file": "16883_仙游_城关_i1.mp3",
+    "size": 13485
+  },
+  {
+    "id": "168",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "168_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "168",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "168_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "168",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "168_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "168",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "168_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "168",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "168_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "16931",
     "county": "仙游",
     "pinyin": "城关_zia3",
     "file": "16931_仙游_城关_zia3.mp3",
+    "size": 17709
+  },
+  {
+    "id": "16933",
+    "county": "仙游",
+    "pinyin": "城关_zia3",
+    "file": "16933_仙游_城关_zia3.mp3",
     "size": 17709
   },
   {
@@ -1337,10 +3528,31 @@
     "size": 12525
   },
   {
+    "id": "16953",
+    "county": "仙游",
+    "pinyin": "城关_sia2",
+    "file": "16953_仙游_城关_sia2.mp3",
+    "size": 12525
+  },
+  {
+    "id": "16955",
+    "county": "仙游",
+    "pinyin": "城关_sia2",
+    "file": "16955_仙游_城关_sia2.mp3",
+    "size": 12525
+  },
+  {
     "id": "16970",
     "county": "仙游",
     "pinyin": "城关_nia3",
     "file": "16970_仙游_城关_nia3.mp3",
+    "size": 11565
+  },
+  {
+    "id": "16971",
+    "county": "仙游",
+    "pinyin": "城关_nia3",
+    "file": "16971_仙游_城关_nia3.mp3",
     "size": 11565
   },
   {
@@ -1372,10 +3584,59 @@
     "size": 12909
   },
   {
+    "id": "169",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "169_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "169",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "169_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "169",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "169_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "169",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "169_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "169",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "169_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "16",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "16_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "17016",
     "county": "仙游",
     "pinyin": "城关_pieo2",
     "file": "17016_仙游_城关_pieo2.mp3",
+    "size": 10989
+  },
+  {
+    "id": "17017",
+    "county": "仙游",
+    "pinyin": "城关_pieo2",
+    "file": "17017_仙游_城关_pieo2.mp3",
     "size": 10989
   },
   {
@@ -1384,6 +3645,111 @@
     "pinyin": "城关_nieo1",
     "file": "17062_仙游_城关_nieo1.mp3",
     "size": 26349
+  },
+  {
+    "id": "170",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "170_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "170",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "170_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "170",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "170_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "170",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "170_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "170",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "170_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "171",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "171_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "171",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "171_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "171",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "171_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "171",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "171_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "171",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "171_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "172",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "172_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "172",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "172_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "172",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "172_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "172",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "172_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "172",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "172_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "17307",
@@ -1407,6 +3773,41 @@
     "size": 11949
   },
   {
+    "id": "173",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "173_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "173",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "173_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "173",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "173_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "173",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "173_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "173",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "173_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "17408",
     "county": "仙游",
     "pinyin": "城关_giu1",
@@ -1414,11 +3815,123 @@
     "size": 17325
   },
   {
+    "id": "174",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "174_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "174",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "174_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "174",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "174_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "174",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "174_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "174",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "174_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "17534",
     "county": "仙游",
     "pinyin": "城关_bih7",
     "file": "17534_仙游_城关_bih7.mp3",
     "size": 11565
+  },
+  {
+    "id": "17535",
+    "county": "仙游",
+    "pinyin": "城关_bih7",
+    "file": "17535_仙游_城关_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "175",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "175_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "175",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "175_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "175",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "175_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "175",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "175_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "175",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "175_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "176",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "176_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "176",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "176_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "176",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "176_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "176",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "176_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "176",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "176_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "17706",
@@ -1435,6 +3948,48 @@
     "size": 10989
   },
   {
+    "id": "17753",
+    "county": "仙游",
+    "pinyin": "城关_ping4",
+    "file": "17753_仙游_城关_ping4.mp3",
+    "size": 10989
+  },
+  {
+    "id": "177",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "177_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "177",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "177_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "177",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "177_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "177",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "177_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "177",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "177_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "17806",
     "county": "仙游",
     "pinyin": "城关_ning1",
@@ -1449,6 +4004,27 @@
     "size": 5661
   },
   {
+    "id": "17836",
+    "county": "仙游",
+    "pinyin": "城关_zing1",
+    "file": "17836_仙游_城关_zing1.mp3",
+    "size": 5661
+  },
+  {
+    "id": "17839",
+    "county": "仙游",
+    "pinyin": "城关_zing1",
+    "file": "17839_仙游_城关_zing1.mp3",
+    "size": 5661
+  },
+  {
+    "id": "17843",
+    "county": "仙游",
+    "pinyin": "城关_zing1",
+    "file": "17843_仙游_城关_zing1.mp3",
+    "size": 5661
+  },
+  {
     "id": "17891",
     "county": "仙游",
     "pinyin": "城关_cing2",
@@ -1456,10 +4032,38 @@
     "size": 16365
   },
   {
+    "id": "17892",
+    "county": "仙游",
+    "pinyin": "城关_cing2",
+    "file": "17892_仙游_城关_cing2.mp3",
+    "size": 16365
+  },
+  {
     "id": "17897",
     "county": "仙游",
     "pinyin": "城关_cing4",
     "file": "17897_仙游_城关_cing4.mp3",
+    "size": 12909
+  },
+  {
+    "id": "17898",
+    "county": "仙游",
+    "pinyin": "城关_cing4",
+    "file": "17898_仙游_城关_cing4.mp3",
+    "size": 12909
+  },
+  {
+    "id": "17899",
+    "county": "仙游",
+    "pinyin": "城关_cing4",
+    "file": "17899_仙游_城关_cing4.mp3",
+    "size": 12909
+  },
+  {
+    "id": "17900",
+    "county": "仙游",
+    "pinyin": "城关_cing4",
+    "file": "17900_仙游_城关_cing4.mp3",
     "size": 12909
   },
   {
@@ -1477,11 +4081,137 @@
     "size": 11949
   },
   {
+    "id": "17920",
+    "county": "仙游",
+    "pinyin": "城关_sing2",
+    "file": "17920_仙游_城关_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "17921",
+    "county": "仙游",
+    "pinyin": "城关_sing2",
+    "file": "17921_仙游_城关_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "17922",
+    "county": "仙游",
+    "pinyin": "城关_sing2",
+    "file": "17922_仙游_城关_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "17924",
+    "county": "仙游",
+    "pinyin": "城关_sing2",
+    "file": "17924_仙游_城关_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "17927",
+    "county": "仙游",
+    "pinyin": "城关_sing2",
+    "file": "17927_仙游_城关_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "17930",
+    "county": "仙游",
+    "pinyin": "城关_sing2",
+    "file": "17930_仙游_城关_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "17932",
+    "county": "仙游",
+    "pinyin": "城关_sing2",
+    "file": "17932_仙游_城关_sing2.mp3",
+    "size": 11949
+  },
+  {
     "id": "17967",
     "county": "仙游",
     "pinyin": "城关_ging3",
     "file": "17967_仙游_城关_ging3.mp3",
     "size": 13485
+  },
+  {
+    "id": "179",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "179_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "179",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "179_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "179",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "179_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "179",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "179_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "179",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "179_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "17",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "17_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "180",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "180_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "180",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "180_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "180",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "180_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "180",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "180_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "180",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "180_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "18114",
@@ -1505,11 +4235,53 @@
     "size": 21549
   },
   {
+    "id": "18177",
+    "county": "仙游",
+    "pinyin": "城关_soe3",
+    "file": "18177_仙游_城关_soe3.mp3",
+    "size": 21549
+  },
+  {
     "id": "18187",
     "county": "仙游",
     "pinyin": "城关_hoe5",
     "file": "18187_仙游_城关_hoe5.mp3",
     "size": 11949
+  },
+  {
+    "id": "181",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "181_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "181",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "181_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "181",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "181_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "181",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "181_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "181",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "181_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "18255",
@@ -1519,11 +4291,60 @@
     "size": 5013
   },
   {
+    "id": "18256",
+    "county": "仙游",
+    "pinyin": "城关_dor4",
+    "file": "18256_仙游_城关_dor4.mp3",
+    "size": 5013
+  },
+  {
     "id": "18279",
     "county": "仙游",
     "pinyin": "城关_nor2",
     "file": "18279_仙游_城关_nor2.mp3",
     "size": 10605
+  },
+  {
+    "id": "18280",
+    "county": "仙游",
+    "pinyin": "城关_nor2",
+    "file": "18280_仙游_城关_nor2.mp3",
+    "size": 10605
+  },
+  {
+    "id": "182",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "182_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "182",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "182_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "182",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "182_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "182",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "182_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "182",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "182_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "18316",
@@ -1540,11 +4361,172 @@
     "size": 15789
   },
   {
+    "id": "18385",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "18385_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "18386",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "18386_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "18388",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "18388_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "18392",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "18392_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "18393",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "18393_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
     "id": "18395",
     "county": "仙游",
     "pinyin": "城关_kor1",
     "file": "18395_仙游_城关_kor1.mp3",
     "size": 10605
+  },
+  {
+    "id": "18396",
+    "county": "仙游",
+    "pinyin": "城关_kor1",
+    "file": "18396_仙游_城关_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "18397",
+    "county": "仙游",
+    "pinyin": "城关_kor1",
+    "file": "18397_仙游_城关_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "183",
+    "county": "仙游",
+    "pinyin": "城关_gor5",
+    "file": "183_仙游_城关_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "183",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "183_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "183",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "183_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "183",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "183_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "183",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "183_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "18401",
+    "county": "仙游",
+    "pinyin": "城关_kor1",
+    "file": "18401_仙游_城关_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "18463",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "18463_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "18464",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "18464_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "18465",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "18465_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "18467",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "18467_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "184",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "184_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "184",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "184_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "184",
+    "county": "仙游",
+    "pinyin": "游洋_ah6",
+    "file": "184_仙游_游洋_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "184",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "184_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "184",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "184_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "184",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "184_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "18522",
@@ -1561,6 +4543,55 @@
     "size": 11565
   },
   {
+    "id": "18553",
+    "county": "仙游",
+    "pinyin": "城关_lorh7",
+    "file": "18553_仙游_城关_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "18556",
+    "county": "仙游",
+    "pinyin": "城关_lorh7",
+    "file": "18556_仙游_城关_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "18561",
+    "county": "仙游",
+    "pinyin": "城关_lorh7",
+    "file": "18561_仙游_城关_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "185",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "185_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "185",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "185_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "185",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "185_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "185",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "185_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "18618",
     "county": "仙游",
     "pinyin": "城关_orh6",
@@ -1568,11 +4599,102 @@
     "size": 13869
   },
   {
+    "id": "18619",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "18619_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "186",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "186_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "186",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "186_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "186",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "186_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "186",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "186_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "187",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "187_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "187",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "187_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "187",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "187_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "187",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "187_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "18878",
     "county": "仙游",
     "pinyin": "城关_orng1",
     "file": "18878_仙游_城关_orng1.mp3",
     "size": 11949
+  },
+  {
+    "id": "188",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "188_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "188",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "188_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "188",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "188_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "188",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "188_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "18908",
@@ -1589,10 +4711,59 @@
     "size": 13869
   },
   {
+    "id": "189",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "189_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "189",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "189_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "189",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "189_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "189",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "189_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "18",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "18_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "19014",
     "county": "仙游",
     "pinyin": "城关_ko1",
     "file": "19014_仙游_城关_ko1.mp3",
+    "size": 8109
+  },
+  {
+    "id": "19015",
+    "county": "仙游",
+    "pinyin": "城关_ko1",
+    "file": "19015_仙游_城关_ko1.mp3",
+    "size": 8109
+  },
+  {
+    "id": "19016",
+    "county": "仙游",
+    "pinyin": "城关_ko1",
+    "file": "19016_仙游_城关_ko1.mp3",
     "size": 8109
   },
   {
@@ -1610,10 +4781,52 @@
     "size": 10989
   },
   {
+    "id": "19043",
+    "county": "仙游",
+    "pinyin": "城关_bou3",
+    "file": "19043_仙游_城关_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "190",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "190_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "190",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "190_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "190",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "190_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "190",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "190_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "19101",
     "county": "仙游",
     "pinyin": "城关_tou2",
     "file": "19101_仙游_城关_tou2.mp3",
+    "size": 13869
+  },
+  {
+    "id": "19102",
+    "county": "仙游",
+    "pinyin": "城关_tou2",
+    "file": "19102_仙游_城关_tou2.mp3",
     "size": 13869
   },
   {
@@ -1631,6 +4844,34 @@
     "size": 11565
   },
   {
+    "id": "191",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "191_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "191",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "191_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "191",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "191_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "191",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "191_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
     "id": "19204",
     "county": "仙游",
     "pinyin": "城关_kou3",
@@ -1643,6 +4884,62 @@
     "pinyin": "城关_hou2",
     "file": "19211_仙游_城关_hou2.mp3",
     "size": 8685
+  },
+  {
+    "id": "19212",
+    "county": "仙游",
+    "pinyin": "城关_hou2",
+    "file": "19212_仙游_城关_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "19213",
+    "county": "仙游",
+    "pinyin": "城关_hou2",
+    "file": "19213_仙游_城关_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "19216",
+    "county": "仙游",
+    "pinyin": "城关_hou2",
+    "file": "19216_仙游_城关_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "19217",
+    "county": "仙游",
+    "pinyin": "城关_hou2",
+    "file": "19217_仙游_城关_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "193",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "193_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "193",
+    "county": "仙游",
+    "pinyin": "游洋_or5",
+    "file": "193_仙游_游洋_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "193",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "193_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "193",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "193_莆田_城里_or5.mp3",
+    "size": 14829
   },
   {
     "id": "19419",
@@ -1660,9 +4957,177 @@
   },
   {
     "id": "194",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "194_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "194",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "194_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "194",
+    "county": "仙游",
+    "pinyin": "游洋_orh6",
+    "file": "194_仙游_游洋_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "194",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "194_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "194",
     "county": "莆田",
     "pinyin": "城里_orh6",
     "file": "194_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "195",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "195_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "195",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "195_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "195",
+    "county": "仙游",
+    "pinyin": "游洋_orh6",
+    "file": "195_仙游_游洋_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "195",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "195_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "195",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "195_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "196",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "196_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "196",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "196_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "196",
+    "county": "仙游",
+    "pinyin": "游洋_orh6",
+    "file": "196_仙游_游洋_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "196",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "196_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "196",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "196_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "197",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "197_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "197",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "197_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "197",
+    "county": "仙游",
+    "pinyin": "游洋_orh6",
+    "file": "197_仙游_游洋_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "197",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "197_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "197",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "197_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "198",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "198_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "198",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "198_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "198",
+    "county": "仙游",
+    "pinyin": "游洋_orh6",
+    "file": "198_仙游_游洋_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "198",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "198_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "198",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "198_莆田_城里_orh6.mp3",
     "size": 13869
   },
   {
@@ -1673,11 +5138,109 @@
     "size": 12909
   },
   {
+    "id": "19961",
+    "county": "仙游",
+    "pinyin": "城关_gng1",
+    "file": "19961_仙游_城关_gng1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "199",
+    "county": "仙游",
+    "pinyin": "城关_ah6",
+    "file": "199_仙游_城关_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "199",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "199_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "199",
+    "county": "仙游",
+    "pinyin": "游洋_orh6",
+    "file": "199_仙游_游洋_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "199",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "199_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "199",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "199_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "19",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "19_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "20052",
     "county": "仙游",
     "pinyin": "城关_mieo1",
     "file": "20052_仙游_城关_mieo1.mp3",
     "size": 29229
+  },
+  {
+    "id": "20065",
+    "county": "仙游",
+    "pinyin": "城关_dao4",
+    "file": "20065_仙游_城关_dao4.mp3",
+    "size": 12525
+  },
+  {
+    "id": "200",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "200_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "200",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "200_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "201",
+    "county": "仙游",
+    "pinyin": "城关_orh6",
+    "file": "201_仙游_城关_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "201",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "201_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "202",
+    "county": "仙游",
+    "pinyin": "城关_orng1",
+    "file": "202_仙游_城关_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "202",
+    "county": "仙游",
+    "pinyin": "游洋_orng1",
+    "file": "202_仙游_游洋_orng1.mp3",
+    "size": 11949
   },
   {
     "id": "202",
@@ -1687,11 +5250,144 @@
     "size": 11949
   },
   {
+    "id": "203",
+    "county": "仙游",
+    "pinyin": "城关_orng1",
+    "file": "203_仙游_城关_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "203",
+    "county": "仙游",
+    "pinyin": "游洋_orng1",
+    "file": "203_仙游_游洋_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "203",
+    "county": "莆田",
+    "pinyin": "城里_orng1",
+    "file": "203_莆田_城里_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "204",
+    "county": "仙游",
+    "pinyin": "城关_orng1",
+    "file": "204_仙游_城关_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "204",
+    "county": "仙游",
+    "pinyin": "游洋_orng1",
+    "file": "204_仙游_游洋_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "204",
+    "county": "莆田",
+    "pinyin": "城里_orng1",
+    "file": "204_莆田_城里_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "20",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "20_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "216",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "216_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "216",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "216_莆田_城里_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "21",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "21_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "22",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "22_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "23",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "23_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "24",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "24_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "257",
+    "county": "仙游",
+    "pinyin": "城关_ma2",
+    "file": "257_仙游_城关_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "257",
+    "county": "仙游",
+    "pinyin": "城关_mua2",
+    "file": "257_仙游_城关_mua2.mp3",
+    "size": 8685
+  },
+  {
     "id": "257",
     "county": "莆田",
     "pinyin": "城里_ma2",
     "file": "257_莆田_城里_ma2.mp3",
     "size": 6093
+  },
+  {
+    "id": "257",
+    "county": "莆田",
+    "pinyin": "城里_mua2",
+    "file": "257_莆田_城里_mua2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "25",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "25_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "264",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "264_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "264",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "264_仙游_游洋_ba5.mp3",
+    "size": 9645
   },
   {
     "id": "264",
@@ -1701,11 +5397,445 @@
     "size": 9645
   },
   {
+    "id": "265",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "265_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "265",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "265_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "265",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "265_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "266",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "266_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "266",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "266_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "266",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "266_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "267",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "267_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "267",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "267_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "267",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "267_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "268",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "268_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "268",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "268_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "268",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "268_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "269",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "269_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "269",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "269_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "269",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "269_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "26",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "26_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "270",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "270_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "270",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "270_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "270",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "270_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "271",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "271_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "271",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "271_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "271",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "271_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "272",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "272_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "273",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "273_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "273",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "273_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "273",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "273_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "27",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "27_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "28",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "28_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "29",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "29_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "30",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "30_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "31",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "31_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "32",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "32_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "33",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "33_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "34",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "34_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "35",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "35_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "361",
+    "county": "仙游",
+    "pinyin": "城关_ma2",
+    "file": "361_仙游_城关_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "361",
+    "county": "仙游",
+    "pinyin": "城关_mua2",
+    "file": "361_仙游_城关_mua2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "361",
+    "county": "莆田",
+    "pinyin": "城里_ma2",
+    "file": "361_莆田_城里_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "361",
+    "county": "莆田",
+    "pinyin": "城里_mua2",
+    "file": "361_莆田_城里_mua2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "36",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "36_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "37",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "37_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "38",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "38_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "39",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "39_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "408",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "408_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
     "id": "408",
     "county": "莆田",
     "pinyin": "城里_mai5",
     "file": "408_莆田_城里_mai5.mp3",
     "size": 13485
+  },
+  {
+    "id": "409",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "409_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "409",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "409_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "40",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "40_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "410",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "410_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "410",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "410_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "411",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "411_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "411",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "411_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "412",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "412_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "412",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "412_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "416",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "416_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "416",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "416_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "416",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "416_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "417",
+    "county": "仙游",
+    "pinyin": "城关_ba5",
+    "file": "417_仙游_城关_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "417",
+    "county": "仙游",
+    "pinyin": "游洋_ba5",
+    "file": "417_仙游_游洋_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "417",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "417_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "41",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "41_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "429",
+    "county": "仙游",
+    "pinyin": "城关_bih7",
+    "file": "429_仙游_城关_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "429",
+    "county": "仙游",
+    "pinyin": "游洋_bih7",
+    "file": "429_仙游_游洋_bih7.mp3",
+    "size": 11565
   },
   {
     "id": "429",
@@ -1715,6 +5845,27 @@
     "size": 11565
   },
   {
+    "id": "42",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "42_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "431",
+    "county": "仙游",
+    "pinyin": "游洋_beng2",
+    "file": "431_仙游_游洋_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "434",
+    "county": "仙游",
+    "pinyin": "城关_beng2",
+    "file": "434_仙游_城关_beng2.mp3",
+    "size": 5013
+  },
+  {
     "id": "434",
     "county": "莆田",
     "pinyin": "城里_beng2",
@@ -1722,11 +5873,144 @@
     "size": 5013
   },
   {
+    "id": "435",
+    "county": "仙游",
+    "pinyin": "城关_beng2",
+    "file": "435_仙游_城关_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "435",
+    "county": "莆田",
+    "pinyin": "城里_beng2",
+    "file": "435_莆田_城里_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "437",
+    "county": "仙游",
+    "pinyin": "城关_beng2",
+    "file": "437_仙游_城关_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "437",
+    "county": "仙游",
+    "pinyin": "游洋_beng2",
+    "file": "437_仙游_游洋_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "437",
+    "county": "莆田",
+    "pinyin": "城里_beng2",
+    "file": "437_莆田_城里_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "43",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "43_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "469",
+    "county": "仙游",
+    "pinyin": "城关_bi4",
+    "file": "469_仙游_城关_bi4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "469",
+    "county": "仙游",
+    "pinyin": "游洋_bi4",
+    "file": "469_仙游_游洋_bi4.mp3",
+    "size": 11565
+  },
+  {
     "id": "469",
     "county": "莆田",
     "pinyin": "城里_bi4",
     "file": "469_莆田_城里_bi4.mp3",
     "size": 11565
+  },
+  {
+    "id": "46",
+    "county": "仙游",
+    "pinyin": "城关_or5",
+    "file": "46_仙游_城关_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "46",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "46_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "470",
+    "county": "仙游",
+    "pinyin": "游洋_pi5",
+    "file": "470_仙游_游洋_pi5.mp3",
+    "size": 10989
+  },
+  {
+    "id": "474",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "474_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "474",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "474_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "475",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "475_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "475",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "475_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "476",
+    "county": "仙游",
+    "pinyin": "城关_mai5",
+    "file": "476_仙游_城关_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "476",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "476_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "478",
+    "county": "仙游",
+    "pinyin": "游洋_pi5",
+    "file": "478_仙游_游洋_pi5.mp3",
+    "size": 10989
+  },
+  {
+    "id": "481",
+    "county": "仙游",
+    "pinyin": "城关_ping4",
+    "file": "481_仙游_城关_ping4.mp3",
+    "size": 10989
   },
   {
     "id": "481",
@@ -1743,10 +6027,220 @@
     "size": 10989
   },
   {
+    "id": "482",
+    "county": "仙游",
+    "pinyin": "城关_ping4",
+    "file": "482_仙游_城关_ping4.mp3",
+    "size": 10989
+  },
+  {
+    "id": "482",
+    "county": "莆田",
+    "pinyin": "城里_bia4",
+    "file": "482_莆田_城里_bia4.mp3",
+    "size": 10605
+  },
+  {
+    "id": "482",
+    "county": "莆田",
+    "pinyin": "城里_ping4",
+    "file": "482_莆田_城里_ping4.mp3",
+    "size": 10989
+  },
+  {
+    "id": "483",
+    "county": "仙游",
+    "pinyin": "城关_ping4",
+    "file": "483_仙游_城关_ping4.mp3",
+    "size": 10989
+  },
+  {
+    "id": "483",
+    "county": "莆田",
+    "pinyin": "城里_bia4",
+    "file": "483_莆田_城里_bia4.mp3",
+    "size": 10605
+  },
+  {
+    "id": "483",
+    "county": "莆田",
+    "pinyin": "城里_ping4",
+    "file": "483_莆田_城里_ping4.mp3",
+    "size": 10989
+  },
+  {
+    "id": "484",
+    "county": "莆田",
+    "pinyin": "城里_bia4",
+    "file": "484_莆田_城里_bia4.mp3",
+    "size": 10605
+  },
+  {
+    "id": "48",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "48_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "49",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "49_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "506",
+    "county": "仙游",
+    "pinyin": "城关_bih7",
+    "file": "506_仙游_城关_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "506",
+    "county": "仙游",
+    "pinyin": "游洋_bih7",
+    "file": "506_仙游_游洋_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "506",
+    "county": "莆田",
+    "pinyin": "城里_bih7",
+    "file": "506_莆田_城里_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "507",
+    "county": "仙游",
+    "pinyin": "城关_bih7",
+    "file": "507_仙游_城关_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "507",
+    "county": "仙游",
+    "pinyin": "游洋_bih7",
+    "file": "507_仙游_游洋_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "507",
+    "county": "莆田",
+    "pinyin": "城里_bih7",
+    "file": "507_莆田_城里_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "508",
+    "county": "仙游",
+    "pinyin": "城关_bih7",
+    "file": "508_仙游_城关_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "508",
+    "county": "仙游",
+    "pinyin": "游洋_bih7",
+    "file": "508_仙游_游洋_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "508",
+    "county": "莆田",
+    "pinyin": "城里_bih7",
+    "file": "508_莆田_城里_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "50",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "50_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "514",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "514_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "51",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "51_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "5787",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "5787_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "5788",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "5788_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "5789",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "5789_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "5790",
+    "county": "莆田",
+    "pinyin": "城里_ba5",
+    "file": "5790_莆田_城里_ba5.mp3",
+    "size": 9645
+  },
+  {
+    "id": "5796",
+    "county": "莆田",
+    "pinyin": "城里_ma2",
+    "file": "5796_莆田_城里_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "5797",
+    "county": "莆田",
+    "pinyin": "城里_ma2",
+    "file": "5797_莆田_城里_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "5798",
+    "county": "莆田",
+    "pinyin": "城里_ma2",
+    "file": "5798_莆田_城里_ma2.mp3",
+    "size": 6093
+  },
+  {
+    "id": "5802",
+    "county": "莆田",
+    "pinyin": "城里_ma2",
+    "file": "5802_莆田_城里_ma2.mp3",
+    "size": 6093
+  },
+  {
     "id": "5848",
     "county": "莆田",
     "pinyin": "城里_za4",
     "file": "5848_莆田_城里_za4.mp3",
+    "size": 10605
+  },
+  {
+    "id": "5850",
+    "county": "莆田",
+    "pinyin": "城里_za4",
+    "file": "5850_莆田_城里_za4.mp3",
     "size": 10605
   },
   {
@@ -1764,10 +6258,52 @@
     "size": 10605
   },
   {
+    "id": "5904",
+    "county": "莆田",
+    "pinyin": "城里_ga3",
+    "file": "5904_莆田_城里_ga3.mp3",
+    "size": 10605
+  },
+  {
+    "id": "5962",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "5962_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
+    "id": "5963",
+    "county": "莆田",
+    "pinyin": "城里_mai5",
+    "file": "5963_莆田_城里_mai5.mp3",
+    "size": 13485
+  },
+  {
     "id": "5977",
     "county": "莆田",
     "pinyin": "城里_dai5",
     "file": "5977_莆田_城里_dai5.mp3",
+    "size": 12909
+  },
+  {
+    "id": "5978",
+    "county": "莆田",
+    "pinyin": "城里_dai5",
+    "file": "5978_莆田_城里_dai5.mp3",
+    "size": 12909
+  },
+  {
+    "id": "5981",
+    "county": "莆田",
+    "pinyin": "城里_dai5",
+    "file": "5981_莆田_城里_dai5.mp3",
+    "size": 12909
+  },
+  {
+    "id": "5983",
+    "county": "莆田",
+    "pinyin": "城里_dai5",
+    "file": "5983_莆田_城里_dai5.mp3",
     "size": 12909
   },
   {
@@ -1776,6 +6312,27 @@
     "pinyin": "城里_tai1",
     "file": "5990_莆田_城里_tai1.mp3",
     "size": 13485
+  },
+  {
+    "id": "5991",
+    "county": "莆田",
+    "pinyin": "城里_tai1",
+    "file": "5991_莆田_城里_tai1.mp3",
+    "size": 13485
+  },
+  {
+    "id": "5992",
+    "county": "莆田",
+    "pinyin": "城里_tai1",
+    "file": "5992_莆田_城里_tai1.mp3",
+    "size": 13485
+  },
+  {
+    "id": "5",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "5_莆田_城里_ah6.mp3",
+    "size": 10989
   },
   {
     "id": "6090",
@@ -1792,10 +6349,31 @@
     "size": 12525
   },
   {
+    "id": "6274",
+    "county": "莆田",
+    "pinyin": "城里_pah6",
+    "file": "6274_莆田_城里_pah6.mp3",
+    "size": 12525
+  },
+  {
     "id": "6293",
     "county": "莆田",
     "pinyin": "城里_tah6",
     "file": "6293_莆田_城里_tah6.mp3",
+    "size": 14445
+  },
+  {
+    "id": "6294",
+    "county": "莆田",
+    "pinyin": "城里_tah6",
+    "file": "6294_莆田_城里_tah6.mp3",
+    "size": 14445
+  },
+  {
+    "id": "6298",
+    "county": "莆田",
+    "pinyin": "城里_tah6",
+    "file": "6298_莆田_城里_tah6.mp3",
     "size": 14445
   },
   {
@@ -1813,6 +6391,27 @@
     "size": 9069
   },
   {
+    "id": "6327",
+    "county": "莆田",
+    "pinyin": "城里_zah7",
+    "file": "6327_莆田_城里_zah7.mp3",
+    "size": 9069
+  },
+  {
+    "id": "6328",
+    "county": "莆田",
+    "pinyin": "城里_zah7",
+    "file": "6328_莆田_城里_zah7.mp3",
+    "size": 9069
+  },
+  {
+    "id": "6329",
+    "county": "莆田",
+    "pinyin": "城里_zah7",
+    "file": "6329_莆田_城里_zah7.mp3",
+    "size": 9069
+  },
+  {
     "id": "6332",
     "county": "莆田",
     "pinyin": "城里_cah6",
@@ -1827,6 +6426,20 @@
     "size": 6525
   },
   {
+    "id": "6357",
+    "county": "莆田",
+    "pinyin": "城里_gah7",
+    "file": "6357_莆田_城里_gah7.mp3",
+    "size": 6525
+  },
+  {
+    "id": "6359",
+    "county": "莆田",
+    "pinyin": "城里_gah7",
+    "file": "6359_莆田_城里_gah7.mp3",
+    "size": 6525
+  },
+  {
     "id": "6363",
     "county": "莆田",
     "pinyin": "城里_kah6",
@@ -1834,10 +6447,87 @@
     "size": 10989
   },
   {
+    "id": "6379",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6379_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6380",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6380_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6383",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6383_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6385",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6385_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6386",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6386_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6388",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6388_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6392",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6392_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6394",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6394_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "6413",
     "county": "莆田",
     "pinyin": "城里_pang1",
     "file": "6413_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "6414",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "6414_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "6416",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "6416_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "6417",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "6417_莆田_城里_pang1.mp3",
     "size": 12909
   },
   {
@@ -1862,11 +6552,60 @@
     "size": 11949
   },
   {
+    "id": "6528",
+    "county": "莆田",
+    "pinyin": "城里_lang5",
+    "file": "6528_莆田_城里_lang5.mp3",
+    "size": 11949
+  },
+  {
+    "id": "6529",
+    "county": "莆田",
+    "pinyin": "城里_lang5",
+    "file": "6529_莆田_城里_lang5.mp3",
+    "size": 11949
+  },
+  {
     "id": "6531",
     "county": "莆田",
     "pinyin": "城里_zang1",
     "file": "6531_莆田_城里_zang1.mp3",
     "size": 12909
+  },
+  {
+    "id": "6532",
+    "county": "莆田",
+    "pinyin": "城里_zang1",
+    "file": "6532_莆田_城里_zang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "6533",
+    "county": "莆田",
+    "pinyin": "城里_zang1",
+    "file": "6533_莆田_城里_zang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "6534",
+    "county": "莆田",
+    "pinyin": "城里_zang1",
+    "file": "6534_莆田_城里_zang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "657",
+    "county": "仙游",
+    "pinyin": "城关_bou3",
+    "file": "657_仙游_城关_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "657",
+    "county": "仙游",
+    "pinyin": "游洋_bou3",
+    "file": "657_仙游_游洋_bou3.mp3",
+    "size": 10989
   },
   {
     "id": "657",
@@ -1883,6 +6622,118 @@
     "size": 10029
   },
   {
+    "id": "6587",
+    "county": "莆田",
+    "pinyin": "城里_gang1",
+    "file": "6587_莆田_城里_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "658",
+    "county": "仙游",
+    "pinyin": "城关_bou3",
+    "file": "658_仙游_城关_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "658",
+    "county": "仙游",
+    "pinyin": "游洋_bou3",
+    "file": "658_仙游_游洋_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "658",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "658_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "6590",
+    "county": "莆田",
+    "pinyin": "城里_gang1",
+    "file": "6590_莆田_城里_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "6591",
+    "county": "莆田",
+    "pinyin": "城里_gang1",
+    "file": "6591_莆田_城里_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "6594",
+    "county": "莆田",
+    "pinyin": "城里_gang1",
+    "file": "6594_莆田_城里_gang1.mp3",
+    "size": 10029
+  },
+  {
+    "id": "659",
+    "county": "仙游",
+    "pinyin": "城关_bou3",
+    "file": "659_仙游_城关_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "659",
+    "county": "仙游",
+    "pinyin": "游洋_bou3",
+    "file": "659_仙游_游洋_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "659",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "659_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "660",
+    "county": "仙游",
+    "pinyin": "城关_bou3",
+    "file": "660_仙游_城关_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "660",
+    "county": "仙游",
+    "pinyin": "游洋_bou3",
+    "file": "660_仙游_游洋_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "660",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "660_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "661",
+    "county": "仙游",
+    "pinyin": "城关_bou3",
+    "file": "661_仙游_城关_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "661",
+    "county": "仙游",
+    "pinyin": "游洋_bou3",
+    "file": "661_仙游_游洋_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "661",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "661_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
     "id": "6621",
     "county": "莆田",
     "pinyin": "城里_kang1",
@@ -1890,10 +6741,31 @@
     "size": 6093
   },
   {
+    "id": "662",
+    "county": "仙游",
+    "pinyin": "城关_bou3",
+    "file": "662_仙游_城关_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "662",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "662_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
     "id": "6644",
     "county": "莆田",
     "pinyin": "城里_hang1",
     "file": "6644_莆田_城里_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "6645",
+    "county": "莆田",
+    "pinyin": "城里_hang1",
+    "file": "6645_莆田_城里_hang1.mp3",
     "size": 16365
   },
   {
@@ -1904,6 +6776,55 @@
     "size": 23469
   },
   {
+    "id": "6647",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "6647_莆田_城里_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "6650",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "6650_莆田_城里_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "6652",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "6652_莆田_城里_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "6653",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "6653_莆田_城里_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "6654",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "6654_莆田_城里_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "6655",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "6655_莆田_城里_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "6658",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "6658_莆田_城里_hang2.mp3",
+    "size": 23469
+  },
+  {
     "id": "6688",
     "county": "莆田",
     "pinyin": "城里_ang3",
@@ -1911,11 +6832,60 @@
     "size": 14829
   },
   {
+    "id": "6690",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "6690_莆田_城里_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "6693",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "6693_莆田_城里_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "6694",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "6694_莆田_城里_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "6695",
+    "county": "莆田",
+    "pinyin": "城里_ang5",
+    "file": "6695_莆田_城里_ang5.mp3",
+    "size": 12525
+  },
+  {
     "id": "6752",
     "county": "莆田",
     "pinyin": "城里_te2",
     "file": "6752_莆田_城里_te2.mp3",
     "size": 10989
+  },
+  {
+    "id": "6753",
+    "county": "莆田",
+    "pinyin": "城里_te2",
+    "file": "6753_莆田_城里_te2.mp3",
+    "size": 10989
+  },
+  {
+    "id": "675",
+    "county": "仙游",
+    "pinyin": "城关_pah6",
+    "file": "675_仙游_城关_pah6.mp3",
+    "size": 12525
+  },
+  {
+    "id": "675",
+    "county": "莆田",
+    "pinyin": "城里_pah6",
+    "file": "675_莆田_城里_pah6.mp3",
+    "size": 12525
   },
   {
     "id": "6765",
@@ -1932,10 +6902,45 @@
     "size": 11949
   },
   {
+    "id": "6789",
+    "county": "莆田",
+    "pinyin": "城里_ze2",
+    "file": "6789_莆田_城里_ze2.mp3",
+    "size": 11949
+  },
+  {
     "id": "6828",
     "county": "莆田",
     "pinyin": "城里_ge1",
     "file": "6828_莆田_城里_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "6829",
+    "county": "莆田",
+    "pinyin": "城里_ge1",
+    "file": "6829_莆田_城里_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "6832",
+    "county": "莆田",
+    "pinyin": "城里_ge1",
+    "file": "6832_莆田_城里_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "6834",
+    "county": "莆田",
+    "pinyin": "城里_ge1",
+    "file": "6834_莆田_城里_ge1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "6835",
+    "county": "莆田",
+    "pinyin": "城里_ge1",
+    "file": "6835_莆田_城里_ge1.mp3",
     "size": 11949
   },
   {
@@ -1946,10 +6951,24 @@
     "size": 22509
   },
   {
+    "id": "6837",
+    "county": "莆田",
+    "pinyin": "城里_ge2",
+    "file": "6837_莆田_城里_ge2.mp3",
+    "size": 22509
+  },
+  {
     "id": "6854",
     "county": "莆田",
     "pinyin": "城里_ge5",
     "file": "6854_莆田_城里_ge5.mp3",
+    "size": 11949
+  },
+  {
+    "id": "6855",
+    "county": "莆田",
+    "pinyin": "城里_ge5",
+    "file": "6855_莆田_城里_ge5.mp3",
     "size": 11949
   },
   {
@@ -1960,11 +6979,60 @@
     "size": 11565
   },
   {
+    "id": "6868",
+    "county": "莆田",
+    "pinyin": "城里_ke4",
+    "file": "6868_莆田_城里_ke4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "6869",
+    "county": "莆田",
+    "pinyin": "城里_ke4",
+    "file": "6869_莆田_城里_ke4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "6871",
+    "county": "莆田",
+    "pinyin": "城里_ke4",
+    "file": "6871_莆田_城里_ke4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "6872",
+    "county": "莆田",
+    "pinyin": "城里_ke4",
+    "file": "6872_莆田_城里_ke4.mp3",
+    "size": 11565
+  },
+  {
     "id": "6982",
     "county": "莆田",
     "pinyin": "城里_zeh7",
     "file": "6982_莆田_城里_zeh7.mp3",
     "size": 16749
+  },
+  {
+    "id": "6983",
+    "county": "莆田",
+    "pinyin": "城里_zeh7",
+    "file": "6983_莆田_城里_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "6988",
+    "county": "莆田",
+    "pinyin": "城里_zeh7",
+    "file": "6988_莆田_城里_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "6",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "6_莆田_城里_ah6.mp3",
+    "size": 10989
   },
   {
     "id": "7047",
@@ -1974,11 +7042,158 @@
     "size": 8109
   },
   {
+    "id": "7049",
+    "county": "莆田",
+    "pinyin": "城里_eh6",
+    "file": "7049_莆田_城里_eh6.mp3",
+    "size": 8109
+  },
+  {
+    "id": "7050",
+    "county": "莆田",
+    "pinyin": "城里_eh6",
+    "file": "7050_莆田_城里_eh6.mp3",
+    "size": 8109
+  },
+  {
+    "id": "7055",
+    "county": "莆田",
+    "pinyin": "城里_eh6",
+    "file": "7055_莆田_城里_eh6.mp3",
+    "size": 8109
+  },
+  {
+    "id": "7061",
+    "county": "莆田",
+    "pinyin": "城里_beng2",
+    "file": "7061_莆田_城里_beng2.mp3",
+    "size": 5013
+  },
+  {
+    "id": "7062",
+    "county": "莆田",
+    "pinyin": "城里_beng2",
+    "file": "7062_莆田_城里_beng2.mp3",
+    "size": 5013
+  },
+  {
     "id": "7118",
     "county": "莆田",
     "pinyin": "城里_deng3",
     "file": "7118_莆田_城里_deng3.mp3",
     "size": 10989
+  },
+  {
+    "id": "7119",
+    "county": "莆田",
+    "pinyin": "城里_deng3",
+    "file": "7119_莆田_城里_deng3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "7123",
+    "county": "莆田",
+    "pinyin": "城里_deng3",
+    "file": "7123_莆田_城里_deng3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "715",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "715_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "715",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "715_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "716",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "716_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "716",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "716_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "717",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "717_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "717",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "717_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "718",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "718_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "718",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "718_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "719",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "719_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "719",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "719_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "720",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "720_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "720",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "720_莆田_城里_pang1.mp3",
+    "size": 12909
+  },
+  {
+    "id": "721",
+    "county": "仙游",
+    "pinyin": "城关_hang1",
+    "file": "721_仙游_城关_hang1.mp3",
+    "size": 16365
+  },
+  {
+    "id": "721",
+    "county": "莆田",
+    "pinyin": "城里_pang1",
+    "file": "721_莆田_城里_pang1.mp3",
+    "size": 12909
   },
   {
     "id": "7232",
@@ -1995,6 +7210,13 @@
     "size": 11949
   },
   {
+    "id": "7244",
+    "county": "莆田",
+    "pinyin": "城里_geng1",
+    "file": "7244_莆田_城里_geng1.mp3",
+    "size": 11949
+  },
+  {
     "id": "7321",
     "county": "莆田",
     "pinyin": "城里_toe4",
@@ -2002,10 +7224,24 @@
     "size": 11949
   },
   {
+    "id": "7322",
+    "county": "莆田",
+    "pinyin": "城里_toe4",
+    "file": "7322_莆田_城里_toe4.mp3",
+    "size": 11949
+  },
+  {
     "id": "7360",
     "county": "莆田",
     "pinyin": "城里_soe3",
     "file": "7360_莆田_城里_soe3.mp3",
+    "size": 21549
+  },
+  {
+    "id": "7361",
+    "county": "莆田",
+    "pinyin": "城里_soe3",
+    "file": "7361_莆田_城里_soe3.mp3",
     "size": 21549
   },
   {
@@ -2023,11 +7259,39 @@
     "size": 5013
   },
   {
+    "id": "7383",
+    "county": "莆田",
+    "pinyin": "城里_noeh6",
+    "file": "7383_莆田_城里_noeh6.mp3",
+    "size": 5013
+  },
+  {
     "id": "7384",
     "county": "莆田",
     "pinyin": "城里_noeh7",
     "file": "7384_莆田_城里_noeh7.mp3",
     "size": 6309
+  },
+  {
+    "id": "73",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "73_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "73",
+    "county": "仙游",
+    "pinyin": "游洋_hang2",
+    "file": "73_仙游_游洋_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "73",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "73_莆田_城里_hang2.mp3",
+    "size": 23469
   },
   {
     "id": "7418",
@@ -2051,6 +7315,27 @@
     "size": 10605
   },
   {
+    "id": "7485",
+    "county": "莆田",
+    "pinyin": "城里_zoeng1",
+    "file": "7485_莆田_城里_zoeng1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "7486",
+    "county": "莆田",
+    "pinyin": "城里_zoeng1",
+    "file": "7486_莆田_城里_zoeng1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "7489",
+    "county": "莆田",
+    "pinyin": "城里_zoeng1",
+    "file": "7489_莆田_城里_zoeng1.mp3",
+    "size": 10605
+  },
+  {
     "id": "7491",
     "county": "莆田",
     "pinyin": "城里_zoeng2",
@@ -2058,10 +7343,38 @@
     "size": 12525
   },
   {
+    "id": "7492",
+    "county": "莆田",
+    "pinyin": "城里_zoeng2",
+    "file": "7492_莆田_城里_zoeng2.mp3",
+    "size": 12525
+  },
+  {
+    "id": "7493",
+    "county": "莆田",
+    "pinyin": "城里_zoeng2",
+    "file": "7493_莆田_城里_zoeng2.mp3",
+    "size": 12525
+  },
+  {
     "id": "7504",
     "county": "莆田",
     "pinyin": "城里_coeng1",
     "file": "7504_莆田_城里_coeng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "7506",
+    "county": "莆田",
+    "pinyin": "城里_coeng1",
+    "file": "7506_莆田_城里_coeng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "7507",
+    "county": "莆田",
+    "pinyin": "城里_coeng1",
+    "file": "7507_莆田_城里_coeng1.mp3",
     "size": 11949
   },
   {
@@ -2100,6 +7413,13 @@
     "size": 10605
   },
   {
+    "id": "7600",
+    "county": "莆田",
+    "pinyin": "城里_oeng4",
+    "file": "7600_莆田_城里_oeng4.mp3",
+    "size": 10605
+  },
+  {
     "id": "7622",
     "county": "莆田",
     "pinyin": "城里_do2",
@@ -2114,10 +7434,122 @@
     "size": 13869
   },
   {
+    "id": "764",
+    "county": "仙游",
+    "pinyin": "城关_bui2",
+    "file": "764_仙游_城关_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "764",
+    "county": "仙游",
+    "pinyin": "游洋_bui2",
+    "file": "764_仙游_游洋_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "764",
+    "county": "莆田",
+    "pinyin": "城里_bui2",
+    "file": "764_莆田_城里_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "765",
+    "county": "仙游",
+    "pinyin": "城关_bui2",
+    "file": "765_仙游_城关_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "765",
+    "county": "仙游",
+    "pinyin": "游洋_bui2",
+    "file": "765_仙游_游洋_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "765",
+    "county": "莆田",
+    "pinyin": "城里_bui2",
+    "file": "765_莆田_城里_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "766",
+    "county": "仙游",
+    "pinyin": "城关_bui2",
+    "file": "766_仙游_城关_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "766",
+    "county": "仙游",
+    "pinyin": "游洋_bui2",
+    "file": "766_仙游_游洋_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "766",
+    "county": "莆田",
+    "pinyin": "城里_bui2",
+    "file": "766_莆田_城里_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "767",
+    "county": "仙游",
+    "pinyin": "城关_bui2",
+    "file": "767_仙游_城关_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "767",
+    "county": "仙游",
+    "pinyin": "游洋_bui2",
+    "file": "767_仙游_游洋_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "767",
+    "county": "莆田",
+    "pinyin": "城里_bui2",
+    "file": "767_莆田_城里_bui2.mp3",
+    "size": 5661
+  },
+  {
+    "id": "768",
+    "county": "仙游",
+    "pinyin": "城关_bi4",
+    "file": "768_仙游_城关_bi4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "768",
+    "county": "莆田",
+    "pinyin": "城里_bi4",
+    "file": "768_莆田_城里_bi4.mp3",
+    "size": 11565
+  },
+  {
     "id": "7726",
     "county": "莆田",
     "pinyin": "城里_ko1",
     "file": "7726_莆田_城里_ko1.mp3",
+    "size": 8109
+  },
+  {
+    "id": "7727",
+    "county": "莆田",
+    "pinyin": "城里_ko1",
+    "file": "7727_莆田_城里_ko1.mp3",
+    "size": 8109
+  },
+  {
+    "id": "7728",
+    "county": "莆田",
+    "pinyin": "城里_ko1",
+    "file": "7728_莆田_城里_ko1.mp3",
     "size": 8109
   },
   {
@@ -2135,6 +7567,13 @@
     "size": 7149
   },
   {
+    "id": "7765",
+    "county": "莆田",
+    "pinyin": "城里_coh6",
+    "file": "7765_莆田_城里_coh6.mp3",
+    "size": 7149
+  },
+  {
     "id": "784",
     "county": "莆田",
     "pinyin": "城里_cia1",
@@ -2142,10 +7581,31 @@
     "size": 8037
   },
   {
+    "id": "785",
+    "county": "莆田",
+    "pinyin": "城里_cia1",
+    "file": "785_莆田_城里_cia1.mp3",
+    "size": 8037
+  },
+  {
+    "id": "786",
+    "county": "莆田",
+    "pinyin": "城里_cia1",
+    "file": "786_莆田_城里_cia1.mp3",
+    "size": 8037
+  },
+  {
     "id": "7876",
     "county": "莆田",
     "pinyin": "城里_cong4",
     "file": "7876_莆田_城里_cong4.mp3",
+    "size": 12525
+  },
+  {
+    "id": "7877",
+    "county": "莆田",
+    "pinyin": "城里_cong4",
+    "file": "7877_莆田_城里_cong4.mp3",
     "size": 12525
   },
   {
@@ -2163,6 +7623,139 @@
     "size": 12525
   },
   {
+    "id": "793",
+    "county": "仙游",
+    "pinyin": "城关_ca5",
+    "file": "793_仙游_城关_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "793",
+    "county": "仙游",
+    "pinyin": "游洋_ca5",
+    "file": "793_仙游_游洋_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "793",
+    "county": "莆田",
+    "pinyin": "城里_ca5",
+    "file": "793_莆田_城里_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "794",
+    "county": "仙游",
+    "pinyin": "城关_ca5",
+    "file": "794_仙游_城关_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "794",
+    "county": "仙游",
+    "pinyin": "游洋_ca5",
+    "file": "794_仙游_游洋_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "794",
+    "county": "莆田",
+    "pinyin": "城里_ca5",
+    "file": "794_莆田_城里_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "795",
+    "county": "仙游",
+    "pinyin": "城关_ca5",
+    "file": "795_仙游_城关_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "795",
+    "county": "仙游",
+    "pinyin": "游洋_ca5",
+    "file": "795_仙游_游洋_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "795",
+    "county": "莆田",
+    "pinyin": "城里_ca5",
+    "file": "795_莆田_城里_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "796",
+    "county": "仙游",
+    "pinyin": "城关_ca5",
+    "file": "796_仙游_城关_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "796",
+    "county": "仙游",
+    "pinyin": "游洋_ca5",
+    "file": "796_仙游_游洋_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "796",
+    "county": "莆田",
+    "pinyin": "城里_ca5",
+    "file": "796_莆田_城里_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "797",
+    "county": "仙游",
+    "pinyin": "城关_ca5",
+    "file": "797_仙游_城关_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "797",
+    "county": "仙游",
+    "pinyin": "游洋_ca5",
+    "file": "797_仙游_游洋_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "797",
+    "county": "莆田",
+    "pinyin": "城里_ca5",
+    "file": "797_莆田_城里_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "798",
+    "county": "仙游",
+    "pinyin": "城关_ca5",
+    "file": "798_仙游_城关_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "798",
+    "county": "仙游",
+    "pinyin": "游洋_ca5",
+    "file": "798_仙游_游洋_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "798",
+    "county": "莆田",
+    "pinyin": "城里_ca5",
+    "file": "798_莆田_城里_ca5.mp3",
+    "size": 5229
+  },
+  {
+    "id": "7",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "7_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "8037",
     "county": "莆田",
     "pinyin": "城里_dor4",
@@ -2170,10 +7763,38 @@
     "size": 5013
   },
   {
+    "id": "8038",
+    "county": "莆田",
+    "pinyin": "城里_dor4",
+    "file": "8038_莆田_城里_dor4.mp3",
+    "size": 5013
+  },
+  {
+    "id": "8039",
+    "county": "莆田",
+    "pinyin": "城里_dor4",
+    "file": "8039_莆田_城里_dor4.mp3",
+    "size": 5013
+  },
+  {
+    "id": "8040",
+    "county": "莆田",
+    "pinyin": "城里_dor4",
+    "file": "8040_莆田_城里_dor4.mp3",
+    "size": 5013
+  },
+  {
     "id": "8067",
     "county": "莆田",
     "pinyin": "城里_nor2",
     "file": "8067_莆田_城里_nor2.mp3",
+    "size": 10605
+  },
+  {
+    "id": "8068",
+    "county": "莆田",
+    "pinyin": "城里_nor2",
+    "file": "8068_莆田_城里_nor2.mp3",
     "size": 10605
   },
   {
@@ -2191,11 +7812,221 @@
     "size": 15789
   },
   {
+    "id": "8178",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "8178_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "8179",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "8179_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "8181",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "8181_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "8185",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "8185_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
+    "id": "8187",
+    "county": "莆田",
+    "pinyin": "城里_gor5",
+    "file": "8187_莆田_城里_gor5.mp3",
+    "size": 6741
+  },
+  {
     "id": "8189",
     "county": "莆田",
     "pinyin": "城里_kor1",
     "file": "8189_莆田_城里_kor1.mp3",
     "size": 10605
+  },
+  {
+    "id": "8190",
+    "county": "莆田",
+    "pinyin": "城里_kor1",
+    "file": "8190_莆田_城里_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "8191",
+    "county": "莆田",
+    "pinyin": "城里_kor1",
+    "file": "8191_莆田_城里_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "8192",
+    "county": "莆田",
+    "pinyin": "城里_kor1",
+    "file": "8192_莆田_城里_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "8193",
+    "county": "莆田",
+    "pinyin": "城里_kor1",
+    "file": "8193_莆田_城里_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "8194",
+    "county": "莆田",
+    "pinyin": "城里_kor1",
+    "file": "8194_莆田_城里_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "8198",
+    "county": "莆田",
+    "pinyin": "城里_kor1",
+    "file": "8198_莆田_城里_kor1.mp3",
+    "size": 10605
+  },
+  {
+    "id": "824",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "824_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "824",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "824_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "824",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "824_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "8257",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "8257_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "8258",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "8258_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "8259",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "8259_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "825",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "825_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "825",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "825_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "825",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "825_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "8263",
+    "county": "莆田",
+    "pinyin": "城里_or5",
+    "file": "8263_莆田_城里_or5.mp3",
+    "size": 14829
+  },
+  {
+    "id": "826",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "826_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "826",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "826_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "826",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "826_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "827",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "827_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "827",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "827_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "827",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "827_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "828",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "828_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "828",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "828_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "828",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "828_莆田_城里_cah6.mp3",
+    "size": 10029
   },
   {
     "id": "8290",
@@ -2205,6 +8036,69 @@
     "size": 10989
   },
   {
+    "id": "829",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "829_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "829",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "829_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "829",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "829_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "830",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "830_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "830",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "830_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "830",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "830_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "831",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "831_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "831",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "831_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "831",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "831_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
     "id": "8320",
     "county": "莆田",
     "pinyin": "城里_lorh7",
@@ -2212,10 +8106,108 @@
     "size": 11565
   },
   {
+    "id": "8321",
+    "county": "莆田",
+    "pinyin": "城里_lorh7",
+    "file": "8321_莆田_城里_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "8324",
+    "county": "莆田",
+    "pinyin": "城里_lorh7",
+    "file": "8324_莆田_城里_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "8329",
+    "county": "莆田",
+    "pinyin": "城里_lorh7",
+    "file": "8329_莆田_城里_lorh7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "8385",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "8385_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "8386",
+    "county": "莆田",
+    "pinyin": "城里_orh6",
+    "file": "8386_莆田_城里_orh6.mp3",
+    "size": 13869
+  },
+  {
+    "id": "842",
+    "county": "仙游",
+    "pinyin": "城关_cing4",
+    "file": "842_仙游_城关_cing4.mp3",
+    "size": 12909
+  },
+  {
+    "id": "843",
+    "county": "仙游",
+    "pinyin": "城关_cing4",
+    "file": "843_仙游_城关_cing4.mp3",
+    "size": 12909
+  },
+  {
+    "id": "844",
+    "county": "仙游",
+    "pinyin": "城关_cing4",
+    "file": "844_仙游_城关_cing4.mp3",
+    "size": 12909
+  },
+  {
+    "id": "845",
+    "county": "仙游",
+    "pinyin": "城关_cing4",
+    "file": "845_仙游_城关_cing4.mp3",
+    "size": 12909
+  },
+  {
+    "id": "8606",
+    "county": "莆田",
+    "pinyin": "城里_orng1",
+    "file": "8606_莆田_城里_orng1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "8630",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "8630_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "8632",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "8632_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
+    "id": "8634",
+    "county": "莆田",
+    "pinyin": "城里_bou3",
+    "file": "8634_莆田_城里_bou3.mp3",
+    "size": 10989
+  },
+  {
     "id": "8693",
     "county": "莆田",
     "pinyin": "城里_tou2",
     "file": "8693_莆田_城里_tou2.mp3",
+    "size": 13869
+  },
+  {
+    "id": "8694",
+    "county": "莆田",
+    "pinyin": "城里_tou2",
+    "file": "8694_莆田_城里_tou2.mp3",
     "size": 13869
   },
   {
@@ -2240,11 +8232,67 @@
     "size": 15405
   },
   {
+    "id": "8796",
+    "county": "莆田",
+    "pinyin": "城里_kou3",
+    "file": "8796_莆田_城里_kou3.mp3",
+    "size": 15405
+  },
+  {
     "id": "8803",
     "county": "莆田",
     "pinyin": "城里_hou2",
     "file": "8803_莆田_城里_hou2.mp3",
     "size": 8685
+  },
+  {
+    "id": "8804",
+    "county": "莆田",
+    "pinyin": "城里_hou2",
+    "file": "8804_莆田_城里_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "8805",
+    "county": "莆田",
+    "pinyin": "城里_hou2",
+    "file": "8805_莆田_城里_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "8808",
+    "county": "莆田",
+    "pinyin": "城里_hou2",
+    "file": "8808_莆田_城里_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "8809",
+    "county": "莆田",
+    "pinyin": "城里_hou2",
+    "file": "8809_莆田_城里_hou2.mp3",
+    "size": 8685
+  },
+  {
+    "id": "8865",
+    "county": "莆田",
+    "pinyin": "城里_bi4",
+    "file": "8865_莆田_城里_bi4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "8872",
+    "county": "莆田",
+    "pinyin": "城里_bi4",
+    "file": "8872_莆田_城里_bi4.mp3",
+    "size": 11565
+  },
+  {
+    "id": "8873",
+    "county": "莆田",
+    "pinyin": "城里_bi4",
+    "file": "8873_莆田_城里_bi4.mp3",
+    "size": 11565
   },
   {
     "id": "8898",
@@ -2261,11 +8309,46 @@
     "size": 12909
   },
   {
+    "id": "8906",
+    "county": "莆田",
+    "pinyin": "城里_di2",
+    "file": "8906_莆田_城里_di2.mp3",
+    "size": 12909
+  },
+  {
     "id": "8960",
     "county": "莆田",
     "pinyin": "城里_li3",
     "file": "8960_莆田_城里_li3.mp3",
     "size": 10605
+  },
+  {
+    "id": "8961",
+    "county": "莆田",
+    "pinyin": "城里_li3",
+    "file": "8961_莆田_城里_li3.mp3",
+    "size": 10605
+  },
+  {
+    "id": "897",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "897_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "897",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "897_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "897",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "897_莆田_城里_cah6.mp3",
+    "size": 10029
   },
   {
     "id": "8984",
@@ -2275,10 +8358,108 @@
     "size": 10029
   },
   {
+    "id": "8987",
+    "county": "莆田",
+    "pinyin": "城里_zi3",
+    "file": "8987_莆田_城里_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "8988",
+    "county": "莆田",
+    "pinyin": "城里_zi3",
+    "file": "8988_莆田_城里_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "898",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "898_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "898",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "898_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "898",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "898_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "8993",
+    "county": "莆田",
+    "pinyin": "城里_zi3",
+    "file": "8993_莆田_城里_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "8994",
+    "county": "莆田",
+    "pinyin": "城里_zi3",
+    "file": "8994_莆田_城里_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "8995",
+    "county": "莆田",
+    "pinyin": "城里_zi3",
+    "file": "8995_莆田_城里_zi3.mp3",
+    "size": 10029
+  },
+  {
+    "id": "899",
+    "county": "仙游",
+    "pinyin": "城关_cah6",
+    "file": "899_仙游_城关_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "899",
+    "county": "仙游",
+    "pinyin": "游洋_cah6",
+    "file": "899_仙游_游洋_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "899",
+    "county": "莆田",
+    "pinyin": "城里_cah6",
+    "file": "899_莆田_城里_cah6.mp3",
+    "size": 10029
+  },
+  {
+    "id": "8",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "8_莆田_城里_ah6.mp3",
+    "size": 10989
+  },
+  {
     "id": "9002",
     "county": "莆田",
     "pinyin": "城里_zi5",
     "file": "9002_莆田_城里_zi5.mp3",
+    "size": 15789
+  },
+  {
+    "id": "9004",
+    "county": "莆田",
+    "pinyin": "城里_zi5",
+    "file": "9004_莆田_城里_zi5.mp3",
+    "size": 15789
+  },
+  {
+    "id": "9005",
+    "county": "莆田",
+    "pinyin": "城里_zi5",
+    "file": "9005_莆田_城里_zi5.mp3",
     "size": 15789
   },
   {
@@ -2289,11 +8470,130 @@
     "size": 11949
   },
   {
+    "id": "9060",
+    "county": "莆田",
+    "pinyin": "城里_gi1",
+    "file": "9060_莆田_城里_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9061",
+    "county": "莆田",
+    "pinyin": "城里_gi1",
+    "file": "9061_莆田_城里_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9062",
+    "county": "莆田",
+    "pinyin": "城里_gi1",
+    "file": "9062_莆田_城里_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9063",
+    "county": "莆田",
+    "pinyin": "城里_gi1",
+    "file": "9063_莆田_城里_gi1.mp3",
+    "size": 11949
+  },
+  {
+    "id": "914",
+    "county": "仙游",
+    "pinyin": "城关_zeh7",
+    "file": "914_仙游_城关_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "914",
+    "county": "莆田",
+    "pinyin": "城里_zeh7",
+    "file": "914_莆田_城里_zeh7.mp3",
+    "size": 16749
+  },
+  {
     "id": "9152",
     "county": "莆田",
     "pinyin": "城里_i1",
     "file": "9152_莆田_城里_i1.mp3",
     "size": 13485
+  },
+  {
+    "id": "9154",
+    "county": "莆田",
+    "pinyin": "城里_i1",
+    "file": "9154_莆田_城里_i1.mp3",
+    "size": 13485
+  },
+  {
+    "id": "915",
+    "county": "仙游",
+    "pinyin": "城关_zeh7",
+    "file": "915_仙游_城关_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "915",
+    "county": "莆田",
+    "pinyin": "城里_zeh7",
+    "file": "915_莆田_城里_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "916",
+    "county": "仙游",
+    "pinyin": "城关_zeh7",
+    "file": "916_仙游_城关_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "916",
+    "county": "莆田",
+    "pinyin": "城里_zeh7",
+    "file": "916_莆田_城里_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "917",
+    "county": "仙游",
+    "pinyin": "城关_zeh7",
+    "file": "917_仙游_城关_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "917",
+    "county": "莆田",
+    "pinyin": "城里_zeh7",
+    "file": "917_莆田_城里_zeh7.mp3",
+    "size": 16749
+  },
+  {
+    "id": "9188",
+    "county": "莆田",
+    "pinyin": "城里_bih7",
+    "file": "9188_莆田_城里_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "9189",
+    "county": "莆田",
+    "pinyin": "城里_bih7",
+    "file": "9189_莆田_城里_bih7.mp3",
+    "size": 11565
+  },
+  {
+    "id": "9358",
+    "county": "莆田",
+    "pinyin": "城里_ping4",
+    "file": "9358_莆田_城里_ping4.mp3",
+    "size": 10989
+  },
+  {
+    "id": "9359",
+    "county": "莆田",
+    "pinyin": "城里_ping4",
+    "file": "9359_莆田_城里_ping4.mp3",
+    "size": 10989
   },
   {
     "id": "9404",
@@ -2310,10 +8610,38 @@
     "size": 5661
   },
   {
+    "id": "9431",
+    "county": "莆田",
+    "pinyin": "城里_zing1",
+    "file": "9431_莆田_城里_zing1.mp3",
+    "size": 5661
+  },
+  {
+    "id": "9436",
+    "county": "莆田",
+    "pinyin": "城里_zing1",
+    "file": "9436_莆田_城里_zing1.mp3",
+    "size": 5661
+  },
+  {
+    "id": "9440",
+    "county": "莆田",
+    "pinyin": "城里_zing1",
+    "file": "9440_莆田_城里_zing1.mp3",
+    "size": 5661
+  },
+  {
     "id": "9485",
     "county": "莆田",
     "pinyin": "城里_cing2",
     "file": "9485_莆田_城里_cing2.mp3",
+    "size": 16365
+  },
+  {
+    "id": "9486",
+    "county": "莆田",
+    "pinyin": "城里_cing2",
+    "file": "9486_莆田_城里_cing2.mp3",
     "size": 16365
   },
   {
@@ -2324,10 +8652,24 @@
     "size": 12909
   },
   {
+    "id": "9493",
+    "county": "莆田",
+    "pinyin": "城里_cing4",
+    "file": "9493_莆田_城里_cing4.mp3",
+    "size": 12909
+  },
+  {
     "id": "9494",
     "county": "莆田",
     "pinyin": "城里_cing5",
     "file": "9494_莆田_城里_cing5.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9495",
+    "county": "莆田",
+    "pinyin": "城里_cing5",
+    "file": "9495_莆田_城里_cing5.mp3",
     "size": 11949
   },
   {
@@ -2338,11 +8680,81 @@
     "size": 11949
   },
   {
+    "id": "9514",
+    "county": "莆田",
+    "pinyin": "城里_sing2",
+    "file": "9514_莆田_城里_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9515",
+    "county": "莆田",
+    "pinyin": "城里_sing2",
+    "file": "9515_莆田_城里_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9516",
+    "county": "莆田",
+    "pinyin": "城里_sing2",
+    "file": "9516_莆田_城里_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9518",
+    "county": "莆田",
+    "pinyin": "城里_sing2",
+    "file": "9518_莆田_城里_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9521",
+    "county": "莆田",
+    "pinyin": "城里_sing2",
+    "file": "9521_莆田_城里_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9524",
+    "county": "莆田",
+    "pinyin": "城里_sing2",
+    "file": "9524_莆田_城里_sing2.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9526",
+    "county": "莆田",
+    "pinyin": "城里_sing2",
+    "file": "9526_莆田_城里_sing2.mp3",
+    "size": 11949
+  },
+  {
     "id": "9559",
     "county": "莆田",
     "pinyin": "城里_ging3",
     "file": "9559_莆田_城里_ging3.mp3",
     "size": 13485
+  },
+  {
+    "id": "95",
+    "county": "仙游",
+    "pinyin": "城关_hang2",
+    "file": "95_仙游_城关_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "95",
+    "county": "仙游",
+    "pinyin": "游洋_hang2",
+    "file": "95_仙游_游洋_hang2.mp3",
+    "size": 23469
+  },
+  {
+    "id": "95",
+    "county": "莆田",
+    "pinyin": "城里_hang2",
+    "file": "95_莆田_城里_hang2.mp3",
+    "size": 23469
   },
   {
     "id": "9644",
@@ -2359,11 +8771,39 @@
     "size": 18669
   },
   {
+    "id": "9653",
+    "county": "莆田",
+    "pinyin": "城里_diu3",
+    "file": "9653_莆田_城里_diu3.mp3",
+    "size": 18669
+  },
+  {
     "id": "9695",
     "county": "莆田",
     "pinyin": "城里_ziu5",
     "file": "9695_莆田_城里_ziu5.mp3",
     "size": 11949
+  },
+  {
+    "id": "96",
+    "county": "仙游",
+    "pinyin": "城关_ang3",
+    "file": "96_仙游_城关_ang3.mp3",
+    "size": 14829
+  },
+  {
+    "id": "96",
+    "county": "仙游",
+    "pinyin": "游洋_ang3",
+    "file": "96_仙游_游洋_ang3.mp3",
+    "size": 14829
+  },
+  {
+    "id": "96",
+    "county": "莆田",
+    "pinyin": "城里_ang3",
+    "file": "96_莆田_城里_ang3.mp3",
+    "size": 14829
   },
   {
     "id": "9729",
@@ -2373,10 +8813,59 @@
     "size": 17325
   },
   {
+    "id": "97",
+    "county": "仙游",
+    "pinyin": "城关_ang3",
+    "file": "97_仙游_城关_ang3.mp3",
+    "size": 14829
+  },
+  {
+    "id": "97",
+    "county": "仙游",
+    "pinyin": "游洋_ang3",
+    "file": "97_仙游_游洋_ang3.mp3",
+    "size": 14829
+  },
+  {
+    "id": "97",
+    "county": "莆田",
+    "pinyin": "城里_ang3",
+    "file": "97_莆田_城里_ang3.mp3",
+    "size": 14829
+  },
+  {
+    "id": "9802",
+    "county": "莆田",
+    "pinyin": "城里_bia4",
+    "file": "9802_莆田_城里_bia4.mp3",
+    "size": 10605
+  },
+  {
+    "id": "9803",
+    "county": "莆田",
+    "pinyin": "城里_bia4",
+    "file": "9803_莆田_城里_bia4.mp3",
+    "size": 10605
+  },
+  {
     "id": "9815",
     "county": "莆田",
     "pinyin": "城里_dia2",
     "file": "9815_莆田_城里_dia2.mp3",
+    "size": 11565
+  },
+  {
+    "id": "9816",
+    "county": "莆田",
+    "pinyin": "城里_dia2",
+    "file": "9816_莆田_城里_dia2.mp3",
+    "size": 11565
+  },
+  {
+    "id": "9818",
+    "county": "莆田",
+    "pinyin": "城里_dia2",
+    "file": "9818_莆田_城里_dia2.mp3",
     "size": 11565
   },
   {
@@ -2387,10 +8876,24 @@
     "size": 9645
   },
   {
+    "id": "9825",
+    "county": "莆田",
+    "pinyin": "城里_tia1",
+    "file": "9825_莆田_城里_tia1.mp3",
+    "size": 9645
+  },
+  {
     "id": "9832",
     "county": "莆田",
     "pinyin": "城里_nia3",
     "file": "9832_莆田_城里_nia3.mp3",
+    "size": 11565
+  },
+  {
+    "id": "9833",
+    "county": "莆田",
+    "pinyin": "城里_nia3",
+    "file": "9833_莆田_城里_nia3.mp3",
     "size": 11565
   },
   {
@@ -2408,10 +8911,59 @@
     "size": 11949
   },
   {
+    "id": "9844",
+    "county": "莆田",
+    "pinyin": "城里_zia4",
+    "file": "9844_莆田_城里_zia4.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9845",
+    "county": "莆田",
+    "pinyin": "城里_zia4",
+    "file": "9845_莆田_城里_zia4.mp3",
+    "size": 11949
+  },
+  {
+    "id": "9850",
+    "county": "莆田",
+    "pinyin": "城里_cia1",
+    "file": "9850_莆田_城里_cia1.mp3",
+    "size": 8037
+  },
+  {
+    "id": "9851",
+    "county": "莆田",
+    "pinyin": "城里_cia1",
+    "file": "9851_莆田_城里_cia1.mp3",
+    "size": 8037
+  },
+  {
     "id": "9864",
     "county": "莆田",
     "pinyin": "城里_sia2",
     "file": "9864_莆田_城里_sia2.mp3",
+    "size": 12525
+  },
+  {
+    "id": "9865",
+    "county": "莆田",
+    "pinyin": "城里_sia2",
+    "file": "9865_莆田_城里_sia2.mp3",
+    "size": 12525
+  },
+  {
+    "id": "9866",
+    "county": "莆田",
+    "pinyin": "城里_sia2",
+    "file": "9866_莆田_城里_sia2.mp3",
+    "size": 12525
+  },
+  {
+    "id": "9868",
+    "county": "莆田",
+    "pinyin": "城里_sia2",
+    "file": "9868_莆田_城里_sia2.mp3",
     "size": 12525
   },
   {
@@ -2441,5 +8993,33 @@
     "pinyin": "城里_ia3",
     "file": "9899_莆田_城里_ia3.mp3",
     "size": 12909
+  },
+  {
+    "id": "99",
+    "county": "仙游",
+    "pinyin": "城关_ang4",
+    "file": "99_仙游_城关_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "99",
+    "county": "仙游",
+    "pinyin": "游洋_ang4",
+    "file": "99_仙游_游洋_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "99",
+    "county": "莆田",
+    "pinyin": "城里_ang4",
+    "file": "99_莆田_城里_ang4.mp3",
+    "size": 13869
+  },
+  {
+    "id": "9",
+    "county": "莆田",
+    "pinyin": "城里_ah6",
+    "file": "9_莆田_城里_ah6.mp3",
+    "size": 10989
   }
 ]

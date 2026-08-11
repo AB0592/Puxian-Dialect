@@ -568,8 +568,13 @@ def _build_dictionary_templates() -> dict[str, list[list[list[float]]]]:
             for region, mfcc_matrix in char_audio_per_region.items():
                 templates[program_name].append(mfcc_matrix)
             covered_regions = list(char_audio_per_region.keys())
+            # 统计每个地区实际有音频的字数
+            best_region = max(covered_regions, key=lambda r: sum(1 for c in chars if c in char_audio_map and r in char_audio_map[c]))
+            best_covered = sum(1 for c in chars if c in char_audio_map and best_region in char_audio_map[c])
+            covered_chars = [c for c in chars if c in char_audio_map and best_region in char_audio_map[c]]
+            uncovered_chars = [c for c in chars if c not in covered_chars]
             template_details.append((program_name, len(covered_regions), covered_regions))
-            print(f"  📝 {program_name}: {len(covered_regions)} 地区模板, {len(chars)}字覆盖", flush=True)
+            print(f"  📝 {program_name}: {len(covered_regions)} 地区模板, 实际覆盖 {best_covered}/{len(chars)} 字 (有: {''.join(covered_chars)}, 无: {''.join(uncovered_chars)})", flush=True)
 
     print(f"  📊 词典模板共 {len(templates)} 个节目名", flush=True)
 
