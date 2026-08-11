@@ -69,6 +69,11 @@ _MATCH_THRESHOLD = 0.35
 # 最高分与次高分的差距要求
 _MARGIN_THRESHOLD = 0.005
 
+# 每个节目名最多保留的参考音频条数
+# 原 5 条过少（124 条标注仅用 40 条），提高到 10 条以增加匹配覆盖
+# 57 节目名 × 10 = 570 条上限，DTW 匹配仍可在 1s 内完成
+_MAX_REFS_PER_PROGRAM = 10
+
 # Sakoe-Chiba 带宽约束（限制 DTW 路径偏离对角线的范围，防止病态规整）
 # 设为 0 表示不约束；设为正整数表示允许偏离对角线的最大帧数
 _SAKOE_CHIBA_RATIO = 1.0  # 不约束（短音频节目名匹配需要全路径搜索）
@@ -329,7 +334,7 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
     因此不再作为参考源。仅使用 user_data 中用户实际录音。
 
     所有音频按内容（MD5）去重，确保同一音频不会被重复计入。
-    每个节目名最多保留 5 条参考音频，避免样本不平衡。
+    每个节目名最多保留 _MAX_REFS_PER_PROGRAM 条参考音频，避免样本不平衡。
     """
     global _REFERENCE_CACHE
     if _REFERENCE_CACHE is not None:
@@ -357,8 +362,8 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
         except Exception:
             pass
 
-        # 每个节目名最多 5 条参考音频
-        if program_name in library and len(library[program_name]) >= 5:
+        # 每个节目名最多 _MAX_REFS_PER_PROGRAM 条参考音频
+        if program_name in library and len(library[program_name]) >= _MAX_REFS_PER_PROGRAM:
             return False
 
         feat = _extract_mfcc_matrix(audio_path)
@@ -393,6 +398,35 @@ def _build_reference_library() -> dict[str, list[list[list[float]]]]:
 
     _REFERENCE_CACHE = library
     return library
+
+
+def rebuild_reference_library() -> dict:
+    """重建 DTW 参考库并返回统计信息。
+
+    清空缓存后重新扫描 recordings.json，热更新生效。
+    后续 ASR 请求即用新参考库，无需重启服务。
+
+    Returns:
+        {
+            "programs": {program_name: ref_count, ...},
+            "total_programs": int,
+            "total_refs": int,
+            "max_per_program": int,
+        }
+    """
+    global _REFERENCE_CACHE, _DICTIONARY_TEMPLATE_CACHE
+    _REFERENCE_CACHE = None
+    _DICTIONARY_TEMPLATE_CACHE = None
+
+    library = _build_reference_library()
+
+    stats = {
+        "programs": {name: len(refs) for name, refs in library.items()},
+        "total_programs": len(library),
+        "total_refs": sum(len(refs) for refs in library.values()),
+        "max_per_program": _MAX_REFS_PER_PROGRAM,
+    }
+    return stats
 
 
 # ============================================================

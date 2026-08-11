@@ -432,6 +432,126 @@ async def label_recording(
 
 
 # ============================================================
+# 节目名清单 + DTW 训练闭环
+# ============================================================
+
+@router.get("/programs")
+async def list_programs(recordable_only: bool = Query(True, description="仅返回有媒体的节目名（35个可录制）")):
+    """
+    返回节目名清单（数据源：program_vocab.json）。
+
+    - recordable_only=true（默认）：仅返回有 media 字段的 35 个节目名（可录制）
+    - recordable_only=false：返回全部 57 个词条（含仅 ASR 文本匹配的 22 个）
+
+    同时扫描所有 recordings.json 统计每个节目名的录音条数，
+    用于录音页面显示进度和待录制提醒。
+    """
+    import json
+    from pathlib import Path
+
+    vocab_path = Path(__file__).parent / "asr" / "program_vocab.json"
+    if not vocab_path.exists():
+        raise HTTPException(404, "program_vocab.json 不存在")
+
+    try:
+        with open(vocab_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        # 筛选：recordable_only=true 时只返回有 media 字段的条目
+        entries = data.get("entries", [])
+        if recordable_only:
+            entries = [e for e in entries if e.get("media")]
+        # 去重保序
+        seen = set()
+        unique = []
+        for e in entries:
+            p = e["canonical"]
+            if p not in seen:
+                seen.add(p)
+                unique.append(e)
+    except Exception as e:
+        raise HTTPException(500, f"读取词表失败: {e}")
+
+    # 扫描所有 recordings.json，统计每个节目名的录音条数
+    from asr.recording_store import USER_DATA_DIR
+    counts = {}
+    trained = {}
+    if USER_DATA_DIR.exists():
+        for user_dir in USER_DATA_DIR.iterdir():
+            if not user_dir.is_dir():
+                continue
+            meta_path = user_dir / "recordings.json"
+            if not meta_path.exists():
+                continue
+            try:
+                with open(meta_path, "r", encoding="utf-8") as f:
+                    recordings = json.load(f)
+                for rec in recordings:
+                    norm = rec.get("normalized_text")
+                    if norm:
+                        counts[norm] = counts.get(norm, 0) + 1
+            except Exception:
+                continue
+
+    # 查询 DTW 参考库中各节目名的参考条数
+    try:
+        from asr.audio_matcher import _REFERENCE_CACHE, _build_reference_library
+        cache = _REFERENCE_CACHE
+        if cache is None:
+            cache = _build_reference_library()
+        for name, refs in cache.items():
+            trained[name] = len(refs)
+    except Exception:
+        pass
+
+    # 组装返回
+    program_list = []
+    for e in unique:
+        p = e["canonical"]
+        program_list.append({
+            "name": p,
+            "category": e.get("category", ""),
+            "recorded_count": counts.get(p, 0),
+            "trained_count": trained.get(p, 0),
+        })
+
+    recorded_programs = sum(1 for p in program_list if p["recorded_count"] > 0)
+    trained_programs = sum(1 for p in program_list if p["trained_count"] > 0)
+
+    return {
+        "programs": program_list,
+        "total": len(program_list),
+        "recorded_programs": recorded_programs,
+        "trained_programs": trained_programs,
+        "unrecorded": [p["name"] for p in program_list if p["recorded_count"] == 0],
+    }
+
+
+@router.post("/recordings/train")
+async def train_reference_library():
+    """
+    重建 DTW 参考库（热更新，无需重启服务）。
+
+    清空缓存 → 重新扫描 recordings.json → 构建参考库 → 返回统计。
+
+    返回：
+    {
+        "ok": true,
+        "programs": {"春草闯堂": 10, "状元与乞丐": 8, ...},
+        "total_programs": 8,
+        "total_refs": 60,
+        "max_per_program": 10
+    }
+    """
+    from asr.audio_matcher import rebuild_reference_library
+
+    try:
+        stats = rebuild_reference_library()
+        return {"ok": True, **stats}
+    except Exception as e:
+        raise HTTPException(500, f"训练失败: {e}")
+
+
+# ============================================================
 # Phase 4: 口音适配层
 # ============================================================
 
