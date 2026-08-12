@@ -245,25 +245,39 @@ def transcribe(audio_bytes: bytes, filename: str, opts: dict) -> dict:
         reranked_candidates = norm_result.get("candidates") if enable_candidates else None
         needs_confirmation = norm_result.get("needs_confirmation", False)
 
-        # 8.5 音频相似度匹配后备方案
-        # 当文字匹配失败（normalized_text 为 None）且场景为节目搜索时，
-        # 使用 DTW 音频相似度匹配尝试识别节目名
+        # 8.5 DTW 音频匹配兜底
+        # 当文字匹配失败（normalized_text 为 None）或 SenseVoice 文本过短不可靠时，
+        # 使用 DTW 音频相似度匹配尝试识别节目名。
+        # engine 字段区分结果来源：sensevoice / dtw / empty
         audio_matched = False
         audio_match_score = 0.0
-        if normalized_text is None and scene == "program_search" and tmp_path:
+        engine = "empty"
+
+        if normalized_text:
+            # normalize 已命中节目名 → 文字匹配成功
+            engine = "sensevoice"
+
+        # DTW 触发条件：normalized_text 为 None（文字没匹配上）
+        # 或 SenseVoice 文本过短（< 2 字，不可靠）
+        text_is_unreliable = not text or len(text.strip()) < 2
+        if (normalized_text is None or text_is_unreliable) and scene == "program_search" and tmp_path:
             try:
                 audio_result, audio_score = audio_matcher.match(tmp_path)
                 if audio_result:
+                    # DTW 命中 → 用 DTW 结果覆盖
                     normalized_text = audio_result
+                    engine = "dtw"
                     audio_matched = True
                     audio_match_score = audio_score
-                    # 音频匹配结果始终需要用户确认（可靠性低于文字匹配）
                     needs_confirmation = True
-                    print(f"  🎵 音频匹配成功: {audio_result} (score={audio_score:.3f})", flush=True)
+                    # SenseVoice 返回空文本时，用 DTW 结果填充 text 字段
+                    if not text or not text.strip():
+                        text = audio_result
+                    print(f"  🎵 DTW 匹配成功: {audio_result} (score={audio_score:.3f})", flush=True)
                 else:
-                    print(f"  🎵 音频匹配未命中 (best_score={audio_score:.3f})", flush=True)
+                    print(f"  🎵 DTW 未命中 (best_score={audio_score:.3f})", flush=True)
             except Exception as am_e:
-                print(f"  ⚠️ 音频匹配异常: {am_e}", flush=True)
+                print(f"  ⚠️ DTW 匹配异常: {am_e}", flush=True)
 
         # 9. 计算处理耗时
         processing_ms = int((time.time() - start_time) * 1000)
@@ -274,6 +288,7 @@ def transcribe(audio_bytes: bytes, filename: str, opts: dict) -> dict:
             "request_id": request_id,
             "text": text,
             "normalized_text": normalized_text,
+            "engine": engine,
             "candidates": reranked_candidates,
             "duration_ms": duration_ms,
             "processing_ms": processing_ms,
@@ -288,10 +303,10 @@ def transcribe(audio_bytes: bytes, filename: str, opts: dict) -> dict:
             response["accent_adapted"] = True
             response["accent_corrections"] = accent_corrections
 
-        # 音频匹配信息
+        # DTW 匹配信息
         if audio_matched:
             response["audio_matched"] = True
-            response["audio_match_score"] = round(audio_match_score, 3)
+            response["similarity"] = round(audio_match_score, 3)
 
         return response
 

@@ -55,7 +55,9 @@ class TranscribeResponse(BaseModel):
     accent_adapted: Optional[bool] = Field(default=None, description="是否做了口音纠错")
     accent_corrections: Optional[list] = Field(default=None, description="口音纠错详情")
     audio_matched: Optional[bool] = Field(default=None, description="是否通过音频相似度匹配")
-    audio_match_score: Optional[float] = Field(default=None, description="音频匹配相似度分数")
+    audio_match_score: Optional[float] = Field(default=None, description="音频匹配相似度分数（旧字段，兼容）")
+    engine: Optional[str] = Field(default=None, description="结果来源：sensevoice / dtw / empty")
+    similarity: Optional[float] = Field(default=None, description="DTW 匹配相似度（engine=dtw 时返回）")
 
 
 class ErrorDetail(BaseModel):
